@@ -1,0 +1,38 @@
+name: 🦂 Monitor Escorpiões - Busca Automática
+
+on:
+  schedule:
+    - cron: '0 10,16,21 * * *'   # 07h, 13h e 19h (Brasília UTC-3)
+  workflow_dispatch:               # Permite disparar manualmente
+
+jobs:
+  buscar_noticias:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write              # Necessário para o git push
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: 🔍 Buscar notícias
+        run: |
+          cd "monitor noticias escorpiao"
+          python scripts/buscar_noticias.py
+
+      - name: 📤 Commit e push do noticias.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add "monitor noticias escorpiao/noticias.json"
+          git diff --staged --quiet || git commit -m "🦂 Atualizar notícias - $(date '+%d/%m/%Y %H:%M')"
+          git push

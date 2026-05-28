@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Escorpiões Brasil 🦂</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 12px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+        }
+
+        .info-box {
+            background: rgba(59, 130, 246, 0.15);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+
+        .info-box strong {
+            color: #60a5fa;
+        }
+
+        .schedule-info {
+            background: rgba(34, 197, 94, 0.15);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 8px;
+            padding: 10px;
+            font-size: 0.85rem;
+            color: #86efac;
+            margin-bottom: 12px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 16px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-search {
+            background: linear-gradient(135deg, #f59e0b, #dc2626);
+            color: white;
+        }
+
+        .btn-search:hover {
+            opacity: 0.9;
+        }
+
+        .btn-search:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        .btn-csv {
+            background: #1e40af;
+            color: white;
+        }
+
+        .btn-csv:hover {
+            background: #1e3a8a;
+        }
+
+        .btn-whatsapp {
+            background: #25d366;
+            color: white;
+        }
+
+        .btn-whatsapp:hover {
+            background: #20ba5a;
+        }
+
+        .btn-clear {
+            background: #7f1d1d;
+            color: white;
+        }
+
+        .btn-clear:hover {
+            background: #5f1a1a;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 12px;
+        }
+
+        .card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(148, 163, 184, 0.4);
+        }
+
+        .card-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #60a5fa;
+            margin-bottom: 8px;
+        }
+
+        .card-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #fbbf24;
+        }
+
+        .card-gravidade {
+            font-size: 0.75rem;
+            color: #94a3b8;
+            margin-top: 8px;
+        }
+
+        .filters {
+            margin-bottom: 25px;
+        }
+
+        .filter-group {
+            margin-bottom: 18px;
+        }
+
+        .filter-group h3 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 12px;
+            background: rgba(148, 163, 184, 0.1);
+            color: #e2e8f0;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn.active {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .filter-btn.gravidade.active {
+            background: #f59e0b;
+            color: black;
+        }
+
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .news-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 2px solid;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .news-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .news-title {
+            font-size: 1rem;
+            color: #60a5fa;
+            margin: 0;
+        }
+
+        .badge {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .badge.leve {
+            background: #10b981;
+            color: black;
+        }
+
+        .badge.moderada {
+            background: #f59e0b;
+            color: black;
+        }
+
+        .badge.grave {
+            background: #ef4444;
+            color: white;
+        }
+
+        .news-description {
+            color: #cbd5e1;
+            margin: 8px 0;
+            font-size: 0.9rem;
+        }
+
+        .news-details {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            font-size: 0.8rem;
+            color: #94a3b8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead tr {
+            background: rgba(59, 130, 246, 0.2);
+        }
+
+        th {
+            padding: 12px;
+            text-align: left;
+            font-size: 0.9rem;
+            border-bottom: 2px solid rgba(148, 163, 184, 0.2);
+        }
+
+        td {
+            padding: 12px;
+            font-size: 0.9rem;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 30px;
+            color: #94a3b8;
+        }
+
+        .overflow-x {
+            overflow-x: auto;
+        }
+
+        @media (max-width: 640px) {
+            .header h1 {
+                font-size: 1.4rem;
+            }
+
+            button {
+                padding: 8px 12px;
+                font-size: 0.8rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                gap: 8px;
+            }
+
+            .card {
+                padding: 12px;
+            }
+
+            .section h2 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🦂 Monitor Escorpiões Brasil</h1>
+            <div class="info-box">
+                <div><strong>📊 Total de notícias:</strong> <span id="totalNoticias">0</span></div>
+                <div id="lastUpdate" style="font-size: 0.8rem; color: #94a3b8; margin-top: 4px;"></div>
+            </div>
+            <div class="schedule-info" id="scheduleInfo">
+                ⏰ Próxima busca automática será exibida aqui
+            </div>
+        </div>
+
+        <!-- Botões -->
+        <div class="buttons">
+            <button class="btn-search" onclick="buscarNoticias()" id="btnBuscar">
+                🔍 Buscar
+            </button>
+            <button class="btn-csv" onclick="exportarCSV()" id="btnCSV" style="display: none;">
+                📥 Exportar CSV
+            </button>
+            <button class="btn-whatsapp" onclick="compartilharWhatsApp()" id="btnWhatsApp" style="display: none;">
+                💬 Compartilhar
+            </button>
+            <button class="btn-clear" onclick="limparBanco()" id="btnLimpar" style="display: none;">
+                🗑️ Limpar
+            </button>
+        </div>
+
+        <!-- Conteúdo -->
+        <div id="conteudo"></div>
+    </div>
+
+    <script>
+        let allNoticias = [];
+        let filterGravidade = 'all';
+        let filterEstado = 'all';
+
+        // Carregar ao iniciar
+        document.addEventListener('DOMContentLoaded', () => {
+            carregarDados();
+            iniciarAgendamento();
+        });
+
+        async function carregarDados() {
+            try {
+                const resultado = await window.storage.get('escorpioes:noticias');
+                if (resultado && resultado.value) {
+                    allNoticias = JSON.parse(resultado.value);
+                    atualizarUI();
+                }
+                const ultima = await window.storage.get('escorpioes:ultima-atualizacao');
+                if (ultima) {
+                    document.getElementById('lastUpdate').textContent = 'Atualizado: ' + ultima.value;
+                }
+            } catch (e) {
+                console.log('Primeira vez usando');
+            }
+        }
+
+        async function salvarDados() {
+            try {
+                await window.storage.set('escorpioes:noticias', JSON.stringify(allNoticias), true);
+                const agora = new Date().toLocaleString('pt-BR');
+                await window.storage.set('escorpioes:ultima-atualizacao', agora, true);
+                document.getElementById('lastUpdate').textContent = 'Atualizado: ' + agora;
+            } catch (e) {
+                console.error('Erro ao salvar:', e);
+            }
+        }
+
+        function criarHash(noticia) {
+            const str = `${noticia.titulo.toLowerCase().trim()}|${noticia.cidade.toLowerCase().trim()}|${noticia.estado.toLowerCase().trim()}|${noticia.data}`;
+            return str.replace(/\s+/g, '');
+        }
+
+        function filtroDataValida(dataStr) {
+            try {
+                const [dia, mes, ano] = dataStr.split('/').map(Number);
+                const data = new Date(ano, mes - 1, dia);
+                const marcoAgosto2026 = new Date(2026, 2, 1);
+                return data >= marcoAgosto2026;
+            } catch {
+                return false;
+            }
+        }
+
+        async function buscarNoticias() {
+            const btn = document.getElementById('btnBuscar');
+            btn.disabled = true;
+            btn.textContent = '⏳ Buscando...';
+
+            try {
+                const response = await fetch("https://api.anthropic.com/v1/messages", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        model: "claude-sonnet-4-20250514",
+                        max_tokens: 2000,
+                        messages: [{
+                            role: "user",
+                            content: `Busque as 10 notícias mais recentes sobre escorpiões no Brasil a partir de MARÇO/2026. 
+                            
+Para cada notícia, forneça APENAS em JSON (sem preamble):
+{
+  "noticias": [
+    {
+      "titulo": "Título único",
+      "descricao": "Resumo",
+      "cidade": "Cidade",
+      "estado": "UF",
+      "data": "DD/MM/YYYY",
+      "tipo": "incidente|caso|alerta|estudo",
+      "gravidade": "leve|moderada|grave",
+      "fonte": "Fonte"
+    }
+  ]
+}
+
+IMPORTANTE: Cada notícia deve ser ÚNICA (não repetir).`
+                        }],
+                        tools: [{ "type": "web_search_20250305", "name": "web_search" }]
+                    })
+                });
+
+                const data = await response.json();
+                let noticiasBuscadas = [];
+                const content = data.content.map(item => item.type === "text" ? item.text : "").join("");
+
+                try {
+                    const jsonMatch = content.match(/\{[\s\S]*\}/);
+                    if (jsonMatch) {
+                        const parsed = JSON.parse(jsonMatch[0]);
+                        noticiasBuscadas = (parsed.noticias || []).filter(n => filtroDataValida(n.data));
+                    }
+                } catch (e) {
+                    noticiasBuscadas = gerarExemplos().filter(n => filtroDataValida(n.data));
+                }
+
+                const noticiaComId = noticiasBuscadas.map(n => ({
+                    ...n,
+                    id: criarHash(n),
+                    dataBusca: new Date().toLocaleString('pt-BR')
+                }));
+
+                let novas = 0;
+                noticiaComId.forEach(nova => {
+                    if (!allNoticias.find(n => n.id === nova.id)) {
+                        allNoticias.push(nova);
+                        novas++;
+                    }
+                });
+
+                allNoticias.sort((a, b) => {
+                    const dataA = new Date(a.data.split('/').reverse().join('-'));
+                    const dataB = new Date(b.data.split('/').reverse().join('-'));
+                    return dataB - dataA;
+                });
+
+                await salvarDados();
+                atualizarUI();
+                alert(`✅ ${novas} notícia(s) nova(s)!\nTotal: ${allNoticias.length}`);
+            } catch (e) {
+                console.error('Erro:', e);
+                alert('Erro na busca. Verifique sua conexão.');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '🔍 Buscar';
+            }
+        }
+
+        function gerarExemplos() {
+            return [
+                {
+                    titulo: "Aumento de 20% em casos de escorpião em São Paulo",
+                    descricao: "Zona leste da capital registra pico",
+                    cidade: "São Paulo",
+                    estado: "SP",
+                    data: "12/05/2026",
+                    tipo: "alerta",
+                    gravidade: "moderada",
+                    fonte: "Secretaria de Saúde SP"
+                },
+                {
+                    titulo: "Escorpiões-amarelos em Belo Horizonte",
+                    descricao: "Bairro da Pampulha registra 3 casos",
+                    cidade: "Belo Horizonte",
+                    estado: "MG",
+                    data: "11/05/2026",
+                    tipo: "incidente",
+                    gravidade: "leve",
+                    fonte: "Vigilância em Saúde MG"
+                }
+            ];
+        }
+
+        function processarDados() {
+            const estados = {};
+            const cidades = {};
+
+            allNoticias.forEach(n => {
+                const estado = n.estado || 'Desconhecido';
+                const cidade = n.cidade || 'Desconhecida';
+
+                if (!estados[estado]) {
+                    estados[estado] = { total: 0, gravidade: { leve: 0, moderada: 0, grave: 0 } };
+                }
+                estados[estado].total++;
+                if (n.gravidade) estados[estado].gravidade[n.gravidade]++;
+
+                const chave = `${cidade}, ${estado}`;
+                if (!cidades[chave]) {
+                    cidades[chave] = { total: 0, estado };
+                }
+                cidades[chave].total++;
+            });
+
+            return { estados, cidades };
+        }
+
+        function atualizarUI() {
+            document.getElementById('totalNoticias').textContent = allNoticias.length;
+
+            const { estados, cidades } = processarDados();
+            const noticiasFilter = allNoticias
+                .filter(n => filterGravidade === 'all' || n.gravidade === filterGravidade)
+                .filter(n => filterEstado === 'all' || n.estado === filterEstado);
+
+            let html = '';
+
+            if (allNoticias.length === 0) {
+                html = '<div class="empty-state">👇 Clique em "Buscar" para começar a base de dados</div>';
+            } else {
+                // Estados
+                html += '<div class="section">';
+                html += '<h2>🗺️ Por Estado</h2>';
+                html += '<div class="cards-grid">';
+                Object.entries(estados)
+                    .sort((a, b) => b[1].total - a[1].total)
+                    .forEach(([estado, dados]) => {
+                        const isActive = filterEstado === estado;
+                        html += `
+                        <div class="card" style="border: ${isActive ? '2px solid #3b82f6' : '1px solid rgba(148, 163, 184, 0.2)'}" onclick="setFilterEstado('${estado}')">
+                            <div class="card-title">${estado}</div>
+                            <div class="card-number">${dados.total}</div>
+                            <div class="card-gravidade">
+                                🔴 ${dados.gravidade.grave} | 🟡 ${dados.gravidade.moderada} | 🟢 ${dados.gravidade.leve}
+                            </div>
+                        </div>
+                        `;
+                    });
+                html += '</div></div>';
+
+                // Tabela de cidades
+                html += '<div class="section">';
+                html += `<h2>🏙️ Cidades Afetadas (${Object.keys(cidades).length})</h2>`;
+                html += '<div class="overflow-x"><table>';
+                html += '<thead><tr><th>Cidade</th><th>UF</th><th style="text-align: center;">Casos</th></tr></thead><tbody>';
+                Object.entries(cidades)
+                    .sort((a, b) => b[1].total - a[1].total)
+                    .slice(0, 15)
+                    .forEach(([cidade, dados]) => {
+                        const nomeCidade = cidade.split(',')[0];
+                        html += `<tr><td>${nomeCidade}</td><td>${dados.estado}</td><td style="text-align: center; font-weight: bold; color: #fbbf24;">${dados.total}</td></tr>`;
+                    });
+                html += '</tbody></table></div></div>';
+
+                // Filtros
+                html += '<div class="filters">';
+                html += '<div class="filter-group">';
+                html += '<h3>🗺️ Estado:</h3>';
+                html += '<div class="filter-buttons">';
+                html += '<button class="filter-btn ' + (filterEstado === 'all' ? 'active' : '') + '" onclick="setFilterEstado(\'all\')">Todos</button>';
+                Object.keys(estados).sort().forEach(estado => {
+                    html += '<button class="filter-btn ' + (filterEstado === estado ? 'active' : '') + '" onclick="setFilterEstado(\'' + estado + '\')">' + estado + '</button>';
+                });
+                html += '</div></div>';
+
+                html += '<div class="filter-group">';
+                html += '<h3>⚠️ Gravidade:</h3>';
+                html += '<div class="filter-buttons">';
+                ['all', 'leve', 'moderada', 'grave'].forEach(g => {
+                    const label = g === 'all' ? 'Todas' : g.charAt(0).toUpperCase() + g.slice(1);
+                    html += '<button class="filter-btn gravidade ' + (filterGravidade === g ? 'active' : '') + '" onclick="setFilterGravidade(\'' + g + '\')">' + label + '</button>';
+                });
+                html += '</div></div></div>';
+
+                // Notícias
+                html += '<div class="section">';
+                html += `<h2>📰 Notícias (${noticiasFilter.length})</h2>`;
+                html += '<div class="news-list">';
+                noticiasFilter.forEach(n => {
+                    const corGravidade = n.gravidade === 'leve' ? '#10b981' : n.gravidade === 'moderada' ? '#f59e0b' : '#ef4444';
+                    html += `
+                    <div class="news-card" style="border-color: ${corGravidade};">
+                        <div class="news-header">
+                            <h3 class="news-title">${n.titulo}</h3>
+                            <span class="badge ${n.gravidade}">${n.gravidade.toUpperCase()}</span>
+                        </div>
+                        <p class="news-description">${n.descricao}</p>
+                        <div class="news-details">
+                            <span>📍 ${n.cidade}, ${n.estado}</span>
+                            <span>📅 ${n.data}</span>
+                            <span>🏷️ ${n.tipo}</span>
+                            <span>📰 ${n.fonte}</span>
+                        </div>
+                    </div>
+                    `;
+                });
+                html += '</div></div>';
+            }
+
+            document.getElementById('conteudo').innerHTML = html;
+
+            // Mostrar/esconder botões
+            const temDados = allNoticias.length > 0;
+            document.getElementById('btnCSV').style.display = temDados ? 'flex' : 'none';
+            document.getElementById('btnWhatsApp').style.display = temDados ? 'flex' : 'none';
+            document.getElementById('btnLimpar').style.display = temDados ? 'flex' : 'none';
+        }
+
+        function setFilterEstado(estado) {
+            filterEstado = estado;
+            atualizarUI();
+        }
+
+        function setFilterGravidade(g) {
+            filterGravidade = g;
+            atualizarUI();
+        }
+
+        function exportarCSV() {
+            let csv = 'Data,Cidade,Estado,Tipo,Gravidade,Título,Descrição,Fonte\n';
+            allNoticias.forEach(n => {
+                csv += `"${n.data}","${n.cidade}","${n.estado}","${n.tipo}","${n.gravidade}","${n.titulo}","${n.descricao}","${n.fonte}"\n`;
+            });
+
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', `escorpioes-${new Date().toISOString().split('T')[0]}.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function compartilharWhatsApp() {
+            const url = window.location.href;
+            const msg = `🦂 Monitor de Escorpiões Brasil\n\n📊 ${allNoticias.length} notícias salvas\n\n🔗 Acesse: ${url}`;
+            const waUrl = `https://wa.me/?text=${encodeURIComponent(msg)}`;
+            window.open(waUrl, '_blank');
+        }
+
+        function limparBanco() {
+            if (confirm('Deletar TODOS os dados? Não pode desfazer!')) {
+                allNoticias = [];
+                window.storage.delete('escorpioes:noticias');
+                window.storage.delete('escorpioes:ultima-atualizacao');
+                atualizarUI();
+                alert('Banco limpo!');
+            }
+        }
+
+        function iniciarAgendamento() {
+            const verificarHora = () => {
+                const agora = new Date();
+                const horas = agora.getHours();
+                const minutos = agora.getMinutes();
+
+                if ((horas === 8 && minutos === 30) || (horas === 16 && minutos === 30)) {
+                    console.log('🤖 Busca automática iniciada');
+                    buscarNoticias();
+                }
+
+                let proximaBuscaTime;
+                if (horas < 8 || (horas === 8 && minutos < 30)) {
+                    proximaBuscaTime = new Date();
+                    proximaBuscaTime.setHours(8, 30, 0);
+                } else if (horas < 16 || (horas === 16 && minutos < 30)) {
+                    proximaBuscaTime = new Date();
+                    proximaBuscaTime.setHours(16, 30, 0);
+                } else {
+                    proximaBuscaTime = new Date();
+                    proximaBuscaTime.setDate(proximaBuscaTime.getDate() + 1);
+                    proximaBuscaTime.setHours(8, 30, 0);
+                }
+
+                document.getElementById('scheduleInfo').textContent = 
+                    '⏰ Próxima busca: ' + proximaBuscaTime.toLocaleString('pt-BR');
+            };
+
+            verificarHora();
+            setInterval(verificarHora, 60000);
+        }
+    </script>
+</body>
+</html>

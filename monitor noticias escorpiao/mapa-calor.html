@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa de Calor · Monitor Escorpiões | Noprax</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+:root {
+  --orange: #F2A516;
+  --orange-deep: #D88E0A;
+  --black: #0B0B0D;
+  --dark: #141416;
+  --dark2: #1C1C20;
+  --dark3: #26262C;
+  --line: rgba(255,255,255,0.08);
+  --line-strong: rgba(242,165,22,0.3);
+  --text: #F5F2EC;
+  --muted: #8E8E96;
+  --dim: #56565E;
+  --danger: #D85A30;
+  --success: #2DAA68;
+  --mono: 'Courier New', 'Consolas', monospace;
+  --sans: 'Arial', 'Helvetica Neue', sans-serif;
+  --display: 'Arial Black', 'Impact', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--sans);
+  background: var(--black);
+  color: var(--text);
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Header ─────────────────────────────── */
+.header {
+  background: var(--dark);
+  border-bottom: 1px solid var(--line);
+  height: 60px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--orange), transparent);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-logo {
+  font-family: var(--display);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+}
+
+.header-logo span { color: var(--orange); }
+
+.header-sep {
+  width: 1px; height: 24px;
+  background: var(--line);
+}
+
+.header-subtitle {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--orange);
+  background: rgba(242,165,22,0.08);
+  border: 1px solid var(--line-strong);
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.live-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--success);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.live-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--success);
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.update-info {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 0.1em;
+}
+
+.btn-refresh {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: var(--dark2);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 6px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-refresh:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+/* ── Stats bar ───────────────────────────── */
+.stats-bar {
+  background: var(--dark2);
+  border-bottom: 1px solid var(--line);
+  height: 56px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-shrink: 0;
+  overflow-x: auto;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 28px 0 0;
+  border-right: 1px solid var(--line);
+  margin-right: 28px;
+}
+
+.stat:last-child { border-right: none; }
+
+.stat-num {
+  font-family: var(--display);
+  font-size: 24px;
+  line-height: 1;
+  transition: all 0.4s ease;
+}
+
+.stat-info { line-height: 1.3; }
+
+.stat-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--muted);
+}
+
+.stat-sub {
+  font-family: var(--mono);
+  font-size: 8px;
+  color: var(--dim);
+  letter-spacing: 0.1em;
+}
+
+.stat.total .stat-num { color: var(--orange); }
+.stat.grave .stat-num { color: var(--danger); }
+.stat.moderada .stat-num { color: var(--orange); }
+.stat.leve .stat-num { color: var(--success); }
+.stat.estados .stat-num { color: #A0A0FF; }
+
+/* ── Main layout ────────────────────────── */
+.main {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  flex: 1;
+  min-height: 0;
+}
+
+/* ── Map panel ───────────────────────────── */
+.map-panel {
+  position: relative;
+  background: var(--black);
+  overflow: hidden;
+}
+
+#map-svg {
+  width: 100%;
+  height: 100%;
+}
+
+#map-svg path.state {
+  stroke: rgba(255,255,255,0.12);
+  stroke-width: 0.8;
+  cursor: pointer;
+  transition: stroke 0.2s, stroke-width 0.2s, opacity 0.2s;
+}
+
+#map-svg path.state:hover {
+  stroke: var(--orange);
+  stroke-width: 2;
+  opacity: 0.85;
+}
+
+#map-svg path.state.selected {
+  stroke: var(--orange);
+  stroke-width: 2.5;
+}
+
+/* State labels */
+#map-svg text.state-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  fill: rgba(255,255,255,0.6);
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+/* ── Filter toolbar ──────────────────────── */
+.map-controls {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: 2px;
+  border: 1px solid var(--line);
+  background: rgba(11,11,13,0.85);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  backdrop-filter: blur(8px);
+}
+
+.filter-btn.active { border-color: var(--orange); color: var(--orange); }
+.filter-btn:hover { border-color: rgba(242,165,22,0.5); color: var(--text); }
+
+/* ── Legend ──────────────────────────────── */
+.legend {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  background: rgba(20,20,22,0.92);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 14px 16px;
+  backdrop-filter: blur(10px);
+  min-width: 220px;
+}
+
+.legend-title {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.legend-gradient {
+  height: 10px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #1a3a28, #2d7a52, #F2A516, #D88E0A, #D85A30);
+  margin-bottom: 6px;
+}
+
+.legend-labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.legend-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--dim);
+  letter-spacing: 0.05em;
+}
+
+.legend-items {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
+.legend-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Tooltip ─────────────────────────────── */
+.tooltip {
+  position: fixed;
+  background: rgba(20,20,22,0.96);
+  border: 1px solid var(--line-strong);
+  border-radius: 4px;
+  padding: 14px 18px;
+  pointer-events: none;
+  z-index: 300;
+  display: none;
+  min-width: 220px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+
+.tooltip-state-name {
+  font-family: var(--display);
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+}
+
+.tooltip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.tooltip-stat-num {
+  font-family: var(--display);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.tooltip-stat-label {
+  font-family: var(--mono);
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.tooltip-stat.g .tooltip-stat-num { color: var(--danger); }
+.tooltip-stat.m .tooltip-stat-num { color: var(--orange); }
+.tooltip-stat.l .tooltip-stat-num { color: var(--success); }
+
+.tooltip-last {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+}
+
+/* ── Sidebar ─────────────────────────────── */
+.sidebar {
+  background: var(--dark);
+  border-left: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 16px 20px 14px;
+  border-bottom: 1px solid var(--line);
+  flex-shrink: 0;
+}
+
+.sidebar-title {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 2px;
+}
+
+.sidebar-desc {
+  font-size: 11px;
+  color: var(--dim);
+}
+
+.sidebar-body {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark3) transparent;
+}
+
+.sidebar-body::-webkit-scrollbar { width: 4px; }
+.sidebar-body::-webkit-scrollbar-track { background: transparent; }
+.sidebar-body::-webkit-scrollbar-thumb { background: var(--dark3); border-radius: 2px; }
+
+/* Rankings */
+.rank-section {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.rank-section-title {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rank-section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.rank-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.rank-item:hover .rank-name { color: var(--orange); }
+
+.rank-pos {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  width: 16px;
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.rank-name {
+  font-size: 12px;
+  color: var(--text);
+  flex: 1;
+  transition: color 0.15s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rank-bar-bg {
+  width: 60px;
+  height: 3px;
+  background: var(--dark3);
+  border-radius: 2px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.rank-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  background: var(--orange);
+  transition: width 0.6s ease;
+}
+
+.rank-count {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--orange);
+  width: 24px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Selected state news */
+.state-panel {
+  padding: 16px 20px;
+}
+
+.state-panel-header {
+  margin-bottom: 14px;
+}
+
+.state-panel-name {
+  font-family: var(--display);
+  font-size: 16px;
+  color: var(--orange);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}
+
+.state-panel-meta {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--dim);
+  letter-spacing: 0.1em;
+}
+
+.news-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.news-item:last-child { border-bottom: none; }
+
+.news-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.news-badge {
+  font-family: var(--mono);
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.news-badge.grave { background: rgba(216,90,48,0.15); color: var(--danger); }
+.news-badge.moderada { background: rgba(242,165,22,0.12); color: var(--orange); }
+.news-badge.leve { background: rgba(45,170,104,0.12); color: var(--success); }
+
+.news-date {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--dim);
+}
+
+.news-city {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--muted);
+}
+
+.news-title-text {
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.news-title-text a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.news-title-text a:hover { color: var(--orange); }
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Loading overlay */
+.loading-overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  z-index: 200;
+}
+
+.loading-text {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.loading-bar {
+  width: 200px;
+  height: 2px;
+  background: var(--dark3);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.loading-bar-fill {
+  height: 100%;
+  background: var(--orange);
+  border-radius: 1px;
+  animation: load-anim 1.5s ease-in-out infinite;
+}
+
+@keyframes load-anim {
+  0% { width: 0; margin-left: 0; }
+  50% { width: 60%; margin-left: 20%; }
+  100% { width: 0; margin-left: 100%; }
+}
+
+@media (max-width: 900px) {
+  .main { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  body { overflow: auto; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Header ── -->
+<header class="header">
+  <div class="header-left">
+    <div class="header-logo">NOP<span>R</span>AX</div>
+    <div class="header-sep"></div>
+    <div class="header-subtitle">🦂 Mapa de Calor · Escorpionismo no Brasil</div>
+  </div>
+  <div class="header-right">
+    <div class="live-badge">
+      <span class="live-dot"></span>
+      Tempo real
+    </div>
+    <div class="update-info" id="update-info">Carregando...</div>
+    <button class="btn-refresh" onclick="recarregar()">↺ Atualizar</button>
+    <a href="index.html" style="font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:0.1em;text-decoration:none;">← Dashboard</a>
+  </div>
+</header>
+
+<!-- ── Stats bar ── -->
+<div class="stats-bar">
+  <div class="stat total">
+    <div class="stat-num" id="s-total">—</div>
+    <div class="stat-info">
+      <div class="stat-label">Total de notícias</div>
+      <div class="stat-sub">base completa</div>
+    </div>
+  </div>
+  <div class="stat grave">
+    <div class="stat-num" id="s-grave">—</div>
+    <div class="stat-info">
+      <div class="stat-label">Graves</div>
+      <div class="stat-sub">mortes / UTI / óbitos</div>
+    </div>
+  </div>
+  <div class="stat moderada">
+    <div class="stat-num" id="s-moderada">—</div>
+    <div class="stat-info">
+      <div class="stat-label">Moderadas</div>
+      <div class="stat-sub">picadas / hospitais</div>
+    </div>
+  </div>
+  <div class="stat leve">
+    <div class="stat-num" id="s-leve">—</div>
+    <div class="stat-info">
+      <div class="stat-label">Leves</div>
+      <div class="stat-sub">alertas / prevenção</div>
+    </div>
+  </div>
+  <div class="stat estados">
+    <div class="stat-num" id="s-estados">—</div>
+    <div class="stat-info">
+      <div class="stat-label">Estados ativos</div>
+      <div class="stat-sub">com registros</div>
+    </div>
+  </div>
+</div>
+
+<!-- ── Main ── -->
+<div class="main">
+
+  <!-- ── Map panel ── -->
+  <div class="map-panel">
+
+    <!-- Loading overlay -->
+    <div class="loading-overlay" id="loading">
+      <div class="loading-text">Carregando dados do mapa</div>
+      <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+    </div>
+
+    <!-- Filters -->
+    <div class="map-controls">
+      <button class="filter-btn active" onclick="setFiltro('todas', this)">Todas</button>
+      <button class="filter-btn" onclick="setFiltro('grave', this)" style="color:#D85A30;border-color:rgba(216,90,48,0.3)">● Graves</button>
+      <button class="filter-btn" onclick="setFiltro('moderada', this)">● Moderadas</button>
+      <button class="filter-btn" onclick="setFiltro('leve', this)" style="color:#2DAA68;border-color:rgba(45,170,104,0.3)">● Leves</button>
+    </div>
+
+    <!-- SVG map -->
+    <svg id="map-svg"></svg>
+
+    <!-- Legend -->
+    <div class="legend">
+      <div class="legend-title">Intensidade de ocorrências</div>
+      <div class="legend-gradient"></div>
+      <div class="legend-labels">
+        <span class="legend-label">0</span>
+        <span class="legend-label">Baixo</span>
+        <span class="legend-label">Médio</span>
+        <span class="legend-label">Alto</span>
+        <span class="legend-label">Crítico</span>
+      </div>
+      <div class="legend-items">
+        <div class="legend-item"><div class="legend-dot" style="background:#1a3a28"></div> Sem registros</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#2d7a52"></div> 1–10 ocorrências</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#F2A516"></div> 11–30 ocorrências</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#D88E0A"></div> 31–60 ocorrências</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#D85A30"></div> 60+ ocorrências</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Sidebar ── -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-title">Painel de estados</div>
+      <div class="sidebar-desc">Clique em um estado no mapa para ver as notícias</div>
+    </div>
+    <div class="sidebar-body" id="sidebar-body">
+      <div class="rank-section" id="ranking-estados"></div>
+      <div id="state-news-panel"></div>
+    </div>
+  </aside>
+</div>
+
+<!-- ── Tooltip ── -->
+<div class="tooltip" id="tooltip">
+  <div class="tooltip-state-name" id="tt-nome"></div>
+  <div class="tooltip-grid">
+    <div class="tooltip-stat g">
+      <div class="tooltip-stat-num" id="tt-grave">0</div>
+      <div class="tooltip-stat-label">Graves</div>
+    </div>
+    <div class="tooltip-stat m">
+      <div class="tooltip-stat-num" id="tt-moderada">0</div>
+      <div class="tooltip-stat-label">Moderadas</div>
+    </div>
+    <div class="tooltip-stat l">
+      <div class="tooltip-stat-num" id="tt-leve">0</div>
+      <div class="tooltip-stat-label">Leves</div>
+    </div>
+  </div>
+  <div class="tooltip-last" id="tt-last"></div>
+</div>
+
+<script>
+// ── Mapeamentos ──────────────────────────────────────────────
+const IBGE_TO_SIGLA = {
+  11:'RO',12:'AC',13:'AM',14:'RR',15:'PA',
+  16:'AP',17:'TO',21:'MA',22:'PI',23:'CE',
+  24:'RN',25:'PB',26:'PE',27:'AL',28:'SE',
+  29:'BA',31:'MG',32:'ES',33:'RJ',35:'SP',
+  41:'PR',42:'SC',43:'RS',50:'MS',51:'MT',
+  52:'GO',53:'DF'
+};
+
+const SIGLA_TO_NOME = {
+  AC:'Acre',AL:'Alagoas',AP:'Amapá',AM:'Amazonas',
+  BA:'Bahia',CE:'Ceará',DF:'Distrito Federal',
+  ES:'Espírito Santo',GO:'Goiás',MA:'Maranhão',
+  MT:'Mato Grosso',MS:'Mato Grosso do Sul',
+  MG:'Minas Gerais',PA:'Pará',PB:'Paraíba',
+  PR:'Paraná',PE:'Pernambuco',PI:'Piauí',
+  RJ:'Rio de Janeiro',RN:'Rio Grande do Norte',
+  RS:'Rio Grande do Sul',RO:'Rondônia',RR:'Roraima',
+  SC:'Santa Catarina',SP:'São Paulo',SE:'Sergipe',
+  TO:'Tocantins'
+};
+
+// Mapeamento reverso nome→sigla (cobre variações do GeoJSON)
+const NOME_TO_SIGLA = Object.fromEntries(
+  Object.entries(SIGLA_TO_NOME).map(([s, n]) => [n, s])
+);
+
+// ── Estado global ────────────────────────────────────────────
+let dadosPorEstado = {};
+let todasNoticias = [];
+let filtroAtivo = 'todas';
+let estadoSelecionado = null;
+let mapPathsG = null;
+let refreshInterval = null;
+const REFRESH_INTERVAL_MS = 60000; // 60 segundos
+
+// ── Escala de cores por filtro ───────────────────────────────
+function getColor(count) {
+  if (!count || count === 0) return '#1C1C20';
+
+  // "Todas": escala neutra verde→laranja→vermelho por total
+  if (filtroAtivo === 'todas') {
+    if (count <= 5)  return '#1a3a28';
+    if (count <= 15) return '#2d7a52';
+    if (count <= 30) return '#F2A516';
+    if (count <= 60) return '#D88E0A';
+    return '#D85A30';
+  }
+
+  // "Graves": escala exclusivamente vermelha
+  if (filtroAtivo === 'grave') {
+    if (count <= 2)  return '#3d1010';
+    if (count <= 5)  return '#7a1a1a';
+    if (count <= 12) return '#b52020';
+    if (count <= 25) return '#d03030';
+    return '#D85A30';
+  }
+
+  // "Moderadas": escala exclusivamente âmbar/amarela
+  if (filtroAtivo === 'moderada') {
+    if (count <= 5)  return '#3a2a08';
+    if (count <= 15) return '#7a5c14';
+    if (count <= 30) return '#b8870f';
+    if (count <= 60) return '#d9a50a';
+    return '#F2A516';
+  }
+
+  // "Leves": escala exclusivamente verde
+  if (filtroAtivo === 'leve') {
+    if (count <= 5)  return '#0d2e1a';
+    if (count <= 15) return '#1a5030';
+    if (count <= 30) return '#248040';
+    if (count <= 60) return '#2DAA68';
+    return '#3dd180';
+  }
+
+  return '#1C1C20';
+}
+
+function getScore(d) {
+  if (!d) return 0;
+  if (filtroAtivo === 'grave')    return d.grave    || 0;
+  if (filtroAtivo === 'moderada') return d.moderada || 0;
+  if (filtroAtivo === 'leve')     return d.leve     || 0;
+  return d.total || 0;
+}
+
+// ── Processa noticias.json ───────────────────────────────────
+function processarNoticias(noticias) {
+  const por = {};
+  let total = 0, grave = 0, moderada = 0, leve = 0, semLocal = 0;
+  const estadosAtivos = new Set();
+
+  noticias.forEach(n => {
+    // Conta TODAS as notícias nos stats globais
+    total++;
+    if (n.gravidade === 'grave')    grave++;
+    if (n.gravidade === 'moderada') moderada++;
+    if (n.gravidade === 'leve')     leve++;
+
+    // Só plota no mapa se tiver estado identificado
+    const uf = n.estado;
+    if (!uf || uf === 'Não identificado') { semLocal++; return; }
+
+    if (!por[uf]) por[uf] = { total: 0, grave: 0, moderada: 0, leve: 0, noticias: [] };
+    por[uf].total++;
+    por[uf][n.gravidade]++;
+    por[uf].noticias.push(n);
+    estadosAtivos.add(uf);
+  });
+
+  // Ordena notícias de cada estado por data desc
+  Object.keys(por).forEach(uf => {
+    por[uf].noticias.sort((a, b) => {
+      const dA = parseBRDate(a.data), dB = parseBRDate(b.data);
+      return dB - dA;
+    });
+  });
+
+  // Atualiza stats
+  animCount('s-total', total);
+  animCount('s-grave', grave);
+  animCount('s-moderada', moderada);
+  animCount('s-leve', leve);
+  animCount('s-estados', estadosAtivos.size);
+
+  return por;
+}
+
+function parseBRDate(str) {
+  if (!str) return new Date(0);
+  const [d, m, y] = str.split('/');
+  return new Date(`${y}-${m}-${d}`);
+}
+
+function animCount(id, target) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const start = parseInt(el.textContent) || 0;
+  const dur = 600;
+  const t0 = performance.now();
+  const step = ts => {
+    const p = Math.min((ts - t0) / dur, 1);
+    el.textContent = Math.round(start + (target - start) * p);
+    if (p < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+// ── Renderiza mapa ───────────────────────────────────────────
+async function renderMapa() {
+  const svg = d3.select('#map-svg');
+  const container = document.querySelector('.map-panel');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  svg.attr('width', W).attr('height', H);
+  svg.selectAll('*').remove();
+
+  // Projeção centralizada no Brasil
+  const projection = d3.geoMercator()
+    .center([-54, -15])
+    .scale(W * 0.95)
+    .translate([W / 2, H / 2]);
+
+  const path = d3.geoPath().projection(projection);
+
+  // Busca GeoJSON — tenta IBGE, fallback para codeforamerica
+  let geo;
+  const fontes = [
+    'https://servicodados.ibge.gov.br/api/v2/malhas/BR?resolucao=3&formato=application/vnd.geo+json',
+    'https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/brazil-states.geojson'
+  ];
+  for (const url of fontes) {
+    try {
+      geo = await d3.json(url);
+      if (geo?.features?.length >= 20) break; // 27 estados esperados
+    } catch(e) {
+      console.warn('Fonte falhou, tentando próxima:', url);
+    }
+  }
+  if (!geo?.features?.length) {
+    document.getElementById('loading').querySelector('.loading-text').textContent = 'Erro ao carregar mapa';
+    return;
+  }
+
+  const g = svg.append('g').attr('class', 'states-g');
+  mapPathsG = g;
+
+  // ── Agrupa features por sigla → 1 path por estado ──────────
+  const grouped = new Map();
+  geo.features.forEach(f => {
+    const sigla = resolverSigla(f);
+    if (!sigla) return;
+    if (!grouped.has(sigla)) grouped.set(sigla, { sigla, features: [] });
+    grouped.get(sigla).features.push(f);
+  });
+  const stateFeatures = Array.from(grouped.values());
+
+  // Desenha 1 path por estado (todos os polígonos concatenados)
+  g.selectAll('path.state')
+    .data(stateFeatures)
+    .join('path')
+    .attr('class', 'state')
+    .attr('d', d => d.features.map(f => path(f)).join(' '))
+    .attr('fill', d => getColor(getScore(dadosPorEstado[d.sigla])))
+    .on('mousemove', (event, d) => mostrarTooltipSigla(event, d.sigla))
+    .on('mouseleave', () => ocultarTooltip())
+    .on('click', (event, d) => selecionarSigla(d.sigla));
+
+  // Labels: centroide do maior polígono do estado
+  g.selectAll('text.state-label')
+    .data(stateFeatures)
+    .join('text')
+    .attr('class', 'state-label')
+    .attr('transform', d => {
+      const maior = d.features.reduce((a, b) => {
+        try { return path.measure(a) >= path.measure(b) ? a : b; }
+        catch(e) { return a; }
+      });
+      const c = path.centroid(maior);
+      return isNaN(c[0]) ? 'translate(-9999,-9999)' : `translate(${c[0]},${c[1]})`;
+    })
+    .text(d => d.sigla);
+
+  // Zoom + pan
+  const zoom = d3.zoom()
+    .scaleExtent([0.8, 8])
+    .on('zoom', e => g.attr('transform', e.transform));
+  svg.call(zoom);
+
+  document.getElementById('loading').style.display = 'none';
+  renderRanking();
+}
+
+function resolverSigla(d) {
+  const p = d.properties || {};
+
+  // 1. Sigla direta na propriedade
+  if (p.sigla) return p.sigla.toUpperCase();
+
+  // 2. Código IBGE numérico (id ou codarea – os 2 primeiros dígitos são o código do estado)
+  const raw = d.id ?? p.codarea ?? p.CD_UF ?? p.CD_GEOCUF ?? p.codigo ?? '';
+  if (raw !== '') {
+    const n = parseInt(String(raw).substring(0, 2));
+    if (IBGE_TO_SIGLA[n]) return IBGE_TO_SIGLA[n];
+  }
+
+  // 3. Nome completo do estado
+  const nome = p.NM_UF ?? p.nome ?? p.name ?? p.state ?? '';
+  if (nome) {
+    if (NOME_TO_SIGLA[nome]) return NOME_TO_SIGLA[nome];
+    // Tenta sem acentos
+    const norm = t => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const found = Object.keys(SIGLA_TO_NOME).find(
+      s => norm(SIGLA_TO_NOME[s]) === norm(nome)
+    );
+    if (found) return found;
+  }
+
+  return '';
+}
+
+// ── Atualiza cores sem redesenhar ────────────────────────────
+function atualizarCores() {
+  if (!mapPathsG) return;
+  mapPathsG.selectAll('path.state')
+    .transition().duration(400)
+    .attr('fill', d => getColor(getScore(dadosPorEstado[d.sigla])));
+}
+
+// ── Tooltip ──────────────────────────────────────────────────
+function mostrarTooltipSigla(event, sigla) {
+  const nome = SIGLA_TO_NOME[sigla] || sigla;
+  const data = dadosPorEstado[sigla] || { total: 0, grave: 0, moderada: 0, leve: 0, noticias: [] };
+  const ultima = data.noticias?.[0];
+
+  document.getElementById('tt-nome').textContent = `${nome} · ${sigla}`;
+  document.getElementById('tt-grave').textContent    = data.grave    || 0;
+  document.getElementById('tt-moderada').textContent = data.moderada || 0;
+  document.getElementById('tt-leve').textContent     = data.leve     || 0;
+  document.getElementById('tt-last').textContent = ultima
+    ? `Última: ${ultima.data} — ${ultima.titulo.substring(0, 60)}...`
+    : 'Sem registros na base';
+
+  const tt = document.getElementById('tooltip');
+  tt.style.display = 'block';
+  tt.style.left = (event.clientX + 14) + 'px';
+  tt.style.top  = (event.clientY - 10) + 'px';
+}
+
+function ocultarTooltip() {
+  document.getElementById('tooltip').style.display = 'none';
+}
+
+// ── Selecionar estado ────────────────────────────────────────
+function selecionarSigla(sigla) {
+  if (!sigla) return;
+  estadoSelecionado = sigla;
+
+  if (mapPathsG) {
+    mapPathsG.selectAll('path.state').classed('selected', d => d.sigla === sigla);
+  }
+
+  renderStatePanel(sigla);
+
+  setTimeout(() => {
+    const panel = document.getElementById('state-news-panel');
+    const body  = document.getElementById('sidebar-body');
+    if (panel && body) {
+      body.scrollTo({ top: panel.offsetTop - 8, behavior: 'smooth' });
+    }
+  }, 40);
+}
+
+function voltarRanking() {
+  estadoSelecionado = null;
+  if (mapPathsG) mapPathsG.selectAll('path.state').classed('selected', false);
+  document.getElementById('state-news-panel').innerHTML = '';
+  document.getElementById('sidebar-body').scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderStatePanel(sigla) {
+  const nome = SIGLA_TO_NOME[sigla] || sigla;
+  const data = dadosPorEstado[sigla] || { total: 0, grave: 0, moderada: 0, leve: 0, noticias: [] };
+  const noticias = filtroAtivo === 'todas'
+    ? data.noticias
+    : data.noticias.filter(n => n.gravidade === filtroAtivo);
+
+  const panel = document.getElementById('state-news-panel');
+  panel.innerHTML = `
+    <div class="state-panel">
+
+      <!-- Cabeçalho do estado com botão voltar -->
+      <div style="
+        display:flex; align-items:center; justify-content:space-between;
+        padding:14px 20px 10px; border-bottom:1px solid var(--line);
+        background:var(--dark2); position:sticky; top:0; z-index:10;
+      ">
+        <div>
+          <div style="font-family:var(--display);font-size:15px;color:var(--orange);text-transform:uppercase;letter-spacing:0.03em;">
+            ${nome} <span style="color:var(--dim);font-size:11px;">· ${sigla}</span>
+          </div>
+          <div style="font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:0.1em;margin-top:3px;">
+            <span style="color:var(--danger)">${data.grave}↑ graves</span> ·
+            <span style="color:var(--orange)">${data.moderada} mod.</span> ·
+            <span style="color:var(--success)">${data.leve} leves</span> ·
+            <strong style="color:var(--text)">${data.total} total</strong>
+          </div>
+        </div>
+        <button onclick="voltarRanking()" style="
+          font-family:var(--mono);font-size:9px;letter-spacing:0.15em;
+          text-transform:uppercase;background:var(--dark3);
+          border:1px solid var(--line);color:var(--muted);
+          padding:6px 12px;border-radius:2px;cursor:pointer;
+          transition:all 0.2s; white-space:nowrap;
+        " onmouseover="this.style.borderColor='var(--orange)';this.style.color='var(--orange)'"
+           onmouseout="this.style.borderColor='var(--line)';this.style.color='var(--muted)'">
+          ← Todos
+        </button>
+      </div>
+
+      <!-- Lista de notícias -->
+      <div style="padding:12px 20px;">
+        ${noticias.length === 0
+          ? `<div class="empty-state">Sem notícias${filtroAtivo !== 'todas' ? ' nesta categoria' : ''}</div>`
+          : noticias.map(n => `
+            <div class="news-item">
+              <div class="news-meta-row">
+                <span class="news-badge ${n.gravidade}">${n.gravidade}</span>
+                <span class="news-date">${n.data}</span>
+                ${n.cidade && n.cidade !== 'Não identificada' ? `<span class="news-city">· ${n.cidade}</span>` : ''}
+              </div>
+              <div class="news-title-text">
+                <a href="${n.link}" target="_blank" rel="noopener">${n.titulo}</a>
+              </div>
+            </div>
+          `).join('')
+        }
+      </div>
+    </div>
+  `;
+}
+
+// ── Ranking de estados ───────────────────────────────────────
+function renderRanking() {
+  const uf = Object.keys(dadosPorEstado)
+    .map(s => ({ sigla: s, nome: SIGLA_TO_NOME[s] || s, score: getScore(dadosPorEstado[s]) }))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 12);
+
+  const max = uf[0]?.score || 1;
+
+  const el = document.getElementById('ranking-estados');
+  el.innerHTML = `
+    <div class="rank-section-title">Top estados</div>
+    ${uf.map((u, i) => `
+      <div class="rank-item" onclick="selecionarPorSigla('${u.sigla}')">
+        <span class="rank-pos">${i + 1}</span>
+        <span class="rank-name">${u.nome}</span>
+        <div class="rank-bar-bg">
+          <div class="rank-bar-fill" style="width:${Math.round(u.score / max * 100)}%"></div>
+        </div>
+        <span class="rank-count">${u.score}</span>
+      </div>
+    `).join('')}
+  `;
+}
+
+function selecionarPorSigla(sigla) {
+  selecionarSigla(sigla);
+}
+
+// ── Filtros ──────────────────────────────────────────────────
+function setFiltro(f, btn) {
+  filtroAtivo = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  atualizarCores();
+  renderRanking();
+  if (estadoSelecionado) renderStatePanel(estadoSelecionado);
+}
+
+// ── Carga de dados ───────────────────────────────────────────
+async function carregarDados() {
+  try {
+    const r = await fetch('noticias.json?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    todasNoticias = await r.json();
+    dadosPorEstado = processarNoticias(todasNoticias);
+
+    const agora = new Date().toLocaleTimeString('pt-BR', { hour:'2-digit', minute:'2-digit' });
+    document.getElementById('update-info').textContent = `Atualizado às ${agora}`;
+
+    atualizarCores();
+    renderRanking();
+    if (estadoSelecionado) renderStatePanel(estadoSelecionado);
+  } catch(e) {
+    console.error('Erro ao carregar noticias.json:', e);
+    document.getElementById('update-info').textContent = 'Erro ao atualizar';
+  }
+}
+
+function recarregar() {
+  document.getElementById('update-info').textContent = 'Atualizando...';
+  carregarDados();
+}
+
+function iniciarAutoRefresh() {
+  clearInterval(refreshInterval);
+  refreshInterval = setInterval(carregarDados, REFRESH_INTERVAL_MS);
+}
+
+// ── Resize ───────────────────────────────────────────────────
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => renderMapa(), 300);
+});
+
+// ── Init ─────────────────────────────────────────────────────
+(async () => {
+  await carregarDados();
+  await renderMapa();
+  iniciarAutoRefresh();
+})();
+</script>
+</body>
+</html>

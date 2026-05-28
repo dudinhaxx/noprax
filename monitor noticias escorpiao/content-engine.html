@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Engine NOPRAX</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #081226;
+            color: #e2e8f0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { text-align: center; margin-bottom: 20px; }
+        .header h1 { font-size: 2rem; color: #60a5fa; margin-bottom: 10px; }
+        
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        
+        .panel {
+            background: #0f1d3a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .panel h2 { color: #60a5fa; font-size: 1.2rem; margin-bottom: 15px; }
+        
+        .noticia {
+            background: #132347;
+            border-left: 3px solid #ef4444;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .noticia:hover { background: #1a2d47; }
+        .noticia.selected { background: #1e3a5f; border-left-color: #3b82f6; }
+        
+        .noticia-titulo { font-weight: bold; color: #60a5fa; margin-bottom: 5px; }
+        .noticia-meta { font-size: 0.8rem; color: #94a3b8; }
+        
+        .preview {
+            background: #132347;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 500px;
+            overflow-y: auto;
+            line-height: 1.6;
+        }
+        .preview-titulo { font-size: 1.3rem; color: #fbbf24; margin-bottom: 10px; font-weight: bold; }
+        .preview p { margin-bottom: 10px; }
+        
+        .editor {
+            background: #0f1d3a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .editor input, .editor textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #132347;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: #e2e8f0;
+            font-family: Arial, sans-serif;
+        }
+        .editor textarea { min-height: 150px; resize: vertical; }
+        
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .btn-success { background: #10b981; color: black; }
+        .btn-success:hover { background: #059669; }
+        .btn-secondary { background: #64748b; color: white; }
+        .btn-secondary:hover { background: #475569; }
+        .btn-danger { background: #ef4444; color: white; }
+        .btn-danger:hover { background: #dc2626; }
+        
+        .message {
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            display: none;
+        }
+        .message.show { display: block; }
+        .message.success { background: rgba(16,185,129,0.2); border: 1px solid #10b981; color: #86efac; }
+        .message.error { background: rgba(239,68,68,0.2); border: 1px solid #ef4444; color: #fca5a5; }
+        
+        .pagination { display: flex; gap: 5px; margin-top: 10px; flex-wrap: wrap; }
+        .page-btn { padding: 6px 10px; background: #132347; border: 1px solid #333; color: #94a3b8; cursor: pointer; border-radius: 4px; }
+        .page-btn.active { background: #3b82f6; color: white; border-color: #3b82f6; }
+        
+        .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 10px; }
+        .stat { background: #132347; border: 1px solid #333; border-radius: 4px; padding: 10px; text-align: center; }
+        .stat-num { font-size: 1.5rem; color: #fbbf24; font-weight: bold; }
+        .stat-label { font-size: 0.8rem; color: #94a3b8; }
+        
+        @media (max-width: 900px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🦂 Content Engine NOPRAX</h1>
+            <p>Gere artigos únicos a partir de notícias</p>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <!-- EDITOR TOPO -->
+        <div class="editor">
+            <h2>✏️ Editor de Artigo</h2>
+            
+            <label style="display: block; margin-top: 10px; font-weight: bold; color: #60a5fa;">Título</label>
+            <input type="text" id="titulo" placeholder="Título do artigo">
+            
+            <label style="display: block; margin-top: 10px; font-weight: bold; color: #60a5fa;">Meta Description</label>
+            <textarea id="meta" placeholder="Meta description"></textarea>
+            
+            <label style="display: block; margin-top: 10px; font-weight: bold; color: #60a5fa;">Conteúdo</label>
+            <textarea id="conteudo" placeholder="Conteúdo do artigo"></textarea>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-label">Meta</div>
+                    <div class="stat-num" id="metaCount">0/160</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Palavras</div>
+                    <div class="stat-num" id="wordCount">0</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-label">Tempo</div>
+                    <div class="stat-num" id="timeCount">0 min</div>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="btn-secondary" onclick="regenerar()">🔄 Regenerar</button>
+                <button class="btn-success" onclick="copiar()">📋 Copiar</button>
+                <button class="btn-danger" onclick="rejeitar()">❌ Rejeitar</button>
+            </div>
+        </div>
+
+        <!-- NOTÍCIAS + PREVIEW -->
+        <div class="grid">
+            <div class="panel">
+                <h2>📰 Notícias</h2>
+                <div id="noticiasLista"></div>
+            </div>
+            
+            <div class="panel">
+                <h2>👁️ Preview</h2>
+                <div class="preview" id="preview">
+                    <p style="color: #94a3b8; text-align: center; padding: 30px;">Selecione uma notícia</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let noticias = [];
+        let artigoAtual = null;
+        let noticiaAtualIdx = null;
+        let paginaAtual = 1;
+        const itemsPorPagina = 10;
+
+        function msg(texto, tipo = 'success') {
+            const el = document.getElementById('message');
+            el.textContent = texto;
+            el.className = 'message show ' + tipo;
+            setTimeout(() => el.classList.remove('show'), 3000);
+        }
+
+        async function carregarNoticias() {
+            try {
+                const res = await fetch('noticias.json');
+                if (!res.ok) throw new Error('Erro ao carregar');
+                
+                let dados = await res.json();
+                noticias = dados.filter(n => n.gravidade === 'grave' || n.gravidade === 'moderada');
+                noticias.sort((a, b) => new Date(b.data.split('/').reverse().join('-')) - new Date(a.data.split('/').reverse().join('-')));
+                
+                if (noticias.length === 0) {
+                    msg('Nenhuma notícia encontrada', 'error');
+                    return;
+                }
+                
+                msg('✅ ' + noticias.length + ' notícias carregadas', 'success');
+                renderizarNoticias();
+            } catch (e) {
+                msg('❌ Erro ao carregar noticias.json', 'error');
+                console.error(e);
+            }
+        }
+
+        function renderizarNoticias() {
+            const inicio = (paginaAtual - 1) * itemsPorPagina;
+            const fim = inicio + itemsPorPagina;
+            const pagina = noticias.slice(inicio, fim);
+            const totalPaginas = Math.ceil(noticias.length / itemsPorPagina);
+            
+            let html = '';
+            pagina.forEach((n, i) => {
+                const idx = inicio + i;
+                const classe = noticiaAtualIdx === idx ? 'noticia selected' : 'noticia';
+                html += `<div class="${classe}" onclick="selecionarNoticia(${idx})">
+                    <div class="noticia-titulo">${n.titulo}</div>
+                    <div class="noticia-meta">📅 ${n.data} | 📰 ${n.fonte} | ${n.gravidade.toUpperCase()}</div>
+                </div>`;
+            });
+            
+            html += '<div class="pagination">';
+            for (let p = 1; p <= totalPaginas; p++) {
+                html += `<button class="page-btn ${p === paginaAtual ? 'active' : ''}" onclick="irPagina(${p})">${p}</button>`;
+            }
+            html += '</div>';
+            
+            document.getElementById('noticiasLista').innerHTML = html;
+        }
+
+        function irPagina(p) {
+            paginaAtual = p;
+            renderizarNoticias();
+        }
+
+        function selecionarNoticia(idx) {
+            noticiaAtualIdx = idx;
+            const noticia = noticias[idx];
+            
+            artigoAtual = gerarArtigo(noticia);
+            renderizarPreview();
+            preencherEditor();
+            renderizarNoticias();
+            msg('✅ Artigo gerado!', 'success');
+        }
+
+        function gerarArtigo(noticia) {
+            const titulo = noticia.titulo + ' – Guia Completo';
+            const meta = noticia.titulo.substring(0, 140) + '. Entenda causas, riscos e como se proteger de escorpiões.';
+            
+            const conteudo = gerarConteudoUnico(noticia.titulo, noticia.fonte, noticia.gravidade);
+            
+            return { titulo, meta, conteudo };
+        }
+
+        function gerarConteudoUnico(titulo, fonte, gravidade) {
+            const templates = [
+                `Vimos recentemente pela ${fonte} que ${titulo}. Situações assim acontecem cada vez mais frequentemente nas cidades brasileiras, e francamente, é preocupante.
+
+O que muita gente não compreende é que esses incidentes não são "acidentes de azar". Existem razões bem claras para isso estar acontecendo.
+
+## Entender o problema é o primeiro passo
+
+Quando escorpiões começam a aparecer em casas, significa que algo no ambiente está atraindo eles. E o pior: geralmente a gente não nem percebe que está criando as condições perfeitas.
+
+Pense bem: para um escorpião urbano, uma casa típica é um lugar de sonho. Tem abrigo (frestas, móveis, entulhos), tem comida (baratas, grilos) e tem temperatura controlada. É praticamente um resort.
+
+## Não é sobre ter medo, é sobre ser esperto
+
+A maioria das pessoas acha que precisa lidar com isso quando o problema já está grande. Errado. A hora de agir é antes.
+
+Se você viu essa notícia e ficou assustado, ótimo. Use esse medo como combustível para tomar ação:
+
+- Verifique sua casa hoje mesmo procurando por frestas e buracos
+- Organize ambientes e remova coisas que servem de abrigo
+- Controle outras pragas (as que os escorpiões comem)
+
+## Monitoramento funciona mesmo?
+
+Absolutamente. Casas que usam armadilhas de captura física têm uma redução drástica nos incidentes. Por quê? Porque você detecta presença antes do problema escalar.
+
+O Pega Escorpião foi desenvolvido para auxiliar famílias a protegerem suas residências através de monitoramento contínuo. Sem químicos, sem complicação. Só você sabendo se há risco ou não.
+
+Não espere pela próxima notícia assustadora. Proteja sua casa agora.`,
+
+                `Lendo a reportagem da ${fonte} sobre ${titulo}, não pude deixar de pensar em quantas famílias estão passando por isso agora mesmo.
+
+É frustrante porque a maioria das pessoas não entende que esse problema é 100% prevenível.
+
+## A verdade que ninguém fala
+
+Escorpiões não invadem casas porque querem te assustar. Eles vão aonde têm comida, abrigo e condições para sobreviver. Simples assim.
+
+Se sua casa oferece essas três coisas, você está convidando escorpiões para morar lá. Sem exagero.
+
+## O que muitos fazem de errado
+
+A maioria das pessoas espera o problema aparecer para agir. Veem uma notícia, ficam assustadas por alguns dias, aí esquecem. Até o dia que um escorpião aparece no banheiro à noite.
+
+Isso é completamente reversível.
+
+## Como a gente resolve isso?
+
+Não precisa de fumigação cara, não precisa de químico tóxico na casa. Três coisas simples:
+
+Primeiro: feche as entradas. Seu imóvel provavelmente tem dezenas de frestas que você nem vê.
+
+Segundo: organize e limpe. Escorpiões adoram desordem porque oferece mais esconderijos.
+
+Terceiro: monitore. Coloque armadilhas de captura e acompanhe se há presença. Se não houver capturas, você sabe que está seguro.
+
+O Pega Escorpião faz exatamente isso: monitora sua casa 24 horas por dia, sem riscos, sem químicos. Desenvolvido para auxiliar famílias a protegerem suas residências da forma mais sensata possível.
+
+Comece hoje. Literalmente, hoje.`,
+
+                `A ${fonte} publicou algo que muita gente leu e pensou "podia ser comigo". E sabe de quê? Pode mesmo. ${titulo} é exatamente o tipo de coisa que acontece com gente normal, em casa normal, em qualquer cidade do Brasil.
+
+Mas aqui está a notícia boa: é evitável.
+
+## Por que escorpiões estão em tantos lugares?
+
+Urbanização. Destruição de habitats. Falta de predadores naturais. A verdade é que criamos um ambiente perfeito para eles proliferarem. Nossas casas são praticamente self-service de abrigo e alimento.
+
+## O que diferentes pessoas estão fazendo
+
+Tem gente que reage com pânico. Tem gente que ignora e faz de conta que não existe. Tem gente inteligente que prepara a casa antes do problema chegar.
+
+Você vai ser qual?
+
+## A conversa honesta
+
+Seu imóvel tem:
+- Frestas em paredes? (praticamente todas têm)
+- Espaços embaixo de portas? (sim)
+- Móveis tocando o chão? (sim)
+- Coisas acumuladas? (todo mundo tem)
+
+Tudo isso é um convite aberto.
+
+## Solução que realmente funciona
+
+Não é mágica. É só sendo sistemático:
+
+1. Você vai fuçar sua casa procurando por entradas. Demora umas horas.
+2. Você vai fechar as principais com silicone ou vedante.
+3. Você vai por armadilhas em pontos estratégicos e acompanhar.
+
+Se depois de fazer isso não aparecer nada na armadilha por 30 dias, você está seguro. Se aparecer algo, você já sabe que estava ali e consegue agir.
+
+O Pega Escorpião foi desenvolvido para ser sua "sentinela silenciosa". Fica lá funcionando 24 horas, sem exigir nada de você, sem químicos, sem risco. Protege sua residência enquanto você dorme.
+
+Não seja alguém de quem sai notícia dessas.`,
+
+                `Viu a notícia divulgada por ${fonte}? ${titulo}. Pois é, essa não é história de ficção, é coisa real acontecendo agora.
+
+E você está lendo isso pensando "será que minha casa está segura?". Provavelmente não está. A maioria não está.
+
+## A conversa que ninguém quer ter
+
+Existem escorpiões em praticamente toda cidade brasileira média e grande. O tamanho do problema cresce a cada ano. Hospitais estão recebendo mais vítimas. É um padrão claro.
+
+Por quê? Porque ninguém previne. Todos esperam o problema chegar.
+
+## Pense assim
+
+Se você deixar uma porta aberta a noite toda, você espera que ladrões apareçam? Não, né. Você fecharia a porta.
+
+Sua casa está deixando "portas abertas" para escorpiões todos os dias. Frestas, furos, bagunça. Tudo convite.
+
+## O que realmente funciona
+
+Tem três pilares:
+
+**Pilar 1 - Prevenção:** Fechar entradas, organizar ambientes. Isso elimina 60% do risco.
+
+**Pilar 2 - Eliminação:** Controlar baratas e grilos. Sem comida, escorpiões não ficam.
+
+**Pilar 3 - Monitoramento:** Armadilhas que alertam você sobre presença. Essa é a que a maioria não faz, e por isso fracassa.
+
+O Pega Escorpião é especialista no pilar 3. Monitora sua residência sem parar, sem químico, sem risco. Você dorme sabendo que se houver qualquer presença, você vai saber.
+
+Isso é proteção séria. É proteção que funciona.
+
+Não deixe para depois.`,
+
+                `Acabei de ver pela ${fonte} que ${titulo}. Fico com aquele incômodo. Sabe aquele sentimento de "podia ter sido evitado"?
+
+Porque, sinceramente, poderia mesmo.
+
+## A realidade é bem óbvia se você parar para pensar
+
+Escorpiões não aparecem do nada. Não descem do céu. Eles estão lá porque encontraram o que procuram: casa, comida, segurança.
+
+Sua residência oferece essas coisas? Aposto que sim.
+
+## O problema é mais generalizado do que parece
+
+A maioria das pessoas que vê uma notícia assim fica com medo por algumas horas, aí esquece. E continua vivendo exatamente do mesmo jeito.
+
+Aí, seis meses depois, boom. Encontram um escorpião no banheiro. Aí vem o pânico.
+
+Completamente evitável.
+
+## Você pode ser diferente
+
+Enquanto outras pessoas ignoram o problema, você pode ser uma daquelas pessoas que realmente prepara a casa.
+
+Não é difícil:
+
+- Passe um fim de semana verificando frestas e buracos
+- Feche os principais com silicone
+- Coloque armadilhas de captura em pontos estratégicos
+- Acompanhe mensalmente
+
+Pronto. Você está protegido.
+
+O Pega Escorpião faz a parte mais importante: o acompanhamento constante. Funciona enquanto você trabalha, dorme, viaja. É desenvolvido para auxiliar famílias a protegerem suas residências da forma mais inteligente.
+
+Não seja alguém que precisa de uma notícia dessas para se mexer.`
+            ];
+
+            return templates[Math.floor(Math.random() * templates.length)];
+        }
+
+        function renderizarPreview() {
+            if (!artigoAtual) return;
+            
+            let html = `<div class="preview-titulo">${artigoAtual.titulo}</div>`;
+            html += `<div style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 15px;">
+                ${countWords(artigoAtual.conteudo)} palavras | 
+                ${Math.ceil(countWords(artigoAtual.conteudo) / 200)} min de leitura
+            </div>`;
+            
+            artigoAtual.conteudo.split('\n').forEach(p => {
+                if (!p.trim()) return;
+                if (p.startsWith('##')) {
+                    html += `<p style="font-weight: bold; margin-top: 15px; margin-bottom: 8px; color: #60a5fa;">${p.replace('##', '').trim()}</p>`;
+                } else if (p.startsWith('- ')) {
+                    html += `<p style="margin-left: 20px;">• ${p.substring(2)}</p>`;
+                } else {
+                    html += `<p>${p}</p>`;
+                }
+            });
+            
+            document.getElementById('preview').innerHTML = html;
+        }
+
+        function preencherEditor() {
+            if (!artigoAtual) return;
+            document.getElementById('titulo').value = artigoAtual.titulo;
+            document.getElementById('meta').value = artigoAtual.meta;
+            document.getElementById('conteudo').value = artigoAtual.conteudo;
+            atualizarStats();
+        }
+
+        function atualizarStats() {
+            const meta = document.getElementById('meta').value;
+            document.getElementById('metaCount').textContent = meta.length + '/160';
+            
+            const conteudo = document.getElementById('conteudo').value;
+            const palavras = countWords(conteudo);
+            document.getElementById('wordCount').textContent = palavras;
+            document.getElementById('timeCount').textContent = Math.max(1, Math.ceil(palavras / 200)) + ' min';
+        }
+
+        function countWords(text) {
+            return text.trim().split(/\s+/).filter(w => w.length > 0).length;
+        }
+
+        function regenerar() {
+            if (noticiaAtualIdx === null) {
+                msg('Selecione uma notícia primeiro', 'error');
+                return;
+            }
+            selecionarNoticia(noticiaAtualIdx);
+        }
+
+        function copiar() {
+            const texto = `${document.getElementById('titulo').value}\n\n${document.getElementById('conteudo').value}`;
+            navigator.clipboard.writeText(texto).then(() => {
+                msg('✅ Copiado! Cole no WordPress', 'success');
+            }).catch(() => {
+                msg('❌ Erro ao copiar', 'error');
+            });
+        }
+
+        function rejeitar() {
+            if (noticiaAtualIdx === null) return;
+            noticiaAtualIdx = null;
+            artigoAtual = null;
+            document.getElementById('preview').innerHTML = '<p style="color: #94a3b8; text-align: center; padding: 30px;">Selecione uma notícia</p>';
+            document.getElementById('titulo').value = '';
+            document.getElementById('meta').value = '';
+            document.getElementById('conteudo').value = '';
+            renderizarNoticias();
+            msg('❌ Artigo rejeitado', 'success');
+        }
+
+        document.getElementById('meta').addEventListener('input', atualizarStats);
+        document.getElementById('conteudo').addEventListener('input', atualizarStats);
+
+        carregarNoticias();
+    </script>
+</body>
+</html>

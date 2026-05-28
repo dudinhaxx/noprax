@@ -1,0 +1,19 @@
+# Desenvolvimento local
+monitor noticias escorpiao/server.js
+node_modules/
+
+# Arquivos temporários / não publicáveis
+mnt/
+site_noprax.zip
+*.zip
+*.log
+.env
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/

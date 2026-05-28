@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 138" width="480" height="138" role="img" aria-label="Noprax">
+  <title>Noprax · Monitoramento Inteligente de Pragas</title>
+
+  <!-- ─── NP MONOGRAM ─── -->
+
+  <!-- N — 3 barras diagonais paralelas em cinza/prata -->
+  <polygon points="2,128  10,10  22,10  14,128" fill="#8C8C8C"/>
+  <polygon points="26,128 34,10  46,10  38,128" fill="#8C8C8C"/>
+  <polygon points="50,128 58,10  70,10  62,128" fill="#8C8C8C"/>
+
+  <!-- P — barra vertical + bowl triangular (chevron) em laranja -->
+  <polygon points="76,128 84,10  96,10  88,128" fill="#F2A516"/>
+  <!-- Bowl: triângulo apontando para direita, criando o "ventre" do P -->
+  <polygon points="96,10  126,69  96,128" fill="#F2A516"/>
+
+  <!-- ─── WORDMARK ─── -->
+
+  <!-- "NOPRA" — branco -->
+  <text
+    x="144" y="85"
+    font-family="'Arial Black', 'Franklin Gothic Heavy', 'Impact', sans-serif"
+    font-size="72" font-weight="900"
+    fill="#FFFFFF"
+    letter-spacing="-1">NOPRA</text>
+
+  <!-- "X" — laranja (chevron estilizado como no original) -->
+  <!-- Criado como path para replicar o X angular do original -->
+  <polygon
+    points="
+      398,10
+      430,10
+      456,69
+      430,128
+      398,128
+      418,128
+      440,69
+      418,10
+    "
+    fill="#F2A516"/>
+  <!-- Espaço negativo central do X -->
+  <polygon
+    points="418,10  440,69  418,128  424,128  446,69  424,10"
+    fill="#F2A516"/>
+
+  <!-- Linha divisória laranja -->
+  <line x1="144" y1="100" x2="472" y2="100" stroke="#F2A516" stroke-width="1.5"/>
+
+  <!-- Tagline -->
+  <text
+    x="144" y="123"
+    font-family="'Arial', 'Helvetica Neue', sans-serif"
+    font-size="12.5" fill="#8A8A8A"
+    letter-spacing="3.2">MONITORAMENTO INTELIGENTE DE PRAGAS</text>
+</svg>

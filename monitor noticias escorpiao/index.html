@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitor de Notícias · Noprax</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --orange:      #F2A516;
+  --orange-deep: #D88E0A;
+  --orange-soft: rgba(242,165,22,0.1);
+  --orange-glow: rgba(242,165,22,0.25);
+  --orange-line: rgba(242,165,22,0.3);
+  --black:  #0B0B0D;
+  --dark:   #141416;
+  --dark2:  #1C1C20;
+  --dark3:  #26262C;
+  --line:   rgba(255,255,255,0.08);
+  --text:   #F5F2EC;
+  --muted:  #8E8E96;
+  --dim:    #56565E;
+  --danger: #D85A30;
+  --success:#2DAA68;
+  --display:'Archivo Black', sans-serif;
+  --sans:   'Archivo', sans-serif;
+  --mono:   'JetBrains Mono', monospace;
+}
+
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+
+html { scroll-behavior:smooth; }
+
+body {
+  font-family: var(--sans);
+  background: var(--black);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color:inherit; text-decoration:none; }
+button { font:inherit; cursor:pointer; border:none; background:none; color:inherit; }
+
+/* ── Header ───────────────────────────────── */
+.nav {
+  position: sticky;
+  top: 0; z-index: 100;
+  height: 68px;
+  background: rgba(11,11,13,0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.nav::after {
+  content:'';
+  position:absolute;
+  bottom:0; left:0; right:0; height:1px;
+  background: linear-gradient(90deg, transparent, var(--orange), transparent);
+}
+
+.nav-logo img {
+  height: 38px;
+  width: auto;
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-badge {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--orange);
+  background: var(--orange-soft);
+  border: 1px solid var(--orange-line);
+  padding: 5px 12px;
+  border-radius: 2px;
+}
+
+.nav-update {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 0.1em;
+}
+
+.live-dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--success);
+  margin-right: 6px;
+  animation: blink 2s ease-in-out infinite;
+  vertical-align: middle;
+}
+
+@keyframes blink {
+  0%,100% { opacity:1; }
+  50%      { opacity:0.2; }
+}
+
+/* ── Stats bar ─────────────────────────────── */
+.stats-bar {
+  background: var(--dark2);
+  border-bottom: 1px solid var(--line);
+  padding: 0 40px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow-x: auto;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 28px 0 0;
+  margin-right: 28px;
+  border-right: 1px solid var(--line);
+  white-space: nowrap;
+}
+
+.stat-item:last-child { border-right:none; }
+
+.stat-num {
+  font-family: var(--display);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.stat-info { line-height:1.3; }
+
+.stat-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.stat-item.total  .stat-num { color: var(--orange); }
+.stat-item.grave  .stat-num { color: var(--danger); }
+.stat-item.mod    .stat-num { color: var(--orange); }
+.stat-item.leve   .stat-num { color: var(--success); }
+
+/* ── Main ──────────────────────────────────── */
+.main { max-width: 1400px; margin: 0 auto; padding: 40px; }
+
+/* ── Section label ─────────────────────────── */
+.section-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-label::before {
+  content:'';
+  width: 24px; height: 1px;
+  background: var(--orange);
+}
+
+/* ── State cards ───────────────────────────── */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: var(--dark);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 16px 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content:'';
+  position:absolute;
+  top:0; left:0; right:0; height:2px;
+  background: var(--orange);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  background: var(--dark2);
+  border-color: var(--orange-line);
+}
+
+.card:hover::before { transform: scaleX(1); }
+
+.card-title {
+  font-family: var(--display);
+  font-size: 15px;
+  color: var(--orange);
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+
+.card-number {
+  font-family: var(--display);
+  font-size: 28px;
+  color: var(--text);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.card-gravity {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.05em;
+}
+
+.card-gravity .g { color: var(--danger); }
+.card-gravity .m { color: var(--orange); }
+.card-gravity .l { color: var(--success); }
+
+/* ── Filters ───────────────────────────────── */
+.filters-block {
+  background: var(--dark);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 20px 24px;
+  margin-bottom: 32px;
+}
+
+.filters-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.filters-grid input,
+.filters-grid select {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--dark2);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  outline: none;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
+}
+
+.filters-grid input::placeholder { color: var(--dim); }
+
+.filters-grid input:focus,
+.filters-grid select:focus { border-color: var(--orange); }
+
+.filters-grid select {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23F2A516' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 36px;
+}
+
+.filters-grid select option { background: var(--dark2); }
+
+.btn-clear {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: var(--dark2);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  padding: 10px 18px;
+  border-radius: 2px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-clear:hover { border-color: var(--danger); color: var(--danger); }
+
+/* ── News count ────────────────────────────── */
+.news-count {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.news-count strong {
+  font-family: var(--display);
+  font-size: 18px;
+  color: var(--orange);
+}
+
+/* ── News list ─────────────────────────────── */
+.news-list { display: flex; flex-direction: column; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 4px; overflow:hidden; }
+
+.news-card {
+  background: var(--dark);
+  padding: 20px 24px;
+  border-left: 3px solid transparent;
+  transition: background 0.15s;
+}
+
+.news-card:hover { background: var(--dark2); }
+
+.news-card.grave    { border-left-color: var(--danger); }
+.news-card.moderada { border-left-color: var(--orange); }
+.news-card.leve     { border-left-color: var(--success); }
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.news-title {
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.badge {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 2px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.badge.grave    { background: rgba(216,90,48,0.15);  color: var(--danger);  border: 1px solid rgba(216,90,48,0.3); }
+.badge.moderada { background: rgba(242,165,22,0.12); color: var(--orange);  border: 1px solid var(--orange-line); }
+.badge.leve     { background: rgba(45,170,104,0.12); color: var(--success); border: 1px solid rgba(45,170,104,0.3); }
+
+.news-description {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--muted);
+  margin-bottom: 14px;
+  font-weight: 300;
+}
+
+.news-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--dim);
+  margin-bottom: 14px;
+}
+
+.news-meta span { display:flex; align-items:center; gap:5px; }
+
+.news-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--orange);
+  transition: gap 0.2s;
+}
+
+.news-link:hover { gap: 12px; }
+.news-link::after { content:'→'; }
+
+/* ── Empty / Loading ───────────────────────── */
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+/* ── Responsive ────────────────────────────── */
+@media (max-width: 960px) {
+  .nav { padding: 0 20px; }
+  .stats-bar { padding: 0 20px; }
+  .main { padding: 24px 20px; }
+  .filters-grid { grid-template-columns: 1fr; }
+  .cards-grid { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); }
+  .news-header { flex-direction: column; gap: 8px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ── Nav ── -->
+<nav class="nav">
+  <a href="#" class="nav-logo">
+    <img src="../Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax">
+  </a>
+  <div class="nav-right">
+    <span class="nav-badge">🦂 Monitor de Escorpionismo</span>
+    <span class="nav-update">
+      <span class="live-dot"></span>
+      <span id="lastUpdate">Carregando...</span>
+    </span>
+    <a href="mapa-calor.html" style="font-family:var(--mono);font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--orange);border:1px solid var(--orange-line);padding:6px 14px;border-radius:2px;">
+      Ver mapa
+    </a>
+  </div>
+</nav>
+
+<!-- ── Stats bar ── -->
+<div class="stats-bar">
+  <div class="stat-item total">
+    <div class="stat-num" id="s-total">—</div>
+    <div class="stat-info"><div class="stat-label">Total de notícias</div></div>
+  </div>
+  <div class="stat-item grave">
+    <div class="stat-num" id="s-grave">—</div>
+    <div class="stat-info"><div class="stat-label">Graves</div></div>
+  </div>
+  <div class="stat-item mod">
+    <div class="stat-num" id="s-mod">—</div>
+    <div class="stat-info"><div class="stat-label">Moderadas</div></div>
+  </div>
+  <div class="stat-item leve">
+    <div class="stat-num" id="s-leve">—</div>
+    <div class="stat-info"><div class="stat-label">Leves</div></div>
+  </div>
+  <div class="stat-item" style="--num-color:var(--muted)">
+    <div class="stat-num" id="s-estados" style="color:var(--muted)">—</div>
+    <div class="stat-info"><div class="stat-label">Estados com registro</div></div>
+  </div>
+</div>
+
+<!-- ── Main ── -->
+<main class="main">
+
+  <!-- State cards -->
+  <div class="section-label">Ocorrências por estado</div>
+  <div id="cardsEstados" class="cards-grid">
+    <div class="loading">Carregando estados...</div>
+  </div>
+
+  <!-- Filters -->
+  <div class="filters-block">
+    <div class="filters-grid">
+      <input id="searchInput" type="text" placeholder="Buscar por cidade, estado, título, fonte...">
+      <select id="estadoFilter"><option value="all">Todos os estados</option></select>
+      <select id="cidadeFilter"><option value="all">Todas as cidades</option></select>
+      <select id="gravidadeFilter">
+        <option value="all">Todas as gravidades</option>
+        <option value="grave">Grave</option>
+        <option value="moderada">Moderada</option>
+        <option value="leve">Leve</option>
+      </select>
+      <button class="btn-clear" onclick="limparFiltros()">Limpar</button>
+    </div>
+  </div>
+
+  <!-- News -->
+  <div class="news-count">
+    Notícias encontradas: <strong id="totalFiltradas">0</strong>
+  </div>
+
+  <div id="conteudoNoticias" class="news-list">
+    <div class="loading">Carregando notícias...</div>
+  </div>
+
+</main>
+
+<script>
+let noticias = [];
+
+async function carregarNoticias() {
+  try {
+    const r = await fetch('noticias.json?v=' + Date.now());
+    if (!r.ok) throw new Error('noticias.json não encontrado');
+
+    noticias = await r.json();
+
+    // Stats
+    const grave    = noticias.filter(n => n.gravidade === 'grave').length;
+    const moderada = noticias.filter(n => n.gravidade === 'moderada').length;
+    const leve     = noticias.filter(n => n.gravidade === 'leve').length;
+    const estados  = new Set(noticias.filter(n => n.estado && n.estado !== 'Não identificado').map(n => n.estado));
+
+    animCount('s-total',   noticias.length);
+    animCount('s-grave',   grave);
+    animCount('s-mod',     moderada);
+    animCount('s-leve',    leve);
+    animCount('s-estados', estados.size);
+
+    document.getElementById('lastUpdate').textContent =
+      'Atualizado às ' + new Date().toLocaleTimeString('pt-BR', { hour:'2-digit', minute:'2-digit' });
+
+    renderizarEstados();
+    popularEstados();
+    popularCidades();
+    renderizarNoticias();
+
+  } catch(e) {
+    console.error(e);
+    document.getElementById('conteudoNoticias').innerHTML =
+      '<div class="loading">Erro ao carregar notícias. Verifique o noticias.json.</div>';
+  }
+}
+
+function animCount(id, target) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const dur = 600, t0 = performance.now();
+  const step = ts => {
+    const p = Math.min((ts - t0) / dur, 1);
+    el.textContent = Math.round(target * p);
+    if (p < 1) requestAnimationFrame(step);
+  };
+  requestAnimationFrame(step);
+}
+
+function renderizarEstados() {
+  const estados = {};
+  noticias.forEach(n => {
+    const uf = n.estado || 'Não identificado';
+    if (!estados[uf]) estados[uf] = { total:0, grave:0, moderada:0, leve:0 };
+    estados[uf].total++;
+    if (n.gravidade === 'grave')    estados[uf].grave++;
+    else if (n.gravidade === 'leve') estados[uf].leve++;
+    else estados[uf].moderada++;
+  });
+
+  const html = Object.entries(estados)
+    .sort((a, b) => b[1].total - a[1].total)
+    .map(([uf, d]) => `
+      <div class="card" onclick="filtrarPorEstado('${uf}')">
+        <div class="card-title">${uf}</div>
+        <div class="card-number">${d.total}</div>
+        <div class="card-gravity">
+          <span class="g">${d.grave}</span>
+          <span class="m">${d.moderada}</span>
+          <span class="l">${d.leve}</span>
+        </div>
+      </div>
+    `).join('');
+
+  document.getElementById('cardsEstados').innerHTML = html;
+}
+
+function popularEstados() {
+  const select = document.getElementById('estadoFilter');
+  select.innerHTML = '<option value="all">Todos os estados</option>';
+  [...new Set(noticias.map(n => n.estado || 'Não identificado'))].sort()
+    .forEach(uf => {
+      const o = document.createElement('option');
+      o.value = uf; o.textContent = uf;
+      select.appendChild(o);
+    });
+}
+
+function popularCidades() {
+  const select = document.getElementById('cidadeFilter');
+  const ufAtual = document.getElementById('estadoFilter').value;
+  select.innerHTML = '<option value="all">Todas as cidades</option>';
+  const cidades = [...new Set(
+    noticias
+      .filter(n => ufAtual === 'all' || (n.estado || 'Não identificado') === ufAtual)
+      .map(n => n.cidade)
+      .filter(c => c && c !== 'Não identificada')
+  )].sort();
+  cidades.forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c;
+    select.appendChild(o);
+  });
+}
+
+function renderizarNoticias() {
+  const busca     = document.getElementById('searchInput').value.toLowerCase().trim();
+  const estado    = document.getElementById('estadoFilter').value;
+  const cidade    = document.getElementById('cidadeFilter').value;
+  const gravidade = document.getElementById('gravidadeFilter').value;
+
+  let filtradas = noticias.filter(n => {
+    const texto = `${n.titulo||''} ${n.descricao||''} ${n.estado||''} ${n.cidade||''} ${n.fonte||''} ${n.termo_busca||''}`.toLowerCase();
+    return (busca === '' || texto.includes(busca))
+      && (estado    === 'all' || (n.estado    || 'Não identificado') === estado)
+      && (cidade    === 'all' || (n.cidade    || 'Não identificada') === cidade)
+      && (gravidade === 'all' || (n.gravidade || 'moderada')         === gravidade);
+  });
+
+  filtradas.sort((a, b) => converterData(b.data) - converterData(a.data));
+
+  document.getElementById('totalFiltradas').textContent = filtradas.length;
+
+  if (filtradas.length === 0) {
+    document.getElementById('conteudoNoticias').innerHTML =
+      '<div class="loading">Nenhuma notícia encontrada com esses filtros.</div>';
+    return;
+  }
+
+  document.getElementById('conteudoNoticias').innerHTML = filtradas.map(n => {
+    const g = n.gravidade || 'moderada';
+    return `
+      <div class="news-card ${g}">
+        <div class="news-header">
+          <div class="news-title">${n.titulo || 'Sem título'}</div>
+          <span class="badge ${g}">${g}</span>
+        </div>
+        <div class="news-description">${n.descricao || n.titulo || ''}</div>
+        <div class="news-meta">
+          <span>📍 ${n.cidade || 'Cidade não identificada'} · ${n.estado || 'Estado não identificado'}</span>
+          <span>📅 ${n.data || '—'}</span>
+          <span>📰 ${n.fonte || '—'}</span>
+        </div>
+        <a href="${n.link || '#'}" target="_blank" rel="noopener" class="news-link">Leia a notícia</a>
+      </div>
+    `;
+  }).join('');
+}
+
+function converterData(data) {
+  if (!data || !data.includes('/')) return new Date(0);
+  const [d, m, y] = data.split('/');
+  return new Date(`${y}-${m}-${d}`);
+}
+
+function limparFiltros() {
+  document.getElementById('searchInput').value = '';
+  document.getElementById('estadoFilter').value = 'all';
+  document.getElementById('cidadeFilter').value = 'all';
+  document.getElementById('gravidadeFilter').value = 'all';
+  popularCidades();
+  renderizarNoticias();
+}
+
+function filtrarPorEstado(uf) {
+  document.getElementById('estadoFilter').value = uf;
+  popularCidades();
+  document.getElementById('cidadeFilter').value = 'all';
+  renderizarNoticias();
+  document.querySelector('.filters-block').scrollIntoView({ behavior:'smooth', block:'start' });
+}
+
+document.getElementById('searchInput').addEventListener('input', renderizarNoticias);
+document.getElementById('estadoFilter').addEventListener('change', () => { popularCidades(); renderizarNoticias(); });
+document.getElementById('cidadeFilter').addEventListener('change', renderizarNoticias);
+document.getElementById('gravidadeFilter').addEventListener('change', renderizarNoticias);
+
+carregarNoticias();
+</script>
+</body>
+</html>
