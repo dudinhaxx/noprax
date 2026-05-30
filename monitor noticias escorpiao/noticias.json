@@ -286,6 +286,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "criancaelevadaaohospitalaposataquedeescorpiaoamareloemumuarama",
+    "titulo": "Criança é levada ao hospital após ataque de escorpião amarelo em Umuarama - OBemdito",
+    "descricao": "Criança é levada ao hospital após ataque de escorpião amarelo em Umuarama  OBemdito",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LX2ZKQ0VJM2JZWHNITkhnV0MwcHE4MlVfSUtNRU1qOTBwaVhZMmVLaXc1R1dwWmNOLTNZT1ZITk5CZVhJakhfS1duaVJNQ3BjWGxfMDhQS2pMaWtkaEVrQW9rMGROVUI0M01abWxhN20xcHc?oc=5",
+    "data": "27/05/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PR",
+    "cidade": "Umuarama",
+    "termo_busca": "criança escorpião"
+  },
+  {
     "id": "cidadenoesemitealertavermelhoaposcentenasdecapturasdeescorpioes",
     "titulo": "Cidade no ES emite alerta vermelho após centenas de capturas de escorpiões - UOL Notícias",
     "descricao": "Cidade no ES emite alerta vermelho após centenas de capturas de escorpiões  UOL Notícias",
@@ -2910,6 +2923,19 @@
     "estado": "PR",
     "cidade": "Londrina",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "cacadacapturamaisde100escorpioesemcidadedemeninomortoapospicadaemconchal",
+    "titulo": "'Caçada' captura mais de 100 escorpiões em cidade de menino morto após picada em Conchal - G1",
+    "descricao": "'Caçada' captura mais de 100 escorpiões em cidade de menino morto após picada em Conchal  G1",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX1dXWFJFeUt1YWFuZ0k0VEduMkFwYkcwOUJobi1Gc3pqTjVxYWpyQ3dMMld1SVR4UWpodnN3cEpqTFZPVkRxNEdKcFNNRTRNRjNCaU1aT2dXdy1zckhpSGlmSE9wWVJJUG14MENWMW5xRlN4cEU4d3M2US1jSmg1SlRnZXcxZEdWYmdFcE5mMWtESTd4RmFiOGZzZndQam1CSlRBYmROZFgzanZjWlJXc1dSbXVyX0F2bnJvdVl3cDVvUllnb3lQSXY1bUJUTFRKTzFudTcxdDdQMVRxTFluYmtZY9IB8gFBVV95cUxPZDdWUmpkRnkwanVkRmd6MV9URnhjSHpIOXZobFRpb19DTWJKYWVMOXVfVkQ3ekxrcTRvYl95V2NycEpqb2MtT2xsOVUySFpISTJEbklnMDhtOG03RXJZaV9OMl9PakZBNDhMRlB6bkptX2V0eVhqVGx5M3k5enQ4ck1GM2xJYzFicXppdWtIeWdRZ19JVm14VTQya1hHYmdmX3hPOFFiemVtN2VXMlpuQlhwa1ZrZGdfb3dwMWYzUWhoWkl0dnB2REVRSy0xM1IwSWZnODlJbktZWFBJWTRZU3dZc2dQTk9nQUFnZTB1aEowdw?oc=5",
+    "data": "08/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Conchal",
+    "termo_busca": "captura de escorpiões"
   },
   {
     "id": "picadadeescorpiaocobraouaranhaprocureatendimentonasantacasa",
