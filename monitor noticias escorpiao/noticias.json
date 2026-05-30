@@ -1,5 +1,18 @@
 [
   {
+    "id": "ribeiraopirespromoveconscientizacaocasaacasasobreprevencaoaescorpioes",
+    "titulo": "Ribeirão Pires promove conscientização casa a casa sobre prevenção a escorpiões - ABCD Jornal",
+    "descricao": "Ribeirão Pires promove conscientização casa a casa sobre prevenção a escorpiões  ABCD Jornal",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdU1XZEo5V3RkWDE2eHZJT0pRM2E2T2ZBb0otdnVGTmtXLVl5aGJNalhuX0laSFNLcUQ1Zll4M3Bsd2pzLUxEWmVpeDM2VkFQeUt5aE05aWtySFc3S2dCRXA5d2pOUmZxRGNrZEtOak90VWNDVlUxV2JsdUp5WldPaFNVenZXYXRmLTVNOE5sVzdjUGozOU1jeDV3UnV6NHRCT0J6WmF1dEhyWDlZYWJOd0htazJOXzBq?oc=5",
+    "data": "30/05/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Ribeirao Pires",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "aumentodepicadasdeescorpiaoelevaprocuraporsoroantiescorpioniconodf",
     "titulo": "Aumento de picadas de escorpião eleva procura por soro antiescorpiônico no DF - R7",
     "descricao": "Aumento de picadas de escorpião eleva procura por soro antiescorpiônico no DF  R7",
@@ -50,6 +63,19 @@
     "estado": "SP",
     "cidade": "São Paulo",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "buziosacompanhaavancosnocontroledeescorpioesereforcapreparacaodaredemunicipaldesaude",
+    "titulo": "Búzios acompanha avanços no controle de escorpiões e reforça preparação da rede municipal de saúde - Prefeitura Municipal de Armação dos Búzios",
+    "descricao": "Búzios acompanha avanços no controle de escorpiões e reforça preparação da rede municipal de saúde  Prefeitura Municipal de Armação dos Búzios",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU2VoZXBUTUh0RHcxZHFqdkdnR3d6SUtrdFNHcTNsQUg0QUc5WFMwcTVfQWJpWGFrQ1BicWNqb1ZRaWlfdjNPbmUwREx6Q1FsNWhEQjRkTndkc24yRVNIOFhXdXRHQXQ4ZlI2bjY0cTZpMWdTNzhiMldvM2VZeHM5MW9TdGV0dlc3RnNNQmFmQjhiT0xkVXdxZERkQkUyNG9UbXJJQjJ2X1c0NVotdzIyWWJpbVUzNHBpS1hEMjlMbHo5dw?oc=5",
+    "data": "29/05/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RJ",
+    "cidade": "Armacao Dos Buzios",
+    "termo_busca": "soro antiescorpiônico"
   },
   {
     "id": "bebepicadaporescorpiaonodfeextubadaeapresentamelhoranohospital",
