@@ -13,6 +13,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "criancade1anopicadaporescorpiaonodfrecebealtaevoltaparacasa",
+    "titulo": "Criança de 1 ano picada por escorpião no DF recebe alta e volta para casa - Metrópoles",
+    "descricao": "Criança de 1 ano picada por escorpião no DF recebe alta e volta para casa  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUHdRTUJvN2RZZEdDNnBnWnFhYnlYZTYwZmsyQklMd1UzbDc1QzB2bnNpcVpPNnpHTk1YX1lNZlk3TmMxQTljOGRjbVM1aVozNE1ROW9PRW4yOFdLM1FTU3FHZm9XZnF3Z214Y1QwQkp6SG5fTVdJcUNLNTVQTW9weDVSRnBmeEZkOER0LWtjTm9MR21udE1CMXBjYTFETGVkdlpXallLME5MMEI5MlhWYzB6VWVJdDdQ?oc=5",
+    "data": "30/05/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "aumentodepicadasdeescorpiaoelevaprocuraporsoroantiescorpioniconodf",
     "titulo": "Aumento de picadas de escorpião eleva procura por soro antiescorpiônico no DF - R7",
     "descricao": "Aumento de picadas de escorpião eleva procura por soro antiescorpiônico no DF  R7",
@@ -2455,6 +2468,19 @@
     "estado": "SP",
     "cidade": "Registro",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "escorpioescausarammaisde65dosacidentescomanimaispeconhentosnobrasil",
+    "titulo": "Escorpiões causaram mais de 65% dos acidentes com animais peçonhentos no Brasil - CompreRural",
+    "descricao": "Escorpiões causaram mais de 65% dos acidentes com animais peçonhentos no Brasil  CompreRural",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUVpWVHRQcWVPQ3dVS2t4UkhqVTVTdEdzZ2dRb3FQOW5oejkyYTl4Si1qOUkzM2ZDdi1YdUNBY3dVS0JyaHd0UDEzNC1BZm1wMFc0N0ZBNEpFOGFQQnIzRnNmV1JyczQ2UzQyR19QUmJIZXRva2kzY3dtUWdNTmllX3NnSEJyWm1xMWFIX3U4VWd2YVljTlpBWXlONk9zeE5uRmE3VlZGU2JtaDA?oc=5",
+    "data": "12/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "escorpioescausaram65dosacidentescomanimaispeconhentosem2025vejaperfildasvitimaselocaisdosacidentes",
@@ -5653,6 +5679,19 @@
     "estado": "SP",
     "cidade": "Tanabi",
     "termo_busca": "criança escorpião"
+  },
+  {
+    "id": "escorpiaoeencontradonojardimdobosqueeacendealertaparacuidadosnospatios",
+    "titulo": "Escorpião é encontrado no Jardim do Bosque e acende alerta para cuidados nos pátios - Info do Vale",
+    "descricao": "Escorpião é encontrado no Jardim do Bosque e acende alerta para cuidados nos pátios  Info do Vale",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNT1g2LXZFQjhHRENNU0MtQnpzcW84NGNlVDJyZkVsenZaNEhGb1FFcHA1cHpSY3VpcHFrTDVEV0FBRm5sNE8wYWdTOGNGUFJaSE00VVkxajFudE1LRVd2SVFKbkZqMkxXS0FaSmx5czNoZUYwcGRNU1Q0YTNNclV0cl9VWE0?oc=5",
+    "data": "16/01/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Jardim",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "escorpiaoemcasaoquefazerecomoevitar",
