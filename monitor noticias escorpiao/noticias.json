@@ -182,6 +182,19 @@
     "termo_busca": "escorpiões prefeitura municipal"
   },
   {
+    "id": "brasiliadfaumentamcasosdepicadasdeescorpiaoemcriancas",
+    "titulo": "Brasília (DF): Aumentam casos de picadas de escorpião em crianças - diário do estado",
+    "descricao": "Brasília (DF): Aumentam casos de picadas de escorpião em crianças  diário do estado",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdThOR1pTeFZIdkpyTGRZUFZRdDF5VXRDS29UME1KRlduOTdDcmgtRXVPNElYWWRleWp4d2pMYXBfNlk5ZjBnbzkwdmEzMmJrcks2clZLTUg2NFhEUDE4NlVjdFo4QzBHdXl6M1JPM25WdzhFc05uZmVGN21ieGhZODBHeUNyRTQ2VUQ2S296djdvWVNRLUJWVFNrMA?oc=5",
+    "data": "28/05/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "criança escorpião"
+  },
+  {
     "id": "riopretoampliasoroantiescorpionico",
     "titulo": "Rio Preto amplia soro antiescorpiônico - correiodamanha.com.br",
     "descricao": "Rio Preto amplia soro antiescorpiônico  correiodamanha.com.br",
@@ -2548,6 +2561,19 @@
     "termo_busca": "animais peçonhentos escorpião"
   },
   {
+    "id": "escorpioescausam65dosacidentescomanimaispeconhentossptemmaiscasos",
+    "titulo": "Escorpiões causam 65% dos acidentes com animais peçonhentos; SP tem mais casos - Repórter Diário",
+    "descricao": "Escorpiões causam 65% dos acidentes com animais peçonhentos; SP tem mais casos  Repórter Diário",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVVFibXJXUlF4RGJEUE05SXFCTXRsTTZBTldmSngxQmFSNklBYnV3VzNuNWZaTkdQaU1WNktFdDlFal9ZY0VNOEFVeC05MzJoeFZYcEFCRXBDN25YM1hDdmgzdngzM3lSUHVWNWFjVFJLcjhaam04aWw0S25GVEVUYlg2RUxRVVUxSnZObGR5VkszLVZ2ZE15SXVwQXVxX2pSS2xQMHliNWNVeklCbUsxNTQyLXR4NEFwZUpfNGVnQlNwTkNIa0E?oc=5",
+    "data": "11/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões Brasil"
+  },
+  {
     "id": "primeiramortedoanoporpicadadeescorpiaoacendealerta",
     "titulo": "Primeira morte do ano por picada de escorpião acende alerta - Notícias ao Minuto Brasil",
     "descricao": "Primeira morte do ano por picada de escorpião acende alerta  Notícias ao Minuto Brasil",
@@ -4119,6 +4145,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "controle de escorpiões"
+  },
+  {
+    "id": "meninode3anoselevadoaupaapospossivelpicadadeescorpiao",
+    "titulo": "Menino de 3 anos é levado à UPA após possível picada de escorpião - Portal MPA",
+    "descricao": "Menino de 3 anos é levado à UPA após possível picada de escorpião  Portal MPA",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVE1NcmpSbjJtSlFfLV9VOUlKdmtlWUdubndtQlZUUy02NGVWVlZaazl1dXhNYkZPTDJRbkE5Y2tCUC1kMDhvVlBqbnVTZUhCV2tvU1BVVWFSeDhKdUdsSWRLYTlmS1QzMFFjd2VLXy1JOHZOVU1qWnZ0UmxNcHJrMHQweEhWVzJvc2FNUEkxdHQwWklXTXRZcnZjN29OcVhXNVhiWkd0MVZJcHVxR2FkUHZrazR0WThv?oc=5",
+    "data": "11/03/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "agoniadainfestacaodeescorpioesemcrechepreocupapaisdecriancasnointeriordesp",
