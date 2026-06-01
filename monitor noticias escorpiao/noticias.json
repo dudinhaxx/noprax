@@ -39,6 +39,32 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "meninapicadaporescorpiaonodfrecebealtaaposcincodiasinternadanauti",
+    "titulo": "Menina picada por escorpião no DF recebe alta após cinco dias internada na UTI - R7",
+    "descricao": "Menina picada por escorpião no DF recebe alta após cinco dias internada na UTI  R7",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUGFkVGlXaUtkNGRfSXVkOFV5RHp4d2pMTURKaUM1c25FMjQ5c3MxMnR3Vno3UXlpQjlObE5TTnpYYV9NbmFlY1BpdW5zaXctQ2hNUS1NcUtETnB1YkZmZjVyaVlBTDZZWEd6T0pwdUl0WjJOTTRQWXIxNXZwNVBfSDFXWFVvWGotY2FpSkdiWG94anNJYnpoR0tYcU5Ycl82U3V0d1ZUWExXTjBKUC1KTXZ0X2xQd0VfTFNpdVVVa0l0eHhNQTZZbzlUbG9XNmVzWHRRcGdKajhJdnJn?oc=5",
+    "data": "01/06/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "vigilanciaambientalorientapopulacaosobreacidentescomescorpioesemjoaopessoa",
+    "titulo": "Vigilância Ambiental orienta população sobre acidentes com escorpiões em João Pessoa - ParaibaOnline",
+    "descricao": "Vigilância Ambiental orienta população sobre acidentes com escorpiões em João Pessoa  ParaibaOnline",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQaDBnTlE1a0I1M1RsbFZpR2lCUG0xLU1tZTBkLTgyT0pZZXl4SnJUbkxNSXZjYXB3MS0zbS1kV3VhNGFxeV9MVUxQSzFuNnpHcmxzNzdkRjdnLWM0c3MyN29YRm85WWk0bGtJRDA1QUFrVWdIdWZLV1hpX2k3YXNUMXluVkR6cmxzbl9tX29uUW8zeTFWWGFjZ01URVNxMDI1QUQ2c083VVg1QkpYYUdIZmhuTi0wV1dURVZ6MEoxSFpEUTBIal90MXJTRko4QQ?oc=5",
+    "data": "01/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PB",
+    "cidade": "Joao Pessoa",
+    "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
     "id": "combateaescorpioessaibacomoagireprotegersuacasa",
     "titulo": "Combate a escorpiões: saiba como agir e proteger sua casa - Grupo Portal de Notícias",
     "descricao": "Combate a escorpiões: saiba como agir e proteger sua casa  Grupo Portal de Notícias",
@@ -5510,6 +5536,19 @@
     "estado": "SC",
     "cidade": "Porto Belo",
     "termo_busca": "vigilância escorpião"
+  },
+  {
+    "id": "mttemquase4milacidentescomanimaispeconhentoseescorpioeslideramregistros",
+    "titulo": "MT tem quase 4 mil acidentes com animais peçonhentos e escorpiões lideram registros - Primeira Página",
+    "descricao": "MT tem quase 4 mil acidentes com animais peçonhentos e escorpiões lideram registros  Primeira Página",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbHNUaThROEJDUzNoU0h3OUE1WnpSZnU0OWZRd1hPMXVFLXB4NHpsNlZ6bkFhTFdPSlNjNi02WjNDTkdVNUluczB0WlJ3ZS1MVTdCMVpBWUZFMWdOWElGVkVhdzZFNElGTEN4TFNtQml1U19xdjN1bkFMdzZ4U05NMUFfTUNLNWpoNWU1a1dLcE1EdHR5cXlvbGRwSEptLXhtbVBGUmp1Qkg?oc=5",
+    "data": "23/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "animais peçonhentos escorpião"
   },
   {
     "id": "escorpioesemcasavejaoquerealmentefuncionaparapreveniracidentes",
