@@ -13,6 +13,32 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "picadadeescorpiaominasgeraisficaentreestadosdemaiorrisco",
+    "titulo": "Picada de escorpião: Minas Gerais fica entre estados de maior risco - Paranaíba Mais",
+    "descricao": "Picada de escorpião: Minas Gerais fica entre estados de maior risco  Paranaíba Mais",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc2pjeVNpQVd6amU0MURnRHVPaVoxMU1CRmNvRndhZVVYX2V5M3paVlYzUXlNeVlTc1ZaeGE5OW1qSU4xZGxDblRSMnQ1Y2ViNVVJdWg5MC1zc09henBuaHl1YVJoekFFZlFpY2ZnQ0JkS0lNc3FZbkNVNktJNzRTMkRmV1BwczhBUFNZb252Z0c1TF9hcm5ZeGthUnY4TVI3RUhMdg?oc=5",
+    "data": "01/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Paranaiba",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "picadadeescorpiaominasgeraisemalerta",
+    "titulo": "Picada de escorpião: Minas Gerais em alerta - Tudo Em Dia",
+    "descricao": "Picada de escorpião: Minas Gerais em alerta  Tudo Em Dia",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5UcnRBRTdWSnNsVHM0ZE4wcnRQWF9ZbDVQZ3lvb2g0Mnozb2FxQ1l3cHJmYzlqWjZ5bWVSTlp2OTFOeWVORTZINzhJN1duMUY0V3d4cG9tRExROW5Iazh1aDFoVUU4VkRIR0NIZHl5Z25SUVJTUjVN?oc=5",
+    "data": "01/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "combateaescorpioessaibacomoagireprotegersuacasa",
     "titulo": "Combate a escorpiões: saiba como agir e proteger sua casa - Grupo Portal de Notícias",
     "descricao": "Combate a escorpiões: saiba como agir e proteger sua casa  Grupo Portal de Notícias",
