@@ -1298,6 +1298,169 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     .faq-question { font-size: 14px; }
   }
 
+  /* ─── DADOS & ESTATÍSTICAS ─── */
+  .data-section {
+    background: var(--noprax-black);
+    border-top: 1px solid var(--noprax-line);
+    border-bottom: 1px solid var(--noprax-line);
+  }
+
+  .data-main-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 1px;
+    background: var(--noprax-line);
+    border: 1px solid var(--noprax-line);
+    margin: 16px 0 24px;
+  }
+
+  .data-card {
+    background: var(--noprax-dark);
+    padding: 40px 36px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s;
+  }
+
+  .data-card:hover { background: var(--noprax-dark2); }
+
+  .data-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; height: 2px;
+    background: var(--noprax-orange);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .data-card:hover::before { opacity: 1; }
+
+  .data-tag {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--noprax-orange);
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .data-number {
+    font-family: var(--display);
+    font-size: clamp(36px, 4vw, 64px);
+    color: var(--text);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .data-number .accent { color: var(--noprax-orange); }
+
+  .data-label {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+
+  .data-note {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--noprax-orange);
+    letter-spacing: 0.08em;
+    background: var(--noprax-orange-soft);
+    border: 1px solid var(--noprax-line-strong);
+    padding: 6px 12px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+
+  .data-note.danger {
+    color: var(--danger);
+    background: rgba(216,90,48,0.1);
+    border-color: rgba(216,90,48,0.3);
+  }
+
+  /* Mini gráfico de barras */
+  .data-chart { margin-top: 28px; border-top: 1px solid var(--noprax-line); padding-top: 20px; }
+
+  .data-chart-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+  }
+
+  .data-chart-bars { display: flex; align-items: flex-end; gap: 8px; height: 64px; }
+
+  .data-chart-col { display: flex; flex-direction: column; align-items: center; gap: 5px; flex: 1; }
+
+  .data-chart-bar {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+    transform-origin: bottom;
+    transform: scaleY(0);
+    transition: transform 1.1s cubic-bezier(0.4,0,0.2,1);
+    min-height: 3px;
+  }
+
+  .data-chart-bar.visible { transform: scaleY(1); }
+  .data-chart-bar.past    { background: rgba(242,165,22,0.3); }
+  .data-chart-bar.current { background: var(--noprax-orange); }
+
+  .data-chart-year { font-family: var(--mono); font-size: 8px; color: var(--text-dim); letter-spacing: 0.05em; }
+
+  /* Stats secundários */
+  .data-secondary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--noprax-line);
+    border: 1px solid var(--noprax-line);
+    margin-bottom: 20px;
+  }
+
+  .data-sec-item {
+    background: var(--noprax-dark2);
+    padding: 24px 28px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .data-sec-num {
+    font-family: var(--display);
+    font-size: 30px;
+    color: var(--noprax-orange);
+    line-height: 1;
+    letter-spacing: -0.02em;
+    flex-shrink: 0;
+  }
+
+  .data-sec-text {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 300;
+    line-height: 1.55;
+    padding-top: 2px;
+  }
+
+  .data-source {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 0.1em;
+    text-align: right;
+  }
+
+  @media (max-width: 960px) {
+    .data-main-grid { grid-template-columns: 1fr; }
+    .data-secondary  { grid-template-columns: 1fr; }
+  }
+
   /* ─── RESPONSIVE MOBILE (480px) ─── */
   @media (max-width: 480px) {
     /* Hero */
@@ -1612,6 +1775,101 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     </div>
   </div>
 </header>
+
+<!-- ─── DADOS & ESTATÍSTICAS ─── -->
+<section class="data-section dark">
+  <div class="section-container">
+
+    <div class="section-eyebrow fade-up">Escorpionismo no Brasil · 2025</div>
+    <h2 class="section-title fade-up delay-1">
+      Os números que<br>
+      <span class="accent">justificam</span> a urgência.
+    </h2>
+
+    <!-- Cards principais -->
+    <div class="data-main-grid">
+
+      <!-- Card 1: Total de casos + gráfico -->
+      <div class="data-card fade-up">
+        <span class="data-tag">// Total de acidentes</span>
+        <div class="data-number">225<span class="accent">.695</span></div>
+        <div class="data-label">casos de picadas por escorpiões registrados no Brasil em 2025</div>
+        <div class="data-note">Crescimento de 163% em 10 anos</div>
+
+        <div class="data-chart">
+          <div class="data-chart-label">Evolução estimada de casos · Brasil</div>
+          <div class="data-chart-bars">
+            <div class="data-chart-col">
+              <div class="data-chart-bar past" style="height:39%" data-h="39"></div>
+              <span class="data-chart-year">2021</span>
+            </div>
+            <div class="data-chart-col">
+              <div class="data-chart-bar past" style="height:54%" data-h="54"></div>
+              <span class="data-chart-year">2022</span>
+            </div>
+            <div class="data-chart-col">
+              <div class="data-chart-bar past" style="height:71%" data-h="71"></div>
+              <span class="data-chart-year">2023</span>
+            </div>
+            <div class="data-chart-col">
+              <div class="data-chart-bar past" style="height:86%" data-h="86"></div>
+              <span class="data-chart-year">2024</span>
+            </div>
+            <div class="data-chart-col">
+              <div class="data-chart-bar current" style="height:100%" data-h="100"></div>
+              <span class="data-chart-year" style="color:var(--noprax-orange)">2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: Óbitos -->
+      <div class="data-card fade-up delay-1">
+        <span class="data-tag">// Óbitos registrados</span>
+        <div class="data-number" style="color:var(--danger)">265</div>
+        <div class="data-label">mortes em decorrência do envenenamento por escorpião em 2025</div>
+        <div class="data-note danger">O dobro do ano anterior</div>
+        <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--noprax-line);">
+          <div class="data-number" style="font-size:clamp(28px,3vw,48px);color:var(--danger)">+20%</div>
+          <div class="data-label" style="margin-bottom:0">das mortes envolveram <strong style="color:var(--text)">crianças menores de 10 anos</strong> — cerca de 53 óbitos infantis</div>
+        </div>
+      </div>
+
+      <!-- Card 3: Vulnerabilidade -->
+      <div class="data-card fade-up delay-2">
+        <span class="data-tag">// Perfil das vítimas</span>
+        <div class="data-number">89<span class="accent">%</span></div>
+        <div class="data-label">dos casos são leves — mas crianças permanecem a população mais vulnerável, com risco de óbito até 10× maior</div>
+        <div class="data-note" style="margin-top:8px;">Crianças = risco crítico</div>
+        <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--noprax-line);">
+          <div class="data-number" style="font-size:clamp(28px,3vw,48px)">66<span class="accent">%</span></div>
+          <div class="data-label" style="margin-bottom:0">dos acidentes ocorreram em <strong style="color:var(--text)">áreas urbanas</strong> — o escorpião não é um problema rural</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats secundários -->
+    <div class="data-secondary">
+      <div class="data-sec-item fade-up">
+        <div class="data-sec-num">65<span style="font-size:0.6em">%+</span></div>
+        <div class="data-sec-text">dos acidentes com animais peçonhentos no Brasil em 2025 foram causados por escorpiões — liderando com folga</div>
+      </div>
+      <div class="data-sec-item fade-up delay-1">
+        <div class="data-sec-num">1<span style="font-size:0.6em">º</span></div>
+        <div class="data-sec-text">animal peçonhento mais letal do Brasil. O escorpião-amarelo (<em>Tityus serrulatus</em>) é o principal responsável pelos óbitos</div>
+      </div>
+      <div class="data-sec-item fade-up delay-2">
+        <div class="data-sec-num" style="color:var(--noprax-orange)">≠</div>
+        <div class="data-sec-text">A dedetização química convencional não controla o escorpião. O animal se abriga onde o produto não chega</div>
+      </div>
+    </div>
+
+    <p class="data-source fade-up">
+      Fontes: Instituto Butantan · Tribuna de Jundiaí · Ministério da Saúde / SINAN · 2025
+    </p>
+
+  </div>
+</section>
 
 <!-- ─── O PROBLEMA ─── -->
 <section class="mid">
@@ -2100,6 +2358,21 @@ document.addEventListener('click', (e) => {
     faqItem.classList.toggle('open');
   }
 });
+
+// Animação do gráfico de barras ao entrar na viewport
+(function () {
+  const bars = document.querySelectorAll('.data-chart-bar');
+  if (!bars.length) return;
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  bars.forEach(b => obs.observe(b));
+})();
 
 // Mobile menu toggle
 (function () {
