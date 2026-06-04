@@ -2366,6 +2366,19 @@
     "termo_busca": "escorpião amarelo"
   },
   {
+    "id": "escorpioescapturadosbiguacurevelamaisde100exemplares",
+    "titulo": "Escorpiões capturados: Biguaçu revela mais de 100 exemplares - diário do estado",
+    "descricao": "Escorpiões capturados: Biguaçu revela mais de 100 exemplares  diário do estado",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdGlxTXZmbUgxd3FueXBfajZ3YTAyREdXbTF5Nml3UjhEaGY3VzlRd0JULWZTbGp2Mnl4bzdfWEdOaHJpR2w1S2poeW5VXzJRbUpwOTU5dDVYc09saHpfUlhYNGpxcWRwYi1ndURTRFR3WTZZX1dNLWNvWEpZbldPLUdDenJEWU80Y0M3QkZoc25uRW9HYkRn?oc=5",
+    "data": "18/04/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Biguaçu",
+    "termo_busca": "captura de escorpiões"
+  },
+  {
     "id": "chegaramate4andar109escorpioessaoachadosnomesmocondominioemsc",
     "titulo": "Chegaram até 4º andar: 109 escorpiões são achados no mesmo condomínio em SC - UOL Notícias",
     "descricao": "Chegaram até 4º andar: 109 escorpiões são achados no mesmo condomínio em SC  UOL Notícias",
@@ -3833,6 +3846,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "aparecimentodeescorpioesmobilizacacadoresnoturnosemmarataizes",
+    "titulo": "Aparecimento de escorpiões, mobiliza \"caçadores\" noturnos em Marataízes - A Gazeta",
+    "descricao": "Aparecimento de escorpiões, mobiliza \"caçadores\" noturnos em Marataízes  A Gazeta",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYVZMQ3lyT1N1MmNvWnY5dHhYUkNFckp4ZzZ6R0VLblZmYmxueldtTWk1eU95UDlLclBaUmtxT3Q2X2RxQlYyUmVTMmFZeXFrUk9hNFdDNHlfNU83TGtyVWRZYmhiUlNQZDFTX1lWRmZSQXFyVzFqWWdHQms5YjU0bnZBdkpBc2lSc29yT0hYZFNiQnQ1ZGdLYWdGWG55WE02d2RVN3Z2OUJVamVHbVdZWDQtaklBbDRpVzRuTHpqU2N6U2lrdzVKU2ROQVc?oc=5",
+    "data": "02/04/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Marataizes",
+    "termo_busca": "escorpiões vigilância ambiental"
   },
   {
     "id": "criancade3anosmorreaposserpicadaporescorpiaoemconchal",
@@ -5341,6 +5367,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "prefeiturademariliarecomendamedidaspreventivasparaevitaracidentescomescorpioes",
+    "titulo": "Prefeitura de Marília recomenda medidas preventivas para evitar acidentes com escorpiões - Marília Notícia",
+    "descricao": "Prefeitura de Marília recomenda medidas preventivas para evitar acidentes com escorpiões  Marília Notícia",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOExlT3l1WERCb1J0YVozTWJUYW52WEZDdVJKaWt3MzJSZFJRNXpHQVNONDU0NjM0cHp6ODZSZUZ0clpjRjVfb3pLNmdobnRnR0hYZk1ORk9NM1Q0czVMZGM3SFZQTWZ6SnBONldEcE1nc05JS0xXWGVpRHRGc21KVWZkcEUwSlVOdTNXdnk4dWRvRDQ2Nl9IZDFwVFkzZWk1V2k0Slc5S09UT0ltOHpCaGxSUTFnTEJZYlhB0gHAAUFVX3lxTE9VeGEtVGV6M2hQdWdsanZKMzhjVmotYTJkcnFqcFBaMlFqTUxjZkJ3U3B2TTJuWmtUM2MyQnBvYVdGS2N0bDJFdUZKUGZPMDdSdFJsbHhsMWVNZTRwQ2N3VXdUYlZZekM0MVBkaVktcWxEWEM3bGJ2RTZPQUloMXdRZ3Zxd1puUmZESElCeXRaaVE2TmgyUlgzWk9HSXYtY29SMEdzeUVNQktGWlVsQkg0T1paTmFIYmFpMFZnUTFpUA?oc=5",
+    "data": "13/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Marilia",
+    "termo_busca": "captura de escorpiões"
   },
   {
     "id": "ondetomarsoroparapicadadeescorpiaoemuberlandiavejalocaleantivenenosdisponiveis",
