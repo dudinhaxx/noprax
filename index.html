@@ -1066,6 +1066,124 @@ section.light3 { background: var(--paper3); color: var(--ink); }
   .public-link:hover { gap: 14px; }
 
   /* ─── CREDIBILITY ─── */
+  /* ── Sustentabilidade ─────────────────────── */
+  .sustain-section {
+    background: #0a0f0c;
+    position: relative;
+  }
+
+  .sustain-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(45,170,104,0.45), transparent);
+  }
+
+  .sustain-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .sustain-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #2DAA68;
+    margin-bottom: 24px;
+  }
+
+  .sustain-eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 1px;
+    background: #2DAA68;
+  }
+
+  .sustain-title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(30px, 3.6vw, 52px);
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .sustain-title .green { color: #2DAA68; }
+
+  .sustain-lead {
+    font-size: clamp(15px, 1.2vw, 17px);
+    line-height: 1.75;
+    color: rgba(245,242,236,0.55);
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .sustain-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 52px;
+  }
+
+  .sustain-card {
+    background: rgba(45,170,104,0.05);
+    border: 1px solid rgba(45,170,104,0.16);
+    border-radius: 6px;
+    padding: 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    transition: background 0.3s, border-color 0.3s;
+  }
+
+  .sustain-card:hover {
+    background: rgba(45,170,104,0.09);
+    border-color: rgba(45,170,104,0.32);
+  }
+
+  .sustain-icon {
+    width: 44px;
+    height: 44px;
+    color: #2DAA68;
+    flex-shrink: 0;
+  }
+
+  .sustain-card-title {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: clamp(15px, 1.3vw, 18px);
+    color: var(--text);
+    line-height: 1.3;
+  }
+
+  .sustain-card-desc {
+    font-size: clamp(14px, 1vw, 15px);
+    line-height: 1.75;
+    color: rgba(245,242,236,0.55);
+  }
+
+  .sustain-note {
+    text-align: center;
+    font-size: clamp(14px, 1vw, 15px);
+    line-height: 1.8;
+    color: rgba(245,242,236,0.4);
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 40px;
+    border-top: 1px solid rgba(45,170,104,0.12);
+  }
+
+  @media (max-width: 700px) {
+    .sustain-grid { grid-template-columns: 1fr; }
+    .sustain-card { padding: 28px 24px; }
+  }
+
+  /* ─────────────────────────────────────────── */
   .credibility {
     background: var(--noprax-orange);
     color: var(--noprax-black);
@@ -2036,6 +2154,78 @@ section.light3 { background: var(--paper3); color: var(--ink); }
         <a href="armadilha-escorpiao/index.html" class="public-link">Conhecer o produto →</a>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ─── SUSTENTABILIDADE ─── -->
+<section class="sustain-section">
+  <div class="section-container">
+
+    <div class="sustain-header">
+      <div class="sustain-eyebrow fade-up">Sustentabilidade Inteligente</div>
+      <h2 class="sustain-title fade-up delay-1">
+        Menos resíduos.<br>
+        Mais <span class="green">proteção.</span>
+      </h2>
+      <p class="sustain-lead fade-up delay-2">
+        A Noprax foi desenvolvida para oferecer uma solução mais eficiente e durável para o monitoramento e captura de escorpiões.
+      </p>
+    </div>
+
+    <div class="sustain-grid">
+
+      <!-- PP Reciclado -->
+      <div class="sustain-card fade-up">
+        <svg class="sustain-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="14,10 8,16 14,22"/>
+          <path d="M8 16h12a8 8 0 0 1 8 8v2"/>
+          <polyline points="34,38 40,32 34,26"/>
+          <path d="M40 32H28a8 8 0 0 1-8-8v-2"/>
+        </svg>
+        <h3 class="sustain-card-title">Fabricada com PP reciclado</h3>
+        <p class="sustain-card-desc">Reduzindo o consumo de matéria-prima virgem e reaproveitando materiais que já existem no ciclo produtivo.</p>
+      </div>
+
+      <!-- Sistema reutilizável -->
+      <div class="sustain-card fade-up delay-1">
+        <svg class="sustain-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="10" y="20" width="28" height="18" rx="3"/>
+          <path d="M18 20v-4a6 6 0 0 1 12 0v4"/>
+          <line x1="24" y1="28" x2="24" y2="32"/>
+          <circle cx="24" cy="33" r="1.5" fill="currentColor" stroke="none"/>
+          <path d="M10 26h4M34 26h4"/>
+        </svg>
+        <h3 class="sustain-card-title">Sistema reutilizável</h3>
+        <p class="sustain-card-desc">Apenas o refil adesivo é substituído, diminuindo significativamente o descarte de materiais a cada ciclo.</p>
+      </div>
+
+      <!-- Monitoramento contínuo -->
+      <div class="sustain-card fade-up delay-2">
+        <svg class="sustain-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 24C8 24 14 13 24 13s16 11 16 11-6 11-16 11S8 24 8 24z"/>
+          <circle cx="24" cy="24" r="4"/>
+          <path d="M24 8v4M24 36v4M8 24H4M44 24h-4"/>
+        </svg>
+        <h3 class="sustain-card-title">Monitoramento contínuo</h3>
+        <p class="sustain-card-desc">Captura física que auxilia na identificação precoce, reduzindo a necessidade de intervenções emergenciais e uso excessivo de produtos.</p>
+      </div>
+
+      <!-- Longa vida útil -->
+      <div class="sustain-card fade-up delay-3">
+        <svg class="sustain-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M36 10C32 14 28 14 24 10c-4 4-8 4-12 0v14c0 9 5 16 12 18 7-2 12-9 12-18V10z"/>
+          <polyline points="18,24 22,28 30,20"/>
+        </svg>
+        <h3 class="sustain-card-title">Menos resíduos, maior vida útil</h3>
+        <p class="sustain-card-desc">Estrutura resistente projetada para anos de utilização, com menor descarte e maior valor ao longo de toda a vida do produto.</p>
+      </div>
+
+    </div>
+
+    <p class="sustain-note fade-up">
+      Uma solução prática, durável e alinhada aos princípios do manejo integrado de pragas e do uso consciente de recursos.
+    </p>
+
   </div>
 </section>
 
