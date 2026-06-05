@@ -302,6 +302,118 @@ section { padding: 100px 56px; }
 @media (max-width: 860px) { .specs-grid { grid-template-columns: 1fr; gap: 40px; } }
 
 /* ══════════════════════════════════
+   COMPARAÇÃO
+══════════════════════════════════ */
+.compare-section { background: var(--black); }
+
+.compare-header { text-align: center; margin-bottom: 64px; }
+.compare-header .sec-eyebrow { justify-content: center; }
+
+.compare-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.compare-table { width: 100%; border-collapse: collapse; }
+
+/* Cabeçalhos das colunas */
+.compare-table thead tr th {
+  padding: 20px 28px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+.compare-table thead th.th-feature {
+  text-align: left;
+  color: var(--dim);
+  background: var(--dark2);
+  border-bottom: 1px solid var(--line);
+  width: 58%;
+}
+.compare-table thead th.th-conv {
+  background: var(--dark2);
+  color: var(--dim);
+  border-bottom: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  width: 21%;
+}
+.compare-table thead th.th-noprax {
+  background: var(--orange);
+  color: var(--black);
+  border-bottom: none;
+  width: 21%;
+  position: relative;
+}
+.th-noprax-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.th-noprax-tag {
+  font-size: 8px;
+  background: rgba(11,11,13,0.18);
+  padding: 2px 7px;
+  border-radius: 20px;
+  letter-spacing: 0.15em;
+}
+
+/* Linhas */
+.compare-table tbody tr { border-bottom: 1px solid var(--line); }
+.compare-table tbody tr:last-child { border-bottom: none; }
+.compare-table tbody tr:hover td.td-feature { color: var(--text); }
+
+.compare-table tbody td {
+  padding: 14px 28px;
+  font-size: 14px;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+.compare-table tbody td.td-feature {
+  color: var(--muted);
+  background: var(--dark2);
+  transition: color 0.2s;
+}
+.compare-table tbody td.td-conv {
+  text-align: center;
+  background: var(--dark2);
+  border-left: 1px solid var(--line);
+  font-size: 18px;
+  color: var(--danger);
+}
+.compare-table tbody td.td-noprax {
+  text-align: center;
+  background: rgba(242,165,22,0.07);
+  border-left: 2px solid var(--orange);
+  font-size: 18px;
+  color: var(--success);
+}
+
+/* Nota de rodapé da tabela */
+.compare-note {
+  max-width: 860px;
+  margin: 24px auto 0;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .compare-table tbody td,
+  .compare-table thead tr th { padding: 12px 14px; }
+  .compare-table tbody td.td-feature { font-size: 13px; }
+}
+
+/* ══════════════════════════════════
    DIFERENCIAIS
 ══════════════════════════════════ */
 .diff-section { background: var(--dark); }
@@ -923,6 +1035,89 @@ section { padding: 100px 56px; }
       </div>
 
     </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+   COMPARAÇÃO
+══════════════════════════════ -->
+<section class="compare-section">
+  <div class="container">
+
+    <div class="compare-header">
+      <div class="sec-eyebrow fade-up">Por que escolher a Noprax</div>
+      <h2 class="sec-title fade-up delay-1">
+        Construída para o escorpião.<br>
+        <span class="accent">Não adaptada.</span>
+      </h2>
+      <p class="sec-desc fade-up delay-2" style="max-width:580px; margin:0 auto;">
+        As armadilhas convencionais do mercado foram projetadas para baratas e roedores — e adaptadas para o escorpião. A Noprax foi desenvolvida do zero para essa espécie, com engenharia dedicada a cada detalhe.
+      </p>
+    </div>
+
+    <div class="compare-wrapper fade-up delay-1">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th class="th-feature">Característica</th>
+            <th class="th-conv">Convencionais</th>
+            <th class="th-noprax">
+              <div class="th-noprax-inner">
+                NOPRAX
+                <span class="th-noprax-tag">Patente registrada</span>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="td-feature">Trava dupla de segurança</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Tampa articulada com abertura em "L"</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Sistema de dupla superfície adesiva</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Estrutura plástica rígida</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Compartimento dedicado para refil</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Refil substituível padronizado</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Troca segura do refil sem contato com o adesivo</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+          <tr>
+            <td class="td-feature">Resistência a intempéries</td>
+            <td class="td-conv">✗</td>
+            <td class="td-noprax">✓</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="compare-note fade-up">
+      Comparativo baseado nas principais armadilhas adesivas genéricas disponíveis no mercado brasileiro. As convencionais não foram projetadas especificamente para escorpiões.
+    </p>
+
   </div>
 </section>
 
