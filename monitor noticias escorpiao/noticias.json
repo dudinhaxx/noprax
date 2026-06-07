@@ -104,6 +104,32 @@
     "termo_busca": "escorpionismo"
   },
   {
+    "id": "casosdeescorpionismocrescemmaisde300nobrasil",
+    "titulo": "Casos De Escorpionismo Crescem Mais De 300% No Brasil - ABC Agora",
+    "descricao": "Casos De Escorpionismo Crescem Mais De 300% No Brasil  ABC Agora",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94ZXBjWU1BdGxmODhzaVRUekFrSVVkNWxIMW5ybk1nRmsyY29kUWdlM1RrV3BBLTAzUk1oWFNyVTNmckV2UkJOVi1ZbUU0cmxnaEd2all4NFFOdlBMejRUSllVb19GVTc1RE5jTlhsRXBLeXRWYlAtQXN3?oc=5",
+    "data": "07/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "estudoalertaparaaltade349empicadasdeescorpiao",
+    "titulo": "Estudo alerta para alta de 349% em picadas de escorpião - Portal ABC do ABC",
+    "descricao": "Estudo alerta para alta de 349% em picadas de escorpião  Portal ABC do ABC",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NWmpfR0drY0Rjd1k3S3FQaHdJb1lSTkpwUWlFNXJFNVMzUlZpSzFGYXpQSW9ZVnlZVk41M21RVlhZTXpDa2hRRU55UUd0VkREQUN0YVVYNFZBRHNmSWtvdjBuVS1jQVdySnIwWnZic0JWaVMtbWJjQw?oc=5",
+    "data": "07/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
     "id": "infestacaodeescorpioespreocupatodooparanaperigoemaioremlocaiscomacumulodelixonq5lekghxd",
     "titulo": "Infestação De Escorpiões Preocupa Todo O Paraná; Perigo é Maior Em Locais Com Acúmulo De Lixo (nQ5LekghxD) - Fathom Journal",
     "descricao": "Infestação De Escorpiões Preocupa Todo O Paraná; Perigo é Maior Em Locais Com Acúmulo De Lixo (nQ5LekghxD)  Fathom Journal",
@@ -6680,6 +6706,19 @@
     "estado": "SC",
     "cidade": "Tijucas",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "governodespalertasobreescorpioesduranteoverao",
+    "titulo": "Governo de SP alerta sobre escorpiões durante o verão - Portal ABC do ABC",
+    "descricao": "Governo de SP alerta sobre escorpiões durante o verão  Portal ABC do ABC",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBtbU9EYVdianJVSlJlc0gtVGV0Xzhrc0ZxQkR1YWNsLTMyRG04TEQ2X3J5cE9BZ1FaRlJoR3JzS0lqN2stdXFXdEk2TERVa3lCV3hHeVdFajAway1Hc3VCYThiZFhua3RqZ0d4TUFvcVBFMnVPUEE?oc=5",
+    "data": "14/01/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
   },
   {
     "id": "saudedejaguariunarealizanovaacaodecapturadeescorpioesparaproducaodesoro",
