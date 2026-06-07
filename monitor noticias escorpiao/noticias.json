@@ -4108,6 +4108,19 @@
     "termo_busca": "picada de escorpião"
   },
   {
+    "id": "praiabravaentraemalertaaposinvasaodeescorpioesamarelosemitajai",
+    "titulo": "Praia Brava entra em alerta após invasão de escorpiões-amarelos em Itajaí - Visor Notícias",
+    "descricao": "Praia Brava entra em alerta após invasão de escorpiões-amarelos em Itajaí  Visor Notícias",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOWpFRmF2VDNyNHBSZGVNVHYxQkFabzBUQjh4MUx2SS1wNkZ0REtUZmN4ZFFqMVNLLUp6U2Y1MXYyYjdpTkM0S09Cd0JVS2o5UTdhZGMtdkRaLTc4blltSnpsM0dRcHVMTXZHM21LTWc2eXE5bVhzRjRIc21oU1k2WjAzcXlKQlVBUFpuUmo4VFdTOElIRXozOVEySC1rTUc1RXdXT21B?oc=5",
+    "data": "27/03/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Itajaí",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "ovaleinfestacaodeescorpioesassustamoradoresdebairroemcacapava",
     "titulo": "OVALE: Infestação de escorpiões assusta moradores de bairro em Caçapava - sampi.net.br",
     "descricao": "OVALE: Infestação de escorpiões assusta moradores de bairro em Caçapava  sampi.net.br",
@@ -5380,6 +5393,19 @@
     "estado": "PR",
     "cidade": "Cambe",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "acidentescomescorpiaonobrasilcrescem230butantanalertaparacuidadosemcasa",
+    "titulo": "Acidentes com escorpião no Brasil crescem 230%: Butantan alerta para cuidados em casa - Folha de Valinhos",
+    "descricao": "Acidentes com escorpião no Brasil crescem 230%: Butantan alerta para cuidados em casa  Folha de Valinhos",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPd3FqWmZQQ2ZndmJuLXl5ZlNLamoycjVsLUlna1FDeFVuT3g3eExNWEZWRkRyLXJvYmVKWXBWV2xmanFWWHRBNDZOWk00UXh4ajdhaWhobnI3ajhIR2M4dnk3SmQ1ekxqR05TbC05VE9wS1NJWmk5czc2ekpiajg1U3VpaFhJT2JyZGg5ZzVqZnNwV3dKUFE1b09GbUhKdHc?oc=5",
+    "data": "16/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Valinhos",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "estadoorientaealertaparaprevencaodeacidentescomescorpioes",
