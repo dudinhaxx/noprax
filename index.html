@@ -1550,23 +1550,23 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 
   /* Stats secundários */
   .data-secondary {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    background: var(--noprax-line);
-    border: 1px solid var(--noprax-line);
+    display: flex;
+    border-top: 1px solid var(--noprax-line);
+    border-bottom: 1px solid var(--noprax-line);
     margin-bottom: 20px;
-    border-radius: 12px;
-    overflow: hidden;
   }
 
   .data-sec-item {
-    background: var(--noprax-dark2);
-    padding: 24px 28px;
+    flex: 1;
+    background: transparent;
+    padding: 28px 32px;
     display: flex;
     gap: 14px;
     align-items: flex-start;
+    border-right: 1px solid var(--noprax-line);
   }
+
+  .data-sec-item:last-child { border-right: none; }
 
   .data-sec-num {
     font-family: var(--display);
