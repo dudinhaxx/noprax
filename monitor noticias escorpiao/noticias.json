@@ -26,6 +26,45 @@
     "termo_busca": "escorpiões prefeitura municipal"
   },
   {
+    "id": "esestaentreosestadoscommaiorincidenciadeacidentescomescorpioesnobrasil",
+    "titulo": "ES está entre os estados com maior incidência de acidentes com escorpiões no Brasil - ES HOJE",
+    "descricao": "ES está entre os estados com maior incidência de acidentes com escorpiões no Brasil  ES HOJE",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNUZMOWE5UU5WZWw4d3hUYXJDLS1IRkt4bDF4YzNISUkzeVVRWU9LQV9pbC1SeXFUbF9LTHphS3hGcmF0Mkp3NC1WNFdkYmJFUW5mZFMxWjd1c0otZVQ4UXI3Y1Y2S2RhWmZLd0pTX2RXTFpTWmw0ZW12SFBRVTJLOVZIOG4xRTRESndCWnNwMFV5ZjdmTkZEUVN6VWp1aU94TktQSnJzLVdiaWNjQTRMOXdORmN3eDlrNFRzOA?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões Brasil"
+  },
+  {
+    "id": "estudoapontabahiaentreasregioescommaiorriscodeacidentesporescorpioesnobrasil",
+    "titulo": "Estudo aponta Bahia entre as regiões com maior risco de acidentes por escorpiões no Brasil - Fala Você Notícias",
+    "descricao": "Estudo aponta Bahia entre as regiões com maior risco de acidentes por escorpiões no Brasil  Fala Você Notícias",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUkNxQVZBQ01ZYjhxRXROOS0tb1JpYWQ5c3Btby1ET2cwdGJHQW45Z2IwUGl1d0tFM0xUWk4zQXhoLTJ5SVRjaFJ1LUFqUWJyckxac3h0OG5YYmV5RUpIZXYwVzVfQkV3TlpscWpjb0ItaF9pcml5X043REVMNHlZbk9mY1piTVZYUWVFSDAyeWg2Tjc4TzR5ZS0yQzVmd1NQb3ZEbEJwVTI3YWxrZFQ5ZWNoZG80ZWxUT01OYXR3aHVlYUNSX2JFaE1FTTRZeEVNLXFJaVgwOVBya2c?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpionismo"
+  },
+  {
+    "id": "picadasdeescorpiaoavancamecolocammsemareaderisco",
+    "titulo": "Picadas de escorpião avançam e colocam MS em área de risco - Boca do Povo News",
+    "descricao": "Picadas de escorpião avançam e colocam MS em área de risco  Boca do Povo News",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN1ptdzVmaTI0WEliNDRkcXVIZERIT0kzc0Y3U3lzcC04UmFiTksxcWw5NkQwaUYzaU5Sc1EyZ1luUGxud01HbHhfUWNOYW10azduVnZmdktuWnJRcklKeFNuU0x3WENMcXNrcWRPSzd3dGJXTWRVS01IcU1qUnNUeFhjYVBybE1IQVY4QlhONzV1dGM?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
     "id": "butantandivulgaestadoscommaiorriscodepicadadeescorpiao",
     "titulo": "Butantan divulga estados com maior risco de picada de escorpião - Portal iG",
     "descricao": "Butantan divulga estados com maior risco de picada de escorpião  Portal iG",
@@ -2795,6 +2834,19 @@
     "termo_busca": "escorpião amarelo"
   },
   {
+    "id": "regiaodelimeiratempontosespecificosparasorocontraescorpioes",
+    "titulo": "Região de Limeira tem pontos específicos para soro contra escorpiões - Gazeta de Limeira",
+    "descricao": "Região de Limeira tem pontos específicos para soro contra escorpiões  Gazeta de Limeira",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOGZ1UF8wbWZpWDNDQ3N1T0FFR0c0bmROU2N0b0dEanFnbzhKWmVmZ25LVzJxYkpxZk1RUy04dXIyeTcxcHYwVjV1WWtoazdhOW1WM2Y1Wkp6eFBpSVlnVzN1UUlCazdvTnlQdjBZTkpxVXp6MVZJZnBzQlNNV3RxZFI5MnJydnFIbndTT2NyYXNrZk5YOS1scVI2S1dhWHFRSHRGVF9CU0tCazUzb2VTUktKWll5U21UX2xYSlFHaWdTeWNEYl9ReFNfeFE0M3Bxdzh4QkN3?oc=5",
+    "data": "17/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
     "id": "picadadeescorpiaooquefazereondebuscarajudaemcg",
     "titulo": "Picada de escorpião: o que fazer e onde buscar ajuda em CG - Campo Grande News",
     "descricao": "Picada de escorpião: o que fazer e onde buscar ajuda em CG  Campo Grande News",
@@ -3287,6 +3339,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpiões Brasil"
+  },
+  {
+    "id": "projetoeducativobuscapreveniracidentescomescorpioesentrecriancas",
+    "titulo": "Projeto educativo busca prevenir acidentes com escorpiões entre crianças - Gerais News",
+    "descricao": "Projeto educativo busca prevenir acidentes com escorpiões entre crianças  Gerais News",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQURmdDhDVDBhZ0VXd0k1VG0zQTMzakNDcEx1ZHBKdUJhR3kxbVVVVXhvZWJyTS1DV29BMU8tQklJbm4yVnRyRFNKcVBmWkJYZEloOHZTdml2amRBZ2djdUc4SEJUenZLS19tRlVLaDN1UDdzQkZqclB6cF9kZTRQRzAzcnA4S1lCbGRGdzA4czQxbWFNelN4RTRfLWQ4RVVyWGNYNmNUVGxrNWZDel9R?oc=5",
+    "data": "11/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "primeiramortedoanoporpicadadeescorpiaoacendealerta",
@@ -5757,6 +5822,19 @@
     "estado": "SP",
     "cidade": "Valinhos",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "porqueaumentaramosacidentesporpicadadeescorpiao",
+    "titulo": "Por que aumentaram os acidentes por picada de escorpião? - THMais",
+    "descricao": "Por que aumentaram os acidentes por picada de escorpião?  THMais",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN2NKemNodTFva0dpVHhxWlhXWEpZMDUwY3pBcE1TeHpCaHM1OFpMblZRUWVzRjByQkhNb0EzTFJuMHJXSGVoR2FjcFhCbmxmMWxYNTVZSVFHczQ3YXAxdHZqYlRPNzhMRUFkWjVGVzM4RGhPLWo4S3UyOXIxTldwTWNzYVRoU1o5aThXdHJNRnVBUjFZZmV1dEtGMnExV1ZHaHRN?oc=5",
+    "data": "16/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "estadoorientaealertaparaprevencaodeacidentescomescorpioes",
