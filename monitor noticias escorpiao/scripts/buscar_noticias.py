@@ -496,14 +496,18 @@ class BuscadorNoticias:
 
     # ─── Busca principal ──────────────────────────────────────────────────────
 
+    # Termos de exclusão adicionados a cada query para evitar conteúdo de astrologia
+    EXCLUSOES_RSS = '-horóscopo -signo -zodíaco -astrologia -"mapa astral" -"previsão do dia" -nativo'
+
     def buscar_google_rss(self):
         print("🔍 Buscando Google News RSS...")
 
         for termo in self.termos:
             try:
+                query = f"{termo} {self.EXCLUSOES_RSS}"
                 url = (
                     "https://news.google.com/rss/search?"
-                    f"q={quote(termo)}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+                    f"q={quote(query)}&hl=pt-BR&gl=BR&ceid=BR:pt-419"
                 )
 
                 response = requests.get(url, timeout=20)

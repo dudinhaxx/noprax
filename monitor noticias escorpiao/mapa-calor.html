@@ -1209,8 +1209,51 @@ function selecionarSigla(sigla) {
 function voltarRanking() {
   estadoSelecionado = null;
   if (mapPathsG) mapPathsG.selectAll('path.state').classed('selected', false);
-  document.getElementById('state-news-panel').innerHTML = '';
+  renderBrasilPanel();
   document.getElementById('sidebar-body').scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderBrasilPanel() {
+  const noticias = filtroAtivo === 'todas'
+    ? todasNoticias
+    : todasNoticias.filter(n => n.gravidade === filtroAtivo);
+
+  const sorted = [...noticias].sort((a, b) => parseBRDate(b.data) - parseBRDate(a.data));
+
+  const panel = document.getElementById('state-news-panel');
+  panel.innerHTML = `
+    <div class="state-panel">
+      <div style="
+        padding:14px 20px 10px; border-bottom:1px solid var(--line);
+        background:var(--dark2); position:sticky; top:0; z-index:10;
+      ">
+        <div style="font-family:var(--display);font-size:15px;color:var(--orange);text-transform:uppercase;letter-spacing:0.03em;">
+          Brasil <span style="color:var(--dim);font-size:11px;">· TODAS AS NOTÍCIAS</span>
+        </div>
+        <div style="font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:0.1em;margin-top:3px;">
+          ${sorted.length} registros · clique em um estado no mapa para filtrar
+        </div>
+      </div>
+      <div style="padding:12px 20px;">
+        ${sorted.length === 0
+          ? `<div class="empty-state">Sem notícias${filtroAtivo !== 'todas' ? ' nesta categoria' : ''}</div>`
+          : sorted.slice(0, 60).map(n => `
+            <div class="news-item">
+              <div class="news-meta-row">
+                <span class="news-badge ${n.gravidade}">${n.gravidade}</span>
+                <span class="news-date">${n.data}</span>
+                ${n.estado && n.estado !== 'Não identificado' ? `<span class="news-city">· ${n.estado}</span>` : ''}
+                ${n.cidade && n.cidade !== 'Não identificada' ? `<span class="news-city"> ${n.cidade}</span>` : ''}
+              </div>
+              <div class="news-title-text">
+                <a href="${n.link}" target="_blank" rel="noopener">${n.titulo}</a>
+              </div>
+            </div>
+          `).join('')
+        }
+      </div>
+    </div>
+  `;
 }
 
 function renderStatePanel(sigla) {
@@ -1312,7 +1355,11 @@ function setFiltro(f, btn) {
   btn.classList.add('active');
   atualizarCores();
   renderRanking();
-  if (estadoSelecionado) renderStatePanel(estadoSelecionado);
+  if (estadoSelecionado) {
+    renderStatePanel(estadoSelecionado);
+  } else {
+    renderBrasilPanel();
+  }
 }
 
 // ── Carga de dados ───────────────────────────────────────────
@@ -1328,7 +1375,11 @@ async function carregarDados() {
 
     atualizarCores();
     renderRanking();
-    if (estadoSelecionado) renderStatePanel(estadoSelecionado);
+    if (estadoSelecionado) {
+      renderStatePanel(estadoSelecionado);
+    } else {
+      renderBrasilPanel();
+    }
   } catch(e) {
     console.error('Erro ao carregar noticias.json:', e);
     document.getElementById('update-info').textContent = 'Erro ao atualizar';
