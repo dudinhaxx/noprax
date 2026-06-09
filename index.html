@@ -1940,50 +1940,66 @@ section.light3 { background: var(--paper3); color: var(--ink); }
       </div>
 
       <!-- Escorpião decorativo -->
-      <div class="fade-up delay-1" style="display:flex;align-items:center;justify-content:center;opacity:0.85;">
-        <svg viewBox="0 0 280 360" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:300px;">
-          <!-- Brilho de fundo -->
-          <ellipse cx="140" cy="210" rx="90" ry="110" fill="#F2A516" fill-opacity="0.04"/>
+      <div class="fade-up delay-1" style="display:flex;align-items:center;justify-content:center;">
+        <svg viewBox="0 0 300 380" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:280px;">
+          <defs>
+            <radialGradient id="sglow" cx="50%" cy="58%" r="48%">
+              <stop offset="0%" stop-color="#F2A516" stop-opacity="0.13"/>
+              <stop offset="100%" stop-color="#F2A516" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
 
-          <!-- Segmentos da cauda (metasoma) — da base ao topo, curvando à direita -->
-          <ellipse cx="140" cy="152" rx="13" ry="17" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
-          <ellipse cx="140" cy="127" rx="12" ry="15" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
-          <ellipse cx="147" cy="105" rx="11" ry="14" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
-          <ellipse cx="162" cy="86"  rx="10" ry="13" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
-          <ellipse cx="180" cy="71"  rx="9"  rx="9" ry="12" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
+          <!-- Halo -->
+          <ellipse cx="150" cy="220" rx="115" ry="130" fill="url(#sglow)"/>
+
+          <!-- CAUDA — curva bezier dupla: sobe, dobra para esquerda, ponteiro à esq -->
+          <!-- Sombra/volume da cauda -->
+          <path d="M 158 170 C 198 158 220 118 210 80 C 200 44 162 30 136 46 C 112 60 110 88 126 106"
+            stroke="#F2A516" stroke-width="24" stroke-linecap="round" fill="none" opacity="0.07"/>
+          <!-- Contorno principal da cauda -->
+          <path d="M 158 170 C 198 158 220 118 210 80 C 200 44 162 30 136 46 C 112 60 110 88 126 106"
+            stroke="#F2A516" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <!-- Marcações de segmento -->
+          <line x1="192" y1="152" x2="200" y2="140" stroke="#F2A516" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
+          <line x1="214" y1="113" x2="218" y2="100" stroke="#F2A516" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
+          <line x1="208" y1="72"  x2="200" y2="62"  stroke="#F2A516" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
+          <line x1="174" y1="42"  x2="162" y2="36"  stroke="#F2A516" stroke-width="1.2" stroke-linecap="round" opacity="0.45"/>
           <!-- Aguilhão -->
-          <path d="M 186 60 Q 204 46 218 30" stroke="#F2A516" stroke-width="2" stroke-linecap="round"/>
-          <path d="M 210 34 Q 220 42 218 30" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M 126 106 Q 112 90 100 72" stroke="#F2A516" stroke-width="2.5" stroke-linecap="round"/>
+          <!-- Bolsa de veneno (telson) -->
+          <circle cx="102" cy="68" r="5.5" stroke="#F2A516" stroke-width="2" fill="#F2A516" fill-opacity="0.55"/>
 
-          <!-- Abdômen (mesosoma) -->
-          <ellipse cx="140" cy="184" rx="32" ry="26" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.08"/>
+          <!-- ABDÔMEN -->
+          <ellipse cx="146" cy="198" rx="34" ry="24" stroke="#F2A516" stroke-width="2" fill="#F2A516" fill-opacity="0.08"/>
 
-          <!-- Cefalotórax (prosoma / cabeça) -->
-          <ellipse cx="140" cy="228" rx="46" ry="36" stroke="#F2A516" stroke-width="1.8" fill="#F2A516" fill-opacity="0.08"/>
+          <!-- CEFALOTÓRAX -->
+          <ellipse cx="144" cy="248" rx="54" ry="42" stroke="#F2A516" stroke-width="2.2" fill="#F2A516" fill-opacity="0.09"/>
 
-          <!-- Olhos medianos -->
-          <circle cx="132" cy="216" r="3.5" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.4"/>
-          <circle cx="148" cy="216" r="3.5" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.4"/>
+          <!-- Olhos -->
+          <circle cx="134" cy="233" r="4.5" stroke="#F2A516" stroke-width="1.8" fill="#F2A516" fill-opacity="0.55"/>
+          <circle cx="154" cy="233" r="4.5" stroke="#F2A516" stroke-width="1.8" fill="#F2A516" fill-opacity="0.55"/>
 
-          <!-- Patas (4 pares) -->
-          <polyline points="96,214 68,200 52,214"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="184,214 212,200 228,214" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="95,226 64,220 46,238"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="185,226 216,220 234,238" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="96,238 64,240 48,258"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="184,238 216,240 232,258" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="100,248 72,256 58,276"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          <polyline points="180,248 208,256 222,276" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- PATAS — 4 pares, vista de cima -->
+          <polyline points="92,234  58,220  40,234"  stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="90,248  54,242  36,260"  stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="92,262  56,264  40,282"  stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="98,274  66,280  52,300"  stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="196,234 230,220 248,234" stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="198,248 234,242 252,260" stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="196,262 232,264 248,282" stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="190,274 222,280 236,300" stroke="#F2A516" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 
-          <!-- Pedipalpos (pinças) esquerda -->
-          <path d="M 116 262 Q 90 278 72 294" stroke="#F2A516" stroke-width="1.8" stroke-linecap="round"/>
-          <path d="M 72 294 Q 56 304 60 318 Q 64 328 74 324" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M 72 294 Q 60 308 66 322 Q 72 332 82 326" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
-
-          <!-- Pedipalpos (pinças) direita -->
-          <path d="M 164 262 Q 190 278 208 294" stroke="#F2A516" stroke-width="1.8" stroke-linecap="round"/>
-          <path d="M 208 294 Q 224 304 220 318 Q 216 328 206 324" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M 208 294 Q 220 308 214 322 Q 208 332 198 326" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+          <!-- PINÇAS — braços -->
+          <path d="M 104 286 Q 76 304  56 322" stroke="#F2A516" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M 184 286 Q 212 304 232 322" stroke="#F2A516" stroke-width="2.2" stroke-linecap="round"/>
+          <!-- Pinça esquerda: dedo superior -->
+          <path d="M 56 322 Q 36 330 30 346 Q 28 356 40 354 Q 52 350 54 338" stroke="#F2A516" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Pinça esquerda: dedo inferior -->
+          <path d="M 56 322 Q 40 336 42 352 Q 44 362 56 358 Q 66 352 62 340" stroke="#F2A516" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Pinça direita: dedo superior -->
+          <path d="M 232 322 Q 252 330 258 346 Q 260 356 248 354 Q 236 350 234 338" stroke="#F2A516" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Pinça direita: dedo inferior -->
+          <path d="M 232 322 Q 248 336 246 352 Q 244 362 232 358 Q 222 352 226 340" stroke="#F2A516" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
     </div>
