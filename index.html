@@ -1939,88 +1939,16 @@ section.light3 { background: var(--paper3); color: var(--ink); }
         <p>Faltava uma solução estruturada, técnica e monitorável que trabalhasse junto ao controle químico. É isso que a Noprax desenvolveu.</p>
       </div>
 
-      <!-- Escorpião decorativo -->
+      <!-- Escorpião foto -->
       <div class="fade-up delay-1" style="display:flex;align-items:center;justify-content:center;">
-        <svg viewBox="0 0 400 480" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:290px;">
-          <defs>
-            <radialGradient id="bodyg" cx="35%" cy="30%" r="65%">
-              <stop offset="0%" stop-color="#FFD04A"/>
-              <stop offset="60%" stop-color="#F2A516"/>
-              <stop offset="100%" stop-color="#9A6000"/>
-            </radialGradient>
-            <radialGradient id="segg" cx="30%" cy="25%" r="70%">
-              <stop offset="0%" stop-color="#FFB730"/>
-              <stop offset="100%" stop-color="#8B5C00"/>
-            </radialGradient>
-            <radialGradient id="glo" cx="50%" cy="52%" r="45%">
-              <stop offset="0%" stop-color="#F2A516" stop-opacity="0.14"/>
-              <stop offset="100%" stop-color="#F2A516" stop-opacity="0"/>
-            </radialGradient>
-          </defs>
-
-          <!-- Halo de fundo -->
-          <ellipse cx="200" cy="270" rx="160" ry="180" fill="url(#glo)"/>
-
-          <!-- ── CAUDA (5 segmentos + aguilhão) ── -->
-          <ellipse cx="256" cy="232" rx="22" ry="17" fill="url(#segg)" stroke="#7A4E00" stroke-width="1.2" transform="rotate(80 256 232)"/>
-          <ellipse cx="270" cy="192" rx="20" ry="15" fill="url(#segg)" stroke="#7A4E00" stroke-width="1.2" transform="rotate(70 270 192)"/>
-          <ellipse cx="268" cy="148" rx="18" ry="14" fill="url(#segg)" stroke="#7A4E00" stroke-width="1.2" transform="rotate(55 268 148)"/>
-          <ellipse cx="250" cy="108" rx="16" ry="12" fill="url(#segg)" stroke="#7A4E00" stroke-width="1.2" transform="rotate(40 250 108)"/>
-          <ellipse cx="220" cy="78"  rx="14" ry="10" fill="url(#segg)" stroke="#7A4E00" stroke-width="1.2" transform="rotate(25 220 78)"/>
-          <!-- Telson + aguilhão -->
-          <path d="M 213 72 Q 202 54 192 36 Q 186 20 194 13 Q 204 6 212 20 Q 218 34 218 52 Z" fill="url(#segg)" stroke="#7A4E00" stroke-width="1.2"/>
-
-          <!-- ── CORPO ── -->
-          <!-- Mesosoma (abdômen) -->
-          <path d="M 188 218 Q 218 212 248 228 Q 244 252 226 260 Q 205 266 184 258 Q 168 250 170 232 Q 178 216 188 218 Z" fill="url(#bodyg)" stroke="#7A4E00" stroke-width="1.5"/>
-          <!-- Prosoma (cefalotórax / carapaça principal) -->
-          <path d="M 106 268 Q 148 242 200 240 Q 252 242 282 268 Q 298 286 290 312 Q 280 338 246 350 Q 218 358 188 356 Q 158 356 130 348 Q 104 336 100 312 Q 96 288 106 268 Z" fill="url(#bodyg)" stroke="#7A4E00" stroke-width="1.8"/>
-          <!-- Detalhe central da carapaça -->
-          <path d="M 168 270 Q 200 262 230 272 Q 216 298 200 302 Q 183 302 168 270 Z" fill="#9A6000" opacity="0.35"/>
-          <!-- Olhos -->
-          <circle cx="174" cy="264" r="7" fill="#7A4E00"/>
-          <circle cx="174" cy="264" r="3.5" fill="#FFE580"/>
-          <circle cx="224" cy="264" r="7" fill="#7A4E00"/>
-          <circle cx="224" cy="264" r="3.5" fill="#FFE580"/>
-
-          <!-- ── PATAS (4 pares, traço duplo: espessura laranja + contorno escuro) ── -->
-          <polyline points="140,272 106,252 82,268 66,258"  stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="140,272 106,252 82,268 66,258"  stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="136,292 100,278 76,298 58,292"  stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="136,292 100,278 76,298 58,292"  stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="130,314 96,306 74,328 56,322"   stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="130,314 96,306 74,328 56,322"   stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="128,332 96,332 78,354 62,354"   stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="128,332 96,332 78,354 62,354"   stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="258,272 292,252 316,268 332,258" stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="258,272 292,252 316,268 332,258" stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="262,292 298,278 322,298 340,292" stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="262,292 298,278 322,298 340,292" stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="268,314 302,306 324,328 342,322" stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="268,314 302,306 324,328 342,322" stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="270,332 302,332 320,354 336,354" stroke="#F2A516" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-          <polyline points="270,332 302,332 320,354 336,354" stroke="#7A4E00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-
-          <!-- ── PINÇAS (pedipalpos) ── -->
-          <!-- Braço esquerdo -->
-          <path d="M 128 356 Q 94 374 70 396" stroke="#F2A516" stroke-width="11" stroke-linecap="round" fill="none"/>
-          <path d="M 128 356 Q 94 374 70 396" stroke="#7A4E00" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-          <!-- Braço direito -->
-          <path d="M 270 356 Q 304 374 328 396" stroke="#F2A516" stroke-width="11" stroke-linecap="round" fill="none"/>
-          <path d="M 270 356 Q 304 374 328 396" stroke="#7A4E00" stroke-width="1.5" stroke-linecap="round" fill="none"/>
-          <!-- Punho esquerdo -->
-          <circle cx="70" cy="396" r="13" fill="#F2A516" stroke="#7A4E00" stroke-width="1.5"/>
-          <!-- Dedo superior esq -->
-          <path d="M 70 396 Q 46 404 34 422 Q 26 434 36 444 Q 48 452 60 440 Q 72 428 70 412" fill="#F2A516" stroke="#7A4E00" stroke-width="1.5"/>
-          <!-- Dedo inferior esq -->
-          <path d="M 70 396 Q 58 412 62 430 Q 66 444 78 442 Q 90 438 88 422 Q 86 408 76 400" fill="#F2A516" stroke="#7A4E00" stroke-width="1.5"/>
-          <!-- Punho direito -->
-          <circle cx="328" cy="396" r="13" fill="#F2A516" stroke="#7A4E00" stroke-width="1.5"/>
-          <!-- Dedo superior dir -->
-          <path d="M 328 396 Q 352 404 364 422 Q 372 434 362 444 Q 350 452 338 440 Q 326 428 328 412" fill="#F2A516" stroke="#7A4E00" stroke-width="1.5"/>
-          <!-- Dedo inferior dir -->
-          <path d="M 328 396 Q 340 412 336 430 Q 332 444 320 442 Q 308 438 310 422 Q 312 408 322 400" fill="#F2A516" stroke="#7A4E00" stroke-width="1.5"/>
-        </svg>
+        <div style="position:relative;border:1px solid rgba(242,165,22,0.28);border-radius:16px;overflow:hidden;width:100%;max-width:340px;box-shadow:0 0 48px rgba(242,165,22,0.08);">
+          <img src="assets/escorpiao-foto.jpg" alt="Tityus serrulatus" loading="lazy"
+            style="width:100%;display:block;object-fit:cover;aspect-ratio:4/3;">
+          <!-- fade radial para integrar com fundo escuro -->
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 45%,rgba(11,11,13,0.62) 100%);pointer-events:none;"></div>
+          <!-- badge espécie -->
+          <div style="position:absolute;bottom:12px;left:12px;font-family:var(--mono);font-size:10px;letter-spacing:0.08em;color:var(--noprax-orange);background:rgba(11,11,13,0.75);padding:4px 12px;border-radius:6px;border:1px solid rgba(242,165,22,0.22);backdrop-filter:blur(4px);">Tityus serrulatus</div>
+        </div>
       </div>
     </div>
 
