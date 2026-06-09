@@ -1512,9 +1512,16 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     margin-bottom: 14px;
   }
 
-  .data-chart-bars { display: flex; align-items: flex-end; gap: 8px; height: 64px; }
+  .data-chart-bars { display: flex; align-items: flex-end; gap: 8px; }
 
-  .data-chart-col { display: flex; flex-direction: column; align-items: center; gap: 5px; flex: 1; }
+  .data-chart-col { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: 1; }
+
+  .data-chart-val {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
 
   .data-chart-bar {
     width: 100%;
@@ -1565,6 +1572,8 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     line-height: 1.55;
     padding-top: 2px;
   }
+
+  .data-sec-text strong { color: var(--text); font-weight: 600; }
 
   .data-source {
     font-family: var(--mono);
@@ -1898,10 +1907,10 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 <section class="data-section dark">
   <div class="section-container">
 
-    <div class="section-eyebrow fade-up">Escorpionismo no Brasil · 2010–2024</div>
+    <div class="section-eyebrow fade-up">// Escorpionismo no Brasil · Dados oficiais do Ministério da Saúde</div>
     <h2 class="section-title fade-up delay-1">
-      Os números que<br>
-      <span class="accent">justificam</span> a urgência.
+      Os números que mostram a <span class="accent">dimensão</span><br>
+      <span class="accent">do problema.</span>
     </h2>
 
     <!-- Cards principais -->
@@ -1910,52 +1919,55 @@ section.light3 { background: var(--paper3); color: var(--ink); }
       <!-- Card 1: A Dimensão -->
       <div class="data-card fade-up">
         <span class="data-tag">// A dimensão</span>
-        <div class="data-number">1.868<span class="accent">.191</span></div>
-        <div class="data-label">acidentes de escorpionismo registrados no Brasil entre 2010 e 2024</div>
-        <div class="data-note">55,8% de todos os acidentes com animais peçonhentos no país</div>
+        <div class="data-number">1.868.191</div>
+        <div class="data-label">acidentes por escorpião notificados no Brasil em <strong style="color:var(--text)">15 anos (2010–2024)</strong>.</div>
+        <div class="data-note">55,8% de todos os acidentes com peçonhentos</div>
 
         <div class="data-chart">
-          <div class="data-chart-label">Incidência por 100 mil hab. · períodos</div>
+          <div class="data-chart-label">Incidência por 100 mil hab. · por período</div>
           <div class="data-chart-bars">
             <div class="data-chart-col">
-              <div class="data-chart-bar past" style="height:40%" data-h="40"></div>
-              <span class="data-chart-year">'10–'14</span>
+              <span class="data-chart-val">34</span>
+              <div class="data-chart-bar past" style="height:22px" data-h="22"></div>
+              <span class="data-chart-year">2010-14</span>
             </div>
             <div class="data-chart-col">
-              <div class="data-chart-bar past" style="height:72%" data-h="72"></div>
-              <span class="data-chart-year">'15–'19</span>
+              <span class="data-chart-val">61</span>
+              <div class="data-chart-bar past" style="height:40px" data-h="40"></div>
+              <span class="data-chart-year">2015-19</span>
             </div>
             <div class="data-chart-col">
-              <div class="data-chart-bar current" style="height:100%" data-h="100"></div>
-              <span class="data-chart-year" style="color:var(--noprax-orange)">'20–'24</span>
+              <span class="data-chart-val">85</span>
+              <div class="data-chart-bar current" style="height:56px" data-h="56"></div>
+              <span class="data-chart-year" style="color:var(--noprax-orange)">2020-24</span>
             </div>
           </div>
         </div>
 
-        <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--noprax-line);">
-          <div class="data-label" style="margin-bottom:0">Só em 2023: <strong style="color:var(--text)">202.714 acidentes</strong> notificados</div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--noprax-line);">
+          <div class="data-label" style="margin-bottom:0">Só em <strong style="color:var(--text)">2023</strong> (último ano fechado): <strong style="color:var(--text)">202.714</strong> acidentes por escorpião.</div>
         </div>
       </div>
 
       <!-- Card 2: A Tendência -->
       <div class="data-card fade-up delay-1">
         <span class="data-tag">// A tendência</span>
-        <div class="data-number" style="font-size:clamp(36px,4vw,64px);">34<span class="accent" style="font-size:0.7em;margin:0 4px;">→</span>85</div>
-        <div class="data-label">casos por 100 mil habitantes — a incidência mais que dobrou em 15 anos</div>
+        <div class="data-number">34 <span class="accent">→</span> <span class="accent">85</span></div>
+        <div class="data-label">a incidência de acidentes por escorpião <strong style="color:var(--text)">por 100 mil habitantes</strong> mais que dobrou entre <strong style="color:var(--text)">2010–2014</strong> e <strong style="color:var(--text)">2020–2024</strong>.</div>
         <div class="data-note">Tendência nacional crescente · +6,92% ao ano</div>
         <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--noprax-line);">
-          <div class="data-label" style="margin-bottom:0">A alta atravessa todas as macrorregiões, com maior incidência no <strong style="color:var(--text)">Nordeste</strong> e em municípios de pequeno porte</div>
+          <div class="data-label" style="margin-bottom:0">A alta atravessa todas as macrorregiões do país, com maior incidência no <strong style="color:var(--text)">Nordeste</strong> e em municípios <strong style="color:var(--text)">de pequeno porte</strong>.</div>
         </div>
       </div>
 
       <!-- Card 3: Os Mais Afetados -->
       <div class="data-card fade-up delay-2">
         <span class="data-tag">// Os mais afetados</span>
-        <div class="data-number" style="color:var(--danger)">581</div>
-        <div class="data-label">óbitos por escorpionismo registrados no Brasil entre 2010 e 2024</div>
-        <div class="data-note danger">Crianças e pessoas 60+ concentram os casos graves</div>
+        <div class="data-number">581</div>
+        <div class="data-label">óbitos por escorpião em <strong style="color:var(--text)">15 anos (2010–2024)</strong> — média de cerca de <strong style="color:var(--text)">39 por ano</strong>, em tendência de alta (subiu de ~32 para ~39/ano).</div>
+        <div class="data-note">Crianças e pessoas 60+ concentram os casos graves</div>
         <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--noprax-line);">
-          <div class="data-label" style="margin-bottom:0">A maior incidência ocorre em <strong style="color:var(--text)">pessoas com 60 anos ou mais</strong>, enquanto crianças apresentam maior risco de evolução grave e óbito</div>
+          <div class="data-label" style="margin-bottom:0">A maior incidência ocorre em pessoas com <strong style="color:var(--text)">60 anos ou mais</strong>; crianças e idosos são os grupos de maior gravidade.</div>
         </div>
       </div>
     </div>
@@ -1963,21 +1975,18 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     <!-- Stats secundários -->
     <div class="data-secondary">
       <div class="data-sec-item fade-up">
-        <div class="data-sec-num" style="font-size:clamp(13px,1.4vw,19px);letter-spacing:0;line-height:1.2"><em>T. serrulatus</em></div>
-        <div class="data-sec-text">// Espécie principal — O <em>Tityus serrulatus</em> (escorpião-amarelo) é a principal espécie causadora de acidentes e óbitos no Brasil.</div>
+        <div class="data-sec-text"><strong>// Espécie principal</strong><br>O <em>Tityus serrulatus</em> (escorpião-amarelo) é a principal espécie causadora de acidentes e óbitos no Brasil.</div>
       </div>
       <div class="data-sec-item fade-up delay-1">
-        <div class="data-sec-num">85<span style="font-size:0.6em">%</span></div>
-        <div class="data-sec-text">// Onde se concentra — Cerca de 85% das notificações estão nas regiões Nordeste e Sudeste (2023), com pico entre outubro e março.</div>
+        <div class="data-sec-text"><strong>// Onde se concentra</strong><br>Cerca de <strong>85%</strong> das notificações estão nas regiões <strong>Nordeste e Sudeste</strong> (2023), com pico de casos entre outubro e março.</div>
       </div>
       <div class="data-sec-item fade-up delay-2">
-        <div class="data-sec-num" style="color:var(--noprax-orange)">+</div>
-        <div class="data-sec-text">// Por que um método complementar — O monitoramento contínuo pode complementar estratégias de prevenção e auxiliar na identificação de áreas com atividade de escorpiões.</div>
+        <div class="data-sec-text"><strong>// Por que um método complementar</strong><br>O <strong>monitoramento contínuo</strong> pode complementar estratégias de prevenção e auxiliar na <strong>identificação de áreas com atividade de escorpiões</strong>.</div>
       </div>
     </div>
 
     <p class="data-source fade-up">
-      Fonte: Ministério da Saúde · Boletins Epidemiológicos (abr/2025 e dez/2025) · SINAN / SIM
+      Fontes: Ministério da Saúde · Boletins Epidemiológicos (abr/2025 e dez/2025) · SINAN / SIM
     </p>
 
   </div>
