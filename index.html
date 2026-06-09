@@ -1927,72 +1927,77 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 
     <div class="section-eyebrow fade-up">Escorpionismo no Brasil · O Problema</div>
 
-    <div class="merged-problem-grid" style="display:grid;grid-template-columns:1.1fr 0.85fr;gap:64px;margin-top:40px;align-items:start;">
+    <!-- Título e texto acima -->
+    <div class="problem-text fade-up" style="max-width:760px;margin-top:16px;margin-bottom:48px;">
+      <h2 class="section-title" style="font-size:clamp(28px,3.2vw,52px);">
+        Um problema que <span class="accent">cresce todo ano.</span>
+      </h2>
+      <p>O escorpionismo é um dos problemas de saúde pública que mais <span class="highlight">cresce no Brasil</span>. Milhares de acidentes são notificados a cada ano, e a tendência é de aumento contínuo, impulsionada pela urbanização desordenada e pela presença de baratas e outros insetos que servem de alimento.</p>
+      <p>A dedetização química é eficaz contra a maioria das pragas, mas o escorpião tem um comportamento diferente. <strong>Ele se abriga em frestas e estruturas onde o produto não penetra.</strong> Não é uma falha da dedetizadora: é uma lacuna que exige outra tecnologia.</p>
+      <p>Faltava uma solução estruturada, técnica e monitorável que trabalhasse junto ao controle químico. É isso que a Noprax desenvolveu.</p>
+    </div>
 
-      <!-- Coluna esquerda: texto do problema -->
-      <div class="problem-text fade-up">
-        <h2 class="section-title" style="font-size:clamp(28px,3.2vw,52px);">
-          O escorpião<br>
-          tem um <span class="accent">ponto cego.</span><br>
-          A Noprax<br>
-          <span class="outline">fecha essa lacuna.</span>
-        </h2>
-        <p>O escorpionismo é um dos problemas de saúde pública que mais <span class="highlight">cresce no Brasil</span>. Milhares de acidentes são notificados a cada ano, e a tendência é de aumento contínuo, impulsionada pela urbanização desordenada e pela presença de baratas e outros insetos que servem de alimento.</p>
-        <p>A dedetização química é eficaz contra a maioria das pragas — mas o escorpião tem um comportamento diferente. <strong>Ele se abriga em frestas e estruturas onde o produto não penetra.</strong> Não é uma falha da dedetizadora: é uma lacuna que exige outra tecnologia.</p>
-        <p>Faltava uma solução estruturada, técnica e monitorável que trabalhasse junto ao controle químico. É isso que a Noprax desenvolveu.</p>
-      </div>
+    <!-- Cards de dados abaixo (grid horizontal 3 colunas) -->
+    <div class="data-main-grid">
 
-      <!-- Coluna direita: 3 cards de dados empilhados -->
-      <div class="fade-up delay-1">
-        <div class="data-main-grid" style="grid-template-columns:1fr;margin:0;">
+      <!-- Card 1: A Dimensão -->
+      <div class="data-card fade-up">
+        <span class="data-tag">A dimensão</span>
+        <div class="data-number">1.868.191</div>
+        <div class="data-label">acidentes por escorpião notificados no Brasil em <strong style="color:var(--text)">15 anos (2010–2024)</strong>.</div>
+        <div class="data-note">55,8% de todos os acidentes com peçonhentos</div>
 
-          <div class="data-card">
-            <span class="data-tag">A dimensão</span>
-            <div class="data-number" style="font-size:clamp(26px,2.8vw,48px);">1.868.191</div>
-            <div class="data-label">acidentes por escorpião em <strong style="color:var(--text)">15 anos</strong> (2010–2024)</div>
-            <div class="data-note">55,8% de todos os acidentes com peçonhentos</div>
-            <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--noprax-line);">
-              <div class="data-chart-label" style="margin-bottom:10px;">Incidência por 100 mil hab. · por período</div>
-              <div class="data-chart-bars">
-                <div class="data-chart-col">
-                  <span class="data-chart-val">34</span>
-                  <div class="data-chart-bar past" style="height:22px" data-h="22"></div>
-                  <span class="data-chart-year">2010-14</span>
-                </div>
-                <div class="data-chart-col">
-                  <span class="data-chart-val">61</span>
-                  <div class="data-chart-bar past" style="height:40px" data-h="40"></div>
-                  <span class="data-chart-year">2015-19</span>
-                </div>
-                <div class="data-chart-col">
-                  <span class="data-chart-val">85</span>
-                  <div class="data-chart-bar current" style="height:56px" data-h="56"></div>
-                  <span class="data-chart-year" style="color:var(--noprax-orange)">2020-24</span>
-                </div>
-              </div>
+        <div class="data-chart">
+          <div class="data-chart-label">Incidência por 100 mil hab. · por período</div>
+          <div class="data-chart-bars">
+            <div class="data-chart-col">
+              <span class="data-chart-val">34</span>
+              <div class="data-chart-bar past" style="height:22px" data-h="22"></div>
+              <span class="data-chart-year">2010-14</span>
+            </div>
+            <div class="data-chart-col">
+              <span class="data-chart-val">61</span>
+              <div class="data-chart-bar past" style="height:40px" data-h="40"></div>
+              <span class="data-chart-year">2015-19</span>
+            </div>
+            <div class="data-chart-col">
+              <span class="data-chart-val">85</span>
+              <div class="data-chart-bar current" style="height:56px" data-h="56"></div>
+              <span class="data-chart-year" style="color:var(--noprax-orange)">2020-24</span>
             </div>
           </div>
+        </div>
 
-          <div class="data-card">
-            <span class="data-tag">A tendência</span>
-            <div class="data-number" style="font-size:clamp(24px,2.5vw,44px);">34 <span class="accent">→</span> <span class="accent">85</span></div>
-            <div class="data-label">casos por 100 mil hab. — a incidência <strong style="color:var(--text)">mais que dobrou</strong> entre 2010–2014 e 2020–2024</div>
-            <div class="data-note data-note-seal">↑ Tendência crescente: +6,92% ao ano</div>
-          </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--noprax-line);">
+          <div class="data-label" style="margin-bottom:0">Só em <strong style="color:var(--text)">2023</strong> (último ano fechado): <strong style="color:var(--text)">202.714</strong> acidentes por escorpião.</div>
+        </div>
+      </div>
 
-          <div class="data-card">
-            <span class="data-tag">Os mais afetados</span>
-            <div class="data-number" style="font-size:clamp(26px,2.8vw,48px);">581</div>
-            <div class="data-label">óbitos em <strong style="color:var(--text)">15 anos</strong> (2010–2024) — média de <strong style="color:var(--text)">39 por ano</strong></div>
-            <div class="data-note data-note-seal">⚠ Crianças e idosos: maior risco</div>
-          </div>
+      <!-- Card 2: A Tendência -->
+      <div class="data-card fade-up delay-1">
+        <span class="data-tag">A tendência</span>
+        <div class="data-number">34 <span class="accent">→</span> <span class="accent">85</span></div>
+        <div class="data-label">a incidência de acidentes por escorpião <strong style="color:var(--text)">por 100 mil habitantes</strong> mais que dobrou entre <strong style="color:var(--text)">2010–2014</strong> e <strong style="color:var(--text)">2020–2024</strong>.</div>
+        <div class="data-note data-note-seal">↑ Tendência crescente: +6,92% ao ano</div>
+        <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--noprax-line);">
+          <div class="data-label" style="margin-bottom:0">A alta atravessa todas as macrorregiões do país, com maior incidência no <strong style="color:var(--text)">Nordeste</strong> e em municípios <strong style="color:var(--text)">de pequeno porte</strong>.</div>
+        </div>
+      </div>
 
+      <!-- Card 3: Os Mais Afetados -->
+      <div class="data-card fade-up delay-2">
+        <span class="data-tag">Os mais afetados</span>
+        <div class="data-number">581</div>
+        <div class="data-label">óbitos por escorpião em <strong style="color:var(--text)">15 anos (2010–2024)</strong> — média de cerca de <strong style="color:var(--text)">39 por ano</strong>, em tendência de alta (subiu de ~32 para ~39/ano).</div>
+        <div class="data-note data-note-seal">⚠ Crianças e idosos: maior risco</div>
+        <div style="margin-top:20px;padding-top:20px;border-top:1px solid var(--noprax-line);">
+          <div class="data-label" style="margin-bottom:0">A maior incidência ocorre em pessoas com <strong style="color:var(--text)">60 anos ou mais</strong>; crianças e idosos são os grupos de maior gravidade.</div>
         </div>
       </div>
     </div>
 
     <!-- Stats secundários -->
-    <div class="data-secondary" style="margin-top:40px;">
+    <div class="data-secondary" style="margin-top:0;">
       <div class="data-sec-item fade-up">
         <div class="data-sec-text"><strong>// Espécie principal</strong><br>O <em>Tityus serrulatus</em> (escorpião-amarelo) é a principal espécie causadora de acidentes e óbitos no Brasil.</div>
       </div>
