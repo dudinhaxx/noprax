@@ -2197,6 +2197,19 @@
     "termo_busca": "infestação de escorpiões"
   },
   {
+    "id": "ijfalertaparaaumentodeacidentescomescorpioesemfortalezaduranteoperiodochuvoso",
+    "titulo": "IJF alerta para aumento de acidentes com escorpiões em Fortaleza durante o período chuvoso - iBand CE",
+    "descricao": "IJF alerta para aumento de acidentes com escorpiões em Fortaleza durante o período chuvoso  iBand CE",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGcm5rZGE5SmNtdFhZX3hOM2JBUUV2ZEc0czZmcHFkQkxRZ0NBdzJzdzNYYk9FbmEtajYtMkFoMkdFUmRQN0xjbkVUZDBwY1YxTXRsY3gwTHVWaE0zcTRlT1FaX1RqZExfQTB5OVZ1MzJaalJ0VXJTY1hR?oc=5",
+    "data": "29/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "CE",
+    "cidade": "Fortaleza",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "populacaodobairroruanovapedesocorroaprefeituraaposinfestacaodeescorpiao",
     "titulo": "População do bairro Rua Nova pede socorro à Prefeitura após infestação de escorpião - conectadonews.com.br",
     "descricao": "População do bairro Rua Nova pede socorro à Prefeitura após infestação de escorpião  conectadonews.com.br",
@@ -2990,6 +3003,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "nataljaregistroumaisde330acidentesdepicadasdeescorpiaosecretariareforcacuidadoselocaisdeatendimentonestescasos",
+    "titulo": "Natal já registrou mais de 330 acidentes de picadas de escorpião, Secretaria reforça cuidados e locais de atendimento nestes casos - Natal em Foco",
+    "descricao": "Natal já registrou mais de 330 acidentes de picadas de escorpião, Secretaria reforça cuidados e locais de atendimento nestes casos  Natal em Foco",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMS1CUkpCS1BETjhsWjhSLVA5TmppdVBuNGl6OEFJMU84ei12amlfVGVVSUhtLU92enNsX0tOQ2RnVkpKUW5YVHdJeHdaaUFiZ0U0N1NXWEVneE5qU2pnRUpDLXVUOEFWYXVDc1cwajZDQWY3Q1hkNTNnTThlVW5SNzFGbHU2b0NIZjR6MG14SlJYT0xBa3NKNUduNkRTdXc3el9MeUxOZHJZODUyU3FZSWZkU2dZbFFrZF90Unh3T1lfS2oycnVFMUNmTW1NRDI3MlhHU1h5UnZqdmhDYTNmbFIzdjg4SDhSX2RmbWxPeXBNV1hKMG1rNEFndURJMFU?oc=5",
+    "data": "15/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "RN",
+    "cidade": "Natal",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
     "id": "escorpioesdentrodecasacomoevitaracidenteseoquefazeremcasodepicada",
     "titulo": "Escorpiões dentro de casa: como evitar acidentes e o que fazer em caso de picada - agenciadenoticias.ms.gov.br",
     "descricao": "Escorpiões dentro de casa: como evitar acidentes e o que fazer em caso de picada  agenciadenoticias.ms.gov.br",
@@ -3131,6 +3157,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "escorpioes225milpicadasem2025criancasmaisvulneraveisedesigualdadesocialnosacidentes",
+    "titulo": "Escorpiões: 225 mil picadas em 2025, crianças mais vulneráveis e desigualdade social nos acidentes - jornaldearuja.com",
+    "descricao": "Escorpiões: 225 mil picadas em 2025, crianças mais vulneráveis e desigualdade social nos acidentes  jornaldearuja.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPajQ4bElIQVdxRkt3NElmM2ZFSjRNcTlHY2ZEeWFXSXY3NExVUDh5SGwwZ3dqdW1KWGtqZTlYWDdya0k3a0VvTE92RmktWWFuc1NPVkV0WWo5SUpBbG85ZVRnNXRNZDdZUUxnandZbTVmcHRtNDhGWGFWMm8tNEtuRXpkbDE1ZElLOWszV2xWYm9oRFk3QzNQZ1NuSnFKOFkzMzk5elM2dTgyekVVZW9uOTNtdnV2ZTRqc1RtOXJaYzI?oc=5",
+    "data": "12/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões Brasil"
   },
   {
     "id": "escorpioescausaram65dosacidentescomanimaispeconhentosem2025vejaperfildasvitimaselocaisdosacidentes",
@@ -3484,6 +3523,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "alertaemspsaibacomoagirebuscarsocorroemcasodepicadadeescorpiao",
+    "titulo": "Alerta em SP: saiba como agir e buscar socorro em caso de picada de escorpião - Gazeta de São Paulo",
+    "descricao": "Alerta em SP: saiba como agir e buscar socorro em caso de picada de escorpião  Gazeta de São Paulo",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN0VDLXU0d0QxMnBoYVVUUGtqYWw4TF9hV1hEVU84c01QTUFsajRJQ0xDc3pfM2ZWcWhPUzlMemozRllLeDlfVWo0dHlFZ211SUhxNjBEVXZqSmN6SlZRbDRTNVBJTHhWTFZlOFd6X2h3SDdLdTNwWXNiSzc4T1pkcEtJR2lLa2U2bzMtdVktVS1hUE03SmdSbFlNeURYeE0?oc=5",
+    "data": "09/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
     "id": "escorpioescausaram65dosacidentescomanimaispeconhentosnobrasilem2025",
     "titulo": "Escorpiões causaram 65% dos acidentes com animais peçonhentos no Brasil em 2025 - Instituto Butantan",
     "descricao": "Escorpiões causaram 65% dos acidentes com animais peçonhentos no Brasil em 2025  Instituto Butantan",
@@ -3781,6 +3833,19 @@
     "estado": "SP",
     "cidade": "Porto Ferreira",
     "termo_busca": "morte escorpião"
+  },
+  {
+    "id": "rnjaregistramaisde800acidentescomescorpioesem2026",
+    "titulo": "RN já registra mais de 800 acidentes com escorpiões em 2026 - Agora RN",
+    "descricao": "RN já registra mais de 800 acidentes com escorpiões em 2026  Agora RN",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVEJUN0Y5TkF6ZXMzVVpDSUxWSXZQRHoyT2oxN01xUkN5UnVwVFp5UUpwbjFxMUlnQjdOUEJDMnI3MkduZnIxUlRFcnh3T3A0d2JQNHhyMnJkMEdBeVdld2V3MHNQTEJ1T2NYOGRJbWZsYUtyZVRFZ3NUNkxXSkdncGdmNmVTLW91bC1iNnhNWQ?oc=5",
+    "data": "07/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "soro antiescorpiônico"
   },
   {
     "id": "sorocabaconfirmaprimeiramorteporpicadadeescorpiaonoanovitimaeumhomemde65anos",
@@ -5445,6 +5510,19 @@
     "estado": "SP",
     "cidade": "Votuporanga",
     "termo_busca": "criança escorpião"
+  },
+  {
+    "id": "picadadeescorpiaooucobravejaondeencontraratendimentosoroterapico",
+    "titulo": "Picada de escorpião ou cobra: veja onde encontrar atendimento soroterápico - Diário do Grande ABC",
+    "descricao": "Picada de escorpião ou cobra: veja onde encontrar atendimento soroterápico  Diário do Grande ABC",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQzMtRlpWM3ZnNUVFOHZNd0o1NngyUEtTUkoyTmpOcGJnbXR4T1R3Nmd3SU1hcXdnQzNSUmxFNnpYanJJcDZGZTA2TzFETFVCdnk5Z0Fla1ZZQW5fZ3dJWlhOUjlkMktTblgtYWRra3l1TklnTW55MkpoRHVPRGVMOXJuZEZPbkc2T3hrQldjcFBORWR1bEVJVDV2QWlQdkVFTTY0b282V2tpNjI4c1c0NHZHQkY?oc=5",
+    "data": "20/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "soro antiescorpiônico"
   },
   {
     "id": "secretariadesauderealizablitzeducativadeprevencaoecontroleaoescorpionismonestaquintafeira26",
