@@ -1927,14 +1927,65 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 
     <div class="section-eyebrow fade-up">Escorpionismo no Brasil · O Problema</div>
 
-    <!-- Título e texto acima -->
-    <div class="problem-text fade-up" style="max-width:760px;margin-top:16px;margin-bottom:48px;">
-      <h2 class="section-title" style="font-size:clamp(28px,3.2vw,52px);">
-        Um problema que <span class="accent">cresce todo ano.</span>
-      </h2>
-      <p>O escorpionismo é um dos problemas de saúde pública que mais <span class="highlight">cresce no Brasil</span>. Milhares de acidentes são notificados a cada ano, e a tendência é de aumento contínuo, impulsionada pela urbanização desordenada e pela presença de baratas e outros insetos que servem de alimento.</p>
-      <p>A dedetização química é eficaz contra a maioria das pragas, mas o escorpião tem um comportamento diferente. <strong>Ele se abriga em frestas e estruturas onde o produto não penetra.</strong> Não é uma falha da dedetizadora: é uma lacuna que exige outra tecnologia.</p>
-      <p>Faltava uma solução estruturada, técnica e monitorável que trabalhasse junto ao controle químico. É isso que a Noprax desenvolveu.</p>
+    <!-- Título + texto à esquerda, escorpião à direita -->
+    <div class="merged-problem-grid" style="display:grid;grid-template-columns:1.1fr 0.75fr;gap:64px;margin-top:16px;margin-bottom:48px;align-items:center;">
+
+      <div class="problem-text fade-up">
+        <h2 class="section-title" style="font-size:clamp(28px,3.2vw,52px);">
+          Um problema que <span class="accent">cresce todo ano.</span>
+        </h2>
+        <p>O escorpionismo é um dos problemas de saúde pública que mais <span class="highlight">cresce no Brasil</span>. Milhares de acidentes são notificados a cada ano, e a tendência é de aumento contínuo, impulsionada pela urbanização desordenada e pela presença de baratas e outros insetos que servem de alimento.</p>
+        <p>A dedetização química é eficaz contra a maioria das pragas, mas o escorpião tem um comportamento diferente. <strong>Ele se abriga em frestas e estruturas onde o produto não penetra.</strong> Não é uma falha da dedetizadora: é uma lacuna que exige outra tecnologia.</p>
+        <p>Faltava uma solução estruturada, técnica e monitorável que trabalhasse junto ao controle químico. É isso que a Noprax desenvolveu.</p>
+      </div>
+
+      <!-- Escorpião decorativo -->
+      <div class="fade-up delay-1" style="display:flex;align-items:center;justify-content:center;opacity:0.85;">
+        <svg viewBox="0 0 280 360" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:300px;">
+          <!-- Brilho de fundo -->
+          <ellipse cx="140" cy="210" rx="90" ry="110" fill="#F2A516" fill-opacity="0.04"/>
+
+          <!-- Segmentos da cauda (metasoma) — da base ao topo, curvando à direita -->
+          <ellipse cx="140" cy="152" rx="13" ry="17" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
+          <ellipse cx="140" cy="127" rx="12" ry="15" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
+          <ellipse cx="147" cy="105" rx="11" ry="14" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
+          <ellipse cx="162" cy="86"  rx="10" ry="13" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
+          <ellipse cx="180" cy="71"  rx="9"  rx="9" ry="12" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.06"/>
+          <!-- Aguilhão -->
+          <path d="M 186 60 Q 204 46 218 30" stroke="#F2A516" stroke-width="2" stroke-linecap="round"/>
+          <path d="M 210 34 Q 220 42 218 30" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+
+          <!-- Abdômen (mesosoma) -->
+          <ellipse cx="140" cy="184" rx="32" ry="26" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.08"/>
+
+          <!-- Cefalotórax (prosoma / cabeça) -->
+          <ellipse cx="140" cy="228" rx="46" ry="36" stroke="#F2A516" stroke-width="1.8" fill="#F2A516" fill-opacity="0.08"/>
+
+          <!-- Olhos medianos -->
+          <circle cx="132" cy="216" r="3.5" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.4"/>
+          <circle cx="148" cy="216" r="3.5" stroke="#F2A516" stroke-width="1.5" fill="#F2A516" fill-opacity="0.4"/>
+
+          <!-- Patas (4 pares) -->
+          <polyline points="96,214 68,200 52,214"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="184,214 212,200 228,214" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="95,226 64,220 46,238"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="185,226 216,220 234,238" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="96,238 64,240 48,258"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="184,238 216,240 232,258" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="100,248 72,256 58,276"  stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <polyline points="180,248 208,256 222,276" stroke="#F2A516" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+          <!-- Pedipalpos (pinças) esquerda -->
+          <path d="M 116 262 Q 90 278 72 294" stroke="#F2A516" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M 72 294 Q 56 304 60 318 Q 64 328 74 324" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M 72 294 Q 60 308 66 322 Q 72 332 82 326" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+
+          <!-- Pedipalpos (pinças) direita -->
+          <path d="M 164 262 Q 190 278 208 294" stroke="#F2A516" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M 208 294 Q 224 304 220 318 Q 216 328 206 324" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M 208 294 Q 220 308 214 322 Q 208 332 198 326" stroke="#F2A516" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
     </div>
 
     <!-- Cards de dados abaixo (grid horizontal 3 colunas) -->
