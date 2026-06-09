@@ -1,5 +1,31 @@
 [
   {
+    "id": "picadasdeescorpiaodisparam349nobrasileestudoacendealertaemsaopaulominasgeraisebahia",
+    "titulo": "Picadas de escorpião disparam 349% no Brasil e estudo acende alerta em São Paulo, Minas Gerais e Bahia - Portal Márcia Piovesan",
+    "descricao": "Picadas de escorpião disparam 349% no Brasil e estudo acende alerta em São Paulo, Minas Gerais e Bahia  Portal Márcia Piovesan",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTTUzSkhnNkUzamVPSFJ0bW11TVVTd21wNHY2NzRJZkJyR2dVYmdUa1FIUldOb0VMR2ZBY3NBaGh0RFVBVGxvSGh1c0I0MENTTklEVjIyNWFNb3dXeXpkY252R1loajlKY3I5NFJpTVZZYVVRekhpT2JzOHhaaGN1WElNTUd0dmY5RS1UbEJOWTlWLXc3RDRXTG4wR2g3aGljTTNYanZHaF9qYmdZMUdtYk9iaW0xX0NHYmZTaUZCblFXQUtnQlphRVRMUHA3by1YcXU0WXhhYVZ6aUlFYnhpVWdaWQ?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "prefeiturainvadecondominioabandonadoinfestadodeescorpioesemultadonosemquaser38mil",
+    "titulo": "Prefeitura invade condomínio abandonado infestado de escorpiões e multa donos em quase R$ 38 mil - O Livre",
+    "descricao": "Prefeitura invade condomínio abandonado infestado de escorpiões e multa donos em quase R$ 38 mil  O Livre",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV19vUDVGcW1pT3lseEg2dlFxYXV2cHlNTWhVRURXczBnT0VWeGx1cnpJclJlQVdBZzVuU0EyR1dtQUxYdm5ub2lzOGhJZUFNTkRpY2h1VEVpSUgwWm9XNHctSEVpSXlTaGl2eWJ1Smo4VHZWVjB6SmIwbDZRSDVGNW43QzFyZzhQZlBPM0s4MzNvYWFpN1hVSFRkN3MxelQyOUtwR2s3THIxc0c0SFJmX00wdFhobUwxRHc?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões prefeitura municipal"
+  },
+  {
     "id": "butantandivulgaestadoscommaiorriscodepicadadeescorpiao",
     "titulo": "Butantan divulga estados com maior risco de picada de escorpião - Portal iG",
     "descricao": "Butantan divulga estados com maior risco de picada de escorpião  Portal iG",
@@ -206,6 +232,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "noroestepaulistalideraalertaparapicadasdeescorpiao",
+    "titulo": "Noroeste paulista lidera alerta para picadas de escorpião - Gazeta de Rio Preto",
+    "descricao": "Noroeste paulista lidera alerta para picadas de escorpião  Gazeta de Rio Preto",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOTV4bFZQVFVsX1Z1S1lLTzN6MTBXZGVFMk9TT08wQzFzbldnMTRzSEpRSmlXV3hMSHhsa0x3eWNYT1d0Z1c2OFU3RnlWT3JWWGNsWWdpeU5DY1BYQ0dtc0ZOM2U0R2QyZlBhRzI0bjcxMllJaUlYRGZ6YUZxRzQ4YkZHR2RhZVRkZnZIT1dfS1k5UC1tTkJmTlZR?oc=5",
+    "data": "07/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "infestacaodeescorpioespreocupatodooparanaperigoemaioremlocaiscomacumulodelixonq5lekghxd",
