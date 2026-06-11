@@ -156,6 +156,14 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 
 .product-cta-group { display: flex; flex-wrap: wrap; gap: 12px; }
 
+/* ── Product checklist ── */
+.product-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 28px; margin-bottom: 40px; }
+.product-check { display: flex; gap: 10px; align-items: flex-start; }
+.check-mark { color: var(--orange); flex-shrink: 0; margin-top: 3px; }
+.check-title { font-family: var(--display); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text); margin-bottom: 3px; line-height: 1.3; }
+.check-desc { font-size: 11px; line-height: 1.55; color: var(--muted); }
+@media (max-width: 480px) { .product-checks { grid-template-columns: 1fr; } }
+
 /* ── Product SVG diagram ─── */
 .product-visual {
   display: flex; align-items: center; justify-content: center;
@@ -848,12 +856,31 @@ section { padding: 100px 56px; }
     <p class="product-subtitle fade-up delay-2">
       Desenvolvida em parceria com a Raylight, fabricante brasileira com mais de 20 anos de experiência em armadilhas profissionais, a NOPRAX foi criada para apoiar o monitoramento contínuo de escorpiões em campo. Sua estrutura reutilizável, combinada ao sistema de refil substituível, permite manter pontos de monitoramento ativos por longos períodos, facilitando inspeções, acompanhamento de áreas críticas e identificação de atividade ao longo do tempo.
     </p>
-    <div class="product-badges fade-up delay-3">
-      <span class="badge">Entradas dimensionadas</span>
-      <span class="badge">Estrutura reutilizável</span>
-      <span class="badge">Refil reutilizável</span>
-      <span class="badge">Double Click de segurança</span>
-      <span class="badge">PP reciclado</span>
+    <div class="product-checks fade-up delay-3">
+      <div class="product-check">
+        <svg class="check-mark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><div class="check-title">Estrutura rígida e reutilizável</div><div class="check-desc">Projetada para permanecer instalada por longos períodos.</div></div>
+      </div>
+      <div class="product-check">
+        <svg class="check-mark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><div class="check-title">Refil adesivo substituível</div><div class="check-desc">Substitua apenas o consumível, mantendo a estrutura em operação.</div></div>
+      </div>
+      <div class="product-check">
+        <svg class="check-mark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><div class="check-title">Sistema de trava dupla de segurança</div><div class="check-desc">Maior estabilidade durante inspeções, transporte e manutenção.</div></div>
+      </div>
+      <div class="product-check">
+        <svg class="check-mark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><div class="check-title">Tampa articulada para inspeção</div><div class="check-desc">Acesso rápido ao interior sem desmontagens complexas.</div></div>
+      </div>
+      <div class="product-check">
+        <svg class="check-mark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><div class="check-title">Ambientes internos e externos</div><div class="check-desc">Projetada para diferentes cenários de monitoramento.</div></div>
+      </div>
+      <div class="product-check">
+        <svg class="check-mark" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <div><div class="check-title">Troca segura do refil adesivo</div><div class="check-desc">Reduz o contato direto com a captura durante a manutenção.</div></div>
+      </div>
     </div>
     <div class="product-cta-group fade-up delay-4">
       <a href="https://wa.me/55INSERIR_NUMERO" class="btn btn-primary">Falar no WhatsApp</a>
@@ -969,56 +996,54 @@ section { padding: 100px 56px; }
       <div class="what-features" style="padding-top:54px;">
         <div class="what-feature fade-up">
           <svg class="what-feature-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <polyline points="9 12 11 14 15 10"/>
           </svg>
           <div>
-            <div class="what-feature-title">Estrutura rígida e reutilizável</div>
-            <div class="what-feature-desc">Projetada para permanecer instalada por longos períodos.</div>
+            <div class="what-feature-title">Captura física</div>
+            <div class="what-feature-desc">A captura ocorre por contato com o refil adesivo interno, sem liberação de venenos ou inseticidas no ambiente.</div>
           </div>
         </div>
         <div class="what-feature fade-up delay-1">
           <svg class="what-feature-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/>
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
           </svg>
           <div>
-            <div class="what-feature-title">Refil adesivo substituível</div>
-            <div class="what-feature-desc">Substitua apenas o consumível, mantendo a estrutura em operação.</div>
+            <div class="what-feature-title">Monitoramento visual</div>
+            <div class="what-feature-desc">A inspeção periódica revela o nível de infestação e orienta onde intensificar o controle, fornecendo dados concretos para o laudo técnico.</div>
           </div>
         </div>
         <div class="what-feature fade-up delay-2">
           <svg class="what-feature-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/><line x1="12" y1="15" x2="12" y2="17"/>
+            <polyline points="1 4 1 10 7 10"/>
+            <path d="M3.51 15a9 9 0 1 0 .49-3.51"/>
           </svg>
           <div>
-            <div class="what-feature-title">Sistema de trava dupla de segurança</div>
-            <div class="what-feature-desc">Maior estabilidade durante inspeções, transporte e manutenção.</div>
+            <div class="what-feature-title">Refil reutilizável</div>
+            <div class="what-feature-desc">Apenas o consumível adesivo é substituído quando a inspeção indicar. A carcaça permanece em uso por anos, reduzindo custo e descarte.</div>
           </div>
         </div>
         <div class="what-feature fade-up delay-3">
           <svg class="what-feature-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 3h14a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"/><polyline points="8 10 8 21"/><polyline points="16 10 16 21"/><line x1="3" y1="21" x2="21" y2="21"/>
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
           </svg>
           <div>
-            <div class="what-feature-title">Tampa articulada para inspeção</div>
-            <div class="what-feature-desc">Acesso rápido ao interior da armadilha sem desmontagens complexas.</div>
+            <div class="what-feature-title">Complementar à dedetização</div>
+            <div class="what-feature-desc">Atua onde o produto químico não alcança: nas frestas e estruturas que são o ponto cego do controle convencional.</div>
           </div>
         </div>
         <div class="what-feature fade-up delay-3">
           <svg class="what-feature-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
           </svg>
           <div>
-            <div class="what-feature-title">Ambientes internos e externos</div>
-            <div class="what-feature-desc">Projetada para diferentes cenários de monitoramento.</div>
-          </div>
-        </div>
-        <div class="what-feature fade-up delay-3">
-          <svg class="what-feature-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/>
-          </svg>
-          <div>
-            <div class="what-feature-title">Troca segura do refil adesivo</div>
-            <div class="what-feature-desc">Desenvolvida para reduzir o contato direto com a captura durante a manutenção.</div>
+            <div class="what-feature-title">Travamento e manuseio</div>
+            <div class="what-feature-desc">O sistema de fechamento ajuda a manter a armadilha protegida durante o uso, transporte, inspeção e troca do refil.</div>
           </div>
         </div>
       </div>
