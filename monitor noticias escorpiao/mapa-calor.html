@@ -95,7 +95,7 @@ body {
 .header-right {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
 
 .live-badge {
@@ -128,7 +128,7 @@ body {
   letter-spacing: 0.08em;
 }
 
-.btn-refresh {
+.btn-header {
   font-family: var(--mono);
   font-size: 12px;
   letter-spacing: 0.12em;
@@ -142,9 +142,20 @@ body {
   transition: all 0.2s;
 }
 
-.btn-refresh:hover {
+.btn-header:hover {
   border-color: var(--orange);
   color: var(--orange);
+}
+
+.btn-header.manual-btn {
+  border-color: rgba(242,165,22,0.25);
+  color: rgba(242,165,22,0.7);
+}
+
+.btn-header.manual-btn:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+  background: rgba(242,165,22,0.06);
 }
 
 /* ── Stats bar ───────────────────────────── */
@@ -412,26 +423,91 @@ body {
   overflow: hidden;
 }
 
-.sidebar-header {
-  padding: 16px 20px 14px;
+/* ── Sidebar tabs ────────────────────────── */
+.sidebar-tabs {
+  display: flex;
   border-bottom: 1px solid var(--line);
   flex-shrink: 0;
 }
 
-.sidebar-title {
+.stab {
+  flex: 1;
   font-family: var(--mono);
   font-size: 11px;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--orange);
-  margin-bottom: 4px;
-}
-
-.sidebar-desc {
-  font-size: 13px;
+  padding: 14px 0;
+  background: transparent;
+  border: none;
   color: var(--dim);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  margin-bottom: -1px;
 }
 
+.stab.active {
+  color: var(--orange);
+  border-bottom-color: var(--orange);
+  background: rgba(242,165,22,0.04);
+}
+
+.stab:hover:not(.active) {
+  color: var(--muted);
+  background: rgba(255,255,255,0.02);
+}
+
+/* ── Tab content ─────────────────────────── */
+.tab-content {
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.tab-content.active {
+  display: flex;
+}
+
+/* ── State filter bar ────────────────────── */
+.state-filter-bar {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--dark2);
+  flex-shrink: 0;
+}
+
+.state-select {
+  width: 100%;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  background: var(--dark3);
+  border: 1px solid var(--line);
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%238E8E96'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 28px;
+}
+
+.state-select:focus {
+  border-color: var(--orange);
+}
+
+.state-select option {
+  background: var(--dark3);
+  color: var(--text);
+}
+
+/* ── Sidebar body (scrollable) ───────────── */
 .sidebar-body {
   flex: 1;
   overflow-y: auto;
@@ -446,7 +522,6 @@ body {
 /* Rankings */
 .rank-section {
   padding: 16px 20px;
-  border-bottom: 1px solid var(--line);
 }
 
 .rank-section-title {
@@ -523,29 +598,9 @@ body {
   flex-shrink: 0;
 }
 
-/* Selected state news */
+/* News items */
 .state-panel {
-  padding: 16px 20px;
-}
-
-.state-panel-header {
-  margin-bottom: 14px;
-}
-
-.state-panel-name {
-  font-family: var(--display);
-  font-size: 16px;
-  color: var(--orange);
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  margin-bottom: 2px;
-}
-
-.state-panel-meta {
-  font-family: var(--mono);
-  font-size: 9px;
-  color: var(--dim);
-  letter-spacing: 0.1em;
+  padding: 0 20px 20px;
 }
 
 .news-item {
@@ -560,6 +615,7 @@ body {
   align-items: center;
   gap: 6px;
   margin-bottom: 5px;
+  flex-wrap: wrap;
 }
 
 .news-badge {
@@ -611,7 +667,34 @@ body {
   text-transform: uppercase;
 }
 
-/* Loading overlay */
+/* News panel header */
+.news-panel-head {
+  padding: 12px 20px 10px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 0;
+  background: var(--dark);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.news-panel-head-title {
+  font-family: var(--display);
+  font-size: 14px;
+  color: var(--orange);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 2px;
+}
+
+.news-panel-head-meta {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--dim);
+  letter-spacing: 0.08em;
+}
+
+/* ── Loading overlay ─────────────────────── */
 .loading-overlay {
   position: absolute;
   inset: 0;
@@ -653,6 +736,165 @@ body {
   100% { width: 0; margin-left: 100%; }
 }
 
+/* ── Manual modal ────────────────────────── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.78);
+  z-index: 500;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.modal-overlay.open { display: flex; }
+
+.modal-box {
+  background: var(--dark);
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  max-width: 560px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--dark3) transparent;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+}
+
+.modal-box::-webkit-scrollbar { width: 4px; }
+.modal-box::-webkit-scrollbar-thumb { background: var(--dark3); border-radius: 2px; }
+
+.modal-head {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: var(--dark);
+  z-index: 2;
+}
+
+.modal-head-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.modal-close {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.modal-close:hover {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.modal-body {
+  padding: 20px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.manual-intro {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  letter-spacing: 0.06em;
+  line-height: 1.7;
+  padding: 12px 16px;
+  background: rgba(242,165,22,0.05);
+  border-left: 2px solid var(--orange);
+  border-radius: 0 2px 2px 0;
+}
+
+.manual-step {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.manual-step-num {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--orange);
+  background: rgba(242,165,22,0.1);
+  border: 1px solid rgba(242,165,22,0.25);
+  padding: 5px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  width: 38px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.manual-step-content { flex: 1; }
+
+.manual-step-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 5px;
+  letter-spacing: 0.01em;
+}
+
+.manual-step-desc {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.manual-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+}
+
+.manual-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.manual-legend-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.manual-divider {
+  height: 1px;
+  background: var(--line);
+}
+
 /* ── Tablet / mobile ≤ 900px ─────────────────── */
 @media (max-width: 900px) {
   body {
@@ -673,13 +915,17 @@ body {
     flex-shrink: 0;
   }
 
-  /* Sidebar aparece abaixo do mapa em vez de ficar oculta */
   .sidebar {
     display: flex;
     border-left: none;
     border-top: 1px solid var(--line);
     height: auto;
-    min-height: 280px;
+    min-height: 320px;
+  }
+
+  .tab-content {
+    height: auto;
+    flex: none;
   }
 
   .sidebar-body {
@@ -698,10 +944,7 @@ body {
     flex-wrap: wrap;
   }
 
-  .update-info,
-  .btn-refresh {
-    display: none;
-  }
+  .update-info { display: none; }
 
   .header-subtitle {
     font-size: 9px;
@@ -731,7 +974,6 @@ body {
     max-width: 170px;
   }
 
-  /* Esconde detalhes da legenda em telas pequenas */
   .legend-items { display: none; }
 
   .map-controls {
@@ -745,6 +987,9 @@ body {
     padding: 4px 8px;
     letter-spacing: 0.08em;
   }
+
+  .modal-box { max-height: 90vh; }
+  .modal-body { padding: 16px 18px 28px; gap: 18px; }
 }
 </style>
 </head>
@@ -763,7 +1008,8 @@ body {
       Tempo real
     </div>
     <div class="update-info" id="update-info">Carregando...</div>
-    <button class="btn-refresh" onclick="recarregar()">↺ Atualizar</button>
+    <button class="btn-header" onclick="recarregar()">↺ Atualizar</button>
+    <button class="btn-header manual-btn" onclick="abrirManual()">? Manual</button>
     <a href="index.html" style="font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:0.1em;text-decoration:none;">← Dashboard</a>
   </div>
 </header>
@@ -853,14 +1099,32 @@ body {
 
   <!-- ── Sidebar ── -->
   <aside class="sidebar">
-    <div class="sidebar-header">
-      <div class="sidebar-title">Painel de estados</div>
-      <div class="sidebar-desc">Clique em um estado no mapa para ver as notícias</div>
+
+    <!-- Tabs -->
+    <div class="sidebar-tabs">
+      <button class="stab active" data-tab="noticias" onclick="switchTab('noticias', this)">Notícias</button>
+      <button class="stab" data-tab="ranking" onclick="switchTab('ranking', this)">Ranking</button>
     </div>
-    <div class="sidebar-body" id="sidebar-body">
-      <div class="rank-section" id="ranking-estados"></div>
-      <div id="state-news-panel"></div>
+
+    <!-- Tab: Notícias -->
+    <div id="tab-noticias" class="tab-content active">
+      <div class="state-filter-bar">
+        <select id="state-select" class="state-select" onchange="filtrarPorEstado(this.value)">
+          <option value="">Todos os estados</option>
+        </select>
+      </div>
+      <div class="sidebar-body" id="sidebar-body-noticias">
+        <div id="state-news-panel"></div>
+      </div>
     </div>
+
+    <!-- Tab: Ranking -->
+    <div id="tab-ranking" class="tab-content">
+      <div class="sidebar-body" id="sidebar-body-ranking">
+        <div class="rank-section" id="ranking-estados"></div>
+      </div>
+    </div>
+
   </aside>
 </div>
 
@@ -882,6 +1146,119 @@ body {
     </div>
   </div>
   <div class="tooltip-last" id="tt-last"></div>
+</div>
+
+<!-- ── Manual modal ── -->
+<div class="modal-overlay" id="modal-manual" onclick="if(event.target===this) fecharManual()">
+  <div class="modal-box">
+    <div class="modal-head">
+      <div class="modal-head-title">Manual · Como usar o mapa de calor</div>
+      <button class="modal-close" onclick="fecharManual()">✕</button>
+    </div>
+    <div class="modal-body">
+
+      <div class="manual-intro">
+        O Mapa de Calor Noprax exibe notícias sobre escorpionismo no Brasil em tempo real, organizadas por estado e nível de gravidade. Use os recursos abaixo para navegar pelos dados.
+      </div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">01</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Leia o mapa</div>
+          <div class="manual-step-desc">As cores dos estados indicam o volume de ocorrências registradas. Passe o mouse sobre qualquer estado para ver um resumo rápido com totais por gravidade.</div>
+          <div class="manual-legend">
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#1C1C20;border:1px solid rgba(255,255,255,0.1)"></div>Sem registros na base</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#1a3a28"></div>1–5 ocorrências — Baixo</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#2d7a52"></div>6–15 ocorrências — Moderado</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#F2A516"></div>16–30 ocorrências — Alto</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#D88E0A"></div>31–60 ocorrências — Muito alto</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#D85A30"></div>60+ ocorrências — Crítico</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">02</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Filtre por gravidade</div>
+          <div class="manual-step-desc">Use os botões no canto superior esquerdo do mapa: <strong style="color:var(--text)">Todas</strong>, <strong style="color:var(--danger)">Graves</strong>, <strong style="color:var(--orange)">Moderadas</strong> e <strong style="color:var(--success)">Leves</strong>. O mapa e o ranking se atualizam automaticamente para refletir apenas o tipo selecionado.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">03</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Ver notícias de todos os estados</div>
+          <div class="manual-step-desc">A aba <strong style="color:var(--text)">Notícias</strong> exibe por padrão todas as notícias da base, de todos os estados, ordenadas da mais recente para a mais antiga.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">04</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Filtrar por estado</div>
+          <div class="manual-step-desc">Na aba <strong style="color:var(--text)">Notícias</strong>, use o menu suspenso para selecionar um estado específico. Clique em <strong style="color:var(--text)">Todos os estados</strong> para voltar à listagem completa. O estado selecionado fica destacado no mapa com borda laranja.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">05</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Clique no mapa para filtrar</div>
+          <div class="manual-step-desc">Clique diretamente sobre um estado no mapa para filtrar as notícias automaticamente na aba <strong style="color:var(--text)">Notícias</strong>. O filtro do menu suspenso é atualizado junto.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">06</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Consulte o ranking</div>
+          <div class="manual-step-desc">A aba <strong style="color:var(--text)">Ranking</strong> exibe os estados com mais registros em ordem decrescente. Clique em qualquer estado do ranking para ver as notícias daquele estado.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">07</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Zoom e navegação no mapa</div>
+          <div class="manual-step-desc">Use a <strong style="color:var(--text)">roda do mouse</strong> para aproximar ou afastar. Clique e <strong style="color:var(--text)">arraste</strong> para mover. No celular, use o gesto de pinça para zoom e dois dedos para navegar.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">08</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Atualização automática</div>
+          <div class="manual-step-desc">Os dados são atualizados automaticamente a cada <strong style="color:var(--text)">60 segundos</strong>. Use o botão <strong style="color:var(--text)">↺ Atualizar</strong> no cabeçalho para forçar uma atualização imediata.</div>
+        </div>
+      </div>
+
+      <div class="manual-divider"></div>
+
+      <div class="manual-step">
+        <div class="manual-step-num">09</div>
+        <div class="manual-step-content">
+          <div class="manual-step-title">Leia as notícias na fonte</div>
+          <div class="manual-step-desc">Cada notícia exibe a <strong style="color:var(--text)">gravidade</strong>, <strong style="color:var(--text)">data</strong>, <strong style="color:var(--text)">estado</strong> e <strong style="color:var(--text)">cidade</strong>. Clique no título para abrir a fonte original em uma nova aba.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
 
 <script>
@@ -908,7 +1285,6 @@ const SIGLA_TO_NOME = {
   TO:'Tocantins'
 };
 
-// Mapeamento reverso nome→sigla (cobre variações do GeoJSON)
 const NOME_TO_SIGLA = Object.fromEntries(
   Object.entries(SIGLA_TO_NOME).map(([s, n]) => [n, s])
 );
@@ -920,13 +1296,12 @@ let filtroAtivo = 'todas';
 let estadoSelecionado = null;
 let mapPathsG = null;
 let refreshInterval = null;
-const REFRESH_INTERVAL_MS = 60000; // 60 segundos
+const REFRESH_INTERVAL_MS = 60000;
 
-// ── Escala de cores por filtro ───────────────────────────────
+// ── Escala de cores ──────────────────────────────────────────
 function getColor(count) {
   if (!count || count === 0) return '#1C1C20';
 
-  // "Todas": escala neutra verde→laranja→vermelho por total
   if (filtroAtivo === 'todas') {
     if (count <= 5)  return '#1a3a28';
     if (count <= 15) return '#2d7a52';
@@ -935,7 +1310,6 @@ function getColor(count) {
     return '#D85A30';
   }
 
-  // "Graves": escala exclusivamente vermelha
   if (filtroAtivo === 'grave') {
     if (count <= 2)  return '#3d1010';
     if (count <= 5)  return '#7a1a1a';
@@ -944,7 +1318,6 @@ function getColor(count) {
     return '#D85A30';
   }
 
-  // "Moderadas": escala exclusivamente âmbar/amarela
   if (filtroAtivo === 'moderada') {
     if (count <= 5)  return '#3a2a08';
     if (count <= 15) return '#7a5c14';
@@ -953,7 +1326,6 @@ function getColor(count) {
     return '#F2A516';
   }
 
-  // "Leves": escala exclusivamente verde
   if (filtroAtivo === 'leve') {
     if (count <= 5)  return '#0d2e1a';
     if (count <= 15) return '#1a5030';
@@ -976,19 +1348,17 @@ function getScore(d) {
 // ── Processa noticias.json ───────────────────────────────────
 function processarNoticias(noticias) {
   const por = {};
-  let total = 0, grave = 0, moderada = 0, leve = 0, semLocal = 0;
+  let total = 0, grave = 0, moderada = 0, leve = 0;
   const estadosAtivos = new Set();
 
   noticias.forEach(n => {
-    // Conta TODAS as notícias nos stats globais
     total++;
     if (n.gravidade === 'grave')    grave++;
     if (n.gravidade === 'moderada') moderada++;
     if (n.gravidade === 'leve')     leve++;
 
-    // Só plota no mapa se tiver estado identificado
     const uf = n.estado;
-    if (!uf || uf === 'Não identificado') { semLocal++; return; }
+    if (!uf || uf === 'Não identificado') return;
 
     if (!por[uf]) por[uf] = { total: 0, grave: 0, moderada: 0, leve: 0, noticias: [] };
     por[uf].total++;
@@ -997,15 +1367,10 @@ function processarNoticias(noticias) {
     estadosAtivos.add(uf);
   });
 
-  // Ordena notícias de cada estado por data desc
   Object.keys(por).forEach(uf => {
-    por[uf].noticias.sort((a, b) => {
-      const dA = parseBRDate(a.data), dB = parseBRDate(b.data);
-      return dB - dA;
-    });
+    por[uf].noticias.sort((a, b) => parseBRDate(b.data) - parseBRDate(a.data));
   });
 
-  // Atualiza stats
   animCount('s-total', total);
   animCount('s-grave', grave);
   animCount('s-moderada', moderada);
@@ -1045,7 +1410,6 @@ async function renderMapa() {
   svg.attr('width', W).attr('height', H);
   svg.selectAll('*').remove();
 
-  // Projeção centralizada no Brasil
   const projection = d3.geoMercator()
     .center([-54, -15])
     .scale(W * 0.95)
@@ -1053,7 +1417,6 @@ async function renderMapa() {
 
   const path = d3.geoPath().projection(projection);
 
-  // Busca GeoJSON — tenta IBGE, fallback para codeforamerica
   let geo;
   const fontes = [
     'https://servicodados.ibge.gov.br/api/v2/malhas/BR?resolucao=3&formato=application/vnd.geo+json',
@@ -1062,7 +1425,7 @@ async function renderMapa() {
   for (const url of fontes) {
     try {
       geo = await d3.json(url);
-      if (geo?.features?.length >= 20) break; // 27 estados esperados
+      if (geo?.features?.length >= 20) break;
     } catch(e) {
       console.warn('Fonte falhou, tentando próxima:', url);
     }
@@ -1075,7 +1438,6 @@ async function renderMapa() {
   const g = svg.append('g').attr('class', 'states-g');
   mapPathsG = g;
 
-  // ── Agrupa features por sigla → 1 path por estado ──────────
   const grouped = new Map();
   geo.features.forEach(f => {
     const sigla = resolverSigla(f);
@@ -1085,7 +1447,6 @@ async function renderMapa() {
   });
   const stateFeatures = Array.from(grouped.values());
 
-  // Desenha 1 path por estado (todos os polígonos concatenados)
   g.selectAll('path.state')
     .data(stateFeatures)
     .join('path')
@@ -1096,7 +1457,6 @@ async function renderMapa() {
     .on('mouseleave', () => ocultarTooltip())
     .on('click', (event, d) => selecionarSigla(d.sigla));
 
-  // Labels: centroide do maior polígono do estado
   g.selectAll('text.state-label')
     .data(stateFeatures)
     .join('text')
@@ -1111,7 +1471,6 @@ async function renderMapa() {
     })
     .text(d => d.sigla);
 
-  // Zoom + pan
   const zoom = d3.zoom()
     .scaleExtent([0.8, 8])
     .on('zoom', e => g.attr('transform', e.transform));
@@ -1124,21 +1483,17 @@ async function renderMapa() {
 function resolverSigla(d) {
   const p = d.properties || {};
 
-  // 1. Sigla direta na propriedade
   if (p.sigla) return p.sigla.toUpperCase();
 
-  // 2. Código IBGE numérico (id ou codarea – os 2 primeiros dígitos são o código do estado)
   const raw = d.id ?? p.codarea ?? p.CD_UF ?? p.CD_GEOCUF ?? p.codigo ?? '';
   if (raw !== '') {
     const n = parseInt(String(raw).substring(0, 2));
     if (IBGE_TO_SIGLA[n]) return IBGE_TO_SIGLA[n];
   }
 
-  // 3. Nome completo do estado
   const nome = p.NM_UF ?? p.nome ?? p.name ?? p.state ?? '';
   if (nome) {
     if (NOME_TO_SIGLA[nome]) return NOME_TO_SIGLA[nome];
-    // Tenta sem acentos
     const norm = t => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
     const found = Object.keys(SIGLA_TO_NOME).find(
       s => norm(SIGLA_TO_NOME[s]) === norm(nome)
@@ -1149,7 +1504,7 @@ function resolverSigla(d) {
   return '';
 }
 
-// ── Atualiza cores sem redesenhar ────────────────────────────
+// ── Atualiza cores ────────────────────────────────────────────
 function atualizarCores() {
   if (!mapPathsG) return;
   mapPathsG.selectAll('path.state')
@@ -1181,10 +1536,66 @@ function ocultarTooltip() {
   document.getElementById('tooltip').style.display = 'none';
 }
 
+// ── Tabs ─────────────────────────────────────────────────────
+function switchTab(tabName, btn) {
+  document.querySelectorAll('.stab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + tabName).classList.add('active');
+}
+
+function switchTabByName(tabName) {
+  document.querySelectorAll('.stab').forEach(b => {
+    if (b.dataset.tab === tabName) b.classList.add('active');
+    else b.classList.remove('active');
+  });
+  document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + tabName).classList.add('active');
+}
+
+// ── Filtro de estado (select) ────────────────────────────────
+function filtrarPorEstado(sigla) {
+  if (sigla) {
+    estadoSelecionado = sigla;
+    if (mapPathsG) mapPathsG.selectAll('path.state').classed('selected', d => d.sigla === sigla);
+    renderStatePanel(sigla);
+  } else {
+    estadoSelecionado = null;
+    if (mapPathsG) mapPathsG.selectAll('path.state').classed('selected', false);
+    renderBrasilPanel();
+  }
+}
+
+function popularSelectEstados() {
+  const select = document.getElementById('state-select');
+  if (!select) return;
+  while (select.options.length > 1) select.remove(1);
+
+  const estados = Object.keys(dadosPorEstado)
+    .filter(s => (dadosPorEstado[s]?.total || 0) > 0)
+    .sort((a, b) => (SIGLA_TO_NOME[a] || a).localeCompare(SIGLA_TO_NOME[b] || b));
+
+  estados.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s;
+    opt.textContent = `${SIGLA_TO_NOME[s] || s} (${dadosPorEstado[s].total})`;
+    select.appendChild(opt);
+  });
+
+  if (estadoSelecionado) select.value = estadoSelecionado;
+}
+
 // ── Selecionar estado ────────────────────────────────────────
 function selecionarSigla(sigla) {
   if (!sigla) return;
   estadoSelecionado = sigla;
+
+  // Switch to Notícias tab
+  switchTabByName('noticias');
+
+  // Update select
+  const select = document.getElementById('state-select');
+  if (select) select.value = sigla;
 
   if (mapPathsG) {
     mapPathsG.selectAll('path.state').classed('selected', d => d.sigla === sigla);
@@ -1193,26 +1604,22 @@ function selecionarSigla(sigla) {
   renderStatePanel(sigla);
 
   setTimeout(() => {
-    const panel = document.getElementById('state-news-panel');
-    const body  = document.getElementById('sidebar-body');
     if (window.innerWidth <= 900) {
-      // Mobile: rola a página até o painel de notícias abaixo do mapa
       const sidebar = document.querySelector('.sidebar');
       if (sidebar) sidebar.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    } else if (panel && body) {
-      // Desktop: rola dentro da sidebar
-      body.scrollTo({ top: panel.offsetTop - 8, behavior: 'smooth' });
+    } else {
+      const body = document.getElementById('sidebar-body-noticias');
+      if (body) body.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }, 60);
 }
 
-function voltarRanking() {
-  estadoSelecionado = null;
-  if (mapPathsG) mapPathsG.selectAll('path.state').classed('selected', false);
-  renderBrasilPanel();
-  document.getElementById('sidebar-body').scrollTo({ top: 0, behavior: 'smooth' });
+function selecionarPorSigla(sigla) {
+  switchTabByName('noticias');
+  selecionarSigla(sigla);
 }
 
+// ── Painel de todas as notícias ──────────────────────────────
 function renderBrasilPanel() {
   const noticias = filtroAtivo === 'todas'
     ? todasNoticias
@@ -1222,40 +1629,32 @@ function renderBrasilPanel() {
 
   const panel = document.getElementById('state-news-panel');
   panel.innerHTML = `
+    <div class="news-panel-head">
+      <div class="news-panel-head-title">Brasil · Todas as notícias</div>
+      <div class="news-panel-head-meta">${sorted.length} registros · selecione um estado para filtrar</div>
+    </div>
     <div class="state-panel">
-      <div style="
-        padding:14px 20px 10px; border-bottom:1px solid var(--line);
-        background:var(--dark2); position:sticky; top:0; z-index:10;
-      ">
-        <div style="font-family:var(--display);font-size:15px;color:var(--orange);text-transform:uppercase;letter-spacing:0.03em;">
-          Brasil <span style="color:var(--dim);font-size:11px;">· TODAS AS NOTÍCIAS</span>
-        </div>
-        <div style="font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:0.1em;margin-top:3px;">
-          ${sorted.length} registros · clique em um estado no mapa para filtrar
-        </div>
-      </div>
-      <div style="padding:12px 20px;">
-        ${sorted.length === 0
-          ? `<div class="empty-state">Sem notícias${filtroAtivo !== 'todas' ? ' nesta categoria' : ''}</div>`
-          : sorted.slice(0, 60).map(n => `
-            <div class="news-item">
-              <div class="news-meta-row">
-                <span class="news-badge ${n.gravidade}">${n.gravidade}</span>
-                <span class="news-date">${n.data}</span>
-                ${n.estado && n.estado !== 'Não identificado' ? `<span class="news-city">· ${n.estado}</span>` : ''}
-                ${n.cidade && n.cidade !== 'Não identificada' ? `<span class="news-city"> ${n.cidade}</span>` : ''}
-              </div>
-              <div class="news-title-text">
-                <a href="${n.link}" target="_blank" rel="noopener">${n.titulo}</a>
-              </div>
+      ${sorted.length === 0
+        ? `<div class="empty-state">Sem notícias${filtroAtivo !== 'todas' ? ' nesta categoria' : ''}</div>`
+        : sorted.slice(0, 80).map(n => `
+          <div class="news-item">
+            <div class="news-meta-row">
+              <span class="news-badge ${n.gravidade}">${n.gravidade}</span>
+              <span class="news-date">${n.data}</span>
+              ${n.estado && n.estado !== 'Não identificado' ? `<span class="news-city">· ${n.estado}</span>` : ''}
+              ${n.cidade && n.cidade !== 'Não identificada' ? `<span class="news-city">${n.cidade}</span>` : ''}
             </div>
-          `).join('')
-        }
-      </div>
+            <div class="news-title-text">
+              <a href="${n.link}" target="_blank" rel="noopener">${n.titulo}</a>
+            </div>
+          </div>
+        `).join('')
+      }
     </div>
   `;
 }
 
+// ── Painel de estado específico ──────────────────────────────
 function renderStatePanel(sigla) {
   const nome = SIGLA_TO_NOME[sigla] || sigla;
   const data = dadosPorEstado[sigla] || { total: 0, grave: 0, moderada: 0, leve: 0, noticias: [] };
@@ -1265,55 +1664,31 @@ function renderStatePanel(sigla) {
 
   const panel = document.getElementById('state-news-panel');
   panel.innerHTML = `
+    <div class="news-panel-head">
+      <div class="news-panel-head-title">${nome} · ${sigla}</div>
+      <div class="news-panel-head-meta">
+        <span style="color:var(--danger)">${data.grave} graves</span> ·
+        <span style="color:var(--orange)">${data.moderada} mod.</span> ·
+        <span style="color:var(--success)">${data.leve} leves</span> ·
+        <strong style="color:var(--text)">${data.total} total</strong>
+      </div>
+    </div>
     <div class="state-panel">
-
-      <!-- Cabeçalho do estado com botão voltar -->
-      <div style="
-        display:flex; align-items:center; justify-content:space-between;
-        padding:14px 20px 10px; border-bottom:1px solid var(--line);
-        background:var(--dark2); position:sticky; top:0; z-index:10;
-      ">
-        <div>
-          <div style="font-family:var(--display);font-size:15px;color:var(--orange);text-transform:uppercase;letter-spacing:0.03em;">
-            ${nome} <span style="color:var(--dim);font-size:11px;">· ${sigla}</span>
-          </div>
-          <div style="font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:0.1em;margin-top:3px;">
-            <span style="color:var(--danger)">${data.grave}↑ graves</span> ·
-            <span style="color:var(--orange)">${data.moderada} mod.</span> ·
-            <span style="color:var(--success)">${data.leve} leves</span> ·
-            <strong style="color:var(--text)">${data.total} total</strong>
-          </div>
-        </div>
-        <button onclick="voltarRanking()" style="
-          font-family:var(--mono);font-size:9px;letter-spacing:0.15em;
-          text-transform:uppercase;background:var(--dark3);
-          border:1px solid var(--line);color:var(--muted);
-          padding:6px 12px;border-radius:2px;cursor:pointer;
-          transition:all 0.2s; white-space:nowrap;
-        " onmouseover="this.style.borderColor='var(--orange)';this.style.color='var(--orange)'"
-           onmouseout="this.style.borderColor='var(--line)';this.style.color='var(--muted)'">
-          ← Todos
-        </button>
-      </div>
-
-      <!-- Lista de notícias -->
-      <div style="padding:12px 20px;">
-        ${noticias.length === 0
-          ? `<div class="empty-state">Sem notícias${filtroAtivo !== 'todas' ? ' nesta categoria' : ''}</div>`
-          : noticias.map(n => `
-            <div class="news-item">
-              <div class="news-meta-row">
-                <span class="news-badge ${n.gravidade}">${n.gravidade}</span>
-                <span class="news-date">${n.data}</span>
-                ${n.cidade && n.cidade !== 'Não identificada' ? `<span class="news-city">· ${n.cidade}</span>` : ''}
-              </div>
-              <div class="news-title-text">
-                <a href="${n.link}" target="_blank" rel="noopener">${n.titulo}</a>
-              </div>
+      ${noticias.length === 0
+        ? `<div class="empty-state">Sem notícias${filtroAtivo !== 'todas' ? ' nesta categoria' : ''}</div>`
+        : noticias.map(n => `
+          <div class="news-item">
+            <div class="news-meta-row">
+              <span class="news-badge ${n.gravidade}">${n.gravidade}</span>
+              <span class="news-date">${n.data}</span>
+              ${n.cidade && n.cidade !== 'Não identificada' ? `<span class="news-city">· ${n.cidade}</span>` : ''}
             </div>
-          `).join('')
-        }
-      </div>
+            <div class="news-title-text">
+              <a href="${n.link}" target="_blank" rel="noopener">${n.titulo}</a>
+            </div>
+          </div>
+        `).join('')
+      }
     </div>
   `;
 }
@@ -1324,7 +1699,7 @@ function renderRanking() {
     .map(s => ({ sigla: s, nome: SIGLA_TO_NOME[s] || s, score: getScore(dadosPorEstado[s]) }))
     .filter(x => x.score > 0)
     .sort((a, b) => b.score - a.score)
-    .slice(0, 12);
+    .slice(0, 15);
 
   const max = uf[0]?.score || 1;
 
@@ -1341,14 +1716,13 @@ function renderRanking() {
         <span class="rank-count">${u.score}</span>
       </div>
     `).join('')}
+    <div style="padding:12px 0 4px;font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:0.06em;text-align:center;">
+      Clique em um estado para ver as notícias
+    </div>
   `;
 }
 
-function selecionarPorSigla(sigla) {
-  selecionarSigla(sigla);
-}
-
-// ── Filtros ──────────────────────────────────────────────────
+// ── Filtros de gravidade ─────────────────────────────────────
 function setFiltro(f, btn) {
   filtroAtivo = f;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -1373,6 +1747,7 @@ async function carregarDados() {
     const agora = new Date().toLocaleTimeString('pt-BR', { hour:'2-digit', minute:'2-digit' });
     document.getElementById('update-info').textContent = `Atualizado às ${agora}`;
 
+    popularSelectEstados();
     atualizarCores();
     renderRanking();
     if (estadoSelecionado) {
@@ -1395,6 +1770,19 @@ function iniciarAutoRefresh() {
   clearInterval(refreshInterval);
   refreshInterval = setInterval(carregarDados, REFRESH_INTERVAL_MS);
 }
+
+// ── Manual ───────────────────────────────────────────────────
+function abrirManual() {
+  document.getElementById('modal-manual').classList.add('open');
+}
+
+function fecharManual() {
+  document.getElementById('modal-manual').classList.remove('open');
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') fecharManual();
+});
 
 // ── Resize ───────────────────────────────────────────────────
 let resizeTimer;
