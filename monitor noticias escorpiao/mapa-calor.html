@@ -1738,6 +1738,11 @@ function setFiltro(f, btn) {
 
 // ── Carga de dados ───────────────────────────────────────────
 async function carregarDados() {
+  if (location.protocol === 'file:') {
+    const info = document.getElementById('update-info');
+    if (info) info.innerHTML = '<span style="color:var(--danger)">Abra pelo site: noprax-site-one.vercel.app</span>';
+    return;
+  }
   try {
     const r = await fetch('noticias.json?t=' + Date.now());
     if (!r.ok) throw new Error('HTTP ' + r.status);
