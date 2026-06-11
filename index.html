@@ -1,6 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<!-- DMA DataLayer | GTM-5PGR26RH -->
+<script>
+(function() {
+  window.dataLayer = window.dataLayer || [];
+  var _p    = new URLSearchParams(location.search);
+  var _KEYS = ['gclid','fbclid','utm_source','utm_medium','utm_campaign','utm_content','utm_term'];
+
+  // Persiste params na sessão (navegação entre páginas)
+  _KEYS.forEach(function(k) {
+    var v = _p.get(k);
+    if (v) sessionStorage.setItem(k, v);
+  });
+  if (!sessionStorage.getItem('landing_page'))
+    sessionStorage.setItem('landing_page', location.href);
+
+  // Formata fbc para Meta CAPI
+  var _fbclid = _p.get('fbclid') || sessionStorage.getItem('fbclid');
+  if (_fbclid && !sessionStorage.getItem('fbc'))
+    sessionStorage.setItem('fbc', 'fb.1.' + Date.now() + '.' + _fbclid);
+
+  function _tracking() {
+    var t = { landing_page: sessionStorage.getItem('landing_page') || location.href };
+    _KEYS.concat(['fbc']).forEach(function(k) {
+      var v = sessionStorage.getItem(k) || _p.get(k) || '';
+      if (v) t[k] = v;
+    });
+    return t;
+  }
+
+  // Gera event_id único para deduplicação Pixel <-> CAPI
+  function _eventId(event) {
+    return 'dma_' + event + '_' + Date.now() + '_' + Math.random().toString(36).substr(2,8);
+  }
+
+  // Envia para dataLayer + webhook GHL (Workflow 1 cuida do CAPI via GHL nativo)
+  function _push(event, extra) {
+    var eid  = _eventId(event);
+    var data = Object.assign({ event: event, page_url: location.href, event_id: eid }, _tracking(), extra || {});
+    window.dataLayer.push(data);
+    if (true) {
+      fetch('https://services.leadconnectorhq.com/hooks/wT8F4RF84VckWugttOZg/webhook-trigger/ec117a3e-4b75-4678-a188-597bd6e515ca', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+        keepalive: true,
+      }).catch(function() {});
+    }
+  }
+
+  // Expõe globalmente para uso externo e GHL forms
+  window.dmaTrackLead = function(lead) { _push('generate_lead', lead); };
+  window.dmaPush      = _push;
+
+  // Page view inicial
+  _push('page_view');
+
+  document.addEventListener('DOMContentLoaded', function() {
+
+    // Formulários nativos
+    document.querySelectorAll('form').forEach(function(form) {
+      form.addEventListener('submit', function() {
+        function _v(sel) {
+          var el = form.querySelector(sel);
+          return el ? (el.value || '') : '';
+        }
+        _push('generate_lead', {
+          lead_nome:     _v('[name*="nome"],[name*="name"],[placeholder*="ome"],[placeholder*="Name"]'),
+          lead_email:    _v('[type="email"],[name*="email"]'),
+          lead_telefone: _v('[type="tel"],[name*="phone"],[name*="tel"],[name*="celular"],[name*="whatsapp"],[name*="fone"]'),
+          form_id:       form.id || form.className || '',
+        });
+      });
+    });
+
+    // Clique WhatsApp
+    document.querySelectorAll('a[href*="wa.me"],a[href*="whatsapp"],a[href*="api.whatsapp"]').forEach(function(el) {
+      el.addEventListener('click', function() {
+        _push('whatsapp_click', { href: el.href });
+      });
+    });
+
+    // Clique telefone
+    document.querySelectorAll('a[href^="tel:"]').forEach(function(el) {
+      el.addEventListener('click', function() {
+        _push('phone_click', { phone: el.href.replace('tel:', '') });
+      });
+    });
+
+    // GHL form embed via postMessage (iframe)
+    window.addEventListener('message', function(e) {
+      if (!e.data) return;
+      var d = typeof e.data === 'string' ? {} : e.data;
+      var isSubmit = d.type === 'form-submitted' || d.event === 'form_submitted';
+      if (isSubmit) {
+        window.dmaTrackLead({
+          lead_nome:     d.name  || d.firstName || '',
+          lead_email:    d.email || '',
+          lead_telefone: d.phone || d.phoneNumber || '',
+        });
+      }
+    });
+
+  });
+})();
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5PGR26RH');</script>
+<!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Noprax · Monitoramento Inteligente de Pragas</title>
@@ -1828,6 +1940,10 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PGR26RH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- ─── NAV ─── -->
 <nav class="nav">
@@ -2334,7 +2450,7 @@ section.light3 { background: var(--paper3); color: var(--ink); }
       </p>
     </div>
 
-    <form class="lead-form fade-up delay-1" name="contato" action="#" method="POST">
+    <form class="lead-form fade-up delay-1" name="contato" id="form-contato">
       <div class="lead-form-row">
         <div class="lead-field">
           <label for="lead-nome">Nome</label>
@@ -2499,6 +2615,41 @@ document.addEventListener('click', (e) => {
       toggle.textContent = '☰';
       document.body.style.overflow = '';
     }
+  });
+})();
+
+// ── Formulário de contato ────────────────────────────────────
+(function() {
+  var form = document.getElementById('form-contato');
+  if (!form) return;
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    var btn = form.querySelector('[type="submit"]');
+    if (btn) { btn.disabled = true; btn.textContent = 'Enviando...'; }
+
+    var payload = {
+      nome:      form.querySelector('[name="nome"]')     ? form.querySelector('[name="nome"]').value     : '',
+      whatsapp:  form.querySelector('[name="whatsapp"]') ? form.querySelector('[name="whatsapp"]').value : '',
+      email:     form.querySelector('[name="email"]')    ? form.querySelector('[name="email"]').value    : '',
+      perfil:    form.querySelector('[name="perfil"]')   ? form.querySelector('[name="perfil"]').value   : '',
+      mensagem:  form.querySelector('[name="mensagem"]') ? form.querySelector('[name="mensagem"]').value : '',
+      origem:    location.href,
+      timestamp: new Date().toISOString()
+    };
+
+    // Dispara o webhook e redireciona independentemente da resposta
+    fetch('https://services.leadconnectorhq.com/hooks/wT8F4RF84VckWugttOZg/webhook-trigger/ec117a3e-4b75-4678-a188-597bd6e515ca', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).catch(function() {}).finally(function() {
+      window.location.href = 'obrigado.html';
+    });
+
+    // Fallback: redireciona após 3s mesmo se o fetch travar
+    setTimeout(function() { window.location.href = 'obrigado.html'; }, 3000);
   });
 })();
 
