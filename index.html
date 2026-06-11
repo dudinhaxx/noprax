@@ -40,7 +40,7 @@
     var eid  = _eventId(event);
     var data = Object.assign({ event: event, page_url: location.href, event_id: eid }, _tracking(), extra || {});
     window.dataLayer.push(data);
-    if (true) {
+    if (false) {
       fetch('https://services.leadconnectorhq.com/hooks/wT8F4RF84VckWugttOZg/webhook-trigger/ec117a3e-4b75-4678-a188-597bd6e515ca', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -59,22 +59,7 @@
 
   document.addEventListener('DOMContentLoaded', function() {
 
-    // Formulários nativos
-    document.querySelectorAll('form').forEach(function(form) {
-      form.addEventListener('submit', function() {
-        function _v(sel) {
-          var el = form.querySelector(sel);
-          return el ? (el.value || '') : '';
-        }
-        _push('generate_lead', {
-          lead_nome:     _v('[name*="nome"],[name*="name"],[placeholder*="ome"],[placeholder*="Name"]'),
-          lead_email:    _v('[type="email"],[name*="email"]'),
-          lead_telefone: _v('[type="tel"],[name*="phone"],[name*="tel"],[name*="celular"],[name*="whatsapp"],[name*="fone"]'),
-          form_id:       form.id || form.className || '',
-        });
-      });
-    });
-
+    
     // Clique WhatsApp
     document.querySelectorAll('a[href*="wa.me"],a[href*="whatsapp"],a[href*="api.whatsapp"]').forEach(function(el) {
       el.addEventListener('click', function() {
@@ -96,9 +81,9 @@
       var isSubmit = d.type === 'form-submitted' || d.event === 'form_submitted';
       if (isSubmit) {
         window.dmaTrackLead({
-          lead_nome:     d.name  || d.firstName || '',
+          lead_name:     d.name  || d.firstName || '',
           lead_email:    d.email || '',
-          lead_telefone: d.phone || d.phoneNumber || '',
+          lead_phone: d.phone || d.phoneNumber || '',
         });
       }
     });
@@ -2471,11 +2456,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <label for="lead-perfil">Perfil</label>
         <select id="lead-perfil" name="perfil" required>
           <option value="" disabled selected>Selecione seu perfil</option>
-          <option value="dedetizadora">Sou dedetizadora</option>
-          <option value="distribuidora">Sou distribuidora</option>
-          <option value="revendedor">Quero ser revendedor</option>
-          <option value="domestico">Uso doméstico</option>
-          <option value="outro">Outro</option>
+          <option value="Sou dedetizadora">Sou dedetizadora</option>
+          <option value="Sou distribuidora">Sou distribuidora</option>
+          <option value="Quero ser revendedor">Quero ser revendedor</option>
+          <option value="Uso doméstico">Uso doméstico</option>
+          <option value="Outro">Outro</option>
         </select>
       </div>
 
@@ -2618,38 +2603,43 @@ document.addEventListener('click', (e) => {
   });
 })();
 
-// ── Formulário de contato ────────────────────────────────────
+// -- Formulario de contato --
 (function() {
   var form = document.getElementById('form-contato');
   if (!form) return;
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
-
     var btn = form.querySelector('[type="submit"]');
     if (btn) { btn.disabled = true; btn.textContent = 'Enviando...'; }
 
+    var ss = sessionStorage;
     var payload = {
-      nome:      form.querySelector('[name="nome"]')     ? form.querySelector('[name="nome"]').value     : '',
-      whatsapp:  form.querySelector('[name="whatsapp"]') ? form.querySelector('[name="whatsapp"]').value : '',
-      email:     form.querySelector('[name="email"]')    ? form.querySelector('[name="email"]').value    : '',
-      perfil:    form.querySelector('[name="perfil"]')   ? form.querySelector('[name="perfil"]').value   : '',
-      mensagem:  form.querySelector('[name="mensagem"]') ? form.querySelector('[name="mensagem"]').value : '',
-      origem:    location.href,
-      timestamp: new Date().toISOString()
+      event:        'generate_lead',
+      lead_name:    (form.querySelector('[name="nome"]')     || {}).value || '',
+      lead_email:   (form.querySelector('[name="email"]')    || {}).value || '',
+      lead_phone:   (form.querySelector('[name="whatsapp"]') || {}).value || '',
+      lead_message: (form.querySelector('[name="mensagem"]') || {}).value || '',
+      perfil:       (form.querySelector('[name="perfil"]')   || {}).value || '',
+      page_url:     location.href,
+      landing_page: ss.getItem('landing_page') || location.href,
+      utm_source:   ss.getItem('utm_source')   || '',
+      utm_medium:   ss.getItem('utm_medium')   || '',
+      utm_campaign: ss.getItem('utm_campaign') || '',
+      utm_content:  ss.getItem('utm_content')  || '',
+      utm_term:     ss.getItem('utm_term')     || '',
+      gclid:        ss.getItem('gclid')        || '',
+      fbclid:       ss.getItem('fbclid')       || '',
     };
 
-    // Dispara o webhook e redireciona independentemente da resposta
     fetch('https://services.leadconnectorhq.com/hooks/wT8F4RF84VckWugttOZg/webhook-trigger/ec117a3e-4b75-4678-a188-597bd6e515ca', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    }).catch(function() {}).finally(function() {
-      window.location.href = 'obrigado.html';
-    });
+      body: JSON.stringify(payload),
+      keepalive: true,
+    }).catch(function() {});
 
-    // Fallback: redireciona após 3s mesmo se o fetch travar
-    setTimeout(function() { window.location.href = 'obrigado.html'; }, 3000);
+    setTimeout(function() { window.location.href = 'obrigado.html'; }, 800);
   });
 })();
 
