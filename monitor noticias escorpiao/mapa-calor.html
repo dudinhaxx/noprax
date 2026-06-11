@@ -1756,8 +1756,10 @@ async function carregarDados() {
       renderBrasilPanel();
     }
   } catch(e) {
-    console.error('Erro ao carregar noticias.json:', e);
-    document.getElementById('update-info').textContent = 'Erro ao atualizar';
+    const msg = e?.message || String(e);
+    console.error('[Noprax] Erro ao carregar noticias.json:', msg, e);
+    const info = document.getElementById('update-info');
+    if (info) info.textContent = 'Erro: ' + msg.substring(0, 40);
   }
 }
 
