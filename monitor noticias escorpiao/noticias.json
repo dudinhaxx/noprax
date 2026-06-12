@@ -1,5 +1,31 @@
 [
   {
+    "id": "brasilregistraaltade349noscasosdeescorpionismo",
+    "titulo": "Brasil registra alta de 349% nos casos de escorpionismo - Sudoeste Bahia",
+    "descricao": "Brasil registra alta de 349% nos casos de escorpionismo  Sudoeste Bahia",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkdpRUZjUGtWS2hsQld4bUpLNTgxLVVaUTk2QVZrem9xOGhMNnF4YjNYek45REhfVkdtRkJnN1hucFFQbWc2YTN1ajBxUEJnVzlpRWJORGVHM2Z1TmJxX0Q5V0lKTkRTbmVCWjEySXI4UEp6STNmUkdabWJfSHNYdERFWTZ5VEpWN2wycUhfNXB5anM3RXpzSk5xSW9hQU5i?oc=5",
+    "data": "12/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpionismo"
+  },
+  {
+    "id": "deolanebezerradenunciacomidacomfezeseinfestacaodeescorpioesempresidio",
+    "titulo": "Deolane Bezerra denuncia comida com fezes e infestação de escorpiões em presídio - Vitrine do Cariri",
+    "descricao": "Deolane Bezerra denuncia comida com fezes e infestação de escorpiões em presídio  Vitrine do Cariri",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa2NMWTZONEdEbE5XUXRnaWRWY21ZMU5GUGw2anlGSjRyczZvRGZHdklFc191VU9MdnAwNDZwQWJvUWZULU5HckJ4YWsyWDkyY09WN0tjVllxTFJIOUdkREdYSWN0c3d6VWx6MVpXRE1BRWdROXNKNXFlajR4eTRfcklMbHlzRzl2NUFyOGxyc2tZZkoxcTVxMGkzLXJzSk5kNWQ4QkJBc1BtR2I5aGpHM1dJQ2VVTVphYW9SVXBEcWlYYm5RQWc?oc=5",
+    "data": "12/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "picadasdeescorpiaocrescem350nobrasilechegama17milhaoem12anossaibaquaissaoostresestadoscommaiorrisco",
     "titulo": "Picadas de escorpião crescem 350% no Brasil e chegam a 1,7 milhão em 12 anos; saiba quais são os três estados com maior risco - O Globo",
     "descricao": "Picadas de escorpião crescem 350% no Brasil e chegam a 1,7 milhão em 12 anos; saiba quais são os três estados com maior risco  O Globo",
@@ -193,6 +219,32 @@
     "estado": "SC",
     "cidade": "Navegantes",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "picadasdeescorpiaoaumentam349nobrasilem12anos",
+    "titulo": "Picadas de escorpião aumentam 349% no Brasil em 12 anos - ICL Notícias",
+    "descricao": "Picadas de escorpião aumentam 349% no Brasil em 12 anos  ICL Notícias",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ycDhLeDdfNmxNdXpGQVVvVzhjUkg1a3ZUaG1YbTIyYm1PLS0xN3dXZTlUcWRXT0RNZmFKZG80SS1UYURDQnB5Wkgxd3BlRmlYWTV0SFhtdlhHTFAyY2ttRkZnYXYxSFpCc21JT04xQTc1d1RKdHJYMGlBUQ?oc=5",
+    "data": "11/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "vigilanciasanitariaencontra140escorpioesno5batalhaodapmdelondrinamedidastomadas",
+    "titulo": "Vigilância Sanitária encontra 140 escorpiões no 5º Batalhão da PM de Londrina: medidas tomadas. - Diário do Estado",
+    "descricao": "Vigilância Sanitária encontra 140 escorpiões no 5º Batalhão da PM de Londrina: medidas tomadas.  Diário do Estado",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSG9TLXpObHNWLTZqaFR6Q09MYnpUXzZaaHBCV2lucmVlUFRHNGxVSUpEZk5IaTQ0bGVzd1FsZFh1a3BKNjRSVk95R25oZWkwaTRqYUVaQzZSbXVrdHh2Q0pScElYNHA1WEtyYzBaNmtuTjRzVHZnblV4QThFQll0RThkZVJzV3pHNzBqZDRhMDl3NFVQTHk4b0NuX0tibi1wU1dxT3dpRU1UcERKdjFKd3Q0MDFqT09XSWZ6LWdlMGM1R2c3?oc=5",
+    "data": "11/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões vigilância ambiental"
   },
   {
     "id": "butantandivulgalocaiscommaiorriscodepicadadeescorpiao",
@@ -544,6 +596,19 @@
     "estado": "MG",
     "cidade": "Rio Preto",
     "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "casosdeescorpionismodisparam349nobrasileacendemalertaemtresestados",
+    "titulo": "Casos de escorpionismo disparam 349% no Brasil e acendem alerta em três estados - ABC Agora",
+    "descricao": "Casos de escorpionismo disparam 349% no Brasil e acendem alerta em três estados  ABC Agora",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94ZXBjWU1BdGxmODhzaVRUekFrSVVkNWxIMW5ybk1nRmsyY29kUWdlM1RrV3BBLTAzUk1oWFNyVTNmckV2UkJOVi1ZbUU0cmxnaEd2all4NFFOdlBMejRUSllVb19GVTc1RE5jTlhsRXBLeXRWYlAtQXN3?oc=5",
+    "data": "07/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões Brasil"
   },
   {
     "id": "infestacaodeescorpioespreocupatodooparanaperigoemaioremlocaiscomacumulodelixonq5lekghxd",
