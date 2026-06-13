@@ -1,5 +1,18 @@
 [
   {
+    "id": "suldabahianortedeminasenoroestepaulistalideramriscodepicadasdeescorpiao",
+    "titulo": "Sul da Bahia, norte de Minas e noroeste paulista lideram risco de picadas de escorpião - Rádio Itatiaia",
+    "descricao": "Sul da Bahia, norte de Minas e noroeste paulista lideram risco de picadas de escorpião  Rádio Itatiaia",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdzlXZnU0c0laXzY2bHI1cUZGTl95OGFuaVp5NEw4ZzZ3N2dWbVh6RlZsb3JIanMtNzQ5bFFGYTR0dFYyTzRZUVBNQ1lhY3U3WEdEX2dnV19ZZUJycDMxY1NHTzh5QmVDa2EyTDVNTTdoaWRyRU0ybnp3RFRTcWxNVFY3blBOVGZlcGEyT1QzaC1vSy1EZ244cmRINUZiTHlSc2JNbFJFRkxOZmJ5TUltV1hYWkllN3FnbXhYaFBqUVp3XzJSQ053ZzVGaDVwZTQ?oc=5",
+    "data": "13/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PE",
+    "cidade": "Paulista",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
     "id": "brasilregistraaltade349noscasosdeescorpionismo",
     "titulo": "Brasil registra alta de 349% nos casos de escorpionismo - Sudoeste Bahia",
     "descricao": "Brasil registra alta de 349% nos casos de escorpionismo  Sudoeste Bahia",
@@ -76,6 +89,19 @@
     "estado": "RJ",
     "cidade": "Araruama",
     "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "moradoraepicadaporescorpiaoemchapadaodosulealertaparariscoemareasurbanas",
+    "titulo": "Moradora é picada por escorpião em Chapadão do Sul e alerta para risco em áreas urbanas - MS Todo dia",
+    "descricao": "Moradora é picada por escorpião em Chapadão do Sul e alerta para risco em áreas urbanas  MS Todo dia",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSG5qeDZ0MnBuaWViek91d0Ewb09UX3hQYlRFaEh0SEJGZGFjX00tWXlPRWhJOWF2dWlGM2xSX1pURlJNUEVUMlVVWWctSDRoSHhRdW5BdHk1elQyVTYtQmxjWnY3Y2R1bVV2b3ZiSk5mSGNDRDJ3blExT2IwZEZNZHN0MzhhSDRfZklZdFNxM3ZlVUtYZzFzVmE1Y2FOZ0hnWVRkeXdseEQ0WXh0b3lUMEtLYWEtOGI4UDNab051ck4wTVV2ZnZ6WVVHcw?oc=5",
+    "data": "12/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Chapadao Do Sul",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "picadasdeescorpiaocrescem350nobrasilechegama17milhaoem12anossaibaquaissaoostresestadoscommaiorrisco",
@@ -6225,6 +6251,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "acidente escorpiônico"
+  },
+  {
+    "id": "porqueaumentaramosacidentescomescorpiaobutantanexplica",
+    "titulo": "Por que aumentaram os acidentes com escorpião? Butantan explica - Hora Campinas",
+    "descricao": "Por que aumentaram os acidentes com escorpião? Butantan explica  Hora Campinas",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdEx2d2swS0xCVzJWMl8tY0gtdVc2TW5uLXJfZlo1YnZMcXhSVFJnN1hJbmlPamNrSG5ERVgyX2I2QzR2VHVOWWdlbWpwM2RyMF9qR1ltY1QwdWZnampvQ01wRzRBd29HYndzSjVZUUc4dFF0aTRRQXhoZEhpeE5IQ3I4Qy04SWh0b0gzSWJIcVdRcGF6SFE?oc=5",
+    "data": "16/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Campinas",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "estadoorientaealertaparaprevencaodeacidentescomescorpioes",
