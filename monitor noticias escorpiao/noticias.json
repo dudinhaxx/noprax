@@ -1,5 +1,31 @@
 [
   {
+    "id": "aposidentificacaodeescorpiaoamarelomunicipioemitealerta",
+    "titulo": "Após identificação de escorpião-amarelo, município emite alerta - primeirahora.rs",
+    "descricao": "Após identificação de escorpião-amarelo, município emite alerta  primeirahora.rs",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ3ZRS3BkRU1uQTAxUjQzQ2VGT0VYcktTMGpNekV1UDJCYWNHYmVib1lOUnlndDVjQjN3LVdCc1lIelZUeTQxT3gtSUU4UXduUlFOV3FWMHI4UE44VEdGTWxpdnNMcmJHX0kxdElFekZPVlJBVnliYUE4WDFaZEtkU3hYNFBKaDBWaGJjMHlPQUEzU3E2MTk2ZlJKU1JyMFdRekwyZE5Cdw?oc=5",
+    "data": "14/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "demoranopedidodesorocomprometeuatendimentodecriancamortaapospicadadeescorpiaoe33paradascardiacasconcluisaude",
+    "titulo": "Demora no pedido de soro comprometeu atendimento de criança morta após picada de escorpião e 33 paradas cardíacas, conclui Saúde - Correio dos Campos",
+    "descricao": "Demora no pedido de soro comprometeu atendimento de criança morta após picada de escorpião e 33 paradas cardíacas, conclui Saúde  Correio dos Campos",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUzNBZXJnUzFodUVnd1JlZ3YtYkptNW5zWEZVZDY5Q2V4TkFGYVJuT245SnZpUGZUZE1GUzNIRjU2SG9nQUtPV2RiQTU2bnZDanZiOXA3MU1YTFcyTWE0aVYzN0lMMUVGcVA1aWlveGlHTUkwQUJUS3JqUlZXSkRuSWZSZGd5NW5sdV82R2h4T19sOWdmVmdxdjBSOHNmSnZXanNGWVhZbGYydzF0bnFHb2plZmg1RjFaVHhGWmdFWHZobG5Nbk9nVVc5dUxDR2k4Mzh5Smh5UFNDaGxBamh2bTVxVXoxcElYNjB0VnF5ZkNENkFLdE5wSHZB?oc=5",
+    "data": "14/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Saude",
+    "termo_busca": "criança escorpião"
+  },
+  {
     "id": "suldabahianortedeminasenoroestepaulistalideramriscodepicadasdeescorpiao",
     "titulo": "Sul da Bahia, norte de Minas e noroeste paulista lideram risco de picadas de escorpião - Rádio Itatiaia",
     "descricao": "Sul da Bahia, norte de Minas e noroeste paulista lideram risco de picadas de escorpião  Rádio Itatiaia",
@@ -6069,6 +6095,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "soro antiescorpiônico"
+  },
+  {
+    "id": "picadadeescorpiaoheaarapiracaatende22casosnocarnaval",
+    "titulo": "Picada de escorpião: HEA Arapiraca atende 22 casos no Carnaval - G1",
+    "descricao": "Picada de escorpião: HEA Arapiraca atende 22 casos no Carnaval  G1",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOR2VRUmpBaGRJRl90VndQN0d2cXpGbWdHaUVTY01pRHhpOFZ0MXRvdVlBd3U3REI0a1hpVkZQbHp3S1JMdW1US0h5Z29VY3JCQkdwQk1lRy1XUjVUV3lIQVJpTkc4ZFJzWkxXWUdiemNzcEY5Q1BxYVhVdVQycWJTcXg1eVJYZGladEpkbE1xLW5tVVRVZnJoQjM0NWJBTm5uS3FVZU45NFRBeVFtNlJvdEFZRThXYThFdjNDMEhKdUhGYml3NGJETTdwRnlDcDVLeXFHYTlPVkVyTjdWT1lkLUZYR3BEYWlu?oc=5",
+    "data": "20/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "AL",
+    "cidade": "Arapiraca",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "secretariadesauderealizablitzeducativadeprevencaoecontroleaoescorpionismonestaquintafeira26",
