@@ -78,6 +78,45 @@
     "termo_busca": "soro antiescorpiônico"
   },
   {
+    "id": "tiorelatacorridaporatendimentoaposmeninaserpicadaporescorpiaonodf",
+    "titulo": "Tio relata corrida por atendimento após menina ser picada por escorpião no DF - R7",
+    "descricao": "Tio relata corrida por atendimento após menina ser picada por escorpião no DF  R7",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNWVVVEt2bklMVDhjYmpQWHVNamtEdll3cU15MDM2aUpwbW1wUmd4LTh3MDJmUXJtTEswTUp6X2xaSlE3dW5rQ1FaWnkyRGVxOUJualNKUTNyMWRiX2FhdktCNkZqRHpBYVN5YjBUcjRacXVWRTVQOEEwblBIMTd6OFB4Tk1xZlZNTF9aMWJuSnZNRmhnRU1NSkgxZmNqY0V0RjB4SFg4ZHBCeGNwQU5oYzZuaS1BXzdXcUxfalpaY2dMVENWbVQ5RUwzN1Y4ejU3S24xNVU3WU4wVms?oc=5",
+    "data": "16/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "criancade11anoseinternadaemestadograveaposserpicadaporescorpiao",
+    "titulo": "Criança de 11 anos é internada em estado grave após ser picada por escorpião - Jornal de Brasília",
+    "descricao": "Criança de 11 anos é internada em estado grave após ser picada por escorpião  Jornal de Brasília",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX2xKbHpXVlV1VXRrZGFadGc0dE56MFR1NVJFZ21COE9rZHlaSXZlTHV5VUtDUVUtbUI4dGlySTNucHZZUkpUMFBrc0lSOHota2JoR0laYU44LUNLNnI4NzNCQnpWeEVOOW9ZQ29FZ0c4SVJJVHNDckF3WTRZSl80RU5xMFVYd2pTV2hITTJfcnlmd1Y3bEtlbnBjM3Y3ejVtZFRFQVIySjU5cmhWN0o4QUVCQXpSWTVQOXc?oc=5",
+    "data": "16/06/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "alertaparaescorpioesaumentaaposperiododecalorechuva",
+    "titulo": "Alerta para escorpiões aumenta após período de calor e chuva - G1",
+    "descricao": "Alerta para escorpiões aumenta após período de calor e chuva  G1",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZV9Za1lZWmR2ZjhuYXpxclhwVWRnN0toNWhteXM2RjNQd29qWmJvQnVUVjk3YXNDUk9ZNENOT291clYzaDkwc2FXZEdHa0FBVUxYaVRBZkhNajc0RHk0YmdLLWNMYVZ6Rm0tVTJvNjZNQzA3SDRpNWlBYW90Y0Y0M295c3N2azd1NGRzZXZEQkMxVlAtOEdxOUJsN1YzaE1hZi1XTHM2Ym5VX2ZiOGdka2l1cjhyUnl2YjQ5ZWxsY3NVaDg4SXJmbEMybTZLNDRo0gHfAUFVX3lxTE8wMTQ5cm9yWlQ2WGRkbVlKQmJaTGk5WnNoRWswcE5ZTnNfM0xBQlhOZzZybEdHdzl4eEViVEVqYnV5T2MzdTRzdDROY3ZETTNLUklIU3BvRWwyd0FkWDRuUkRKd2hlTk1uQ3VvanVDcGxvTE5KVHhIZXQ5bFpxZ2lPTlFsSjgwdzNhc0ZJbFFxcG5TRm04aDR1X3hnLWRiaGpDQW90UERXLWNwbzJqQXV6eVFXUG1PdTRocmNjWnp3d1ZKVXV6SDZlSFVqb2llTEk2NW0zRFpTdkJ0ZDZLQkk?oc=5",
+    "data": "16/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "alagoaslideranumerodecasosdepicadasdeescorpiaonobrasilapontaestudo",
     "titulo": "Alagoas lidera número de casos de picadas de escorpião no Brasil, aponta estudo - AL 102",
     "descricao": "Alagoas lidera número de casos de picadas de escorpião no Brasil, aponta estudo  AL 102",
