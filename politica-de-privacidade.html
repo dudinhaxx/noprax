@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidade · Noprax</title>
+<meta name="description" content="Política de Privacidade da Noprax. Saiba como tratamos seus dados pessoais conforme a LGPD.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --orange: #F2A516;
+  --black: #0B0B0D;
+  --dark: #141416;
+  --dark2: #1C1C20;
+  --line: rgba(255,255,255,0.08);
+  --line-orange: rgba(242,165,22,0.28);
+  --text: #F5F2EC;
+  --muted: #8E8E96;
+  --dim: #56565E;
+  --display: 'Archivo Black', sans-serif;
+  --sans: 'Archivo', sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--sans); background: var(--black); color: var(--text); -webkit-font-smoothing: antialiased; min-height: 100vh; }
+
+.header {
+  padding: 20px 48px;
+  border-bottom: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: space-between;
+  position: sticky; top: 0;
+  background: rgba(11,11,13,0.92);
+  backdrop-filter: blur(14px);
+  z-index: 10;
+}
+.logo-img { height: 38px; width: auto; display: block; }
+.back-link { font-family: var(--mono); font-size: 11px; color: var(--dim); letter-spacing: 0.1em; text-decoration: none; transition: color 0.2s; }
+.back-link:hover { color: var(--orange); }
+
+.main { max-width: 780px; margin: 0 auto; padding: 72px 24px 100px; }
+
+.eyebrow {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.25em;
+  text-transform: uppercase; color: var(--orange); margin-bottom: 20px;
+  display: flex; align-items: center; gap: 12px;
+}
+.eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--orange); }
+
+h1 {
+  font-family: var(--display); font-size: clamp(32px, 5vw, 52px);
+  line-height: 1; letter-spacing: -0.02em; text-transform: uppercase; margin-bottom: 16px;
+}
+
+.updated { font-family: var(--mono); font-size: 11px; color: var(--dim); letter-spacing: 0.1em; margin-bottom: 40px; }
+
+.disclaimer {
+  background: rgba(242,165,22,0.06); border: 1px solid var(--line-orange);
+  border-radius: 8px; padding: 20px 24px; margin-bottom: 40px;
+  font-size: 14px; color: var(--muted); line-height: 1.65;
+}
+.disclaimer strong { color: var(--orange); }
+
+.intro { font-size: 15px; line-height: 1.85; color: var(--muted); margin-bottom: 0; }
+
+.section { border-top: 1px solid var(--line); padding-top: 36px; margin-top: 36px; }
+
+.section-num {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.25em;
+  color: var(--dim); text-transform: uppercase; margin-bottom: 6px;
+}
+
+h2 { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--orange); margin-bottom: 18px; }
+
+p { font-size: 15px; line-height: 1.85; color: var(--muted); margin-bottom: 14px; }
+p:last-child { margin-bottom: 0; }
+p strong { color: var(--text); }
+.mark { color: var(--orange); font-weight: 600; }
+
+ul { list-style: none; margin-bottom: 14px; }
+ul li { font-size: 15px; line-height: 1.85; color: var(--muted); padding: 4px 0 4px 20px; position: relative; }
+ul li::before { content: ''; position: absolute; left: 0; top: 13px; width: 6px; height: 6px; background: var(--orange); border-radius: 1px; }
+ul li strong { color: var(--text); }
+
+.contact-card { background: var(--dark2); border: 1px solid var(--line); border-radius: 10px; padding: 28px 32px; margin-top: 40px; }
+.contact-card h3 { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--orange); margin-bottom: 14px; }
+.contact-card p { margin-bottom: 8px; }
+.contact-card a { color: var(--orange); text-decoration: none; }
+.contact-card a:hover { text-decoration: underline; }
+
+.footer { border-top: 1px solid var(--line); padding: 28px 48px; display: flex; justify-content: space-between; align-items: center; font-family: var(--mono); font-size: 11px; color: var(--dim); letter-spacing: 0.08em; }
+
+@media (max-width: 640px) {
+  .header { padding: 18px 20px; }
+  .main { padding: 48px 20px 72px; }
+  .footer { padding: 24px 20px; flex-direction: column; gap: 10px; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html">
+    <img src="Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="logo-img">
+  </a>
+  <a href="index.html" class="back-link">← Voltar ao site</a>
+</header>
+
+<main class="main">
+  <div class="eyebrow">Noprax · Privacidade</div>
+  <h1>Política de<br>Privacidade</h1>
+  <p class="updated">// Última atualização: [DD/MM/AAAA]</p>
+
+  <div class="disclaimer">
+    <strong>Modelo base.</strong> Este documento foi preparado como ponto de partida em conformidade com a LGPD (Lei nº 13.709/2018). Antes de publicar, preencha os campos entre colchetes e peça a revisão de um advogado, pois esta política não substitui orientação jurídica.
+  </div>
+
+  <p class="intro">A sua privacidade é importante para a Noprax. Esta Política explica como coletamos, usamos, armazenamos e protegemos os seus dados pessoais quando você visita o site <strong>noprax.com.br</strong> ou entra em contato conosco, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 – LGPD).</p>
+
+  <div class="section">
+    <div class="section-num">01</div>
+    <h2>Quem é o controlador dos dados</h2>
+    <p>O controlador responsável pelo tratamento dos seus dados é <strong>[RAZÃO SOCIAL LTDA]</strong>, inscrita no CNPJ sob o nº <strong>[00.000.000/0001-00]</strong>, com sede em <strong>[Cidade – UF]</strong>, responsável pela marca Noprax.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-num">02</div>
+    <h2>Quais dados coletamos</h2>
+    <p>Coletamos apenas os dados necessários para responder e atender você:</p>
+    <ul>
+      <li><strong>Dados que você nos fornece</strong> ao preencher o formulário de contato: nome, WhatsApp, e-mail, perfil (dedetizadora, distribuidora, revendedor, uso doméstico ou outro) e a mensagem opcional.</li>
+      <li><strong>Dados de navegação</strong> coletados automaticamente: endereço IP, tipo de dispositivo, navegador, páginas visitadas e tempo de permanência, por meio de cookies e ferramentas como o Google Tag Manager e o Google Analytics.</li>
+    </ul>
+    <p>A Noprax <span class="mark">não coleta dados sensíveis</span> e não direciona seus serviços a menores de idade.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-num">03</div>
+    <h2>Para que usamos os seus dados</h2>
+    <p>Utilizamos os dados coletados para as seguintes finalidades:</p>
+    <ul>
+      <li>Entrar em contato e responder às suas solicitações de compra, revenda, distribuição ou uso profissional;</li>
+      <li>Entender seu perfil e indicar o caminho comercial mais adequado;</li>
+      <li>Melhorar a experiência de navegação e o desempenho do site;</li>
+      <li>Cumprir obrigações legais e regulatórias, quando aplicável.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-num">04</div>
+    <h2>Base legal do tratamento</h2>
+    <p>O tratamento dos seus dados se fundamenta principalmente no <strong>consentimento</strong> que você fornece ao enviar o formulário, no <strong>legítimo interesse</strong> da Noprax em conduzir suas atividades comerciais e no <strong>cumprimento de obrigações legais</strong>, conforme os artigos 7º e 10 da LGPD.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-num">05</div>
+    <h2>Compartilhamento de dados</h2>
+    <p>A Noprax <span class="mark">não vende nem compartilha</span> seus dados pessoais com terceiros para fins de marketing. O compartilhamento ocorre apenas quando necessário com:</p>
+    <ul>
+      <li>Prestadores de serviço que apoiam nossa operação (como hospedagem do site e ferramentas de análise), sempre sob obrigação de confidencialidade;</li>
+      <li>Autoridades públicas, quando exigido por lei ou ordem judicial.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-num">06</div>
+    <h2>Cookies e tecnologias de rastreamento</h2>
+    <p>O site utiliza cookies para garantir o funcionamento adequado das páginas e para fins de análise de tráfego. Você pode gerenciar ou desativar os cookies nas configurações do seu navegador, ciente de que algumas funções podem ser afetadas. Para mensuração de audiência utilizamos o Google Tag Manager e o Google Analytics.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-num">07</div>
+    <h2>Por quanto tempo guardamos seus dados</h2>
+    <p>Mantemos seus dados pessoais apenas pelo tempo necessário para cumprir as finalidades descritas nesta Política ou para atender a obrigações legais. Após esse período, os dados são eliminados ou anonimizados de forma segura.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-num">08</div>
+    <h2>Segurança</h2>
+    <p>Adotamos medidas técnicas e administrativas para proteger seus dados contra acessos não autorizados, perda, alteração ou divulgação indevida. Ainda assim, nenhum sistema é totalmente imune a riscos, e nos comprometemos a comunicar incidentes relevantes conforme exigido pela legislação.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-num">09</div>
+    <h2>Os seus direitos como titular</h2>
+    <p>Conforme o artigo 18 da LGPD, você pode, a qualquer momento, solicitar:</p>
+    <ul>
+      <li>Confirmação da existência de tratamento dos seus dados;</li>
+      <li>Acesso aos dados que mantemos sobre você;</li>
+      <li>Correção de dados incompletos, inexatos ou desatualizados;</li>
+      <li>Anonimização, bloqueio ou eliminação de dados desnecessários;</li>
+      <li>Portabilidade dos dados a outro fornecedor;</li>
+      <li>Eliminação dos dados tratados com base no consentimento;</li>
+      <li>Revogação do consentimento a qualquer momento.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="section-num">10</div>
+    <h2>Alterações nesta Política</h2>
+    <p>Esta Política pode ser atualizada periodicamente. Sempre que houver mudanças relevantes, a data de atualização no topo desta página será revisada. Recomendamos a leitura periódica deste documento.</p>
+  </div>
+
+  <div class="contact-card">
+    <h3>Encarregado pelo tratamento de dados (DPO)</h3>
+    <p>Para exercer seus direitos ou esclarecer dúvidas sobre privacidade, entre em contato:</p>
+    <p>E-mail: <a href="mailto:privacidade@noprax.com.br">[privacidade@noprax.com.br]</a></p>
+    <p>WhatsApp: <a href="https://wa.me/5500000000000">[+55 (00) 00000-0000]</a></p>
+  </div>
+</main>
+
+<footer class="footer">
+  <span>© 2026 Noprax · Todos os direitos reservados</span>
+  <span>// Monitoramento e captura passiva de escorpiões</span>
+</footer>
+
+</body>
+</html>
