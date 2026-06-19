@@ -1,5 +1,18 @@
 [
   {
+    "id": "infestacaodeescorpioesnodfdeixa32pessoasemestadograve",
+    "titulo": "Infestação de escorpiões no DF deixa 32 pessoas em estado grave - band.com.br",
+    "descricao": "Infestação de escorpiões no DF deixa 32 pessoas em estado grave  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOenotUXhEMDdJN3BjQ24wU3lTT2VqMFUxLTQyRHlTLVhMYjhMNjFsLWIxZTJ4Tk5EZnBmb21ja2ZMUXhGR0tpYUZLc3BpNFJtRjM2V01LZ3NvblMxcUlCV2ZuY1BQRHctelRCYTdXY2dzVTFKX2NZeGdwMHRWcElSeEZROWhlMEFoa1pyZWRqOC1WOENQa3RTd0VKRVN2UHVTZHFTMVpRa2toQVJQRWw2Uld0cTRKSG5Wb3RoNjNqY0FhVGRUN1BsQWk4R1I?oc=5",
+    "data": "19/06/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "dfregistra1974acidentesporescorpiaoempoucomaisdecincomeses",
     "titulo": "DF registra 1.974 acidentes por escorpião em pouco mais de cinco meses - Correio Braziliense",
     "descricao": "DF registra 1.974 acidentes por escorpião em pouco mais de cinco meses  Correio Braziliense",
@@ -63,6 +76,19 @@
     "estado": "DF",
     "cidade": "Não identificada",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "infestacaodeescorpioesdeixadistritofederalemalerta",
+    "titulo": "Infestação de escorpiões deixa Distrito Federal em alerta - band.com.br",
+    "descricao": "Infestação de escorpiões deixa Distrito Federal em alerta  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbXNJVGl2VEJYR3YxMmx2WTc4cEpxXzFxd2I5U1NVOVQ4WTc5RlFuZ0FocEtzdHp3UVdaRzhvWEFWTmFlQWk1dEI5OFozX3FENTltbndTRTNuc1J5RVJaY2pVZGtCRzFCb3F3U0NUQVB2QmlvZ3RpUUpyN3RweWJiSXYwNk44X21fcTBtTllDSVpyNHlRZmY0Y1VSSkdlbE5ZOXV5NGpTQldnVlY4Q1FFVzVnZ1cwMU1lVkZ0Tml5anMwMW8?oc=5",
+    "data": "18/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação escorpiões"
   },
   {
     "id": "meninade11anoseintubadaemutinodfaposserpicadaporescorpiaoemtenis",
@@ -4717,6 +4743,19 @@
     "estado": "SP",
     "cidade": "Conchal",
     "termo_busca": "captura de escorpiões"
+  },
+  {
+    "id": "estadodespconfirmaprimeiroobitoporescorpiaoereforcaalertaapopulacao",
+    "titulo": "Estado de SP confirma primeiro óbito por escorpião e reforça alerta à população - RD – Repórter Diário",
+    "descricao": "Estado de SP confirma primeiro óbito por escorpião e reforça alerta à população  RD – Repórter Diário",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0UxRy1tS3hwRG1OVFVtLVRpUWN3YVlNbU5zb1J2eHBrMnM2RmlITm40djlrM3RoVWpuZURTejRlUW91RGNVOGZBY25GTDhqbEFMUkc4RnpIUDFuX0xfaW0yZkFBM0xka19mYmxpdVI5X2Q4eTV3MXJyQ2ZuQmJXMllwZWRIR2JyU19KV04zTWxTa2pwaHdhaE5NTEhIUVdnTkEwckt4Q0EyX3A3bl90bXBVRFVQOGRISG4wTVlBRzU4U0tuZEhHRkhR?oc=5",
+    "data": "08/04/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpionismo"
   },
   {
     "id": "picadadeescorpiaocobraouaranhaprocureatendimentonasantacasa",
