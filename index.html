@@ -91,6 +91,20 @@
   });
 })();
 </script>
+<!-- ─── GTM CONSENT MODE v2 — padrão: negado para não-essenciais ─── -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{
+  analytics_storage:'denied',
+  ad_storage:'denied',
+  ad_user_data:'denied',
+  ad_personalization:'denied',
+  wait_for_update:500
+});
+// Restaura consentimento imediatamente para visitantes que já responderam
+(function(){try{var c=JSON.parse(localStorage.getItem('noprax_consent')||'null');if(c&&c.ts){gtag('consent','update',{analytics_storage:c.analytics?'granted':'denied',ad_storage:c.marketing?'granted':'denied',ad_user_data:c.marketing?'granted':'denied',ad_personalization:c.marketing?'granted':'denied'});}}catch(e){}})();
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -1922,6 +1936,80 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     .lead-grid { grid-template-columns: 1fr; gap: 40px; }
     .lead-form-row { grid-template-columns: 1fr; }
   }
+
+/* ─── COOKIE CONSENT BANNER & PANEL ─── */
+#cookie-banner {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+  background: rgba(20,20,22,0.97);
+  border-top: 1px solid var(--noprax-line);
+  backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  padding: 20px 48px;
+  display: flex; align-items: center; gap: 24px; flex-wrap: wrap;
+  transform: translateY(110%);
+  transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+#cookie-banner.visible { transform: translateY(0); }
+#cookie-banner > p {
+  flex: 1; min-width: 240px;
+  font-size: 13px; color: var(--text-muted); line-height: 1.65; margin: 0;
+}
+#cookie-banner a { color: var(--noprax-orange); text-decoration: none; }
+#cookie-banner a:hover { text-decoration: underline; }
+.cookie-actions { display: flex; gap: 10px; flex-shrink: 0; flex-wrap: wrap; align-items: center; }
+.cookie-btn {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em;
+  text-transform: uppercase; border: 1px solid var(--noprax-line);
+  background: transparent; color: var(--text);
+  padding: 10px 16px; border-radius: 6px; cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  white-space: nowrap; line-height: 1;
+}
+.cookie-btn:hover { border-color: var(--noprax-orange); color: var(--noprax-orange); }
+.cookie-btn.primary { background: var(--noprax-orange); border-color: var(--noprax-orange); color: #000; font-weight: 600; }
+.cookie-btn.primary:hover { background: var(--noprax-orange-deep); border-color: var(--noprax-orange-deep); color: #000; }
+#cookie-panel {
+  position: fixed; inset: 0; z-index: 10000;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.65);
+  opacity: 0; pointer-events: none; transition: opacity 0.3s;
+}
+#cookie-panel.visible { opacity: 1; pointer-events: auto; }
+.cookie-panel-box {
+  background: var(--noprax-dark); border: 1px solid var(--noprax-line);
+  border-radius: 14px; padding: 40px;
+  max-width: 520px; width: calc(100% - 40px);
+  max-height: 88vh; overflow-y: auto;
+}
+.cookie-panel-eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--noprax-orange); margin-bottom: 10px; }
+.cookie-panel-box h3 { font-family: var(--display); font-size: 24px; letter-spacing: -0.02em; text-transform: uppercase; color: var(--text); margin-bottom: 14px; line-height: 1.1; }
+.cookie-panel-box > p { font-size: 13px; color: var(--text-muted); line-height: 1.7; margin-bottom: 24px; }
+.cookie-category { border-top: 1px solid var(--noprax-line); padding: 18px 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.cookie-category-info { flex: 1; }
+.cookie-category-info strong { display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 4px; }
+.cookie-category-info p { font-size: 12px; color: var(--text-muted); line-height: 1.55; margin: 0; }
+.cookie-always-on { font-family: var(--mono); font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-dim); white-space: nowrap; padding-top: 2px; flex-shrink: 0; }
+.cookie-toggle { position: relative; width: 40px; height: 22px; flex-shrink: 0; cursor: pointer; display: block; }
+.cookie-toggle input { opacity: 0; width: 0; height: 0; position: absolute; }
+.cookie-toggle-slider { position: absolute; inset: 0; background: var(--text-dim); border-radius: 22px; transition: background 0.25s; }
+.cookie-toggle-slider::before { content: ''; position: absolute; width: 16px; height: 16px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: transform 0.25s; }
+.cookie-toggle input:checked ~ .cookie-toggle-slider { background: var(--noprax-orange); }
+.cookie-toggle input:checked ~ .cookie-toggle-slider::before { transform: translateX(18px); }
+.cookie-panel-actions { display: flex; gap: 10px; margin-top: 28px; flex-wrap: wrap; }
+.cookie-panel-actions .cookie-btn { flex: 1; text-align: center; }
+.lead-consent { margin-bottom: 4px; }
+.lead-consent-label { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; font-size: 13px; color: var(--text-muted); line-height: 1.6; }
+.lead-consent-label input[type="checkbox"] { width: 15px; height: 15px; min-width: 15px; margin-top: 3px; accent-color: var(--noprax-orange); cursor: pointer; }
+.lead-consent-label a { color: var(--noprax-orange); text-decoration: none; }
+.lead-consent-label a:hover { text-decoration: underline; }
+.cookie-reopen-btn { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; color: var(--text-dim); background: none; border: none; cursor: pointer; transition: color 0.2s; padding: 0; }
+.cookie-reopen-btn:hover { color: var(--noprax-orange); }
+@media (max-width: 768px) {
+  #cookie-banner { padding: 20px; flex-direction: column; align-items: stretch; }
+  .cookie-actions { flex-direction: column; }
+  .cookie-actions .cookie-btn { width: 100%; text-align: center; }
+  #cookie-panel { align-items: flex-end; }
+  .cookie-panel-box { border-radius: 14px 14px 0 0; padding: 28px 20px; max-height: 80vh; }
+}
 </style>
 </head>
 <body>
@@ -1929,6 +2017,56 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PGR26RH"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<!-- ─── COOKIE CONSENT BANNER ─── -->
+<div id="cookie-banner" aria-hidden="true" role="dialog" aria-label="Aviso de cookies">
+  <p>Usamos cookies para garantir o funcionamento do site e, com seu consentimento, para analisar o tráfego e personalizar comunicações. Saiba mais na <a href="politica-de-privacidade.html">Política de Privacidade</a>.</p>
+  <div class="cookie-actions">
+    <button class="cookie-btn" id="cookie-reject">Rejeitar não essenciais</button>
+    <button class="cookie-btn" id="cookie-manage">Gerenciar</button>
+    <button class="cookie-btn primary" id="cookie-accept-all">Aceitar todos</button>
+  </div>
+</div>
+
+<!-- ─── COOKIE PREFERENCES PANEL ─── -->
+<div id="cookie-panel" aria-hidden="true" role="dialog" aria-label="Preferências de cookies" aria-modal="true">
+  <div class="cookie-panel-box">
+    <div class="cookie-panel-eyebrow">// Noprax · Cookies</div>
+    <h3>Preferências<br>de cookies</h3>
+    <p>Escolha quais cookies você aceita. Os necessários mantêm o site funcionando e não podem ser desativados. Os demais só são ativados com o seu consentimento explícito, conforme a LGPD.</p>
+    <div class="cookie-category">
+      <div class="cookie-category-info">
+        <strong>Necessários</strong>
+        <p>Garantem o funcionamento básico do site: segurança de sessão e preferências de navegação. Não coletam dados pessoais para fins comerciais.</p>
+      </div>
+      <span class="cookie-always-on">Sempre ativo</span>
+    </div>
+    <div class="cookie-category">
+      <div class="cookie-category-info">
+        <strong>Analíticos</strong>
+        <p>Google Analytics — permite entender como os visitantes utilizam o site. Nenhum dado é vendido ou compartilhado para fins de marketing.</p>
+      </div>
+      <label class="cookie-toggle" aria-label="Ativar cookies analíticos">
+        <input type="checkbox" id="toggle-analytics">
+        <span class="cookie-toggle-slider"></span>
+      </label>
+    </div>
+    <div class="cookie-category">
+      <div class="cookie-category-info">
+        <strong>Marketing</strong>
+        <p>Tags de remarketing e rastreamento de conversões via Google Tag Manager. Ativados apenas se você consentir.</p>
+      </div>
+      <label class="cookie-toggle" aria-label="Ativar cookies de marketing">
+        <input type="checkbox" id="toggle-marketing">
+        <span class="cookie-toggle-slider"></span>
+      </label>
+    </div>
+    <div class="cookie-panel-actions">
+      <button class="cookie-btn" id="cookie-save-pref">Salvar preferências</button>
+      <button class="cookie-btn primary" id="cookie-accept-all-panel">Aceitar todos</button>
+    </div>
+  </div>
+</div>
 
 <!-- ─── NAV ─── -->
 <nav class="nav">
@@ -2570,6 +2708,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <textarea id="lead-mensagem" name="mensagem" placeholder="Conte um pouco sobre sua necessidade..."></textarea>
       </div>
 
+      <div class="lead-consent">
+        <label class="lead-consent-label">
+          <input type="checkbox" id="consent-privacy" name="consent_privacy" required>
+          <span>Li e concordo com a <a href="politica-de-privacidade.html" target="_blank">Política de Privacidade</a> e autorizo o contato comercial da Noprax.</span>
+        </label>
+      </div>
+
       <div class="lead-submit">
         <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Enviar mensagem</button>
       </div>
@@ -2665,9 +2810,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span>© 2026 Noprax · [RAZÃO SOCIAL LTDA] · CNPJ [00.000.000/0001-00] · Fabricado em parceria com a Raylight.</span>
       <span>// Monitoramento e captura passiva de escorpiões</span>
     </div>
-    <div style="display:flex;gap:16px;">
+    <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
       <a href="politica-de-privacidade.html" style="font-family:var(--mono);font-size:10px;letter-spacing:0.1em;color:var(--text-dim);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text-dim)'">Política de Privacidade</a>
       <a href="termos-de-uso.html" style="font-family:var(--mono);font-size:10px;letter-spacing:0.1em;color:var(--text-dim);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text-dim)'">Termos de Uso</a>
+      <button class="cookie-reopen-btn" onclick="nopraxOpenCookiePanel()">Preferências de cookies</button>
     </div>
   </div>
 </footer>
@@ -2795,6 +2941,68 @@ document.addEventListener('click', (e) => {
   });
 })();
 
+</script>
+
+<!-- ─── COOKIE CONSENT JS ─── -->
+<script>
+(function () {
+  var KEY    = 'noprax_consent';
+  var banner = document.getElementById('cookie-banner');
+  var panel  = document.getElementById('cookie-panel');
+
+  function applyConsent(analytics, marketing) {
+    gtag('consent', 'update', {
+      analytics_storage:   analytics ? 'granted' : 'denied',
+      ad_storage:          marketing ? 'granted' : 'denied',
+      ad_user_data:        marketing ? 'granted' : 'denied',
+      ad_personalization:  marketing ? 'granted' : 'denied'
+    });
+    window.dataLayer.push({ event: 'consent_update', consent_analytics: analytics, consent_marketing: marketing });
+  }
+
+  function saveAndApply(analytics, marketing) {
+    try {
+      localStorage.setItem(KEY, JSON.stringify({ ts: new Date().toISOString(), analytics: analytics, marketing: marketing, v: '1' }));
+    } catch (e) {}
+    applyConsent(analytics, marketing);
+    hideBanner(); hidePanel();
+  }
+
+  function showBanner() { banner.classList.add('visible');  banner.removeAttribute('aria-hidden'); }
+  function hideBanner() { banner.classList.remove('visible'); banner.setAttribute('aria-hidden', 'true'); }
+  function showPanel()  { panel.classList.add('visible');   panel.removeAttribute('aria-hidden'); }
+  function hidePanel()  { panel.classList.remove('visible');  panel.setAttribute('aria-hidden', 'true'); }
+
+  document.getElementById('cookie-accept-all').addEventListener('click', function () { saveAndApply(true, true); });
+  document.getElementById('cookie-reject').addEventListener('click',     function () { saveAndApply(false, false); });
+  document.getElementById('cookie-manage').addEventListener('click',     function () { hideBanner(); showPanel(); });
+  document.getElementById('cookie-save-pref').addEventListener('click',  function () {
+    saveAndApply(
+      document.getElementById('toggle-analytics').checked,
+      document.getElementById('toggle-marketing').checked
+    );
+  });
+  document.getElementById('cookie-accept-all-panel').addEventListener('click', function () { saveAndApply(true, true); });
+  panel.addEventListener('click', function (e) { if (e.target === panel) hidePanel(); });
+
+  // Reopen from footer — preenche toggles com estado salvo
+  window.nopraxOpenCookiePanel = function () {
+    try {
+      var c = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (c) {
+        document.getElementById('toggle-analytics').checked = !!c.analytics;
+        document.getElementById('toggle-marketing').checked = !!c.marketing;
+      }
+    } catch (e) {}
+    showPanel();
+  };
+
+  // Mostra banner na primeira visita
+  try {
+    var stored = JSON.parse(localStorage.getItem(KEY) || 'null');
+    if (!stored || !stored.ts) setTimeout(showBanner, 700);
+  } catch (e) { setTimeout(showBanner, 700); }
+})();
 </script>
 </body>
 </html>
