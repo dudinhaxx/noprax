@@ -78,6 +78,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "hcufuregistramaisde110atendimentosporpicadasdeescorpiaoem2026",
+    "titulo": "HC-UFU registra mais de 110 atendimentos por picadas de escorpião em 2026 - Diário de Uberlândia",
+    "descricao": "HC-UFU registra mais de 110 atendimentos por picadas de escorpião em 2026  Diário de Uberlândia",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVmJnNE5uLWhxckxSd0JkTlUwV0dnNDF0cjRKa0hHa2JvMEpNTFJBbUhnUzJlY2xSbVpzM0QwSFhWdUc2Ym1jVEplWGhUZWJoakpDZU9TZUppSWhoQ3ZsajVLaXRMdVdDMXBxRmhUeTlkYlRVd0tTRlVSSHdjNUdwTkg4TTBmUDR5ZlpfeGVrVVZrWGE4N3BOaElDMFNmNzJNMXk2YVVXcGE3djhCZjhHdHdoTndUNGZ3?oc=5",
+    "data": "19/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Uberlandia",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "dfregistra1974acidentesporescorpiaoempoucomaisdecincomeses",
     "titulo": "DF registra 1.974 acidentes por escorpião em pouco mais de cinco meses - Correio Braziliense",
     "descricao": "DF registra 1.974 acidentes por escorpião em pouco mais de cinco meses  Correio Braziliense",
@@ -3599,6 +3612,19 @@
     "estado": "SP",
     "cidade": "Guarulhos",
     "termo_busca": "animais peçonhentos escorpião"
+  },
+  {
+    "id": "taboaodaserrasaudeecczreforcamcuidadoscontraescorpioesemsetembro",
+    "titulo": "Taboão da Serra: Saúde e CCZ reforçam cuidados contra escorpiões em setembro - O Taboanense",
+    "descricao": "Taboão da Serra: Saúde e CCZ reforçam cuidados contra escorpiões em setembro  O Taboanense",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTTlZQXZvTG84bF80b0ctYjItdXk0bHJXTzdLb2ZoTEZMZTlYWDZEN1NReGRfQ1luelotUHN3UVh1M2ZUZXdENVUxX0VDbmxKSmVqZHNMWnI5SkF1MHNmd1lycGpQU25xbi1LLVoxRzVZR01NVFhlSlgyNEptVS1vQ1BYN01kbjRiamdxWW1DOVEwUFJPSDNrbDBVNHBJVVI4Mmx6TkxB?oc=5",
+    "data": "22/04/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Taboao Da Serra",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "infestacaodeescorpiaomortalpodetercomecadoha3anosemcondominiodesc",
