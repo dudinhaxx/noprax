@@ -2289,73 +2289,83 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Card 3: O Crescimento Populacional -->
       <div class="data-card fade-up delay-2">
         <span class="data-tag">O crescimento populacional</span>
-        <div class="data-label" style="margin-bottom:20px;">O escorpião-amarelo se reproduz sozinho, sem macho. Cada fêmea gera cerca de 40 filhotes por ano, todos fêmeas. Aquele que você não viu atrás da pia não fica sozinho por muito tempo.</div>
+        <div class="data-label" style="margin-bottom:18px;">O escorpião-amarelo se reproduz por partenogênese: sem macho, gerando apenas fêmeas. Uma única fêmea introduzida em um ambiente pode iniciar toda uma população. Por isso ele coloniza quintais e residências tão rápido.</div>
 
-        <!-- Gráfico crescimento exponencial -->
-        <div style="margin-bottom:20px;">
-          <div class="data-chart-label">Crescimento a partir de 1 escorpião</div>
-          <div style="display:flex;align-items:flex-end;gap:10px;">
-            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;flex:1;">
-              <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">41</span>
-              <div style="width:100%;background:rgba(242,165,22,0.28);border-radius:2px 2px 0 0;height:3px;min-height:3px;"></div>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">1 ano</span>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">+40</span>
-            </div>
-            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;flex:1;">
-              <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">1.681</span>
-              <div style="width:100%;background:rgba(242,165,22,0.35);border-radius:2px 2px 0 0;height:7px;min-height:3px;"></div>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">2 anos</span>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">+1.640</span>
-            </div>
-            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;flex:1;">
-              <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">68.921</span>
-              <div style="width:100%;background:rgba(242,165,22,0.55);border-radius:2px 2px 0 0;height:32px;"></div>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">3 anos</span>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">+67.240</span>
-            </div>
-            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;flex:1;">
-              <span style="font-family:var(--mono);font-size:10px;color:var(--noprax-orange);font-weight:700;">2.825.761</span>
-              <div style="width:100%;background:linear-gradient(to top,#c07a08,#F2A516);border-radius:2px 2px 0 0;height:100px;"></div>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--noprax-orange);">4 anos</span>
-              <span style="font-family:var(--mono);font-size:8px;color:var(--text-dim);">+2.756.840</span>
-            </div>
+        <!-- Dois números de destaque -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px;">
+          <div style="background:var(--noprax-dark2);border:1px solid var(--noprax-line);border-radius:8px;padding:14px 12px;">
+            <div style="font-family:var(--mono);font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-dim);margin-bottom:8px;">Potencial teórico</div>
+            <div style="font-family:var(--display);font-size:clamp(16px,1.8vw,24px);color:var(--text-muted);line-height:1.1;">278 milhões</div>
+            <div style="font-size:11px;color:var(--text-dim);margin-top:6px;line-height:1.4;">Em 4 anos, sem nenhuma morte. Mostra a força reprodutiva da espécie.</div>
+          </div>
+          <div style="background:var(--noprax-dark2);border:1px solid rgba(216,90,48,0.4);border-radius:8px;padding:14px 12px;">
+            <div style="font-family:var(--mono);font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--danger);margin-bottom:8px;">Estimativa realista</div>
+            <div style="font-family:var(--display);font-size:clamp(16px,1.8vw,24px);color:var(--danger);line-height:1.1;">340 a 7.372</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:6px;line-height:1.4;">Com 90% de mortalidade. Uma fêmea ainda gera centenas a milhares em 4 anos.</div>
           </div>
         </div>
 
-        <!-- Tabela -->
-        <div style="border-top:1px solid var(--noprax-line);padding-top:16px;">
-          <div class="data-chart-label">A conta, ano a ano</div>
-          <table style="width:100%;border-collapse:collapse;">
-            <thead>
-              <tr style="border-bottom:1px solid var(--noprax-line);">
-                <th style="font-family:var(--mono);font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-dim);text-align:left;padding:6px 0;font-weight:400;">Tempo</th>
-                <th style="font-family:var(--mono);font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-dim);text-align:right;padding:6px 0;font-weight:400;">Novos no Ano</th>
-                <th style="font-family:var(--mono);font-size:9px;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-dim);text-align:right;padding:6px 0;font-weight:400;">População Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr style="border-bottom:1px solid var(--noprax-line);">
-                <td style="padding:8px 0;font-size:13px;color:var(--text-muted);">1 ano</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text-muted);">40</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text);">41</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--noprax-line);">
-                <td style="padding:8px 0;font-size:13px;color:var(--text-muted);">2 anos</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text-muted);">1.640</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text);">1.681</td>
-              </tr>
-              <tr style="border-bottom:1px solid var(--noprax-line);">
-                <td style="padding:8px 0;font-size:13px;color:var(--text-muted);">3 anos</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text-muted);">67.240</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text);">68.921</td>
-              </tr>
-              <tr>
-                <td style="padding:8px 0;font-size:13px;color:var(--text-muted);">4 anos</td>
-                <td style="padding:8px 0;font-size:13px;text-align:right;color:var(--text-muted);">2.756.840</td>
-                <td style="padding:8px 0;text-align:right;font-family:var(--display);font-size:14px;color:var(--noprax-orange);">2.825.761</td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- Duas tabelas: Cenário conservador (laranja) e Potencial total (vermelho) -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;border-top:1px solid var(--noprax-line);padding-top:16px;">
+
+          <!-- Tabela 1: Com 90% de mortalidade (laranja) -->
+          <div>
+            <div style="font-family:var(--mono);font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--noprax-orange);margin-bottom:10px;">Com 90% mortalidade</div>
+            <table style="width:100%;border-collapse:collapse;">
+              <thead>
+                <tr style="border-bottom:1px solid var(--noprax-line);">
+                  <th style="font-family:var(--mono);font-size:8px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);text-align:left;padding:4px 0;font-weight:400;">Ritmo</th>
+                  <th style="font-family:var(--mono);font-size:8px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);text-align:right;padding:4px 0;font-weight:400;">4 anos</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                  <td style="padding:6px 0;font-size:12px;color:var(--text-muted);">2 crias/ano</td>
+                  <td style="padding:6px 0;font-size:12px;text-align:right;color:var(--text);">340</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                  <td style="padding:6px 0;font-size:12px;color:var(--text-muted);">3 crias/ano</td>
+                  <td style="padding:6px 0;font-size:12px;text-align:right;color:var(--text);">1.727</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 0;font-size:12px;color:var(--text-muted);">4 crias/ano</td>
+                  <td style="padding:6px 0;font-size:12px;text-align:right;font-weight:700;color:var(--noprax-orange);">7.372</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Tabela 2: Potencial total sem mortalidade (vermelho) -->
+          <div>
+            <div style="font-family:var(--mono);font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--danger);margin-bottom:10px;">Potencial total</div>
+            <table style="width:100%;border-collapse:collapse;">
+              <thead>
+                <tr style="border-bottom:1px solid var(--noprax-line);">
+                  <th style="font-family:var(--mono);font-size:8px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);text-align:left;padding:4px 0;font-weight:400;">Ritmo</th>
+                  <th style="font-family:var(--mono);font-size:8px;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-dim);text-align:right;padding:4px 0;font-weight:400;">4 anos</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                  <td style="padding:6px 0;font-size:12px;color:var(--text-muted);">2 crias/ano</td>
+                  <td style="padding:6px 0;font-size:12px;text-align:right;color:var(--text);">968 mil</td>
+                </tr>
+                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                  <td style="padding:6px 0;font-size:12px;color:var(--text-muted);">3 crias/ano</td>
+                  <td style="padding:6px 0;font-size:12px;text-align:right;color:var(--text);">34 milhões</td>
+                </tr>
+                <tr>
+                  <td style="padding:6px 0;font-size:12px;color:var(--text-muted);">4 crias/ano</td>
+                  <td style="padding:6px 0;font-size:12px;text-align:right;font-weight:700;color:var(--danger);">278 milhões</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Mensagem-chave -->
+        <div style="border-top:1px solid var(--noprax-line);margin-top:16px;padding-top:14px;border-left:2px solid var(--noprax-orange);padding-left:12px;">
+          <p style="font-size:12px;color:var(--text-muted);line-height:1.6;">Cada captura conta. <span style="color:var(--text);">Remover uma única fêmea pode evitar de centenas a milhares de descendentes</span> ao longo dos anos.</p>
         </div>
       </div>
     </div>
