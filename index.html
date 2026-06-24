@@ -1706,12 +1706,20 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     .data-secondary  { grid-template-columns: 1fr; }
   }
 
+  /* ─── RESPONSIVE TABLET (768px) ─── */
+  @media (max-width: 768px) {
+    .hero-title { font-size: 40px; }
+    .section-title { font-size: 40px; }
+    .hero-sub { font-size: 15px; }
+    .section-desc { font-size: 15px; }
+  }
+
   /* ─── RESPONSIVE MOBILE (480px) ─── */
   @media (max-width: 480px) {
     /* Hero */
     .hero { padding: 96px 16px 48px; }
-    .hero-title { letter-spacing: -0.02em; }
-    .hero-sub { font-size: 15px; }
+    .hero-title { font-size: 30px; letter-spacing: -0.02em; }
+    .hero-sub { font-size: 14px; line-height: 1.6; }
     .hero-stats { grid-template-columns: 1fr 1fr; gap: 20px 0; }
     .hero-stat { padding: 0 12px; }
     .hero-stat:first-child { padding-left: 0; }
@@ -1720,7 +1728,7 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 
     /* Sections */
     section { padding: 48px 16px; }
-    .section-title { letter-spacing: -0.02em; }
+    .section-title { font-size: 30px; letter-spacing: -0.02em; }
     .solution-flow { grid-template-columns: 1fr; }
     .flow-step { padding: 32px 20px; }
 
