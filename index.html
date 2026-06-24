@@ -1708,9 +1708,12 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 
   /* ─── RESPONSIVE TABLET (768px) ─── */
   @media (max-width: 768px) {
-    .hero-title { font-size: 40px; }
+    .hero-content { align-items: stretch; }
+    .hero-tag { align-self: flex-start; }
+    .hero-title { font-size: 40px; width: 100%; text-align: left; }
+    .hero-sub { font-size: 15px; max-width: 100%; text-align: left; }
+    .hero-cta-group { justify-content: flex-start; }
     .section-title { font-size: 40px; }
-    .hero-sub { font-size: 15px; }
     .section-desc { font-size: 15px; }
   }
 
@@ -1718,9 +1721,12 @@ section.light3 { background: var(--paper3); color: var(--ink); }
   @media (max-width: 480px) {
     /* Hero */
     .hero { padding: 96px 16px 48px; }
-    .hero-title { font-size: 30px; letter-spacing: -0.02em; }
-    .hero-sub { font-size: 14px; line-height: 1.6; }
-    .hero-stats { grid-template-columns: 1fr 1fr; gap: 20px 0; }
+    .hero-content { align-items: stretch; }
+    .hero-tag { align-self: flex-start; }
+    .hero-title { font-size: 30px; letter-spacing: -0.02em; width: 100%; text-align: left; }
+    .hero-sub { font-size: 14px; line-height: 1.6; max-width: 100%; text-align: left; }
+    .hero-cta-group { justify-content: flex-start; }
+    .hero-stats { grid-template-columns: 1fr 1fr; gap: 20px 0; width: 100%; }
     .hero-stat { padding: 0 12px; }
     .hero-stat:first-child { padding-left: 0; }
     .hero-stat-num { font-size: 28px; }
