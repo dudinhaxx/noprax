@@ -1391,6 +1391,19 @@
     "termo_busca": "escorpião Brasil"
   },
   {
+    "id": "escorpioesbutantandivulgalocaiscommaiorriscodeacidente",
+    "titulo": "Escorpiões: Butantan divulga locais com maior risco de acidente - Novo Dia Notícias",
+    "descricao": "Escorpiões: Butantan divulga locais com maior risco de acidente  Novo Dia Notícias",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdW1aTVFHY3YxaHhHVm12SUQ3R3FoOTlkTXRiVlRzNU42amVFZ2lpOWJzZ2NfQ2MybE13TlFYUEU0aDJpcTY3UmVkMWltVlYtQ0k4clhhTjRkUFNmVkJyS3d6QUQ1SUlFM19IOFJ1SDZhT19BZk10enFwOFFsbWtRNUYxY3B1dzQ3WTZXZ1R1TFl2alJqWXpKVGpLejN4bTc2aDBFYQ?oc=5",
+    "data": "08/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpionismo"
+  },
+  {
     "id": "picadadeescorpiaobutantandivulgalocaiscommaiorriscodeacidentevejacuidados",
     "titulo": "Picada de escorpião: Butantan divulga locais com maior risco de acidente; veja cuidados - Portal VV8",
     "descricao": "Picada de escorpião: Butantan divulga locais com maior risco de acidente; veja cuidados  Portal VV8",
@@ -7863,6 +7876,19 @@
     "estado": "MS",
     "cidade": "Cassilandia",
     "termo_busca": "controle de escorpiões"
+  },
+  {
+    "id": "escorpioessaibacomoseprevenireoquefazerapospicada",
+    "titulo": "Escorpiões: saiba como se prevenir e o que fazer após picada - O POVO",
+    "descricao": "Escorpiões: saiba como se prevenir e o que fazer após picada  O POVO",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVXpoN0ZXbUtnVHNiZWwzVGZDaDFCQmVPYWRYOEc5eFFoQnQzTU82eUxIZENJUkRXZDFwaTVkNHJsSjFsZTBPNVpoMlREVmtwU3ZnOEJIVDQydUJLejdXMXJ6VXlfS0FsbWd1dWhpU2VwZU5HNUgyclhjUlFfVERqZHk2YlN3elZPYmRmMkxpSGdHSFFXYVJtb192SURITkVseVNpQjNoUVlVWDJBRzhvemk3c09tUQ?oc=5",
+    "data": "24/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "escorpioesmobilizamvigilanciaepidemiologicaemportobeloaposdenuncianopereque",
