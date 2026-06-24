@@ -204,6 +204,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 ============================================================ */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow-x: hidden; max-width: 100%; }
 
 :root {
   /* Noprax brand palette */
@@ -1746,7 +1747,7 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     .flow-icon { margin-bottom: 10px; }
     .flow-icon svg { width: 22px; height: 22px; }
     .flow-title { font-size: 13px; margin-bottom: 8px; }
-    .flow-desc { font-size: 11px; line-height: 1.5; }
+    .flow-desc { font-size: 11px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
 
     /* Blog cards */
     .blog-card-body { padding: 20px; }
