@@ -1,5 +1,18 @@
 [
   {
+    "id": "cientistasidentificamduasnovasespeciesdeescorpioespeconhentosnaamazonia",
+    "titulo": "Cientistas identificam duas novas espécies de escorpiões peçonhentos na Amazônia - Tribuna do Sertão",
+    "descricao": "Cientistas identificam duas novas espécies de escorpiões peçonhentos na Amazônia  Tribuna do Sertão",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVHhONnZ4SEJwT1pncnRMX2F0OEZvdENCbFJsaW9KYmUxWTM2RjNWNnNISGJHTk4tRjY1WkNIc25uQ0RyWm1CLVRUVUlOT0lDQUhNZ2JrWjlCLXhQb1dDMWdsV1g0b21mTkcwaEFmSS1OTUoxbGhEY0szSHdrVWI4QmQ2WnRxWkFBSTZGMDVqOWpqUnhCZGlsWlFORVF0UThyQzczaDlHX1pDUEJrN2JYSjYzc1pJNlNfMlNlbXpPTGw5cEtKa2lZeDJXWnJrZVhtRHhsUE13?oc=5",
+    "data": "24/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões Brasil"
+  },
+  {
     "id": "familiademeninapicadaporescorpiaooraefazvigiliaemhospitalvejavideo",
     "titulo": "Família de menina picada por escorpião ora e faz vigília em hospital Veja vídeo - Metrópoles",
     "descricao": "Família de menina picada por escorpião ora e faz vigília em hospital Veja vídeo  Metrópoles",
@@ -349,6 +362,19 @@
     "estado": "DF",
     "cidade": "Não identificada",
     "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "acidentescomescorpioescrescemnodfoquefazeraoencontrarum",
+    "titulo": "Acidentes com escorpiões crescem no DF; o que fazer ao encontrar um - Metrópoles",
+    "descricao": "Acidentes com escorpiões crescem no DF; o que fazer ao encontrar um  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oNWg5UEZXbnhDQkFWUHFHODRaTGpTTzkxT2w1ZVNCSDFxU24tMEhVWU5Del8yYUt3QnNTOWxmRG5TdHlMNjUwUnhJT1Q4NkJGdHJ5dWN1VTU3b2t5bTZWTmFuMW1GUzRhYnNmV0NhdzFIbTBEN2VMdmtR?oc=5",
+    "data": "18/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "meninade11anoseintubadaemutinodfaposserpicadaporescorpiaoemtenis",
