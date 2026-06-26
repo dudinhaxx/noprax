@@ -1,5 +1,18 @@
 [
   {
+    "id": "criancasdesantaritadopassaquatroaprendemsobreprevencaocontraescorpioesedengue",
+    "titulo": "Crianças de Santa Rita do Passa Quatro aprendem sobre prevenção contra escorpiões e dengue - Porto Ferreira Hoje",
+    "descricao": "Crianças de Santa Rita do Passa Quatro aprendem sobre prevenção contra escorpiões e dengue  Porto Ferreira Hoje",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLThtcGhZZFc2TjJPNUpVT2ZUQUN3X2o0RWJuMGJXODR0WUNCWlFIaHBXdXJsWjVoNS1QTnVqNE1xTzBMRVBlMU1TN05pbDFCNll5WE5hN3Bhc2lRWTZvMkhXb1M3QXZyQ2pGMFpyT2VONmFiVGg1SWY3ZDNaeDc2VnRvOGRtdUZRUGx0UVVDQVVJOVBmMkg1dXF3UVlILS1GSmluWDVzaXdUMDJjNDFlQmpXdDZ0bHR2clVYckRfdDltOC1FeTlVVUhwVUlZMElqM0VQSzRYTHA2M0VSX1dJbg?oc=5",
+    "data": "26/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Santa Rita Do Passa Quatro",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "escorpiaodopccereuporfeminicidioquemeoempresariocontratadopelaprodutoradedarkhorseparaatuaremcontratodewifidaprefeituradesp",
     "titulo": "'Escorpião do PCC' e réu por feminicídio: quem é o empresário contratado pela produtora de 'Dark Horse' para atuar em contrato de wi-fi da prefeitura de SP - O Globo",
     "descricao": "'Escorpião do PCC' e réu por feminicídio: quem é o empresário contratado pela produtora de 'Dark Horse' para atuar em contrato de wi-fi da prefeitura de SP  O Globo",
@@ -1324,6 +1337,19 @@
     "estado": "BA",
     "cidade": "Não identificada",
     "termo_busca": "escorpionismo"
+  },
+  {
+    "id": "esestaentreosestadoscommaisacidentescomescorpioesnobrasilem2026",
+    "titulo": "ES está Entre Os Estados Com Mais Acidentes Com Escorpiões No Brasil Em 2026 - folha do es",
+    "descricao": "ES está Entre Os Estados Com Mais Acidentes Com Escorpiões No Brasil Em 2026  folha do es",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xeXZaUm9QSDIxWFI0cWRwbFBCMmNUVjNaLUFMSlBsSWpOVTM4ZEhxSEoxUHpJNVdaR2lwUmVhRTdGekRXaHBKY0lDY1p5V3ZWWU1aeEE2alo4dzVFdkR1Y2F1cTg4TWFVRGU5QTkxRQ?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "butantandivulgaestadoscommaiorriscodepicadadeescorpiao",
