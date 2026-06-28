@@ -13,6 +13,19 @@
     "termo_busca": "escorpião Brasil"
   },
   {
+    "id": "secretariadesaudeintensificaacoesdemonitoramentoecontroledeescorpioesembragancapaulista",
+    "titulo": "Secretaria de Saúde intensifica ações de monitoramento e controle de escorpiões em Bragança Paulista - Jornal + Bragança",
+    "descricao": "Secretaria de Saúde intensifica ações de monitoramento e controle de escorpiões em Bragança Paulista  Jornal + Bragança",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZGtsZ0k4SlFDWGI1SjkxdTlnU1FzWS0zYjFQN3U2UnIzOS1Xal8ySDBtRkFVM24xOWhNMkcyUzZZVHJoNEpjTXpiby10cVVoeGF4ZXhBX2ZJemtMMjBFZ082eHB0Y3pncFY4R0JEOHB6TEJpWHdNbEpMcW1hNHcwTUhqTVFPLVk5clp2WHpXdWtPM2Mydm5wODZZdTBNRzhtaHZyT19yd3ZFMV96VEtxT2hwajRZQkRFUE5mNlRQYUNDeFl1cTRsT0p0Y0xiTFlsdl91b1VOdFAtYmdZajZv?oc=5",
+    "data": "28/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Braganca Paulista",
+    "termo_busca": "controle de escorpiões"
+  },
+  {
     "id": "criancasdesantaritadopassaquatroaprendemsobreprevencaocontraescorpioesedengue",
     "titulo": "Crianças de Santa Rita do Passa Quatro aprendem sobre prevenção contra escorpiões e dengue - Porto Ferreira Hoje",
     "descricao": "Crianças de Santa Rita do Passa Quatro aprendem sobre prevenção contra escorpiões e dengue  Porto Ferreira Hoje",
@@ -1428,6 +1441,19 @@
     "estado": "ES",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "atencaoaosescorpioesosriscosdeacidentesacontecemdurantetodooano",
+    "titulo": "Atenção aos escorpiões: os riscos de acidentes acontecem durante todo o ano - Conselho Nacional de Secretários de Saúde | Conass",
+    "descricao": "Atenção aos escorpiões: os riscos de acidentes acontecem durante todo o ano  Conselho Nacional de Secretários de Saúde | Conass",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ2NTWU5XNGo2STU1dmdxQTZsNWJ5UkdGV2JLVEQxVlJ4ZG5MVzFYR29vLWo3QnoxOG5KR1p2WVVmWDZYYUVibXZ3dGd6LU5ZaTlHV2RXUDhaUmlwbml5Vm5TZC1QT2lyU2R6ZDFZak03OVY5MWlCRHZ3ckFia0N2Y2N6SGtHTmU2bkZHNFJNaUpSTGFzVnlmRjQzRzQ2RUlpTnNN?oc=5",
+    "data": "09/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Saude",
+    "termo_busca": "vigilância escorpião"
   },
   {
     "id": "butantandivulgaestadoscommaiorriscodepicadadeescorpiao",
