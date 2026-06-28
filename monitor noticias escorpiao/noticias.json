@@ -884,6 +884,19 @@
     "termo_busca": "escorpião amarelo"
   },
   {
+    "id": "alagoaslideraincidenciadepicadasdeescorpiaonobrasileacendealertaparariscodentrodecasa",
+    "titulo": "Alagoas lidera incidência de picadas de escorpião no Brasil e acende alerta para risco dentro de casa - Imprensa Online",
+    "descricao": "Alagoas lidera incidência de picadas de escorpião no Brasil e acende alerta para risco dentro de casa  Imprensa Online",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNalhJcjFzT093UjVNcVp0UTd3cVgzcWx2S0RVRFhtMkNJR3lfSGtMcFduT0loSTViR3ZxVDhnYW5TWVExNWVnMjdibVc4NkplNWU3WVg5MllPT0VuOS1RTlFSTFlQcFNLWXg5YzdiOUk2aWpYS0xsR2Fpb0FFU296OFdHNlNLQ3d0cWc?oc=5",
+    "data": "13/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "AL",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
     "id": "brasilregistraaltade349noscasosdeescorpionismo",
     "titulo": "Brasil registra alta de 349% nos casos de escorpionismo - Sudoeste Bahia",
     "descricao": "Brasil registra alta de 349% nos casos de escorpionismo  Sudoeste Bahia",
@@ -1662,6 +1675,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpiões Brasil"
+  },
+  {
+    "id": "picadasdeescorpiaoavancamnobrasileestudoapontaareasdemaiorrisco",
+    "titulo": "Picadas de escorpião avançam no Brasil e estudo aponta áreas de maior risco - Grupo Rio Claro, São Paulo",
+    "descricao": "Picadas de escorpião avançam no Brasil e estudo aponta áreas de maior risco  Grupo Rio Claro, São Paulo",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRnBrUVI1UHh5aTBucXcwczVFQ1owWUhWZ3N4REtVemxvSk1kMDMwYTdCa1lQWVUtLTZHMXJyclVlM0M2MjJnTUtwblRuQjdvckVfUUpnUmNZLTJUdUE1dVh6QkVTeGoyaHdtNF8zRFYzSUI1a3RBenZPSnlpSzhMNWV6bG9BUDZPSmZUZWxIUGwzTTVwNDJhdDI2M056cGt2T1dfRW5vdngzMDhZanRMZDhndjY3Tm1O?oc=5",
+    "data": "07/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Rio Claro",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "infestacaodeescorpioespreocupatodooparanaperigoemaioremlocaiscomacumulodelixonq5lekghxd",
