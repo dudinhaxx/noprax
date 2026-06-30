@@ -1,5 +1,18 @@
 [
   {
+    "id": "armadilhasemvenenocapturaemonitoraescorpioesemareasurbanas",
+    "titulo": "Armadilha sem veneno captura e monitora escorpiões em áreas urbanas - CNN Brasil",
+    "descricao": "Armadilha sem veneno captura e monitora escorpiões em áreas urbanas  CNN Brasil",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbThZaHJfeTRIektHNFN5bV9XeTBDQ1F6ZEtkQTBJVm1UeF9VdnJXdWRNTkpEX3Q0N1NoZGxDNnU2NjFxQUhpbXhPYkVVOXVEcGFvZ0l6dVJLUzZMUlFKS0JJOTV2VUlhOHV1dXpZOXhCdWtwNFNxbkNaNUpFVmkyaUFuNTNTLVcwZXhJMWNUeTlCb3lIemFmOEU0WHdDd0llZ0NWYk10VkZUbUN5?oc=5",
+    "data": "30/06/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
     "id": "picadadeescorpiaonobrasileperigosavejaosdadossobreacrise",
     "titulo": "Picada de escorpião no Brasil é perigosa? Veja os dados sobre a crise - Exame",
     "descricao": "Picada de escorpião no Brasil é perigosa? Veja os dados sobre a crise  Exame",
@@ -856,6 +869,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "meninade11anosficaemestadograveaposserpicadaporescorpiao",
+    "titulo": "Menina de 11 anos fica em estado grave após ser picada por escorpião - Metrópoles",
+    "descricao": "Menina de 11 anos fica em estado grave após ser picada por escorpião  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLS1vWW1PU2ZEMFRlWHhyUEl6NXRkRVdaamZrT0NfcTJETXBSb2FkSDA1M1dOLTJvZjYyX3hXYndSYllOcjNCQ2N5NlhHUU5Vekd1MG90VDR1ZWFhejcwWnpNUlExZDUyNEhyV29jaE4xbC1Db0Z3UHpnV2ZnajU4a0JTMjNsSWZHcldFaTN2QVdQd292X0ZYZm81VEpWdWFxaWNiaUdGVmYxV0lMZFE?oc=5",
+    "data": "16/06/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "alagoaslideranumerodecasosdepicadasdeescorpiaonobrasilapontaestudo",
