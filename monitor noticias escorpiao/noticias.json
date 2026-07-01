@@ -2483,6 +2483,19 @@
     "termo_busca": "criança escorpião"
   },
   {
+    "id": "criancade1anopicadaporescorpiaonodfestainternadaemuti",
+    "titulo": "Criança de 1 ano picada por escorpião no DF está internada em UTI - Metrópoles",
+    "descricao": "Criança de 1 ano picada por escorpião no DF está internada em UTI  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRGJoOXR6Nm1MTFpJbkJtbmZNT2hDVGFobW9halNXZlk1aC16YUxSNzFOTVdYRmdpMWM0TDN3LWxBMU9Tdmhta2dzbWJoLTNEMFZhemVfXzBUbS1oa0dKai1JSFlWd1pRdVo4NmxIRmFQb3hpZHVxZFJyMktQcHZxUVZCcWxxaHFqdklLdFVIclZVOEI3djdXX1RFbFFuX0x2bUVlNWYzYU9fbUw4MXc?oc=5",
+    "data": "27/05/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "criança escorpião"
+  },
+  {
     "id": "cidadenoesemitealertavermelhoaposcentenasdecapturasdeescorpioes",
     "titulo": "Cidade no ES emite alerta vermelho após centenas de capturas de escorpiões - UOL Notícias",
     "descricao": "Cidade no ES emite alerta vermelho após centenas de capturas de escorpiões  UOL Notícias",
@@ -4937,6 +4950,19 @@
     "fonte": "Google News",
     "estado": "Não identificado",
     "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "municipiodeorleansreforcamedidasdeprevencaoeatendimentoaacidentescomescorpioes",
+    "titulo": "Município de Orleans reforça medidas de prevenção e atendimento a acidentes com escorpiões - Ligado no Sul",
+    "descricao": "Município de Orleans reforça medidas de prevenção e atendimento a acidentes com escorpiões  Ligado no Sul",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbUhNbnl6WDA2QzNhR25QZmN3bVlLZ0pwVWdFb0tFbGlER05FamEyZnBzSktpaGZySXFPUTVjcm93UTZ3UHZFYmhkdEdoTkNMSFl2LUpUZVBRQkxFd1dZQXhMVktxcVlTMFRLU3ZDUVJIcDRvaU56clpwSFRZd3NWZ3lBTTdRVENSbkx0WlVadURLRHRaV19haWJETktaOU5WWXBRVXFsbjRYTUJtVUZoSng5dXM2c21CRkQyWDhXT2hybzZtdExV?oc=5",
+    "data": "11/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Orleans",
     "termo_busca": "prevenção escorpiões"
   },
   {
@@ -7603,6 +7629,19 @@
     "estado": "PR",
     "cidade": "Paranavai",
     "termo_busca": "vigilância sanitária escorpião"
+  },
+  {
+    "id": "estadomantemalertaeorientacoesparaprevencaodeacidentescomescorpioesnoparana",
+    "titulo": "Estado mantém alerta e orientações para prevenção de acidentes com escorpiões no Paraná - Paraná Portal",
+    "descricao": "Estado mantém alerta e orientações para prevenção de acidentes com escorpiões no Paraná  Paraná Portal",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMG1DUE14clFJbVVpVzJKLUNHYVV0aWd0OXZnM2lBbmh0NTRoeElDR2Y1VktiRE9PeDFaaHBZY0w0cXhwZUI1aHZVc1hjQUFsaXpfeFBBRFlTY3lQUllrdU5DeGlRWkRsM2Q0bVhqa2kwRWdoVTJjdW1MZ0cxbmJpZXRlZnBYcF9kNzhHSnhLbmlFU0hMdTlYSXFYdTUyN2JpWF9reUUwSGh5UnFF?oc=5",
+    "data": "14/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "RN",
+    "cidade": "Parana",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "porqueosacidentesporpicadadeescorpiaoaumentaramtantonaultimadecada",
