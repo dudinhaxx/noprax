@@ -1,5 +1,31 @@
 [
   {
+    "id": "criancaehospitalizadaaposserpicadaporescorpiao",
+    "titulo": "Criança é hospitalizada após ser picada por escorpião - G1",
+    "descricao": "Criança é hospitalizada após ser picada por escorpião  G1",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ2hJcjhMX0pRR1BlMC1KSTBPWnRmdERDaVJxSFVSdTZqdGJPU0xVMTd0TUhNYWo0d3B3eVQyR1puV2pBUW5Sdk5HeFA4dGRLeW83MGRoMm9NYng1NmV3YlZBMjdHY0FMN2ViTDUxbDFkQnRSRGE0NzloS1BvWHB5ZXVmOHBMTlpBLWlKUWc5b1FaLXpWeDJSR01KVTNET09GdXN5SjdVTWtrR0J6WmNSbU8wT1IyRDF3Mkp6YVkyQdIBzgFBVV95cUxNV1lkci1YTW94b2NvRXJhWlZWUWJEazdnbnRPcElyWGlxVHJsbENrM3NJeEdzMWxiOW9acVBPWGZva0JPbmhrLXJUV3RfbEZpN2tQRGFUdDUtTGNlZTR2RUpqQ0ZJX1llVmpuMUlUbTJERExMWmE5bjB1QklVM21WLUxzVkVDcXp6S1p6OVJaSXVnZHZzVk5yNG1ocjFEX3hzOF90NGg1TUZfTVAtaUpubENzT1M0U2V4c3c1NzdLbjA4THZYZVNweXpmTzNRZw?oc=5",
+    "data": "03/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "prefeiturarealizaforcatarefadelimpezaeprevencaocontradengueeescorpioesnonovavarginha",
+    "titulo": "Prefeitura realiza força-tarefa de limpeza e prevenção contra dengue e escorpiões no Nova Varginha - BLOG DO MADEIRA",
+    "descricao": "Prefeitura realiza força-tarefa de limpeza e prevenção contra dengue e escorpiões no Nova Varginha  BLOG DO MADEIRA",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR2lRYjlwaHBLX3hTbG4tdjNXVXN6Z0t1QUdISElweDRJM1pIY0tfbEstQ1NhRzVFUXdIRzdKcnBxbk4tNXhGM0dnZmk4R1dfUzJyZXdndUlsWmdDMHQ1X2xjQzZwN3NBOW1USWNjeWgtdWJSTjBRclRINHk3S25keFh2WGZ2NkJZcmdTWEFpR1p3Qkl5RDlVcTI4bm5CWVJqZzZDMkdqa0JtRDhWRU1vZUVLcjIwNzRYUDVnNG8zRmw5TWIydk5R?oc=5",
+    "data": "03/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Varginha",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "meninopedeajudaemquarteldosbombeirosapospicadadeescorpiao",
     "titulo": "Menino pede ajuda em quartel dos bombeiros após picada de escorpião - Metrópoles",
     "descricao": "Menino pede ajuda em quartel dos bombeiros após picada de escorpião  Metrópoles",
@@ -6318,6 +6344,19 @@
     "termo_busca": "prefeitura escorpião"
   },
   {
+    "id": "acidentescomescorpioesregistramaumentode230emdezanosnopais",
+    "titulo": "Acidentes com escorpiões registram aumento de 230% em dez anos no país - Dhoje Interior",
+    "descricao": "Acidentes com escorpiões registram aumento de 230% em dez anos no país  Dhoje Interior",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYW5CSzRwTVR5dnZxQmdxWUZzR3JNV1RZTFJnMXVJUzltQ0IzbEUzWHdQZmtKTWNKVjNiQlY4NnRMaTZoT3RhQkQ4YkhxbGlFVEVqNHR0TE5laVhXcGVMeHdkVEVPcVNCSjdxSGI4dldvN20tRGljOUNfM0hTTldTMlJjOXFOcjllS1NVYzdCSGtpczR3SE83MFI0aEFqUmpIUTRsSWYteU5GUThiUWpxSnFXeTU?oc=5",
+    "data": "24/03/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões Brasil"
+  },
+  {
     "id": "criancade2anoseentubadaemhospitalaposserpicadaporescorpiaodentrodecasadizpai",
     "titulo": "Criança de 2 anos é entubada em hospital após ser picada por escorpião dentro de casa, diz pai - G1",
     "descricao": "Criança de 2 anos é entubada em hospital após ser picada por escorpião dentro de casa, diz pai  G1",
@@ -6875,6 +6914,19 @@
     "estado": "RN",
     "cidade": "Natal",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "escorpiaoamarelopreocupamoradorescomaumentodecasos",
+    "titulo": "Escorpião-amarelo preocupa moradores com aumento de casos - jornalnoroeste.com",
+    "descricao": "Escorpião-amarelo preocupa moradores com aumento de casos  jornalnoroeste.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUTZvZFcyWDV3eGJBNnVmS0laOE16RkRMWUs3bUd6U19FMm9EWE82dEhXZE1sWUtnNm11UDFWSFA4LVd5ZUVJLVl5MUdOSXA1REVicmVVZkZYbUtzWXBWNjdlbkVzRXFlZVNpbkJKcUhzdEhrSmVvaVc4b2pMd25QU181V0dNRF9oRE90QXFub1ozbnllNFh5MU5abnByWTVaaDFkcg?oc=5",
+    "data": "09/03/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "saudeintensificavigilanciaeorientasobreescorpiaoamarelo",
