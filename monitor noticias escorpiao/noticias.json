@@ -1,5 +1,18 @@
 [
   {
+    "id": "prefeituradetarumarealizaacaodeprevencaocontraescorpioesemescolamunicipal",
+    "titulo": "Prefeitura de Tarumã realiza ação de prevenção contra escorpiões em escola municipal - O Diário do Vale",
+    "descricao": "Prefeitura de Tarumã realiza ação de prevenção contra escorpiões em escola municipal  O Diário do Vale",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORHItUm9RZ1lFaVZndTRRYVBuV1NqWmhaSHRxS2FtU0V0dUpIcFFoX1NHbkxVdHpmbDUwWTNlaFpRbzZrdmdhVGFhdjZhZ0VCOWFmNTRDZXItV2hiUGg1ZlFST19GbGg0TjlvdDN0aGowVmljLU1Xa1M3V1RfOGQyek5nM2RERzc0YzRWbmxzMi1oeEFJckRVek01TmRUeDQ4UU9fN3c3VVpCWEV5S0hjWA?oc=5",
+    "data": "04/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Taruma",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "criancaehospitalizadaaposserpicadaporescorpiao",
     "titulo": "Criança é hospitalizada após ser picada por escorpião - G1",
     "descricao": "Criança é hospitalizada após ser picada por escorpião  G1",
@@ -9007,6 +9020,19 @@
     "estado": "SC",
     "cidade": "Gravatal",
     "termo_busca": "vigilância escorpião"
+  },
+  {
+    "id": "acidentescomescorpioeschegama979atendimentosemcuiabaem2025",
+    "titulo": "Acidentes com escorpiões chegam a 979 atendimentos em Cuiabá em 2025 - O Bom da Notícia",
+    "descricao": "Acidentes com escorpiões chegam a 979 atendimentos em Cuiabá em 2025  O Bom da Notícia",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2pocXpaZ0hhZTMxVTV0SVgyd184WUFzLU5NQ1hPZkFpOHJjVUFZclpXQnhlR2JwcWMzMThBY1psQ0VxejVlM29Cb1Z6SFpSWU5DSHdNQ3kyOXQ5ZUlmV2hhaHYxVkdtWWcwZFJoLUlLSnNweEppWU53aDJmUEVUVkpWSnZOSWczRU1Nd1E4d19zc2Q5blpIeHJaMUtaUk9jS2U3UGZSWTl1MDBVRG5rOXVJY3J4YWxh?oc=5",
+    "data": "13/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "prefeituradeitapemarepudiainformacoesdistorcidasemcomunicadoquenegainfestacaodeescorpiao",
