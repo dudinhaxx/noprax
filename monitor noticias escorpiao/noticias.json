@@ -39,6 +39,32 @@
     "termo_busca": "escorpião vigilância ambiental"
   },
   {
+    "id": "cadadiaeumaconquistadizcunhadodemeninapicadaporescorpiao",
+    "titulo": "\"Cada dia é uma conquista\", diz cunhado de menina picada por escorpião - Metrópoles",
+    "descricao": "\"Cada dia é uma conquista\", diz cunhado de menina picada por escorpião  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdTRMYVotd1MybHdFTjN6clNiX1U0TDh0bWRLeTR6d0xtR012eWJBV1RYTTkwZldWU2YtWlRuOFJTRF9PNGhlSTdFYnktVWdBbEpIQnhJeXlxNGNsRGF6Z0pJdGZLbmk4d2NQSzNSQzE3bkthdkhZV0JaS2ZXMExhV2VnN3QwbTZ1TFRYQjF0VzNZdllEOFZuOGVYbUR5OUZRSDcxN1BieDNmVmdYN2FVQg?oc=5",
+    "data": "03/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Conquista",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "setordevigilanciaambientalemsaudeorientasobreaparecimentodeescorpioes",
+    "titulo": "Setor de Vigilância Ambiental em Saúde orienta sobre aparecimento de escorpiões - - difusora973fm.com.br",
+    "descricao": "Setor de Vigilância Ambiental em Saúde orienta sobre aparecimento de escorpiões -  difusora973fm.com.br",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdFF6ejk1Y3lhVGktVEx2X2RRMkpybklOMVFUQi1aRGUtdk1sQnI2X2ViQW0xUUJMVWlNS2RzeEZfQVJfdkJ3NmMwQjlmclRFTGRES3ZWN3l4ZEtJTTdOLWgxUU5pU2VsTmpEV3ZrTkRqZGJsX0VwSnNnWW5mNzJZN3ppYmtQNWwxM2FGdUthR25yNTJiVkRUTmE5djhXUDdxYS1ycjF4RkQ1VktnVlVuQk16VGdhbmxqbjUw?oc=5",
+    "data": "03/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Saude",
+    "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
     "id": "meninopedeajudaemquarteldosbombeirosapospicadadeescorpiao",
     "titulo": "Menino pede ajuda em quartel dos bombeiros após picada de escorpião - Metrópoles",
     "descricao": "Menino pede ajuda em quartel dos bombeiros após picada de escorpião  Metrópoles",
@@ -8890,6 +8916,19 @@
     "estado": "SP",
     "cidade": "Não identificada",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "alertasobremaiorriscodeaparecimentodeescorpioesnoverao",
+    "titulo": "Alerta sobre maior risco de aparecimento de escorpiões no verão - PortalR3",
+    "descricao": "Alerta sobre maior risco de aparecimento de escorpiões no verão  PortalR3",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTmNEZVpWaWd5WVl0R2ZkTUFlY3p6Nnc4aHBIT1hfQ29Pel9STC1KLTRxc3lEejRiMGtTUklDem04cFpmQTZRRm41aTZwMjR1b2dVM3FyX3huMExwVDh3Z3ptOUlpVnp6N1BmVFBkbUZCdy1IZ1hvVEx5UVBxbmVieEI4VVk5Vmw1WlZoSDh6NDhaMHJMMnhzM0JyNzMzVVdtRUwtLXRUbzBremtLWmF6c0piZFM4Vkk?oc=5",
+    "data": "14/01/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "saudedejaguariunarealizanovaacaodecapturadeescorpioesparaproducaodesoro",
