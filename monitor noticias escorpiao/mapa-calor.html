@@ -1017,35 +1017,35 @@ body {
 <!-- ── Stats bar ── -->
 <div class="stats-bar">
   <div class="stat total">
-    <div class="stat-num" id="s-total">—</div>
+    <div class="stat-num" id="s-total">-</div>
     <div class="stat-info">
       <div class="stat-label">Total de notícias</div>
       <div class="stat-sub">base completa</div>
     </div>
   </div>
   <div class="stat grave">
-    <div class="stat-num" id="s-grave">—</div>
+    <div class="stat-num" id="s-grave">-</div>
     <div class="stat-info">
       <div class="stat-label">Graves</div>
       <div class="stat-sub">mortes / UTI / óbitos</div>
     </div>
   </div>
   <div class="stat moderada">
-    <div class="stat-num" id="s-moderada">—</div>
+    <div class="stat-num" id="s-moderada">-</div>
     <div class="stat-info">
       <div class="stat-label">Moderadas</div>
       <div class="stat-sub">picadas / hospitais</div>
     </div>
   </div>
   <div class="stat leve">
-    <div class="stat-num" id="s-leve">—</div>
+    <div class="stat-num" id="s-leve">-</div>
     <div class="stat-info">
       <div class="stat-label">Leves</div>
       <div class="stat-sub">alertas / prevenção</div>
     </div>
   </div>
   <div class="stat estados">
-    <div class="stat-num" id="s-estados">—</div>
+    <div class="stat-num" id="s-estados">-</div>
     <div class="stat-info">
       <div class="stat-label">Estados ativos</div>
       <div class="stat-sub">com registros</div>
@@ -1089,9 +1089,9 @@ body {
       </div>
       <div class="legend-items">
         <div class="legend-item"><div class="legend-dot" style="background:#1a3a28"></div> Sem registros</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#2d7a52"></div> 1–10 notícias</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#F2A516"></div> 11–30 notícias</div>
-        <div class="legend-item"><div class="legend-dot" style="background:#D88E0A"></div> 31–60 notícias</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#2d7a52"></div> 1-10 notícias</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#F2A516"></div> 11-30 notícias</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#D88E0A"></div> 31-60 notícias</div>
         <div class="legend-item"><div class="legend-dot" style="background:#D85A30"></div> 60+ notícias</div>
       </div>
     </div>
@@ -1168,11 +1168,11 @@ body {
           <div class="manual-step-desc">As cores dos estados indicam o volume de notícias registradas. Passe o mouse sobre qualquer estado para ver um resumo rápido com totais por gravidade.</div>
           <div class="manual-legend">
             <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#1C1C20;border:1px solid rgba(255,255,255,0.1)"></div>Sem registros na base</div>
-            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#1a3a28"></div>1–5 notícias — Baixo</div>
-            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#2d7a52"></div>6–15 notícias — Moderado</div>
-            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#F2A516"></div>16–30 notícias — Alto</div>
-            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#D88E0A"></div>31–60 notícias — Muito alto</div>
-            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#D85A30"></div>60+ notícias — Crítico</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#1a3a28"></div>1-5 notícias: Baixo</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#2d7a52"></div>6-15 notícias: Moderado</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#F2A516"></div>16-30 notícias: Alto</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#D88E0A"></div>31-60 notícias: Muito alto</div>
+            <div class="manual-legend-item"><div class="manual-legend-dot" style="background:#D85A30"></div>60+ notícias: Crítico</div>
           </div>
         </div>
       </div>
@@ -1523,7 +1523,7 @@ function mostrarTooltipSigla(event, sigla) {
   document.getElementById('tt-moderada').textContent = data.moderada || 0;
   document.getElementById('tt-leve').textContent     = data.leve     || 0;
   document.getElementById('tt-last').textContent = ultima
-    ? `Última: ${ultima.data} — ${ultima.titulo.substring(0, 60)}...`
+    ? `Última: ${ultima.data} · ${ultima.titulo.substring(0, 60)}...`
     : 'Sem registros na base';
 
   const tt = document.getElementById('tooltip');

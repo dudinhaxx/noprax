@@ -93,7 +93,7 @@
   });
 })();
 </script>
-<!-- ─── GTM CONSENT MODE v2 — padrão: negado para não-essenciais ─── -->
+<!-- ─── GTM CONSENT MODE v2 · padrão: negado para não-essenciais ─── -->
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
@@ -152,7 +152,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Noprax",
-  "alternateName": "Noprax — Armadilha para Escorpião",
+  "alternateName": "Noprax · Armadilha para Escorpião",
   "url": "https://noprax.com.br",
   "logo": {
     "@type": "ImageObject",
@@ -324,7 +324,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   NOPRAX — SITE GLOBAL STYLES
+   NOPRAX · SITE GLOBAL STYLES
    Identidade: industrial-tecnológica
    Cores: preto profundo + laranja Noprax (#F2A516)
 ============================================================ */
@@ -1194,33 +1194,106 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     font-size: 16px;
   }
 
-  .product-visual {
+  /* ─── GALERIA DO PRODUTO (estilo Amazon) ─── */
+  .product-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .product-gallery-main {
+    position: relative;
     aspect-ratio: 1 / 1;
-    background: var(--noprax-dark2);
-    border: 1px solid var(--noprax-line);
-    border-radius: 4px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: linear-gradient(160deg, #fafafa 0%, #ececec 100%);
+    border: 2px solid rgba(242, 165, 22, 0.7);
+    box-shadow: 0 0 0 1px rgba(242, 165, 22, 0.12),
+                0 0 40px rgba(242, 165, 22, 0.13),
+                0 8px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .product-gallery-main img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+    pointer-events: none;
+  }
+
+  .product-gallery-main img.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .product-gallery-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(11, 11, 13, 0.55);
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    overflow: hidden;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    transition: background 0.2s, opacity 0.2s;
   }
 
-  .product-visual::before {
-    content: 'IMAGEM DO PRODUTO';
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.2em;
-    color: var(--text-dim);
-  }
+  .product-gallery-arrow:hover { background: var(--noprax-orange); color: var(--noprax-black); }
+  .product-gallery-arrow.prev { left: 12px; }
+  .product-gallery-arrow.next { right: 12px; }
 
-  .product-visual::after {
-    content: '';
+  .product-gallery-counter {
     position: absolute;
-    inset: 24px;
-    border: 1px dashed var(--noprax-line-strong);
-    border-radius: 2px;
+    bottom: 12px;
+    right: 14px;
+    z-index: 3;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--noprax-orange);
+    background: rgba(11, 11, 13, 0.78);
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(242, 165, 22, 0.35);
+    backdrop-filter: blur(6px);
   }
+
+  .product-gallery-thumbs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+
+  .product-gallery-thumb {
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(160deg, #fafafa 0%, #ececec 100%);
+    border: 1.5px solid var(--noprax-line);
+    cursor: pointer;
+    padding: 0;
+    transition: border-color 0.2s, transform 0.15s;
+  }
+
+  .product-gallery-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .product-gallery-thumb:hover { transform: translateY(-2px); }
+  .product-gallery-thumb.active { border-color: var(--noprax-orange); }
 
   /* ─── PUBLICS ─── */
   .publics-grid {
@@ -1520,7 +1593,9 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     color: var(--ink-soft);
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--ink-line);
+    margin: 12px 12px 0;
+    border: 2px solid var(--noprax-orange);
+    border-radius: 8px;
   }
 
   .blog-card-body {
@@ -2197,7 +2272,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="cookie-category">
       <div class="cookie-category-info">
         <strong>Analíticos</strong>
-        <p>Google Analytics — permite entender como os visitantes utilizam o site. Nenhum dado é vendido ou compartilhado para fins de marketing.</p>
+        <p>Google Analytics: permite entender como os visitantes utilizam o site. Nenhum dado é vendido ou compartilhado para fins de marketing.</p>
       </div>
       <label class="cookie-toggle" aria-label="Ativar cookies analíticos">
         <input type="checkbox" id="toggle-analytics">
@@ -2223,7 +2298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ─── NAV ─── -->
 <nav class="nav" aria-label="Navegação principal">
-  <a href="/" class="nav-logo" aria-label="Noprax — página inicial">
+  <a href="/" class="nav-logo" aria-label="Noprax, página inicial">
     <img src="Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="nav-logo-img" width="160" height="40" fetchpriority="high">
   </a>
   <ul class="nav-links" id="nav-links">
@@ -2332,7 +2407,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="fade-up delay-1" style="display:flex;align-items:center;justify-content:center;">
         <div style="position:relative;border:2px solid rgba(242,165,22,0.7);border-radius:18px;overflow:hidden;width:100%;max-width:400px;box-shadow:0 0 0 1px rgba(242,165,22,0.12),0 0 40px rgba(242,165,22,0.13),0 8px 40px rgba(0,0,0,0.5);">
           <img src="assets/escorpiao-foto.jpg" alt="Foto de Tityus serrulatus, o escorpião-amarelo mais perigoso do Brasil" fetchpriority="high" width="400" height="267"
-            style="width:100%;display:block;object-fit:cover;object-position:center 30%;aspect-ratio:3/2;transform:scale(1.08);transform-origin:center 35%;">
+            style="width:100%;display:block;object-fit:cover;object-position:center center;aspect-ratio:3/2;transform:scale(1.02);">
           <!-- fade radial para integrar com fundo escuro -->
           <div style="position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 50%,rgba(11,11,13,0.55) 100%);pointer-events:none;"></div>
           <!-- badge espécie -->
@@ -2341,12 +2416,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 
-    <p class="fade-up" style="font-family:var(--mono);font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--danger);margin-bottom:12px;text-align:center;">Confira os dados abaixo atualizados de 2008 a 2025 — Ministério da Saúde (TABNET, junho 2026)</p>
+    <p class="fade-up" style="font-family:var(--mono);font-size:13px;letter-spacing:0.18em;text-transform:uppercase;color:var(--danger);margin-bottom:12px;text-align:center;">Confira os dados abaixo atualizados de 2008 a 2025, Ministério da Saúde (TABNET, junho 2026)</p>
 
     <!-- Cards de dados abaixo (grid horizontal 3 colunas) -->
     <div class="data-main-grid">
 
-      <!-- Card 1: A Dimensão — triênios 2008–2025 -->
+      <!-- Card 1: A Dimensão · triênios 2008-2025 -->
       <div class="data-card fade-up">
         <span class="data-tag">Saúde pública · Brasil · Dimensão</span>
 
@@ -2354,7 +2429,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div style="font-family:var(--display);font-size:clamp(13px,1.1vw,16px);line-height:1.15;letter-spacing:-0.01em;color:var(--text);">Quase <span style="color:var(--noprax-orange);">5×</span> mais acidentes em 3 anos.</div>
         </div>
 
-        <div class="data-label" style="margin-bottom:16px;">De <strong style="color:var(--text);">142.049</strong> no triênio 2008–2010 para <strong style="color:var(--text);">654.345</strong> em 2023–2025: um crescimento de <strong style="color:var(--noprax-orange);">361%</strong> em 18 anos.</div>
+        <div class="data-label" style="margin-bottom:16px;">De <strong style="color:var(--text);">142.049</strong> no triênio 2008-2010 para <strong style="color:var(--text);">654.345</strong> em 2023-2025: um crescimento de <strong style="color:var(--noprax-orange);">361%</strong> em 18 anos.</div>
 
         <!-- Box de alerta: ritmo diário -->
         <div style="margin-bottom:8px;padding:16px 18px;background:rgba(242,165,22,0.07);border:1px solid rgba(242,165,22,0.4);border-radius:8px;display:flex;align-items:center;gap:18px;">
@@ -2368,48 +2443,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </svg>
             <span style="font-family:var(--display);font-size:24px;color:var(--noprax-orange);line-height:1;">~600<span style="font-size:12px;"> /dia</span></span>
           </div>
-          <span style="font-size:12px;color:var(--text-muted);line-height:1.5;">É o ritmo de acidentes por escorpião no Brasil no período 2023–2025.</span>
+          <span style="font-size:12px;color:var(--text-muted);line-height:1.5;">É o ritmo de acidentes por escorpião no Brasil no período 2023-2025.</span>
         </div>
         <div style="margin-bottom:20px;font-family:var(--mono);font-size:9px;color:var(--text-dim);line-height:1.6;padding-left:2px;">Os 654.345 acidentes do período equivalem a quase 600 por dia, ou cerca de um a cada 2 minutos e meio. Enquanto você lê este card, mais um brasileiro foi picado. Fonte: SINAN / Ministério da Saúde.</div>
 
         <div class="data-chart">
-          <div class="data-chart-label">Notificações por triênio · Brasil · 2008–2025</div>
+          <div class="data-chart-label">Notificações por triênio · Brasil · 2008-2025</div>
           <div class="data-chart-bars" style="gap:6px;">
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">142k</span>
               <div class="data-chart-bar past" style="height:26px" data-h="26"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2008–10</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2008-10</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">200k</span>
               <div class="data-chart-bar past" style="height:37px" data-h="37"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2011–13</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2011-13</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">263k</span>
               <div class="data-chart-bar past" style="height:48px" data-h="48"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2014–16</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2014-16</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">453k</span>
               <div class="data-chart-bar past" style="height:83px" data-h="83"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2017–19</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2017-19</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">504k</span>
               <div class="data-chart-bar past" style="height:93px" data-h="93"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2020–22</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2020-22</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;color:var(--noprax-orange);font-weight:700;">654k</span>
               <div class="data-chart-bar current" style="height:120px" data-h="120"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;color:var(--noprax-orange);">2023–25</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;color:var(--noprax-orange);">2023-25</span>
             </div>
           </div>
         </div>
 
         <div style="margin-top:14px;padding:12px 14px;border-left:2px solid var(--danger);background:rgba(216,90,48,0.06);border-radius:0 6px 6px 0;">
-          <p style="font-size:12px;color:var(--text-muted);line-height:1.6;">O período 2023–2025 já soma <strong style="color:var(--text);">654 mil acidentes</strong>, mais que o quádruplo do registrado de 2008 a 2010.</p>
+          <p style="font-size:12px;color:var(--text-muted);line-height:1.6;">O período 2023-2025 já soma <strong style="color:var(--text);">654 mil acidentes</strong>, mais que o quádruplo do registrado de 2008 a 2010.</p>
         </div>
 
         <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--noprax-line);">
@@ -2417,12 +2492,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
 
-      <!-- Card 2: Número de Óbitos — triênios 2008–2025 -->
+      <!-- Card 2: Número de Óbitos · triênios 2008-2025 -->
       <div class="data-card fade-up delay-1">
         <span class="data-tag">Saúde pública · Brasil · Número de óbitos</span>
 
         <div style="margin-top:18px;margin-bottom:14px;">
-          <div style="font-family:var(--display);font-size:clamp(13px,1.1vw,16px);line-height:1.15;letter-spacing:-0.01em;color:var(--text);">2023–2025: o período <span style="color:var(--danger);">mais letal</span> da série.</div>
+          <div style="font-family:var(--display);font-size:clamp(13px,1.1vw,16px);line-height:1.15;letter-spacing:-0.01em;color:var(--text);">2023-2025: o período <span style="color:var(--danger);">mais letal</span> da série.</div>
         </div>
 
         <div class="data-label" style="margin-bottom:16px;">Foram <strong style="color:var(--text);">472 óbitos</strong> em três anos, impulsionados pelo recorde de <strong style="color:var(--danger);">232 mortes só em 2025</strong>.</div>
@@ -2438,37 +2513,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div style="margin-bottom:20px;font-family:var(--mono);font-size:9px;color:var(--text-dim);line-height:1.6;padding-left:2px;">Conforme o Ministério da Saúde: 44,21% das mortes por escorpião no Brasil são de crianças de até 14 anos.</div>
 
         <div class="data-chart">
-          <div class="data-chart-label">Óbitos por triênio · Brasil · 2008–2025</div>
+          <div class="data-chart-label">Óbitos por triênio · Brasil · 2008-2025</div>
           <div class="data-chart-bars" style="gap:6px;">
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">245</span>
               <div class="data-chart-bar past" style="height:62px" data-h="62"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2008–10</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2008-10</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">234</span>
               <div class="data-chart-bar past" style="height:60px" data-h="60"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2011–13</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2011-13</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">285</span>
               <div class="data-chart-bar past" style="height:72px" data-h="72"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2014–16</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2014-16</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">260</span>
               <div class="data-chart-bar past" style="height:66px" data-h="66"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2017–19</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2017-19</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;">319</span>
               <div class="data-chart-bar past" style="height:81px" data-h="81"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2020–22</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;">2020-22</span>
             </div>
             <div class="data-chart-col">
               <span class="data-chart-val" style="font-size:9px;color:var(--danger);font-weight:700;">472</span>
               <div class="data-chart-bar current" style="height:120px" data-h="120"></div>
-              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;color:var(--danger);">2023–25</span>
+              <span class="data-chart-year" style="font-size:7px;letter-spacing:0.05em;color:var(--danger);">2023-25</span>
             </div>
           </div>
         </div>
@@ -2601,7 +2676,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <p class="data-source fade-up">
-      Fontes: Ministério da Saúde · SINAN / SIM · Boletins Epidemiológicos 2020–2025
+      Fontes: Ministério da Saúde · SINAN / SIM · Boletins Epidemiológicos 2020-2025
     </p>
 
   </div>
@@ -2696,7 +2771,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="#contato" class="btn btn-primary">Ver detalhes do produto</a>
       </div>
 
-      <div class="product-visual"></div>
+      <div class="product-gallery" id="product-gallery">
+        <div class="product-gallery-main">
+          <button class="product-gallery-arrow prev" type="button" aria-label="Imagem anterior">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <img src="assets/Frente%202.png"        alt="Dispositivo Noprax fechado, vista frontal" class="active" width="600" height="600" loading="lazy">
+          <img src="assets/Aberto%20com%20cola%204.png" alt="Armadilha Noprax aberta com refil adesivo instalado" width="600" height="600" loading="lazy">
+          <img src="assets/Aberto%20com%20cola%203.png" alt="Interior da armadilha Noprax com refil adesivo, vista frontal" width="600" height="600" loading="lazy">
+          <img src="assets/Aberto.png"             alt="Estrutura interna da armadilha Noprax aberta" width="600" height="600" loading="lazy">
+          <img src="assets/Aberto%20sem%20cola.png"  alt="Estrutura da armadilha Noprax sem refil, mostrando o sistema de encaixe" width="600" height="600" loading="lazy">
+          <img src="assets/Fundo.png"              alt="Vista traseira da armadilha Noprax com entrada dimensionada" width="600" height="600" loading="lazy">
+          <button class="product-gallery-arrow next" type="button" aria-label="Próxima imagem">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+          <span class="product-gallery-counter">1 / 6</span>
+        </div>
+        <div class="product-gallery-thumbs">
+          <button class="product-gallery-thumb active" type="button" aria-label="Ver imagem 1"><img src="assets/Frente%202.png"        alt="" width="120" height="120" loading="lazy"></button>
+          <button class="product-gallery-thumb"        type="button" aria-label="Ver imagem 2"><img src="assets/Aberto%20com%20cola%204.png" alt="" width="120" height="120" loading="lazy"></button>
+          <button class="product-gallery-thumb"        type="button" aria-label="Ver imagem 3"><img src="assets/Aberto%20com%20cola%203.png" alt="" width="120" height="120" loading="lazy"></button>
+          <button class="product-gallery-thumb"        type="button" aria-label="Ver imagem 4"><img src="assets/Aberto.png"             alt="" width="120" height="120" loading="lazy"></button>
+          <button class="product-gallery-thumb"        type="button" aria-label="Ver imagem 5"><img src="assets/Aberto%20sem%20cola.png"  alt="" width="120" height="120" loading="lazy"></button>
+          <button class="product-gallery-thumb"        type="button" aria-label="Ver imagem 6"><img src="assets/Fundo.png"              alt="" width="120" height="120" loading="lazy"></button>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -2714,7 +2813,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
     <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
       <a href="#contato" class="btn" style="background:var(--noprax-black);color:var(--noprax-orange);font-family:var(--mono);font-size:11px;letter-spacing:0.15em;text-transform:uppercase;padding:16px 36px;border-radius:2px;font-weight:700;white-space:nowrap;">Conhecer o produto</a>
-      <a href="https://wa.me/55INSERIR_NUMERO" class="btn" style="background:transparent;border:1.5px solid rgba(11,11,13,0.35);color:var(--noprax-black);font-family:var(--mono);font-size:11px;letter-spacing:0.15em;text-transform:uppercase;padding:16px 36px;border-radius:2px;font-weight:700;white-space:nowrap;">Falar com especialista</a>
+      <a href="https://wa.me/5500000000000" class="btn" style="background:transparent;border:1.5px solid rgba(11,11,13,0.35);color:var(--noprax-black);font-family:var(--mono);font-size:11px;letter-spacing:0.15em;text-transform:uppercase;padding:16px 36px;border-radius:2px;font-weight:700;white-space:nowrap;">Falar com especialista</a>
     </div>
   </div>
 </section>
@@ -2733,8 +2832,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
 
     <div class="blog-grid">
-      <a href="escorpiao/picada-de-escorpiao-o-que-fazer.html" class="blog-card">
-        <div class="blog-card-image">// IMAGEM EMERGÊNCIA</div>
+      <a href="picada-de-escorpiao-o-que-fazer.html" class="blog-card">
+        <div class="blog-card-image" style="background-image:url('assets/blog-picada-hero.jpg');background-size:cover;background-position:center;"></div>
         <div class="blog-card-body">
           <div class="blog-card-cat">// Saúde &amp; Emergência</div>
           <h3 class="blog-card-title">Picada de escorpião: o que fazer nos primeiros minutos</h3>
@@ -2743,23 +2842,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </a>
 
-      <a href="blog/dedetizacao-tradicional-nao-elimina-escorpiao.html" class="blog-card">
-        <div class="blog-card-image">// IMAGEM TÉCNICA</div>
+      <a href="manejo-integrado-controle-de-escorpioes.html" class="blog-card">
+        <div class="blog-card-image" style="background-image:url('assets/blog-manejo-hero.jpg');background-size:cover;background-position:center;"></div>
         <div class="blog-card-body">
-          <div class="blog-card-cat">// Técnico</div>
-          <h3 class="blog-card-title">Por que o escorpião escapa da dedetização convencional — e o que fazer</h3>
-          <p class="blog-card-desc">Análise técnica do comportamento do escorpião e como a armadilha complementa o controle químico para um resultado mais completo.</p>
+          <div class="blog-card-cat">// Controle &amp; Monitoramento</div>
+          <h3 class="blog-card-title">Por que o escorpião exige manejo integrado e monitoramento contínuo</h3>
+          <p class="blog-card-desc">Inspeção, manejo ambiental, vedação, controle de alimento e monitoramento: os pilares do controle de escorpiões.</p>
           <div class="blog-card-meta">Leitura · 8 min</div>
         </div>
       </a>
 
-      <a href="escorpiao/index.html" class="blog-card">
-        <div class="blog-card-image">// HUB EDUCATIVO</div>
+      <a href="onde-escorpioes-se-escondem.html" class="blog-card">
+        <div class="blog-card-image" style="background-image:url('assets/blog-onde-hero.jpg');background-size:cover;background-position:center;"></div>
         <div class="blog-card-body">
-          <div class="blog-card-cat">// Hub Educativo</div>
-          <h3 class="blog-card-title">Tudo sobre escorpiões no Brasil</h3>
-          <p class="blog-card-desc">Acesse o hub completo com guias sobre espécies, regiões de risco, prevenção e emergência.</p>
-          <div class="blog-card-meta">Ver hub completo →</div>
+          <div class="blog-card-cat">// Prevenção</div>
+          <h3 class="blog-card-title">Onde os escorpiões se escondem: pontos de risco e monitoramento</h3>
+          <p class="blog-card-desc">Os principais esconderijos em casas e empresas e quais locais devem receber inspeção e monitoramento.</p>
+          <div class="blog-card-meta">Leitura · 9 min</div>
         </div>
       </a>
     </div>
@@ -2984,8 +3083,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <label>Empresa</label>
       <ul>
         <li><a href="index.html">A Noprax</a></li>
-        <li><a href="a-noprax/index.html#raylight">Raylight</a></li>
-        <li><a href="a-noprax/index.html#tecnologia">Tecnologia Noprax</a></li>
+        <li><a href="index.html">Raylight</a></li>
+        <li><a href="armadilha-escorpiao/index.html">Tecnologia Noprax</a></li>
       </ul>
     </div>
 
@@ -3066,7 +3165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </a>
 
 <script>
-// NOPRAX — Site Scripts
+// NOPRAX · Site Scripts
 
 // Intersection Observer for scroll animations
 document.addEventListener('DOMContentLoaded', () => {
@@ -3185,6 +3284,39 @@ document.addEventListener('click', (e) => {
   });
 })();
 
+// -- Galeria do produto --
+(function() {
+  var gallery = document.getElementById('product-gallery');
+  if (!gallery) return;
+
+  var imgs    = Array.prototype.slice.call(gallery.querySelectorAll('.product-gallery-main img'));
+  var thumbs  = Array.prototype.slice.call(gallery.querySelectorAll('.product-gallery-thumb'));
+  var counter = gallery.querySelector('.product-gallery-counter');
+  var current = 0;
+
+  function show(i) {
+    current = (i + imgs.length) % imgs.length;
+    imgs.forEach(function(img, n)  { img.classList.toggle('active', n === current); });
+    thumbs.forEach(function(t, n)  { t.classList.toggle('active', n === current); });
+    if (counter) counter.textContent = (current + 1) + ' / ' + imgs.length;
+  }
+
+  thumbs.forEach(function(t, i) { t.addEventListener('click', function() { show(i); }); });
+  gallery.querySelector('.product-gallery-arrow.prev').addEventListener('click', function() { show(current - 1); });
+  gallery.querySelector('.product-gallery-arrow.next').addEventListener('click', function() { show(current + 1); });
+
+  // Swipe no mobile
+  var x0 = null;
+  var main = gallery.querySelector('.product-gallery-main');
+  main.addEventListener('touchstart', function(e) { x0 = e.touches[0].clientX; }, { passive: true });
+  main.addEventListener('touchend', function(e) {
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0;
+    if (Math.abs(dx) > 40) show(current + (dx < 0 ? 1 : -1));
+    x0 = null;
+  }, { passive: true });
+})();
+
 </script>
 
 <!-- ─── COOKIE CONSENT JS ─── -->
@@ -3229,7 +3361,7 @@ document.addEventListener('click', (e) => {
   document.getElementById('cookie-accept-all-panel').addEventListener('click', function () { saveAndApply(true, true); });
   panel.addEventListener('click', function (e) { if (e.target === panel) hidePanel(); });
 
-  // Reopen from footer — preenche toggles com estado salvo
+  // Reopen from footer · preenche toggles com estado salvo
   window.nopraxOpenCookiePanel = function () {
     try {
       var c = JSON.parse(localStorage.getItem(KEY) || 'null');

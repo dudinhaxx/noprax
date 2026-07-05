@@ -42,7 +42,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   NOPRAX — SITE GLOBAL STYLES
+   NOPRAX · SITE GLOBAL STYLES
    Identidade: industrial-tecnológica
    Cores: preto profundo + laranja Noprax (#F2A516)
 ============================================================ */
@@ -589,6 +589,7 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     color: var(--ink);
     font-size: 17px;
     line-height: 1.8;
+    counter-reset: h2counter;
   }
 
   .article-body-content p {
@@ -617,6 +618,33 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     padding-top: 24px;
     border-top: 2px solid var(--noprax-orange);
     display: inline-block;
+    counter-increment: h2counter;
+  }
+
+  .article-body-content h2::before {
+    content: counter(h2counter, decimal-leading-zero) ". ";
+    color: var(--noprax-orange);
+  }
+
+  /* ─── HERO DO ARTIGO (padrão blog) ─── */
+  .article-hero { margin: 8px 0 44px; }
+
+  .article-hero-frame {
+    position: relative;
+    border: 2px solid rgba(242, 165, 22, 0.55);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(242, 165, 22, 0.10),
+                0 12px 40px rgba(0, 0, 0, 0.28);
+  }
+
+  .article-hero figcaption {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+    margin-top: 12px;
+    text-align: center;
   }
 
   .article-body-content h3 {
@@ -930,27 +958,26 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 </head>
 <body>
 
-<nav class="nav">
-  <a href="index.html" class="nav-logo">
-    <span class="dot"></span>
-    Noprax
+<nav class="nav" aria-label="Navegação principal">
+  <a href="index.html" class="nav-logo" aria-label="Noprax, página inicial">
+    <img src="Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="nav-logo-img" width="160" height="40">
   </a>
   <ul class="nav-links">
-    <li><a href="../a-noprax/index.html">A Noprax</a></li>
-    <li><a href="../armadilha-escorpiao/index.html">Produto</a></li>
-    <li><a href="../para-dedetizadoras/index.html">Dedetizadoras</a></li>
-    <li><a href="../escorpiao/index.html">Sobre Escorpiões</a></li>
-    <li><a href="../blog/index.html" class="active">Blog</a></li>
-    <li><a href="https://wa.me/5500000000000" class="nav-cta">Falar com a Noprax</a></li>
+    <li><a href="index.html">A Noprax</a></li>
+    <li><a href="index.html#faq">Dúvidas Frequentes</a></li>
+    <li><a href="conteudos.html">Conteúdos</a></li>
+    <li><a href="monitor%20noticias%20escorpiao/mapa-calor.html">Notícias</a></li>
+    <li><a href="armadilha-escorpiao/index.html">Produto</a></li>
+    <li><a href="index.html#contato" class="nav-cta">Falar com a Noprax</a></li>
   </ul>
-  <button class="nav-mobile-toggle">☰</button>
+  <button class="nav-mobile-toggle" aria-label="Abrir menu">☰</button>
 </nav>
 
 <!-- ─── ARTICLE HEADER ─── -->
 <header class="article-header">
   <div class="article-header-content">
     <div class="breadcrumb">
-      <a href="../index.html">Início</a>
+      <a href="index.html">Início</a>
       <span class="sep">/</span>
       <a href="index.html">Blog</a>
       <span class="sep">/</span>
@@ -1061,12 +1088,12 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     <!-- CTA INLINE -->
     <div class="cta-inline">
       <div class="cta-inline-content">
-        <div class="cta-inline-tag">// Solução para dedetizadoras</div>
+        <div class="cta-inline-tag">Solução para dedetizadoras</div>
         <h3 class="cta-inline-title">Quer integrar a Noprax na sua operação?</h3>
         <p class="cta-inline-text">
-          A armadilha Noprax foi pensada para a operação profissional. Patente registrada, refil com recorrência e suporte técnico para o lançamento. Receba uma proposta personalizada para a sua dedetizadora.
+          O dispositivo Noprax foi pensado para a operação profissional. Patente registrada, refil com recorrência e suporte técnico para o lançamento. Receba uma proposta personalizada para a sua dedetizadora.
         </p>
-        <a href="../para-dedetizadoras/index.html" class="btn">Quero ser parceiro Noprax</a>
+        <a href="index.html#contato" class="btn btn-primary">Quero ser parceiro Noprax</a>
       </div>
     </div>
 
@@ -1103,20 +1130,20 @@ section.light3 { background: var(--paper3); color: var(--ink); }
     </h2>
 
     <div class="related-grid">
-      <a href="#" class="related-card">
-        <div class="related-cat">// Técnico</div>
-        <h3 class="related-title">5 pontos críticos onde instalar a armadilha de escorpião</h3>
-        <p class="related-desc">Guia prático com os locais de maior eficácia para posicionar a armadilha em ambientes residenciais e comerciais.</p>
+      <a href="manejo-integrado-controle-de-escorpioes.html" class="related-card">
+        <div class="related-cat">// Controle</div>
+        <h3 class="related-title">Por que o escorpião exige manejo integrado</h3>
+        <p class="related-desc">Os pilares do controle de escorpiões e o papel do monitoramento contínuo.</p>
       </a>
-      <a href="#" class="related-card">
-        <div class="related-cat">// Mercado</div>
-        <h3 class="related-title">O mercado de controle de escorpião está crescendo</h3>
-        <p class="related-desc">Análise da janela de oportunidade para dedetizadoras que querem se posicionar nessa categoria.</p>
+      <a href="onde-escorpioes-se-escondem.html" class="related-card">
+        <div class="related-cat">// Prevenção</div>
+        <h3 class="related-title">Onde os escorpiões se escondem</h3>
+        <p class="related-desc">Principais pontos de risco em casas e empresas e quais locais monitorar.</p>
       </a>
-      <a href="../escorpiao/picada-de-escorpiao-o-que-fazer.html" class="related-card">
-        <div class="related-cat">// Hub educativo</div>
+      <a href="picada-de-escorpiao-o-que-fazer.html" class="related-card">
+        <div class="related-cat">// Saúde &amp; Emergência</div>
         <h3 class="related-title">Picada de escorpião: o que fazer nos primeiros minutos</h3>
-        <p class="related-desc">Guia técnico de primeiros socorros, sintomas de alerta e quando procurar emergência.</p>
+        <p class="related-desc">Guia de primeiros socorros, sintomas de alerta e quando procurar emergência.</p>
       </a>
     </div>
   </div>
@@ -1127,41 +1154,39 @@ section.light3 { background: var(--paper3); color: var(--ink); }
   <div class="footer-grid">
     <div>
       <div class="footer-brand">
-        <span class="dot"></span>
-        Noprax
+        <img src="Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="footer-logo-img" width="160" height="40" loading="lazy" style="height:32px;width:auto;">
       </div>
       <p class="footer-tagline">
-        Monitoramento inteligente de pragas. A primeira solução estruturada do Brasil para o controle de escorpiões. Uma marca fabricada pela Raylight.
+        Dispositivo físico para monitoramento e captura passiva de escorpiões, desenvolvido em parceria com a Raylight.
       </p>
     </div>
     <div class="footer-col">
       <label>Empresa</label>
       <ul>
-        <li><a href="../a-noprax/index.html">A Noprax</a></li>
-        <li><a href="../a-noprax/index.html#raylight">Raylight</a></li>
-        <li><a href="../a-noprax/index.html#tecnologia">Tecnologia</a></li>
+        <li><a href="index.html">A Noprax</a></li>
+        <li><a href="armadilha-escorpiao/index.html">Produto</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <label>Produto</label>
       <ul>
-        <li><a href="../armadilha-escorpiao/index.html">Armadilha</a></li>
-        <li><a href="../armadilha-escorpiao/index.html#refil">Refil</a></li>
-        <li><a href="../armadilha-escorpiao/index.html#faq">FAQ</a></li>
+        <li><a href="armadilha-escorpiao/index.html">Dispositivo Noprax</a></li>
+        <li><a href="armadilha-escorpiao/index.html#refil">Refil Substituível</a></li>
+        <li><a href="armadilha-escorpiao/index.html#faq">Dúvidas Frequentes</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <label>Recursos</label>
       <ul>
-        <li><a href="../escorpiao/index.html">Sobre Escorpiões</a></li>
-        <li><a href="../blog/index.html">Blog</a></li>
-        <li><a href="../para-dedetizadoras/index.html">Dedetizadoras</a></li>
+        <li><a href="conteudos.html">Conteúdos</a></li>
+        <li><a href="monitor%20noticias%20escorpiao/mapa-calor.html">Notícias</a></li>
+        <li><a href="https://soroja.com.br/" target="_blank" rel="noopener">Sorojá</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-base">
-    <span>© 2026 Noprax · Fabricada pela Raylight</span>
-    <span>Noprax // Monitoramento Inteligente de Pragas</span>
+    <span>© 2026 Noprax · Fabricado em parceria com a Raylight</span>
+    <span>// Monitoramento e captura passiva de escorpiões</span>
   </div>
 </footer>
 
@@ -1170,7 +1195,7 @@ section.light3 { background: var(--paper3); color: var(--ink); }
 </a>
 
 <script>
-// NOPRAX — Site Scripts
+// NOPRAX · Site Scripts
 
 // Intersection Observer for scroll animations
 document.addEventListener('DOMContentLoaded', () => {

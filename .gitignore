@@ -11,9 +11,17 @@ site_noprax.zip
 .DS_Store
 Thumbs.db
 
+# Fontes de trabalho (não publicar)
+Blog Word/
+Arquivo 3D/
+*.backup
+index.html.backup
+
 # Python
 __pycache__/
 *.pyc
 *.pyo
 .venv/
 venv/
+
+.vercel
