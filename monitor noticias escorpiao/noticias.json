@@ -13,6 +13,32 @@
     "termo_busca": "vigilância sanitária escorpião"
   },
   {
+    "id": "venenodeescorpiaopodecausarcomplicacoesgravesemcriancasalertamespecialistas",
+    "titulo": "Veneno de escorpião pode causar complicações graves em crianças, alertam especialistas - WebTerra",
+    "descricao": "Veneno de escorpião pode causar complicações graves em crianças, alertam especialistas  WebTerra",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakNCbUlsUE9UTWhHbDhnUXFFc044Z2NSMEJWbTM0Y242NmluempiSjhOVGc5RGEzdFp1LWFHYkhYTEdOaGF2bkZVUWVTQWhjZG5OMHdWcktDMlIzVXdWTnJGYTFaYzBIRnltblVGUzNwVDlMUFBIdjZxVk53Uy1YeU5fZ0hxaTNMZ3p5WUtKdnNGX09veE9RS3RnSWVtSEw0djR3bU8xSm85RmNfU0hNUEF4NEx1V3B5VmhnRWt3?oc=5",
+    "data": "11/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "caculadecristianoeinternadonohcmapospicadadeescorpiao",
+    "titulo": "Caçula de Cristiano é internado no HCM após picada de escorpião - Gazeta de Rio Preto",
+    "descricao": "Caçula de Cristiano é internado no HCM após picada de escorpião  Gazeta de Rio Preto",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmNSQ0dhV19hR0R3Q0NRRWVyYTNiaUpCRHdFaDZNdUxOSGc0RldzcVVGbXRVWDA0aGYwRXhZRFdJbWx4Sy1MY3I5Q3pJbEFfUEVGeENFZjUxTlgxRUpoVlF0QkdjM0txOVRqWE44UjFiMGw2Ujh2SXMzOGN4N0I3T204cWNIa0tBa2lPOXdaeTJzdThDTjNGamdRWjYtZWdrWkE?oc=5",
+    "data": "11/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "vigilanciasanitariareforcaalertasobreescorpioesaposcriancaserpicadaembandeirantes",
     "titulo": "Vigilância Sanitária reforça alerta sobre escorpiões após criança ser picada em Bandeirantes - Rádio Cabiuna",
     "descricao": "Vigilância Sanitária reforça alerta sobre escorpiões após criança ser picada em Bandeirantes  Rádio Cabiuna",
@@ -76,6 +102,19 @@
     "estado": "DF",
     "cidade": "Não identificada",
     "termo_busca": "infestação de escorpiões"
+  },
+  {
+    "id": "mortedemeninaporpicadadeescorpiaoexpoeriscoelevadoparacriancas",
+    "titulo": "Morte de menina por picada de escorpião expõe risco elevado para crianças - O Norte",
+    "descricao": "Morte de menina por picada de escorpião expõe risco elevado para crianças  O Norte",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMDRxOFMyRFpGdERaWkMwcTYyeERhZWNKeThvdmlsWEx3MmJCUGlKdDBKeWlHZzQ4SmJJUDhrd01JQWd3SThPTHVTV1dYSVFWbTlXbUZLZVBKMUJqMTJZN2t2SmNyVUZCS3ZlX1NFdDRoUE53bmR1RktER1JzMU1HVC0xcEJubHZEY3hVWHAwSmVPYXpEdXdCdzZRekdTYVN6el9US2JGVHlSa3VR?oc=5",
+    "data": "10/07/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "criancassaoprincipaisvitimasdoscasosgravesdeescorpiaonobrasil",
