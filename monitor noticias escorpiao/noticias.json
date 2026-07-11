@@ -1,5 +1,18 @@
 [
   {
+    "id": "escorpioesataquesexplodemnodfeanimaisaparecemateemhospital",
+    "titulo": "Escorpiões: ataques explodem no DF e animais aparecem até em hospital - Metrópoles",
+    "descricao": "Escorpiões: ataques explodem no DF e animais aparecem até em hospital  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWGR3SWxOYm4wUUU3QmwteHgwVFdZT0s1LWYyamNHcnQyT0xwSHBoRVpOVktic0JqWDRUMHlSSkMwc3g0S213Z2F2TWhuSkRqVGZvaFdsZmZwZVJVMlN0MWFjc2tpTG11VVlNZVZ0MU5qdUlremNpdWNGNGhMSW16eXB6XzZZd0wwVjhlU0drSjdxMUd3NzNQZzZacGpva21PcnFmQmxNMk1PLWxZcVozN3VB?oc=5",
+    "data": "11/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "vigilância sanitária escorpião"
+  },
+  {
     "id": "vigilanciasanitariareforcaalertasobreescorpioesaposcriancaserpicadaembandeirantes",
     "titulo": "Vigilância Sanitária reforça alerta sobre escorpiões após criança ser picada em Bandeirantes - Rádio Cabiuna",
     "descricao": "Vigilância Sanitária reforça alerta sobre escorpiões após criança ser picada em Bandeirantes  Rádio Cabiuna",
@@ -24,6 +37,45 @@
     "estado": "PR",
     "cidade": "Palotina",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "filhodecristianodaduplacomzenetoepicadoporescorpiaoemranchoerecebeatendimentomedico",
+    "titulo": "Filho de Cristiano, da dupla com Zé Neto, é picado por escorpião em rancho e recebe atendimento médico - G1",
+    "descricao": "Filho de Cristiano, da dupla com Zé Neto, é picado por escorpião em rancho e recebe atendimento médico  G1",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOUXZZWGJ4cXZORnRSRTR6RW5JM0NPUWhZcVdGSkJydmc3cjZHV0haQ283V0RGQ0JuZHZBTl9fNlp1TWtWdDYzRkZKYzk3NGRITEFRbW9DNng4UF9wZWRhTUcweU9ubmpGRHphNTV1ODJUSVFXWlFYaU8yd3RZYmpnZ2xUV2VvMENhUmxZcWUteUl1Q0liQnZkVmtPcm9TdVBid1p2bW5JMzQyT2tlVjREME1OWU1FQmdiZGlMUDl5cGpxRUt6NjFyY013MWJ6amU2OVBBeUNZd3hjWS1aTXByTVlpLTlEQkpTRE1xYTlEVXVfdXN6ZHYwRU5ST0tVT3pBZ1EtSGlEUjlaejk3UUHSAZwCQVVfeXFMUFp5Ty1SZlR5bVNwU09sV3k5Y0JwQ09KVWlIVE1lYzdHMlR6OFZRM2l4OE9Rc3d6NkhGNlhZRnpQUjB6WHp1NUExY0VzZTVXOHdMMTVsWFMwSTBSQzJJWGd5a21Eelo4OGloazJZdy1SeXpjUzNTN3FCdzhZZVNPTm1fOWRiVmdYSWdSajhxcDBsRnRZNGNiSml3SmVVSGVBMHhkRDY2c2ZHVk5VMXVOWDRyXzRBWlpWaFNCY0hzdkhvOHhSZ0QxYWlKVkVTUkU4djRnNF82d0pKT3BtSFY4MEtEZk4xWWdneEwyeFpYaHhNMldNQm5fZ29zY0ZxbFRsajdVQnQ2S3VJbnk1bXRURGpaRXFCajhpMjFtVk4?oc=5",
+    "data": "10/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "filhodecristianoeatendidoemnovagranadaapospicadadeescorpiao",
+    "titulo": "Filho de Cristiano é atendido em Nova Granada após picada de escorpião - Dhoje Interior",
+    "descricao": "Filho de Cristiano é atendido em Nova Granada após picada de escorpião  Dhoje Interior",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQW9RWGsyZ0pobmdwbGs1NGZKYkh6STg4YTJIUWc2V1dNWUdxNEVWd3NlQ3preEg5SDlmTUluTGNnTTZsbkRiYVl6dm9ya29feUNFNmtsYVVac1NIZ2d0SmlqTHpxMWpOSDVQX2tVUDNiTTNyN3NoSEFnWG1aZXNhaUo4eE0tX190OWpEM2dYSnlGQ012SUxTLWFwbEZUaFRZTlRrSGZuZm90QlRDVFdNZjVfZDJIV1QwTTMwYg?oc=5",
+    "data": "10/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Nova Granada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "moradordodfconvivecominvasaodeescorpioesecobraacaodasautoridades",
+    "titulo": "Morador do DF convive com invasão de escorpiões e cobra ação das autoridades - R7",
+    "descricao": "Morador do DF convive com invasão de escorpiões e cobra ação das autoridades  R7",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbjJFRXl3aXNTT1NUdEpBT1JRYmxtUm5PeXNuODdYS2FFbnczSkNrSWhWVmd6RkVWSUV4MUJ2R0JmVG5ydi1GSG1oYXl4c1VmMVVSNlliUUZFRWNyU0t1WGRDc1A4UjlZX2F0MmdSRW51aXp6YnM5Z2puVHFvb2U5UDFxeUpsTEUxSnhjeEdhREZubkUyMklhbGc5Zm5qQk1Ta3lpeklSaVFOVkg1UFY1c1oyeW81dzVYZEFyS2EwajNjdHlGUG15M19aWUR2SjFTNU05dXZDWjhIQQ?oc=5",
+    "data": "10/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação de escorpiões"
   },
   {
     "id": "criancassaoprincipaisvitimasdoscasosgravesdeescorpiaonobrasil",
@@ -6238,6 +6290,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "comoevitarescorpioesemcasaeagiremcasodeacidente",
+    "titulo": "Como evitar escorpiões em casa e agir em caso de acidente - Primeira Página",
+    "descricao": "Como evitar escorpiões em casa e agir em caso de acidente  Primeira Página",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOEVlSU1HeUJSbEtfT0E0UnF4NUdjRE15M1FEUERCbVhFTjQyMThxR0lxOEpITkVPZWo0bVBoVW0zLWYzbDZYZW9BZlpNaEI4ZHk3NFIxT0NnYzdPcGpmZUlJdjNtVjBfT3FBT0J1cGRvaGhRZFJJOXV3RHByeUdKcVpqdDdtMFItSW5mM2ttenJxM0NaQ0lHMXZR?oc=5",
+    "data": "14/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "escorpioescausaram65dosacidentescomanimaispeconhentosem2025nobrasil",
