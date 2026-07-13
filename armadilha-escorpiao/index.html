@@ -670,7 +670,7 @@ section { padding: 100px 56px; }
 .faq-a {
   max-height: 0; overflow: hidden; transition: max-height 0.35s ease;
 }
-.faq-item.open .faq-a { max-height: 300px; }
+.faq-item.open .faq-a { max-height: 480px; }
 .faq-a-inner {
   padding: 0 0 22px; font-size: 14px; line-height: 1.75; color: var(--muted);
 }
@@ -838,20 +838,18 @@ section { padding: 100px 56px; }
 ════════════════════════════════════════ -->
 
 <!-- ── NAV ── -->
-<nav class="nav">
-  <a href="../index.html" class="nav-logo">
-    <img src="../Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="nav-logo-img">
+<nav class="nav" aria-label="Navegação principal">
+  <a href="../index.html" class="nav-logo" aria-label="Noprax, página inicial">
+    <img src="../Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="nav-logo-img" width="160" height="40" fetchpriority="high">
   </a>
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-links">
     <li><a href="../index.html">A Noprax</a></li>
-    <li><a href="index.html" class="active">Produto</a></li>
-    <li><a href="../index.html#faq">Dúvidas Frequentes</a></li>
-    <li><a href="../conteudos.html">Conteúdos</a></li>
-    <li><a href="../monitor noticias escorpiao/mapa-calor.html">Notícias</a></li>
-    <li><a href="../index.html#contato">Seja um revendedor</a></li>
+    <li><a href="#faq">Dúvidas Frequentes</a></li>
+    <li><a href="../index.html#conteudos">Conteúdos</a></li>
+    <li><a href="../monitor%20noticias%20escorpiao/mapa-calor.html">Notícias</a></li>
     <li><a href="https://wa.me/5500000000000" class="nav-cta">Fale com a Noprax</a></li>
   </ul>
-  <button class="nav-mobile-toggle">☰</button>
+  <button class="nav-mobile-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">☰</button>
 </nav>
 
 <!-- ══════════════════════════════
@@ -1062,8 +1060,8 @@ section { padding: 100px 56px; }
     <div class="compare-header">
       <div class="sec-eyebrow fade-up">Por que escolher a Noprax</div>
       <h2 class="sec-title fade-up delay-1">
-        Construída para o escorpião.<br>
-        <span class="accent">Não adaptada.</span>
+        Projetada para o comportamento<br>
+        <span class="accent">do escorpião.</span>
       </h2>
       <p class="sec-desc fade-up delay-2" style="max-width:580px; margin:0 auto;">
         As armadilhas convencionais do mercado foram projetadas para baratas e roedores, depois adaptadas para o escorpião. A Noprax foi desenvolvida do zero para essa espécie, com engenharia dedicada a cada detalhe.
@@ -1367,11 +1365,21 @@ section { padding: 100px 56px; }
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
         <div class="faq-a"><div class="faq-a-inner">
-          A captura ocorre por contato com o refil adesivo interno. O escorpião entra na armadilha e pode ficar retido na superfície adesiva protegida dentro do dispositivo.
+          A captura ocorre por contato com o refil adesivo interno. O escorpião entra pelas aberturas da armadilha e, ao avançar para o interior do dispositivo, pode ficar retido na superfície adesiva protegida.
         </div></div>
       </div>
 
       <div class="faq-item fade-up delay-1">
+        <div class="faq-q">
+          Por que a armadilha NOPRAX foi desenvolvida para escorpiões?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">
+          Porque considera o comportamento do escorpião em ambientes urbanos: busca por frestas, locais escuros, pontos de abrigo e deslocamento junto a paredes e rodapés. A estrutura, as entradas e o refil interno foram pensados para esse padrão de circulação.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-up delay-2">
         <div class="faq-q">
           Onde devo instalar a armadilha?
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
@@ -1381,43 +1389,43 @@ section { padding: 100px 56px; }
         </div></div>
       </div>
 
-      <div class="faq-item fade-up delay-2">
+      <div class="faq-item fade-up">
         <div class="faq-q">
           A armadilha substitui a dedetização?
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
         <div class="faq-a"><div class="faq-a-inner">
-          Não. A NOPRAX é uma ferramenta complementar ao manejo profissional, apoiando o monitoramento, a identificação de atividade e a captura passiva em pontos estratégicos.
-        </div></div>
-      </div>
-
-      <div class="faq-item fade-up">
-        <div class="faq-q">
-          Com que frequência devo trocar o refil?
-          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-        </div>
-        <div class="faq-a"><div class="faq-a-inner">
-          A troca depende da inspeção visual. Substitua o refil quando houver captura, sujeira, saturação, dano ou perda de aderência.
+          Não. A armadilha NOPRAX é uma ferramenta complementar ao manejo integrado e ao serviço profissional de controle de pragas. Ela adiciona captura passiva, monitoramento contínuo e evidência visual aos pontos críticos.
         </div></div>
       </div>
 
       <div class="faq-item fade-up delay-1">
         <div class="faq-q">
-          A NOPRAX pode ser usada em locais com crianças e pets?
+          Com que frequência devo trocar o refil?
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
         <div class="faq-a"><div class="faq-a-inner">
-          Sim, desde que instalada corretamente e fora do alcance direto. A área adesiva fica protegida no interior da armadilha, reduzindo o acesso direto à cola e ao animal capturado.
+          A troca depende da inspeção visual. Substitua o refil quando houver captura, sujeira, umidade, saturação, dano ou perda de aderência. A estrutura da armadilha permanece em uso.
         </div></div>
       </div>
 
       <div class="faq-item fade-up delay-2">
         <div class="faq-q">
+          A armadilha NOPRAX pode ser usada em locais com crianças e pets?
+          <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="faq-a"><div class="faq-a-inner">
+          Sim, desde que instalada corretamente e fora do alcance direto. A superfície adesiva fica protegida no interior do dispositivo, reduzindo o acesso direto à cola e ao animal capturado.
+        </div></div>
+      </div>
+
+      <div class="faq-item fade-up">
+        <div class="faq-q">
           Posso comprar sem ser dedetizadora?
           <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
         </div>
         <div class="faq-a"><div class="faq-a-inner">
-          Sim. A NOPRAX pode ser utilizada em aplicações residenciais, comerciais e profissionais, com orientação de compra e reposição de refis conforme o perfil de uso.
+          Sim. A armadilha NOPRAX pode ser utilizada em aplicações residenciais, comerciais e profissionais, com orientação de compra, instalação e reposição de refis conforme o perfil de uso.
         </div></div>
       </div>
 
@@ -1443,38 +1451,93 @@ section { padding: 100px 56px; }
    FOOTER
 ══════════════════════════════ -->
 <footer class="footer">
-  <div class="footer-grid">
+  <div class="footer-grid" style="grid-template-columns: 1.8fr 1fr 1fr 1fr 1.2fr;">
+    <!-- Marca -->
     <div>
-      <img src="../Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="footer-logo-img">
-      <p class="footer-tagline">Monitoramento inteligente de pragas. A primeira solução estruturada do Brasil para o controle de escorpiões. Em parceria com a Raylight.</p>
+      <div class="footer-brand">
+        <img src="../Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="footer-logo-img" width="160" height="40" loading="lazy">
+      </div>
+      <p class="footer-tagline">
+        Dispositivo físico para monitoramento e captura passiva de escorpiões, desenvolvido em parceria com a Raylight.
+      </p>
     </div>
+
+    <!-- Empresa -->
     <div class="footer-col">
       <label>Empresa</label>
       <ul>
         <li><a href="../index.html">A Noprax</a></li>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html">Raylight</a></li>
+        <li><a href="index.html">Tecnologia Noprax</a></li>
       </ul>
     </div>
+
+    <!-- Produtos -->
     <div class="footer-col">
-      <label>Produto</label>
+      <label>Produtos</label>
       <ul>
-        <li><a href="index.html">Armadilha</a></li>
-        <li><a href="#refil">Refil</a></li>
-        <li><a href="#faq">FAQ</a></li>
+        <li><a href="index.html">Dispositivo Noprax</a></li>
+        <li><a href="index.html#refil">Refil Substituível</a></li>
+        <li><a href="index.html#faq">Dúvidas Frequentes</a></li>
       </ul>
     </div>
+
+    <!-- Recursos -->
     <div class="footer-col">
       <label>Recursos</label>
       <ul>
-        <li><a href="../conteudos.html">Blog</a></li>
-        <li><a href="../index.html#contato">Dedetizadoras</a></li>
-        <li><a href="../monitor noticias escorpiao/mapa-calor.html">Mapa de calor</a></li>
+        <li><a href="../conteudos.html">Conteúdos</a></li>
+        <li><a href="../monitor%20noticias%20escorpiao/mapa-calor.html">Notícias</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes Sociais -->
+    <div class="footer-col">
+      <label style="color:var(--text);">Siga nossas redes sociais</label>
+      <ul style="display:flex;flex-direction:column;gap:10px;">
+        <li>
+          <a href="#" style="display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--orange);transition:opacity 0.2s;" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="#" style="display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--orange);transition:opacity 0.2s;" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="#" style="display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--orange);transition:opacity 0.2s;" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="#" style="display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--orange);transition:opacity 0.2s;" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/></svg>
+            TikTok
+          </a>
+        </li>
+        <li>
+          <a href="#" style="display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--orange);transition:opacity 0.2s;" onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#141416"/></svg>
+            YouTube
+          </a>
+        </li>
       </ul>
     </div>
   </div>
-  <div class="footer-base">
-    <span>© 2026 Noprax · Em parceria com a Raylight</span>
-    <span>Noprax // Monitoramento Inteligente de Pragas</span>
+
+  <div class="footer-base" style="flex-direction:column;align-items:flex-start;gap:14px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;width:100%;flex-wrap:wrap;gap:8px;">
+      <span>© 2026 Noprax · [RAZÃO SOCIAL LTDA] · CNPJ [00.000.000/0001-00] · Fabricado em parceria com a Raylight.</span>
+      <span>// Monitoramento e captura passiva de escorpiões</span>
+    </div>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
+      <a href="../politica-de-privacidade.html" style="font-family:var(--mono);font-size:10px;letter-spacing:0.1em;color:var(--dim);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--dim)'">Política de Privacidade</a>
+      <a href="../termos-de-uso.html" style="font-family:var(--mono);font-size:10px;letter-spacing:0.1em;color:var(--dim);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--dim)'">Termos de Uso</a>
+    </div>
   </div>
 </footer>
 
