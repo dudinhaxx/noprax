@@ -159,14 +159,26 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 
 /* ── Product SVG diagram ─── */
 .product-visual {
-  display: flex; align-items: center; justify-content: center;
-  position: relative;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 16px; position: relative;
 }
 .product-diagram {
   width: 100%; max-width: 520px;
 }
 
 /* ── Product 3D embed frame ─── */
+.product-embed-caption {
+  font-family: var(--mono); font-size: 11px; line-height: 1.6;
+  letter-spacing: 0.04em; color: var(--muted); text-align: center;
+  max-width: 460px;
+}
+.product-embed-caption .key {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 20px; height: 20px; padding: 0 5px; margin: 0 2px;
+  border: 1px solid var(--line-orange); border-radius: 4px;
+  background: var(--orange-soft); color: var(--orange);
+  font-size: 11px; vertical-align: middle;
+}
 .product-embed {
   width: 100%; max-width: 560px;
   aspect-ratio: 1 / 1;
@@ -883,6 +895,9 @@ section { padding: 100px 56px; }
     <div class="product-embed">
       <iframe src="https://my.spline.design/armadilhaescorpiao-qgcHxLm1lVgCRrw84e8dof6A/" frameborder="0" width="100%" height="100%" title="Armadilha Noprax em 3D" loading="lazy"></iframe>
     </div>
+    <p class="product-embed-caption">
+      Clique no modelo 3D e aperte <span class="key">↑</span> para abrir a caixa · clique e <span class="key">↓</span> para fechar
+    </p>
   </div>
 
 </section>
