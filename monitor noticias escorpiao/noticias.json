@@ -1,5 +1,31 @@
 [
   {
+    "id": "vigilanciaambientalreforcaorientacoesaposidentificacaodeescorpiaoemgramado",
+    "titulo": "Vigilância Ambiental reforça orientações após identificação de escorpião em Gramado - Onde ir",
+    "descricao": "Vigilância Ambiental reforça orientações após identificação de escorpião em Gramado  Onde ir",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbTRUdlRwV2RmMTFwMzhZREJLeUduT1B5Ym9Qa1l5b21Ra3VJbmVQQlBuWnFZWjdCaW5BNTJVWi0taHItNERyRHJibW9TVnBkR0Uta0FTTDFZLXRXVGdhdzV3UnFodnhjR2RMYVB3VTY3XzZ3bzI3UUkyUG84X0pzQ2VCYXplcVZCenhqS3E5QU9Lc1llUG80TWlzdnlSNThrMUlsU09GeHdXenc2bm42RlBDWml5QQ?oc=5",
+    "data": "15/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "vigilância escorpião"
+  },
+  {
+    "id": "vigilanciaambientalalertaaposidentificarescorpioesemgramado",
+    "titulo": "Vigilância Ambiental alerta após identificar escorpiões em Gramado - Jornal Integração",
+    "descricao": "Vigilância Ambiental alerta após identificar escorpiões em Gramado  Jornal Integração",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWm5wUXd1aFFZb3NnRXJlbEhRWVRjOWJFU3I4dmJlQUdFem9xaUg3SHNVaTNWUFlQeGtNYU9rM1pJZEotNndHeWdHOGk4dlFZUkwwWnNiVUlGWXUwSmpkcjIyYmQ0YTNrRlkyc0lNVlZHNmU4cENGX0FFNFlrZFRsd0N3eEhzdVhSZ3VySDBOSF84NmxQRnlSdzRZQWRVZUFjdU9F?oc=5",
+    "data": "15/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "acidentescomescorpioesbalsaslideranumerodecasosnomaranhaoem2026",
     "titulo": "Acidentes com escorpiões: Balsas lidera número de casos no Maranhão em 2026 - O Imparcial",
     "descricao": "Acidentes com escorpiões: Balsas lidera número de casos no Maranhão em 2026  O Imparcial",
@@ -1129,6 +1155,19 @@
     "estado": "MS",
     "cidade": "Navirai",
     "termo_busca": "escorpiões prefeitura municipal"
+  },
+  {
+    "id": "porquepicadasdeescorpiaosaomaisperigosasparacriancas",
+    "titulo": "Por que picadas de escorpião são mais perigosas para crianças? - SCC10",
+    "descricao": "Por que picadas de escorpião são mais perigosas para crianças?  SCC10",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWm16WTM1VkhjZTNMdElIM1p6a1NHZGdjR0l5YjJKS3dLSW8xY2JXbjdxLW9IMktZOW9NaVBJOXJSM2wwSmlWUFB2d3RqU2Z6b1NxMDAtUFdBQVZSczRoMU9CVm1WejVqamVCVDJHanZQZEtCeURRSGxSeHJfZnNlZUZXUV81bVNGUk1PZ25Cb3dOOGNjeG9Fb1QxSGRPNFhw?oc=5",
+    "data": "08/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "criança escorpião"
   },
   {
     "id": "criancaelevadaaohospitalaposserpicadaporescorpiaoemescola",
