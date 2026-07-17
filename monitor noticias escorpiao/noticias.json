@@ -13,6 +13,19 @@
     "termo_busca": "escorpião amarelo"
   },
   {
+    "id": "alertaparaacidentescomescorpioesnomaranhao",
+    "titulo": "Alerta para acidentes com escorpiões no Maranhão - G1",
+    "descricao": "Alerta para acidentes com escorpiões no Maranhão  G1",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWWxNMDhYQjF1NE9pcWkwV3pUSzZZMEJzTmFpNVBKeEdWZWlMdnR5Zm5UQ002LUd6YUlHdzF2NUl5WWVrSmx2aWg0WlNhRXl6NHRELWFJQnQ3ZXZEMjhUdzBmYWI0NTh3dFd0T2ZiT0tOelNTc3pxeHE2dHZsdU93RkozM3lxSzR3dThIVnZ5WU1GVVg1cFhrTlR6bk5LSFdhMzhSZ0xuQVdGbTdkX0xFVnNvRk9FczhaNVpHUGtJWFrSAc8BQVVfeXFMUHFCZ2wxWnctZ1Q3ZHlzZnFYbEs2MkdEMFY5N1d6XzVsUVZqNTd0V3NFb3p0YUNTMldjQ2RTY214REpJZTZTam5tNktZY0FYMjRlYXYzN0c3OXd0Rk52Z0tjSHhGZ3Z0ZGo5RGlBOGxYckVpM00xSlhjZE9ycTNOeURKbV9BMERXXzF0OERyODlxSWlGWUM5U05yQVdrSjl5ZHh2WkhaUzNRMlhldDA3dkVuR25GZ3BJV1pJVXJyeG95YkgzTllPbHFnZXhEREI4?oc=5",
+    "data": "16/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MA",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "vigilanciaambientalreforcaorientacoesaposidentificacaodeescorpiaoemgramado",
     "titulo": "Vigilância Ambiental reforça orientações após identificação de escorpião em Gramado - Onde ir",
     "descricao": "Vigilância Ambiental reforça orientações após identificação de escorpião em Gramado  Onde ir",
