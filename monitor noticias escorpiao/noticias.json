@@ -1,5 +1,44 @@
 [
   {
+    "id": "moradoresdenunciaminfestacaodeescorpioesembueirodesamambaiadfecobramlimpeza",
+    "titulo": "Moradores denunciam infestação de escorpiões em bueiro de Samambaia (DF) e cobram limpeza - R7",
+    "descricao": "Moradores denunciam infestação de escorpiões em bueiro de Samambaia (DF) e cobram limpeza  R7",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQalVxSkxNMVI1V2llZXhEY2FhTzItX3o0c2U1U294OWpxVTNzdDdMN3I1RjFPZm01VUI4NXYtMmxGMHYyNDZCdjRic1V5ZzFYeUVaQWQxV1RYX2VhSm5IWmZMZVhMNVJ3MWZDS2hMQ0RuNXc4T3BTU1lHOVdfS0toNWlFQTNndXQ1RTk3MHBLc3V3WnZhOVZSOUF3WGM1VE5Bem1NTzhFbFRzeFRtbFNsUFJwTkc3SHM5ZjJuX2ROTGJLN0tMSzBHbXp2emQzUktkTERIZDk3Sm5QV1paQVE?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Samambaia",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "escorpioessaoflagradosemsaladeesterilizacaodohospitalsaopaulonazonasuldacapital",
+    "titulo": "Escorpiões são flagrados em sala de esterilização do Hospital São Paulo, na Zona Sul da capital - Diário de São Paulo",
+    "descricao": "Escorpiões são flagrados em sala de esterilização do Hospital São Paulo, na Zona Sul da capital  Diário de São Paulo",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQWh2NnA0ZzM1bFpjN0FEdHl0NDRBc1pjMGI5WjVFcF83OHVaN29zUE4xYzZaY0JIRy1rTk5XbEFXLUlfcE9HeXdGTXc3NV9rNjNYWjJuQTZCN3dSNVdXSjVGcGpJTmMycUJRUGhHaUZxcFUwS1lEM3VSS1AzaTBNZU1fVnJNdVUxVFZRalR1T2ktQ1hMamVjdDFBN09rMjRSNVRrNThBdXZ5TEtQTFFFYWFmbkRReG9tTi01MXBGelRWMWthYkstdjdGV1dyYXBBUnRLTVVLUFdiVF85blYxTtIB5gFBVV95cUxNdWQ1aWt5TUUwQ3d3M29IYTNRYWVEQnE3d3UyVTVTV291elc4MWdLaTN1NlJsWjNYOGxFX1JxVktSOXVHMU1IZWtEVUVZa2UxQjF3aERyUV9oaVpzcEEzclhWUE8zX1VSaDM4S0RJQVc0VVcyOFlLaWZBRHhudmpCTlRONF9VY2gtSDJ4Q3NIb1phZE5aSHBaaXlIMElPQnhsM1FTWGpjaVp6aXlYZnpUQ3JLbE9FRE16bDBIVjBDWnpBRUNHZ01qYUstNV9Qd3JqNm9hOXVtV0h1ZGIycmlVSFlNTWdwZw?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "casosdeescorpioesdiminuemnoinvernomasaprevencaocontinua",
+    "titulo": "Casos de escorpiões diminuem no inverno, mas a prevenção continua - Jornal do Oeste",
+    "descricao": "Casos de escorpiões diminuem no inverno, mas a prevenção continua  Jornal do Oeste",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoZ3Q5cXk4TlhSMWZyWTFqdzhzVFJ5Sm9waHZTR3BOazUxMXZEdTlHYTNHRlNoajRrcU1KVjNqeGY3dE1sakxQc3JBV0liUW5ySWVsNXp1RmsyZUJkQWdtMElsaldhYWp3R0x0WWQzUWYyZkw1R3c0OWpaWHQ?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "qualquerescorpiaoepotencialmenteperigosoevenenopodematar",
     "titulo": "Qualquer escorpião é potencialmente perigoso e veneno pode matar - Dhoje Interior",
     "descricao": "Qualquer escorpião é potencialmente perigoso e veneno pode matar  Dhoje Interior",
@@ -5302,6 +5341,19 @@
     "estado": "SP",
     "cidade": "Valinhos",
     "termo_busca": "escorpiões prefeitura municipal"
+  },
+  {
+    "id": "presidentekennedyalertaparasurtodeescorpiaonomunicipio",
+    "titulo": "Presidente Kennedy alerta para surto de escorpião no município - Aqui Notícias",
+    "descricao": "Presidente Kennedy alerta para surto de escorpião no município  Aqui Notícias",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaDl5RE1BanpINGE0QzJ5Z0UzUTBGYWhKZC1xQ3VZZzRzSUFFXzNTWFpxcFd5c2VjeW5GcTB3Rk5RVDl2b09YckhpeFV2TWE2clVvLWFwLUFHUU9yaWlHR0VWcG9jeTJxWmprMUNWNFpzanJ0SFN3M24zNE5zSzgtakZFNjEzQ1p1RnhuaEVVVFBoSm04dlpEOWFkeUI?oc=5",
+    "data": "12/05/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Presidente Kennedy",
+    "termo_busca": "infestação escorpiões"
   },
   {
     "id": "municipioindenizaramaedecriancaquefaleceuaposserpicadaporescorpiaonacreche",
