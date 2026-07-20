@@ -26,6 +26,19 @@
     "termo_busca": "infestação escorpiões"
   },
   {
+    "id": "orientacoessobreprevencaoecuidadoscomescorpioes",
+    "titulo": "Orientações sobre prevenção e cuidados com escorpiões - THMais",
+    "descricao": "Orientações sobre prevenção e cuidados com escorpiões  THMais",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONGxRdktkTlZoTloxTVlkUFJvRlBtUTk3bVEyMFktTGZzRm85eGhXS1poQVpyU3ctd0twQlNtNkdHMTJHdXd4WnhaUEg5NE1vdEo0NDhpcWlqc1pnTldId1dLZGtiNnp0bEZrWkNpWnY2OWtKV3gteFRkQy1nclZpdWtzMHN4QlJHUkZzWXBkZS1Yd9IBkgFBVV95cUxONGxRdktkTlZoTloxTVlkUFJvRlBtUTk3bVEyMFktTGZzRm85eGhXS1poQVpyU3ctd0twQlNtNkdHMTJHdXd4WnhaUEg5NE1vdEo0NDhpcWlqc1pnTldId1dLZGtiNnp0bEZrWkNpWnY2OWtKV3gteFRkQy1nclZpdWtzMHN4QlJHUkZzWXBkZS1Ydw?oc=5",
+    "data": "20/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "saibacomoevitarescorpioeseagiremcasodepicada",
     "titulo": "Saiba como evitar escorpiões e agir em caso de picada - Poder360",
     "descricao": "Saiba como evitar escorpiões e agir em caso de picada  Poder360",
@@ -10723,6 +10736,19 @@
     "estado": "BA",
     "cidade": "Saude",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "picadadeescorpiaosaibaoquefuncionaparaprevenir",
+    "titulo": "Picada de Escorpião: saiba o que funciona para prevenir - G1",
+    "descricao": "Picada de Escorpião: saiba o que funciona para prevenir  G1",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRHd1T3pxQ2MwaVhVY0N2NVBSMmlDcXB3XzV0bE4wT0NKRTh5NHpVdS1qYmxscEdDT2ZqamhzT0pNZzh6WU1BaFhTVG05YVd3UGU2bmF6a0FRU1AwRjR1czY1aVBEWWNJMVU4VFVGTkpOdXZid09STFhhcHkzNU40OVdzOU5BTWZyRExIbUtHc0p4WWpGeDZXNlkwcnZiR0hCdzlqNVZzSE1zVW9vbUFjXzBISmlFX25RSEo3Znp6bVpsQmFGakZJa0xfNTNpdEkzbXZfd2Z4TDRNYU84V1VTSjZvOWxHbG1qSERXVXNUQkxMd05xX0Y5UFo5ZzVMb3g2anVNU2RDdGlIbEJHaWZCZnRJYlY?oc=5",
+    "data": "17/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "regiaoregistraaltanonumerodeacidentescomescorpioesconfiraondehasoroantiescorpionico",
