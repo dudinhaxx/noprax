@@ -44,7 +44,7 @@ img { max-width: 100%; display: block; }
   background: rgba(11,11,13,0.88); backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--line);
 }
-.nav-logo-img { height: 40px; width: auto; display: block; }
+.nav-logo-img { height: 30px; width: auto; display: block; }
 .nav-links { display: flex; gap: 32px; list-style: none; align-items: center; }
 .nav-links a { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); transition: color 0.2s; }
 .nav-links a:hover { color: var(--orange); }
@@ -226,7 +226,7 @@ img { max-width: 100%; display: block; }
 <!-- NAV -->
 <nav class="nav">
   <a href="index.html">
-    <img src="Logos/Logos/Noprax logo fundo transparente 2.png" alt="Noprax" class="nav-logo-img">
+    <img src="assets/Logo/logo-noprax-branco.png" alt="Noprax" class="nav-logo-img" style="height:30px;width:auto;">
   </a>
   <ul class="nav-links">
     <li><a href="index.html">A Noprax</a></li>
@@ -234,7 +234,7 @@ img { max-width: 100%; display: block; }
     <li><a href="index.html#faq">Dúvidas Frequentes</a></li>
     <li><a href="conteudos.html" style="color:var(--orange)">Conteúdos</a></li>
     <li><a href="monitor noticias escorpiao/mapa-calor.html">Notícias</a></li>
-    <li><a href="https://wa.me/5500000000000" class="nav-cta">Fale com a Noprax</a></li>
+    <li><a href="https://wa.me/5511918933353" class="nav-cta">Fale com a Noprax</a></li>
   </ul>
   <button class="nav-mobile-toggle">☰</button>
 </nav>
@@ -391,5 +391,18 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 </script>
+
+<!-- Banner fixo: emergência picada -->
+<style>
+#banner-picada{position:fixed;bottom:0;left:0;right:0;z-index:9999;display:flex;align-items:center;justify-content:center;gap:10px;padding:13px 16px;background:linear-gradient(90deg,#b91c1c,#dc2626);color:#fff;font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 -4px 20px rgba(0,0,0,.35);}
+#banner-picada u{text-underline-offset:3px;}
+#banner-picada:hover{filter:brightness(1.12);}
+@media(max-width:520px){#banner-picada{font-size:12.5px;padding:12px 10px;gap:7px;}}
+body{padding-bottom:52px;}
+</style>
+<a href="picada-de-escorpiao-o-que-fazer.html" id="banner-picada">
+  <span style="font-size:18px;">⚠️</span>
+  <span>Picada de escorpião? <u>Saiba o que fazer nos primeiros minutos</u> →</span>
+</a>
 </body>
 </html>
