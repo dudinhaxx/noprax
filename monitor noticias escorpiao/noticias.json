@@ -1,5 +1,18 @@
 [
   {
+    "id": "picadadeescorpiao",
+    "titulo": "picada de escorpião - Jornal ARua",
+    "descricao": "picada de escorpião  Jornal ARua",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2ckxOQUN2TkM1Y2dHRjhLZ1RkdFozTUZ3czlMUF9HSm5yRms2dzBKN0hUQnJVTjdzdEM0d2xkUHdNS2dxWkJFaDVvSzA4NWt6Vnc0dmNSUV9DTGs?oc=5",
+    "data": "24/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "aumentode33nosacidentescomescorpioesrequeratencao",
     "titulo": "Aumento de 33% nos acidentes com escorpiões requer atenção - sampi.net.br",
     "descricao": "Aumento de 33% nos acidentes com escorpiões requer atenção  sampi.net.br",
