@@ -104,6 +104,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "soroantiescorpioniconosuldorioconfiraascidadescompolos",
+    "titulo": "Soro antiescorpiônico no Sul do Rio: confira as cidades com polos - G1",
+    "descricao": "Soro antiescorpiônico no Sul do Rio: confira as cidades com polos  G1",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLS03NDh2a1F0RTZiaGFaRm5od3V2Q1R1NDBva3hoZGdHQ3RLc0FWM1VmRkc3R2JXOTRGRFFrODVPV0JyQU1oZkRYbTA0YzB3TERJcEZkcXJ4X3p1c29MS1hNUFdBV043NGo5b0J4ZUtJOEdNY0c1UlNHRjU1aGd2STRkWWNHWEllSTZLcEYtM3Rnd09MczRWMmJhZjUtMVp2TlQ3T1dlalVZV3pJNWE5VDhIb3Q4QnVXalQxaTFBV0hBSGh2NWpsbkkzNWhMNmxBVVFoSklkLU9WWVFu?oc=5",
+    "data": "22/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
     "id": "vigilanciavistoriaimoveiseorientaprevencaocontraescorpioesemcaboverde",
     "titulo": "Vigilância vistoria imóveis e orienta prevenção contra escorpiões em Cabo Verde - Jornal Panorama Minas",
     "descricao": "Vigilância vistoria imóveis e orienta prevenção contra escorpiões em Cabo Verde  Jornal Panorama Minas",
@@ -3198,6 +3211,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "infestacaodeescorpiaomaisvenenosodaamericadosulpoecidadedescemalerta",
+    "titulo": "Infestação de escorpião mais venenoso da América do Sul põe cidade de SC em alerta - NSC Total",
+    "descricao": "Infestação de escorpião mais venenoso da América do Sul põe cidade de SC em alerta  NSC Total",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ203Y1NCdGN2QjdOR0RlakpDUkduMzNhcmdTU21UVXJDRXhTLW5SRHhqbDBsWm1pYTlYcm1Jcno5MHFNNXhiQktfTTBjSm82NG84U1diUmdKM1pZaFZTX0NHTHl2R1dUV2NRMnBtcTJHaVExNzZTaFFCVTVGLUY5YmsydmMzekE1M0J4Sl9SeW1tVUVvdGw2dmVXQ1dTNmhDVUpZZnE2eFdFclNwQ0pDRVRnXzBIc2l4M1NSV0lVbElYUQ?oc=5",
+    "data": "16/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "alagoaslideranumerodecasosdepicadasdeescorpiaonobrasilapontaestudo",
     "titulo": "Alagoas lidera número de casos de picadas de escorpião no Brasil, aponta estudo - AL 102",
     "descricao": "Alagoas lidera número de casos de picadas de escorpião no Brasil, aponta estudo  AL 102",
@@ -6227,6 +6253,19 @@
     "termo_busca": "picada de escorpião"
   },
   {
+    "id": "maefazalertaaposfilhoserpicadoporescorpiaonaoesperava",
+    "titulo": "Mãe faz alerta após filho ser picado por escorpião: 'Não esperava' - G1",
+    "descricao": "Mãe faz alerta após filho ser picado por escorpião: 'Não esperava'  G1",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNU0VtcDNSZDllMFNGcDNyMVA3RXhzNUhRMnNFUE1tMlJ3ei02bGVhN1d3LU1QOWI2M2VESVRtSG5OUnROYVJkX19SZ0Z2U1VRTEZyQ3dubGp6QlNuZExuSXZXRFlHUTZxLWxwSTduSGk1Ulk1aXNMeGJEWlpLWjhnaG02alB0Q2RMQWtiMmVqcm1lX3V5THpxVXVmcWlfMkV5blpJSHM0c2NyekxYZkJiTDFEOXFRbUdsU05LRmpRMXEyeHRxdmN2M29ic1Axb1VRc19GZmh6RW51NGZOMnBSRERjbjluSUlrdlRrTEJZdWsyQ29ndnRmUFFNX19GdDZqTXgzVHBOekZuak5VSDFORDRBOU4yOFdJbG5vTw?oc=5",
+    "data": "26/04/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "escorpioesdisparamembandeirantescom83casosnoanovigilanciaalertatambemparadengueelicencassanitarias",
     "titulo": "Escorpiões disparam em Bandeirantes com 83 casos no ano; Vigilância alerta também para dengue e licenças sanitárias - Rádio Cabiuna",
     "descricao": "Escorpiões disparam em Bandeirantes com 83 casos no ano; Vigilância alerta também para dengue e licenças sanitárias  Rádio Cabiuna",
@@ -6498,6 +6537,19 @@
     "estado": "SP",
     "cidade": "Taboao Da Serra",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "picadasdeescorpiaoempiracicaba63doscasosnaregiao",
+    "titulo": "Picadas de escorpião em Piracicaba: 63% dos casos na região - G1",
+    "descricao": "Picadas de escorpião em Piracicaba: 63% dos casos na região  G1",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONng5bTN6RGNuTE1UVWlnMU1ueGt5SXY3Y3RkcmVoYlpyQm1xQkxyRkJ0V2h4Z2VJNTJuUHNLTFN1MHdSbG5xaUF4UGdiNnVPTFRXeEFNY0cybFltcXRhRHNDLWV2bnRhdXh3QU9tN0c1TlpYSUhDWnRNOWc4VVg0N1lpWWpLS0ZXRjFWeUozWUxoUGJxbll6a3BJMDlFVGNKekFuVXNLUi0xZEtuZW5MUUNfdFdUM2U1WU8xT0V1b0JVajBBbmFPRXBVcnZVNWswTEVLMVpRRkNIUTQ5a2xnZ2dMcXpHUm90Ui1SZ1dzVFJzY0s1YlRYRFFtM3llSjlVUWl3T0YyWnFPcUk?oc=5",
+    "data": "22/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Piracicaba",
+    "termo_busca": "animais peçonhentos escorpião"
   },
   {
     "id": "infestacaodeescorpiaomortalpodetercomecadoha3anosemcondominiodesc",
@@ -8188,6 +8240,19 @@
     "estado": "SP",
     "cidade": "Conchal",
     "termo_busca": "morte escorpião"
+  },
+  {
+    "id": "meninomortoporescorpiaorecebeusoro4horasaposacidente",
+    "titulo": "Menino morto por escorpião recebeu soro 4 horas após acidente - G1",
+    "descricao": "Menino morto por escorpião recebeu soro 4 horas após acidente  G1",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQbGJuMWxScWpNUUh1LWFCTVB1VWpmZklpQmtIa3NrUldEZzI0eFFFYkw4dDM0cEM3cHMyUHU4aFZpZ2RQdm9YQWVuSFUtUDB5UndaRXRHbDdRdEJSclZCSnkwNFZjTEpYWmRreTFIN3B2MnlmSVI1RUV2Z1BDTFdxTVdHOS1HczNwMV9XZS1USkRfQUl0MUNoejNEalU3dW1mSVUxUEtTYXRvX2JrNmJxNGo5eW5icDZhc19QR2g2TFhXcmdBLU11UFR6ek5RZ2U4ajVOS09GMzdRM2gyNjktVGdndUxzOGZqN2czNWp3Zjl1bE82YnBTRGc3MDdIa2hLSXNHY1JMWERfZVY4eEJKTC00eHZWQQ?oc=5",
+    "data": "03/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "paivefalhaematendimentoaofilhomortoapospicadadeescorpiaogritavadedor",
