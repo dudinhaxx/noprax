@@ -1,5 +1,31 @@
 [
   {
+    "id": "vigilanciaambientaldesapirangasecapacitasobreescorpiaoamarelo",
+    "titulo": "Vigilância Ambiental de Sapiranga se capacita sobre escorpião-amarelo - Jornal Repercussão",
+    "descricao": "Vigilância Ambiental de Sapiranga se capacita sobre escorpião-amarelo  Jornal Repercussão",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdy1WaTlWZXJZa21oaEd4VUJTVzJsVjhqdUxmclRMQmJYZkFlQjVFSTBxR2p3MWczSDRRcmEtV0xhMWpnd2NkenRJOXdoZ0QxdG1lWjN5RGtnVGxodzlIbVc5RHBGWFBpSnRBQWtZc2NGbFY4S194cmcyejBXemgxUFY0LWVuN0liWWNsZ05IZjVuMjJMT093OTZYaDNIS3JvSWFUMHBCMFZqWXdnX1Iyd0NaSXBnRHc?oc=5",
+    "data": "27/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "escorpioesaumentodeinvestigacoesdeacidentesede33",
+    "titulo": "ESCORPIÕES: Aumento de investigações de acidentes é de 33% - Jornal Jundiaí Agora",
+    "descricao": "ESCORPIÕES: Aumento de investigações de acidentes é de 33%  Jornal Jundiaí Agora",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB4eVhDRjc4YUQ1OXBucjZwRFBnNGdELWR5WW1VRGpVWmtiYzFvTWVsaVlFTTBCal8wMkdZZzM2Uzd2eTNuajUydG5jQkd1QVQ0?oc=5",
+    "data": "27/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "controle de escorpiões"
+  },
+  {
     "id": "picadadeescorpiao",
     "titulo": "picada de escorpião - Jornal ARua",
     "descricao": "picada de escorpião  Jornal ARua",
@@ -8864,6 +8890,19 @@
     "estado": "MG",
     "cidade": "Rio Preto",
     "termo_busca": "criança escorpião"
+  },
+  {
+    "id": "criancapicadaporescorpiaoeentubadaemriopreto",
+    "titulo": "Criança picada por escorpião é entubada em Rio Preto - G1",
+    "descricao": "Criança picada por escorpião é entubada em Rio Preto  G1",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTzV3ai1PdXVORGJVQzA5N0d4WHM3VzZsX1p2dlk4LVR5d1JYeHgyaW1OamRSdHNBWWd5d01uaF9UNkxFbjNHYXRRbS1oWmEweldXWUJlM3J1bXJfOTdQR2hKa2hLRjBfaUM4dDk3eTBrOVBTVTk0c3dnNTktZ0R0QlNBRlVxRElsaFVET1lzZ1FXSjc4RUFrOTVoV1I4MjdvZDB4VF9YeXZTTUFoUVdHQW5BYVhfSFZXZ0tCbUhjc1AxbXVfdUktZzFCMGtPaVZwdm1HVnV4Q1MzcGFJaVQ0T3owMmV2MEtWTTQzTFNNWVM?oc=5",
+    "data": "23/03/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "escorpioesmarataizesorientapopulacaoaposaumentoderegistros",
