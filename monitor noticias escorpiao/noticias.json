@@ -2132,6 +2132,19 @@
     "termo_busca": "escorpião Brasil"
   },
   {
+    "id": "meninamorrepicadaporescorpiaonodffamiliaaleganegligencia",
+    "titulo": "Menina morre picada por escorpião no DF; família alega negligência - G1",
+    "descricao": "Menina morre picada por escorpião no DF; família alega negligência  G1",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM2xVZ2g4SVRvZE5MNEVHVkZaZTZfcjctMWw3SEJQbk9PdlVHUnl2RGgzTS1FWjc2X1RpZEhMM2VEc05OYzRNTng2SHBoeDFMamFsclhnSVc4d2J3ZHdJQWZFWGhSNGd6cW8tU1VEaTJPcGRvcUszc2hMdkY5WUJtN1NaVGRESmZkYTRONTdFdi1xandHSE1PbHNLd1BNY0kxTXc?oc=5",
+    "data": "06/07/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "prefeituradetarumarealizaacaodeprevencaocontraescorpioesemescolamunicipal",
     "titulo": "Prefeitura de Tarumã realiza ação de prevenção contra escorpiões em escola municipal - O Diário do Vale",
     "descricao": "Prefeitura de Tarumã realiza ação de prevenção contra escorpiões em escola municipal  O Diário do Vale",
@@ -6719,6 +6732,19 @@
     "estado": "SC",
     "cidade": "Biguaçu",
     "termo_busca": "captura de escorpiões"
+  },
+  {
+    "id": "moradorencontraescorpiaono4andardeprediodebiguacu",
+    "titulo": "Morador encontra escorpião no 4º andar de prédio de Biguaçu - G1",
+    "descricao": "Morador encontra escorpião no 4º andar de prédio de Biguaçu  G1",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUlFLQ284YVRXZXNlUVlPQ09yZW9tZldGeDVmZWQ2X3llZjE4SkNfRldDajkwamhUbVVZNGFHRzNVbElVUDgyNjV3ZjFuT1g5cTRwRkx2bjQ2M3RyNFYydVJ2RXVkeFVUWWdZdVk2NkpOR0diczRyc3RRLU9QYlNwMndRdERhSDVPN3NnY3VsdDJTX1hMRGFTb2dUZVFWYnZTR1Z6WGY2UU5Ya0szU2hNNGdORWZXNWdSOUY0Zl9PTDJFbzJ6NjhBZVZWWUZEOWdkUEFfSkZfOA?oc=5",
+    "data": "18/04/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Biguaçu",
+    "termo_busca": "escorpiões Brasil"
   },
   {
     "id": "chegaramate4andar109escorpioessaoachadosnomesmocondominioemsc",
