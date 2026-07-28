@@ -26,6 +26,32 @@
     "termo_busca": "controle de escorpiões"
   },
   {
+    "id": "centrodecontroledezoonosesintensificacapturanoturnadeescorpioes",
+    "titulo": "Centro de Controle de Zoonoses intensifica captura noturna de escorpiões - Rádio Tupã",
+    "descricao": "Centro de Controle de Zoonoses intensifica captura noturna de escorpiões  Rádio Tupã",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXhOY25qY1pITmtHN28waGRCMGJUTmY0QzZqcVZCTHhhcVJvN2NQNTVPLTRyWXpSak1OS0dxM2NmYURtaFBDT3lIYk55MFhkZm1jcVpvcHoxVEtqTDE4X1dnZ0NNMll6SjVsUThxWWN0aU52cEhRT3JBbWtRQWRVR3NmeUtydnFHWE1Gd18yaDVYZENudlhUdFI0aS00bFhKbXBmdQ?oc=5",
+    "data": "27/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Tupa",
+    "termo_busca": "controle de escorpiões"
+  },
+  {
+    "id": "cczintensificacapturanoturnadeescorpioesemareascomregistrosemtupa",
+    "titulo": "CCZ intensifica captura noturna de escorpiões em áreas com registros em Tupã - TupãCity",
+    "descricao": "CCZ intensifica captura noturna de escorpiões em áreas com registros em Tupã  TupãCity",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWlpuTTdNc1RGbWxaYUNpaFBsMjdhT29LUjRjLURyN3FmX2xlSHFneFhGSFRRaTN1cWJoblNhQV95NnhPWVRYNDF6ZWtOUExpcXZ1RWtYYy1aemJXWVJvR1l0TWdzMmhJbmVpVGs4b3NmMHhkVkpkenZ2dFBIdDdIX0pNSTJ0VmNUSFVNdnBmQjlIdlljc3VqOU56QjctNWVJQzc3N2pxVmRFc2pLeE1QVA?oc=5",
+    "data": "27/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Tupa",
+    "termo_busca": "captura de escorpiões"
+  },
+  {
     "id": "picadadeescorpiao",
     "titulo": "picada de escorpião - Jornal ARua",
     "descricao": "picada de escorpião  Jornal ARua",
@@ -323,6 +349,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "escorpioessaoencontradosemsalanohospitalsaopaulo",
+    "titulo": "Escorpiões são encontrados em sala no Hospital São Paulo - band.com.br",
+    "descricao": "Escorpiões são encontrados em sala no Hospital São Paulo  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU0FCWHFNdlpFNzUyQjhEc2UzbHZaQS1QZnFuR2ZGdUlpTUphX0lnczE3LUdTcEk5RDhDMFl1RmdDN0ZfVEhDUk9JNVE4Q21mR09qc19oLVlTWUZPVGNpWHM2dTlkQ2lzcXNuUnJiOU4xblc5NjNXdW1UZFJrOFBNa2xOQTlHQ2k4X2NJZnAwRXAyU1A4SjdjMTROeHhLNk9CYnZJejZ6SkJOVmNEMHYtaHQ4R0tkR2VUYlJvSWwwbEdEZw?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "termo_busca": "escorpiões Brasil"
   },
   {
     "id": "qualquerescorpiaoepotencialmenteperigosoevenenopodematar",
