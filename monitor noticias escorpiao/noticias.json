@@ -1,5 +1,18 @@
 [
   {
+    "id": "fiqueatentocomoidentificarseopetfoivitimadeumapicadadeescorpiao",
+    "titulo": "Fique atento! Como identificar se o pet foi vítima de uma picada de escorpião - Jornal Correio",
+    "descricao": "Fique atento! Como identificar se o pet foi vítima de uma picada de escorpião  Jornal Correio",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNakRNVjczOEg2RXpWcEtwd2xMNjk3XzVlZ1dnYTRZVGtoZVFxUG9XUFlTcVFzX0V1NFBBVHpnQW02SHdvOWJQbkdNckRMNFN5ZDF5aWQyRmJqQWF0ZkMzQi0xLVV2MjJPdlUyYWtMY0FwY1Vaa1Z2WDVQLVVJaFhSRFIzLUUxNzh6czJGNmdhcjJrc1I2Z3pXbzVCT2lRbEViaEJXQ2VqRUg1N3p2OUo2MkRBUTQtOGlnbFJ0dnJXX2c?oc=5",
+    "data": "29/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "jundiaireforcaprevencaocontraescorpioesaposaltadeacidentesnointeriorpaulista",
     "titulo": "Jundiaí reforça prevenção contra escorpiões após alta de acidentes no interior paulista - G1",
     "descricao": "Jundiaí reforça prevenção contra escorpiões após alta de acidentes no interior paulista  G1",
@@ -11,6 +24,19 @@
     "estado": "PE",
     "cidade": "Paulista",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "escorpiaocomoidentificarseopetfoivitimadeumapicada",
+    "titulo": "Escorpião: como identificar se o pet foi vítima de uma picada - Metrópoles",
+    "descricao": "Escorpião: como identificar se o pet foi vítima de uma picada  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0xZlpZYjQ3bmJvdHpGUVd3UmxMT2stOWFEenVhMDlXQkR6bkVHOEFlam5DSGZReFhEdDd1OVJ1S1B6NFdCaUpJM29VMzdWN1pOMURWdWh4THJwMGdZMUxrMFh5cW1HdjVrZTExMkU2WUJrcjg?oc=5",
+    "data": "28/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "vigilanciaambientaldesapirangasecapacitasobreescorpiaoamarelo",
@@ -11295,6 +11321,19 @@
     "estado": "MS",
     "cidade": "Jardim",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "hospitaldaunimontesatendemaisde27milcasosdepicadasdeescorpiaoem2025",
+    "titulo": "Hospital da Unimontes atende mais de 2,7 mil casos de picadas de escorpião em 2025 - gazetanm.com.br",
+    "descricao": "Hospital da Unimontes atende mais de 2,7 mil casos de picadas de escorpião em 2025  gazetanm.com.br",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmwzY3VhbUV6WlFEc01nelh1VFZoZ0JXX3hncnpOU0lnY2FFaE9QOGN4OGRLVFVGX2JDS3A3WDlkcW9PWmVFWXgwODhTOHU2OUxMWGZycDdiT0lkSnY3dnRBM3dYYjdIQ1BRb3BaSlVFUzU0cWFsYjhQMGpSZkJhYW9WbGdjeE5HVEFXdkdEX1Z6LWRyRlpBVmlnNExBUW5aT1FEX0VxMU45Zw?oc=5",
+    "data": "16/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "escorpiaoemcasaoquefazerecomoevitar",
