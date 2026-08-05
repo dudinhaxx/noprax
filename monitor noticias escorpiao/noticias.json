@@ -1,5 +1,31 @@
 [
   {
+    "id": "casaldeixacasaemfrancaaposinfestacaodeescorpioes",
+    "titulo": "Casal deixa casa em Franca após infestação de escorpiões - sampi.net.br",
+    "descricao": "Casal deixa casa em Franca após infestação de escorpiões  sampi.net.br",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR1dkRnZWNlBGS1Zpbkd3Nk85djllUGprZ0hUbzVJSGhKUWJFcnVNdjZGNzZxVmp2UWNUdWNwc0czZkxIUVlJaExfeUIwM0k5dFJBSnZtcHhSMUVkQVZIdWRmakEza3g1R3pZX0hqMkh5ZWh4QU1aUGV2MXdyNEJWU3RyS3g3NXRPQnBhbmlSSVZsX2RxcnlOaGpxT3lpb0kyVFg1bG5uVkhRR29HZ25BMnVuSDUySll3ZlMyeDhrSzZtU1l5Rzk0?oc=5",
+    "data": "05/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Franca",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "jaguarealertapopulacaoparaperiododemaiorreproducaodosescorpioes",
+    "titulo": "Jaguaré alerta população para período de maior reprodução dos escorpiões - rede noticia es",
+    "descricao": "Jaguaré alerta população para período de maior reprodução dos escorpiões  rede noticia es",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNEJWakxhZXpLS29QekRaaGZ6MFl6RGxhY1JUR1k3RmVrV2Q2Ym9sOWVSTmZWa2FSeTc4TVhVR3ppbDJ3bndVUXRfT0lUSkRack4yWHN0ampaRnE4YWZYQ3hGWlN1R2UwaHExYVdPT0VkM29TT0xhNTVUVy1XRG1MWUpSOW1IRWE5VC1tV2pxaUdScFJqWk9ZU29WcmU?oc=5",
+    "data": "05/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Jaguare",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "mulherepicadaporescorpiaoemplanaltinaebuscaporatendimento",
     "titulo": "Mulher é picada por escorpião em Planaltina e busca por atendimento - Correio Braziliense",
     "descricao": "Mulher é picada por escorpião em Planaltina e busca por atendimento  Correio Braziliense",
@@ -37,6 +63,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "emquatromesesibiporaalcancamesmonumerodepicadasdeescorpiaodetodooanode2024",
+    "titulo": "Em quatro meses, Ibiporã alcança mesmo número de picadas de escorpião de todo o ano de 2024 - jornaluniao.com.br",
+    "descricao": "Em quatro meses, Ibiporã alcança mesmo número de picadas de escorpião de todo o ano de 2024  jornaluniao.com.br",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTGgyRDlHTkZTeGdBSUhlVDM4UXFsc3p4QnlIdHhaMUwwMFo3MkhXYnZjR2wtSU9wSEd0WTRsZkVUd0ctenpmMXdPeEduaEZwbTdveTJRVzVBWmNJZHZjWmpfZkd0RjVnY2otNnoxWnRUajRlWmlSYVZxTGZMa3lQQXBzS29iVVo1MzRSVUZUbTJwZWVoeUFGTzRLTjRBRXhoMGo0ZkZ0cXJ1bENBOXhBa3RUdnVWRFJSVW9BY3pKQ1c2Y0UzcFJjbGh1dy1BNWZk?oc=5",
+    "data": "04/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PR",
+    "cidade": "Ibiporã",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "lemealertaparaimportanciadalimpezanocombateaosescorpioes",
