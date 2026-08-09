@@ -650,6 +650,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "invasaodeescorpioesassustamoradoresdavilafatima",
+    "titulo": "Invasão de escorpiões assusta moradores da Vila Fátima - clickguarulhos.com.br",
+    "descricao": "Invasão de escorpiões assusta moradores da Vila Fátima  clickguarulhos.com.br",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVERyUnU4cVV5bmlMZzR6a0ttaW0xS1p6OTBkSkpWM0NVcTdpbzJIeUpmbjZ1b2NUWXc5LUNNMWNtYVFMbHNkejhmcGRMdk9ubzh5Ykk3QXh4a1o1QzNWUnJXa2pLVkh5RDZ4anZoRFBoREVsVEdYMFZKM2dYTU5YZXR6TW5QZVFHWHZuSUloOS1WM1kyUEVUUHNRYmNPeS1CTGfSAacBQVVfeXFMUHJ5SUJEbzRiQmRNTmJhYi1KNm12TmIwd3U4dk5DTThLeUNFT3dpanktXzhMcUpQdXNUN1E4b3h2cGo0NkJTTDRHZkdVTnQ2S3FWSkFNa0lSLVg0WGJuaXdXc1Z2bTBYZDZaS2hxckF5Z3VSSmJjd2tWTnJYVjBFVnk4eGdOZ0xicWp6LVRiUXVuODc3V3NOV3l5b1N5Rl9jS1R6Y1BGU0U?oc=5",
+    "data": "19/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Fatima",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "saibacomoevitarescorpioeseagiremcasodepicada",
     "titulo": "Saiba como evitar escorpiões e agir em caso de picada - Poder360",
     "descricao": "Saiba como evitar escorpiões e agir em caso de picada  Poder360",
@@ -1350,6 +1363,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "prefeituraadotalanternasespeciaisparacapturarescorpioesemcornelioprocopio",
+    "titulo": "Prefeitura adota lanternas especiais para capturar escorpiões em Cornélio Procópio - odairmatias.com.br",
+    "descricao": "Prefeitura adota lanternas especiais para capturar escorpiões em Cornélio Procópio  odairmatias.com.br",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3dVdkTVhzSlctVVBiOEIzVXhKXzY1eVN3V05GYmM2TkpCbGVmc29GSS1lOHBmM014UFRVZlluWVI5NFFwVkQyZkcybE0ycHN1b3VuZXVPRzJvdw?oc=5",
+    "data": "10/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "PR",
+    "cidade": "Cornelio Procopio",
+    "termo_busca": "escorpiões prefeitura municipal"
   },
   {
     "id": "criancassaoprincipaisvitimasdoscasosgravesdeescorpiaonobrasil",
