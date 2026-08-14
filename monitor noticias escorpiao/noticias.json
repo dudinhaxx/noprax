@@ -78,6 +78,58 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "criancaepicadaporescorpiaoemescolaemigarassu",
+    "titulo": "Criança é picada por escorpião em escola em Igarassu - LeiaJá",
+    "descricao": "Criança é picada por escorpião em escola em Igarassu  LeiaJá",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTkRRSC1naDFXVzRkcDk3SWZQTURKZ1l1WXlBZWdpejhVV1NoaVY2Um5wdWtqTnRsRlNheGQyNldkZ2U5YjViSGltUWE2SzRKbjBCNHl0c1BPNnhMdEFhN1hEOVhnWHVsLWFyQVZpRVRlSnRLc1gzVmZqTjJEdlJpZGc1a1p4TlVVTldqS0pWaDNKZ3NIUkVzaWRvYlB5WVMxeG10SVE4V09vVHFVYXNGTFFkdm9mZw?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PE",
+    "cidade": "Igarassu",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "criancadetresanoseinternadaaposserpicadaporescorpiaodentrodeescolaemigarassu",
+    "titulo": "Criança de três anos é internada após ser picada por escorpião dentro de escola em Igarassu - JC",
+    "descricao": "Criança de três anos é internada após ser picada por escorpião dentro de escola em Igarassu  JC",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd18xdkhNck1aY01MVERtM2M2RlpqeG5lRWRNcldBSUcwM1N0bmQyRlB4QXpiVzR0VmExV0hsdXY4dzdmd3RfVXNZblR0MGhrQWkzaF9qNHM4ZmVjUVlhOW9GQlRIREluWFJkd210TktJbXFTeWlNVklXTFUtSnl6Qy1WX2JrcUFJMko5WVZWdTdNdko4bl8xWFVDR3VwODRCWWFkTmZ3aTFDWm9VWlp6T2NqWjF6NnltcVRENXBqM3JEZ2t1NTZsUUNiLUdHNWZMNU1TUFlPZm0wSWVCYVF2YVZn?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PE",
+    "cidade": "Igarassu",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "itaquafazalertasobrecuidadoscomescorpioes",
+    "titulo": "Itaquá faz alerta sobre cuidados com escorpiões - gazetapopularoficial.com.br",
+    "descricao": "Itaquá faz alerta sobre cuidados com escorpiões  gazetapopularoficial.com.br",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY25NZGo5UGRVWV9lVjZSU0NRNzFFa0FRZmhNeW9Nd2ZvZURUOV9DaVlnRllWRVNaODRPQUh5eUJTREYtemtrOTJoZjN0Y1N5dnNDVWJyUFhrQmFwenpWRWlBWExsd1BDZi04cFFsM1lKalZaWUNucE5vbGhjSl9ucUtVZjBHcm1aOC1xNg?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "periodoreprodutivoaumentamovimentacaodeescorpioesevigilanciaambientalreforcacuidadosemaraxa",
+    "titulo": "Período reprodutivo aumenta movimentação de escorpiões e Vigilância Ambiental reforça cuidados em Araxá - Jornal Araxá",
+    "descricao": "Período reprodutivo aumenta movimentação de escorpiões e Vigilância Ambiental reforça cuidados em Araxá  Jornal Araxá",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZkVBZzRUZUdZRXVlQmFna2k1QkpZMW5wME1oNnpvT0FBUmRPWDhsUTJ0MFBTMWM0Z2Nmd3VBaDRwRnFsRV9jSnFTYXJyRU1Sb0FCZEYtMUszdzVjbmZhR2JzRXc3V29xem1QVld0SWFMS3NRd2hqYUwwQURzSm5fbmJUWmluZVB4Znd0NHRXUngyNlNKM1J1OTNyenJsUjJQRkxjSVFyYnFHR3JvRVQ1SXlnVkJ4bU1XeTJNVUx1ZF81d0dTQ2wyamxNWjZfM00wbUZRWA?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Araxa",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "mortedemeninopicadoporescorpiaoveja6pontosquelevarampoliciaaindiciarmedicoporhomicidionointeriordesp",
     "titulo": "Morte de menino picado por escorpião: veja 6 pontos que levaram polícia a indiciar médico por homicídio no interior de SP - G1",
     "descricao": "Morte de menino picado por escorpião: veja 6 pontos que levaram polícia a indiciar médico por homicídio no interior de SP  G1",
