@@ -1,5 +1,18 @@
 [
   {
+    "id": "temporadadereproducaodeescorpioesacendealertavejacomoproceder",
+    "titulo": "Temporada de reprodução de escorpiões acende alerta; veja como proceder - band.com.br",
+    "descricao": "Temporada de reprodução de escorpiões acende alerta; veja como proceder  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb3NINGZCSlBpZm5XZ0FPWnZXSXN1dzlpUlU3OFgyaFdNbWx0dndod3YySWcyai0zTlk1SWFGa1F1b2EtVFB5bVduU0pqRU0zQmZUUlF5MU95enhRTko2MGdYYXRWdHp5UEdTeXpTRTBoTmNjd28tNHVZb0oyaXFGVTRDZTRDLUpwQnR4NzU1OVBFbnhKaW1ZdzRQekw5Q0Q2TEozYTluaDAybGVEaXdHTzZXeEVxWmc?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "mortedemeninopicadoporescorpiaoveja6pontosquelevarampoliciaaindiciarmedicoporhomicidionointeriordesp",
     "titulo": "Morte de menino picado por escorpião: veja 6 pontos que levaram polícia a indiciar médico por homicídio no interior de SP - G1",
     "descricao": "Morte de menino picado por escorpião: veja 6 pontos que levaram polícia a indiciar médico por homicídio no interior de SP  G1",
@@ -102,6 +115,19 @@
     "estado": "MG",
     "cidade": "Araxa",
     "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
+    "id": "temporadadeescorpioesacendealertaparariscodepicadas",
+    "titulo": "Temporada de escorpiões acende alerta para risco de picadas - band.com.br",
+    "descricao": "Temporada de escorpiões acende alerta para risco de picadas  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMXZnOThRb2ZlNDl4QjF4eXk2R1gzZTBGN1hidmlHN3ZNUHBIeTlWTVNCdDh4YURENVJFQ0F3MGZ6R0RjbWNOM2tGWHk0TXlxay01Yi1abVY3dUFUWUhnQnkzc3NudGxYa1F5N3hueTJ1UThnTWY0Zjd4cE5hWklxcFlLQjQtV01BemZlZjZESFJpem1DdENDUVVvdXkwRUVrYUNsU0d1LS1tYm12ZzRERmJ0OF9RbGFHWFNzd0RNTGxWbDV4dlE?oc=5",
+    "data": "13/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
   },
   {
     "id": "medicoindiciadopormortedemeninodisseapoliciaquenaosabiaprotocoloparapicadadeescorpiaonuncafoipassado",
