@@ -1,5 +1,18 @@
 [
   {
+    "id": "pernambucoregistraquase10milatendimentosporpicadasdeescorpiaoemsetemeses",
+    "titulo": "Pernambuco registra quase 10 mil atendimentos por picadas de escorpião em sete meses - PE Notícias",
+    "descricao": "Pernambuco registra quase 10 mil atendimentos por picadas de escorpião em sete meses  PE Notícias",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaW5DU2VhQVgyQzNNOGhTSFA1VWc3azExbGktcTdfUXlwUHVYX28zMjdpUFE4aElDOFBwWlF1NDJ3WU1sMVNDMkJGc3BCbWhDTzJYR0ltdmJkbUN2bXNQSnBSU3VfUHlUVzFhSEl3ajI4XzAtWkVxZldFcDZmQldoUGlYNXpDMVVfOUJJMnVTLXpYYmg2UVJPb05MZnJhRTF2UWlIQlRFMjFGVHlzS0VRQWtjdlFpaGc?oc=5",
+    "data": "15/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PE",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
+  },
+  {
     "id": "temporadadereproducaodeescorpioesacendealertavejacomoproceder",
     "titulo": "Temporada de reprodução de escorpiões acende alerta; veja como proceder - band.com.br",
     "descricao": "Temporada de reprodução de escorpiões acende alerta; veja como proceder  band.com.br",
@@ -127,6 +140,32 @@
     "fonte": "Google News",
     "estado": "MG",
     "cidade": "Araxa",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "vigilanciamunicipalalertaparaoperiododereproducaodeescorpioesemcassilandia",
+    "titulo": "Vigilância Municipal alerta para o período de reprodução de escorpiões em Cassilândia - Cassilândia Notícias",
+    "descricao": "Vigilância Municipal alerta para o período de reprodução de escorpiões em Cassilândia  Cassilândia Notícias",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQmZOZlpwLXRuRHFJOXI4ejJ2MXdaVkVfZFBVVGdBMnNrUDdLZDZnRlFxdU85Q2s0U1otWF8xb0xQQWV5ZW5KUENxNzBCeFNuRkZ0RjFobm50bjduZ0FfTmN5TmZJMWp5RWpldDFTNmxNcUV4M2o5eDBTZV9GYVdKUDRBVHNUOU9yNnkwTzUyOFh1aGlfbE16UzhYckhtcDdmMURxakhpV2JhQmNBQ1V6czlGSndZVjVsaGNhWlMyTkhEMTBBMmExNmlmanFvNlRiNVHSAdIBQVVfeXFMT0JmTmZacC10bkRxSTlyOHoydjF3WlZFX2RQVVRnQTJza1A3S2Q2Z0ZRcXVPOUNrNFNaLVhfMW9MUEFleWVuSlBDcTcwQnhTbkZGdEYxaG5udG43bmdBX05jeU5mSTFqeUVqZXQxUzZsTXFFeDNqOXgwU2VfRmFXSlA0QVRzVDlPcjZ5ME81MjhYdWhpX2xNelM4WHJIbXA3ZjFEcWpIaVdiYUJjQUNVenM5Rkp3WVY1bGhjYVpTMk5IRDEwQTJhMTZpZmpxbzZUYjVR?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Cassilandia",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "diademareforcaacoesdeprevencaoaacidentescomescorpioes",
+    "titulo": "Diadema reforça ações de prevenção a acidentes com escorpiões | Diário do Grande ABC - Notícias e informações - Diário do Grande ABC",
+    "descricao": "Diadema reforça ações de prevenção a acidentes com escorpiões | Diário do Grande ABC - Notícias e informações  Diário do Grande ABC",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYmdWSXVrLTBtckhFZlBpNVFaalNnRWR4c2cxYTlBM3RDeVljdFVBY2s5X0U1QW9oRmp4T19lcnVfRjJqWFYzNUlEak1MREpVYnhJemhvRFIzWTN2cmpTNzJ6QTVKMFNfcTVEOWV3MG1zaU9ZTmdTMzMwci01bWdQLVpFbGwwLVVvaFQ3cFlGcDJJS1YtLUEyaHV3QVd1bXNsUm9Kbw?oc=5",
+    "data": "14/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Diadema",
     "termo_busca": "prevenção escorpiões"
   },
   {
