@@ -52,6 +52,45 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "escorpioesdominamocorrenciaseprovocamseisemcadadezacidentescomanimaispeconhentosemcuiaba",
+    "titulo": "Escorpiões dominam ocorrências e provocam seis em cada dez acidentes com animais peçonhentos em Cuiabá - JBNEWS",
+    "descricao": "Escorpiões dominam ocorrências e provocam seis em cada dez acidentes com animais peçonhentos em Cuiabá  JBNEWS",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUm5hRGpUXzYzNlhCdmhENzdzeGxRd05IaEJSc3k2amVsR2RpeHV1V29YVE9nTXNkX2V5T2lIWGlnUHdPUXRGSlN5YWVyNVh5VUF0RzZ1bWhEWTkxMERQWTd0TkV3Q2Y3a1VLOGZWS3JNanYwX1QtZkhiNmJNS3RpU2ozMEhIXzBrdHBFTlFYNVBvaHJHMjgwb01mMjI2c0ZzZHVLU3YtS2haRGNxQmxscjM3ZEU3TnNHWFZXaUxxMFY3azg?oc=5",
+    "data": "17/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "vigilanciaambientalreforcaprevencaocontraescorpioesaposaumentoderelatosemitatiaia",
+    "titulo": "Vigilância Ambiental reforça prevenção contra escorpiões após aumento de relatos em Itatiaia - A Voz da Cidade",
+    "descricao": "Vigilância Ambiental reforça prevenção contra escorpiões após aumento de relatos em Itatiaia  A Voz da Cidade",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObkplY1lmSVZhcWZBcVNPM3M3c09CWl9IaHJlWUlXUjllS3Bpalhkdi01SEtDNTVkanlxYTFQSkgzR0REeXlJMVZocHBWaW9LTWJMNVFRbHRfdGRFSFBobFlEUkxuTnIyVFRsTUlRSVNNTzlvZ0tiMFFXYlpOaFptRV9MTUk3VlRYYkhYTUxTaUk0Vkx0Vncwb3QzVkVxWXFlNTFCaXFqTlE3VHVLSmVEVDlkbElmOUdhNERIeGpn?oc=5",
+    "data": "17/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RJ",
+    "cidade": "Itatiaia",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "vigilanciaambientalrealizaacaoconjuntaparabuscadeescorpioesnadivisaentresaopedrodaaldeiaeiguabagrande",
+    "titulo": "Vigilância Ambiental realiza ação conjunta para busca de escorpiões na divisa entre São Pedro da Aldeia e Iguaba Grande - Prefeitura de São Pedro da Aldeia",
+    "descricao": "Vigilância Ambiental realiza ação conjunta para busca de escorpiões na divisa entre São Pedro da Aldeia e Iguaba Grande  Prefeitura de São Pedro da Aldeia",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWldFbE1UbUx3NUdQQjkwbUJUQzBvZzJ5OGU0LUp0V2RBMlFuWkkzREIzRVo0eDVlQ2ZfS1o5LW9JQnRqNE1CSHJTRnJlTVBFaGROcEtpN1hLVjNYVVdKazNqZHlLMTE1MGdHRi14NlNGN0I1YzhLOS05Wm9kSU01SUdUZEJPRFRIQTQ4RzJhaXNwdnR6eUpPTjRIcExPMVgtMHdUTGZJNEFTOGp3UmtQLXp3dU1jOEh0T0JTbVBzOEc5ZTBzZmpOUHF4OS1OY0ExVlkxTmNWc096cFZN?oc=5",
+    "data": "17/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RJ",
+    "cidade": "Sao Pedro Da Aldeia",
+    "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
     "id": "medicoindiciadopormortedemeninopicadoporescorpiaoeafastadodeatendimentonointeriordesp",
     "titulo": "Médico indiciado por morte de menino picado por escorpião é afastado de atendimento no interior de SP - Grupo Jota Sidney",
     "descricao": "Médico indiciado por morte de menino picado por escorpião é afastado de atendimento no interior de SP  Grupo Jota Sidney",
@@ -9214,6 +9253,19 @@
     "fonte": "Google News",
     "estado": "PR",
     "cidade": "Londrina",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "corpodebombeirosdemtreforcacuidadosparaevitaracidentescomescorpioes",
+    "titulo": "Corpo de Bombeiros de MT reforça cuidados para evitar acidentes com escorpiões - Primeira Hora",
+    "descricao": "Corpo de Bombeiros de MT reforça cuidados para evitar acidentes com escorpiões  Primeira Hora",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekV2VDdUSVNVOHNGUU0yUG8wUV9ZYU84QzBmaWZvYjdENGJHZnF4Ul9aVGtxbUVQUmwxOFZqNGFubDhBTHNGYWtyYXBRRkVpOTkybUJjSTVjRW45UFdiOWRRaU9QOUNVNEZwTDZ5NjU1QThlcEp2TF9qdzdqSTRQZXR2bWhvYUtjS2w0WEprU1Nza2hYNlpoVFZxMFlrOThMRE9uUWJpdU5CckE?oc=5",
+    "data": "08/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
     "termo_busca": "prevenção escorpiões"
   },
   {
