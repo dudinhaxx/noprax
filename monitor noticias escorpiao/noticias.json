@@ -1,5 +1,18 @@
 [
   {
+    "id": "escorpiaoeencontradoemcanelinhaeprefeituraorientamoradoressobrecuidados",
+    "titulo": "Escorpião é encontrado em Canelinha e prefeitura orienta moradores sobre cuidados - Olho Vivo Can",
+    "descricao": "Escorpião é encontrado em Canelinha e prefeitura orienta moradores sobre cuidados  Olho Vivo Can",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB1cHlwMjlEM25LQWRJbncyc2pfV3lMNy1FTGY2eW9aQ1pLemRRNkwyZ2k3YU12ZkgwaXJTbWsxRVBjYlVTVWxuaVNUQTdQWEhtNFlpRklidF9icF9rVWZOR0NGcnRIdHNiRmFZd21FQkl4NVBVUVRteA?oc=5",
+    "data": "19/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Canelinha",
+    "termo_busca": "prefeitura escorpião"
+  },
+  {
     "id": "maisde15milpicadasdeescorpiaoemsetemeses",
     "titulo": "Mais de 1,5 mil picadas de escorpião em sete meses - O Norte",
     "descricao": "Mais de 1,5 mil picadas de escorpião em sete meses  O Norte",
@@ -3716,6 +3729,19 @@
     "estado": "BA",
     "cidade": "Saude",
     "termo_busca": "criança escorpião"
+  },
+  {
+    "id": "aumentamosacidentescomescorpioesnodfsaibacomoevitalos",
+    "titulo": "Aumentam os acidentes com escorpiões no DF. Saiba como evitá-los - Dicas da Capital",
+    "descricao": "Aumentam os acidentes com escorpiões no DF. Saiba como evitá-los  Dicas da Capital",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTjJMdTRZS3dYd3l4RE53dm13YVNYTTdmMEFrSEdFbkdiN0ZXMzdDOTZqaHlyLUd4ekl5MGc5ZlB4NDJQVkpVam5WdmN5TERNUV9fcUtlbEZkT1c1R05scWRHbVg2YnRoNjZ2VTh6T2VQWVU3LVhoZldfWHEzU3BZZVdzQVVxQ0l3RW5HODhEME1rdlUtQ0ZPVGFB?oc=5",
+    "data": "01/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "armadilhasemvenenocapturaemonitoraescorpioesemareasurbanas",
