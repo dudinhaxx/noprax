@@ -39,6 +39,32 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "meninade10anosserecuperaapospicadadeescorpiao",
+    "titulo": "Menina de 10 anos se recupera após picada de escorpião - G1",
+    "descricao": "Menina de 10 anos se recupera após picada de escorpião  G1",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX2c3Z0VVVWgyb2o5emhVNDN5c0p4bU41aU80ZXlmZ3VvLVRMRFlfN3JmWUpnekNmREVMbmVRNTVaME9JRTBrSm1IQnQ0TjVMU2E1eU9rQzNnRUJzdTh3NXZqN1VlRHA4R1dsMktoUVdBRnBtV0RHeS0ybFlCcUhjNmtLRFZ6azY0Um9hOGhYU2I3djljaW41eXhnaFVHU0NIM2ZZclJ1WmZJVjkyQW9Zc2hsVkt2b2xiWmRSU2RZblNQZ9IB0AFBVV95cUxQczRCb3l1SW9BYjBMWmdqRWdXbEpxa0RQeV9HSC11eGRfRmplZ21lN29GOTVBQ1BfNXdNWmZDeUVrQ0puS1l5cWRkcVh3WnBNRGpPbDU3QXR6MklYWVVuQmlkd19tMTJRckNlZzBTX1JfVVVKVUdNdlNXeTMxU190bXo2Qkx1MWRVSngzakQ3U3l3Z2l5M2Q4cHIxQjd4dFVWelJabVQ1aGZwU29sQWhNcEM4MGpGNHhhUmQ2ckZuM2d1N1E5NmtkaGlUQUs3b0Ux?oc=5",
+    "data": "20/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "alertanoabcpicadasdeescorpiaoacada15dias",
+    "titulo": "Alerta no ABC: picadas de escorpião a cada 15 dias! - ABCtudo",
+    "descricao": "Alerta no ABC: picadas de escorpião a cada 15 dias!  ABCtudo",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYnd4aEctOWFqcDhxTWpla2tTWUNseFFub0xiRnl2ckM2aE80c3dEbHk5ZllYY3hNTVNLc1lhbmxqTE1TREVWMS1LejR3YW9pXzNqT01scnc1X3lKbnJyR1Q2SFptQ0dCSTl3TmRWWW9EdkI0T1NZNXlWR1lDQUR0N1hGWQ?oc=5",
+    "data": "20/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "escorpiaoeencontradoemcanelinhaeprefeituraorientamoradoressobrecuidados",
     "titulo": "Escorpião é encontrado em Canelinha e prefeitura orienta moradores sobre cuidados - Olho Vivo Can",
     "descricao": "Escorpião é encontrado em Canelinha e prefeitura orienta moradores sobre cuidados  Olho Vivo Can",
@@ -1779,6 +1805,19 @@
     "estado": "SP",
     "cidade": "São Paulo",
     "termo_busca": "escorpiões Brasil"
+  },
+  {
+    "id": "escorpioescausamquase7emcada10acidentescomanimaispeconhentosemcuiaba",
+    "titulo": "Escorpiões causam quase 7 em cada 10 acidentes com animais peçonhentos em Cuiabá - Primeira Página",
+    "descricao": "Escorpiões causam quase 7 em cada 10 acidentes com animais peçonhentos em Cuiabá  Primeira Página",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2lJU1J5Y29rY0hWVXRRb0xJckctNnp5NTVqZnFURy1PbmZnVThaUmtqN2haWGdxYVZuVTN6MGJiQUExYzdESHdnekY5dnlNanBPQlIySzZrTHh3WnNiLU5ObDRZQXIxM2tSN2dKZElCMWdGR0hsQVA0aWpZVlBwdThkNFk2QUlheDNhVWExRVdZelhfODNHZVRyU3RNQlpVVzNzMUpBWTVVaGFsei11VXJKb1FKa2Uw?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "animais peçonhentos escorpião"
   },
   {
     "id": "qualquerescorpiaoepotencialmenteperigosoevenenopodematar",
