@@ -13,6 +13,32 @@
     "termo_busca": "prefeitura escorpião"
   },
   {
+    "id": "santacasaereferenciaparaatendimentoapicadasdeescorpiao",
+    "titulo": "Santa Casa é referência para atendimento a picadas de escorpião - O Diário Interativo Online",
+    "descricao": "Santa Casa é referência para atendimento a picadas de escorpião  O Diário Interativo Online",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTVhZcjcxTkNTUEZuOEc3SElkVEVTZVpGdl9QY0N1Um5XbmZ6dmdmQktTRmpydmtHMEw0V295dkZGUThwSEhHemRYQmhuc2VSMEhYQTI3WEcyejhtRW1LTm1XN0NjVmcyQ1FhdklNMm5XQlNzUjRLVVZuMXFIdmJBMWhXaVBESUJxMnE4SFVVZThiMG9Ld21ET01ybDBfZw?oc=5",
+    "data": "19/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "dfregistra47milacidentescomescorpioesem2025vejacomoevitarpicadas",
+    "titulo": "DF registra 4,7 mil acidentes com escorpiões em 2025; veja como evitar picadas - Jornal de Brasília",
+    "descricao": "DF registra 4,7 mil acidentes com escorpiões em 2025; veja como evitar picadas  Jornal de Brasília",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRW5MZ2FzSkJzWE84Wmxwd0dWVkphWTA0ZmdOZTU4Z3ZlSG9qb0dyVlpZYlY2Z1JmVjl5T09rS25sc1M5OW5PYUpkNkcwZ1V4bjFWMWMtb0FqZTZBWjhfYWN2Tm03NE9hMWhOQ2VLU3EydF9SQXlSbTduZlotd0pLdFN6TXFCeWlDT1BaV0hBcDlPZ3lraHU4ckJ3dnRzVjN0SXNzaUwyT3lEQmI2UVhGMWFYSk1WUEx6R2c?oc=5",
+    "data": "19/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "maisde15milpicadasdeescorpiaoemsetemeses",
     "titulo": "Mais de 1,5 mil picadas de escorpião em sete meses - O Norte",
     "descricao": "Mais de 1,5 mil picadas de escorpião em sete meses  O Norte",
