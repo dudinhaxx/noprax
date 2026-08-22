@@ -91,6 +91,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "goianialideracasosdepicadasdeescorpiaoemgoiasestadosomamaisde5milacidentesem2026",
+    "titulo": "Goiânia lidera casos de picadas de escorpião em Goiás; Estado soma mais de 5 mil acidentes em 2026 - Jornal Opção",
+    "descricao": "Goiânia lidera casos de picadas de escorpião em Goiás; Estado soma mais de 5 mil acidentes em 2026  Jornal Opção",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQmhSRVo0ZmUxTWtTRGpDakx1QmtsWmt6TWlHZnJrTHBEdmEzdEkwQ0Z5NmNiZHRQLTB5NGJJaVFEUmFPU1YxNVgxbGlXODU0S0tWMG8xWXZWX2hZYnVWTVVWdGktbVRkRndXVWxpYldWSUR3cnB6YlhRV19hUGZOdUI5X1puRmZlYWFTRjlJYnFyQmxMWWRFaE43bldTSllRWDlPMlVvVHpod0JONDFJVDlzYW5sSUdBOG9EVW9hQWFVbmI5NTVVNzJUWGtyZS1Bd1ktUzg5MFY2UWtnSW56aDgzYWtEVDZk?oc=5",
+    "data": "21/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "GO",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "acada15diasumapessoaepicadaporescorpiaonaregiao",
     "titulo": "A cada 15 dias, uma pessoa é picada por escorpião na região | Diário do Grande ABC - Notícias e informações - Diário do Grande ABC",
     "descricao": "A cada 15 dias, uma pessoa é picada por escorpião na região | Diário do Grande ABC - Notícias e informações  Diário do Grande ABC",
@@ -8422,6 +8435,19 @@
     "estado": "SC",
     "cidade": "Florianopolis",
     "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "escorpioespicadaexigesocorroimediatoehospitaladequado",
+    "titulo": "ESCORPIÕES: Picada exige socorro imediato e hospital adequado - TopElegance",
+    "descricao": "ESCORPIÕES: Picada exige socorro imediato e hospital adequado  TopElegance",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUGxXN2xpd2tTT0pDQXA4NFpvODNLOXRPejUwNGMwMGVaYmx1elhBYnZBanY3Rms4YzFVWjZ3VmZQcUhKTXF6LWVBNDVndW5IR1FTaE8yNlNCeVM0elgwYmdreWUzYk5BeUFKYUcwS3p1N2F5Tkg0aUpJR1hOWWlXMUJocHFZZHl1bXplZTlPVmthWk1JTHkyaEdmZWlnN0dpRmxtTE5qV1VlbDB3REpfTXh3Zw?oc=5",
+    "data": "19/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Socorro",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "oquesesabesobreainfestacaodeescorpioesquefezmoradoracharanimalno4andardeprediodesc",
