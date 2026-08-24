@@ -39,6 +39,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "semanaestadualdeenfrentamentoaoescorpionismoteraacoesdeprevencaoemsaocarlos",
+    "titulo": "Semana Estadual de enfrentamento ao escorpionismo terá ações de prevenção em São Carlos - São Carlos no Toque - São Carlos no Toque",
+    "descricao": "Semana Estadual de enfrentamento ao escorpionismo terá ações de prevenção em São Carlos - São Carlos no Toque  São Carlos no Toque",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaUxsYS1BNVRwWm1leXZKdVFlM1l6Q2Z0NmtSSmZOaE1zSFVhX3hpN1ZzY19INDAwZW5yaHRyOS1uNGt0Sm8wNExEb2VKVzJIRUtZaUFsQzRTLUNXbGFfZGg0YU5aV3NjaGkxY3g5alM5SWdwV1ZEeDFJcFZHeU15alJQU0QwbFFkbXFCeFR6eUpKb2dLU1VHQlpJTXBmUmI4aTkxZ1ZRSDN4OWs4THBYN21ZQTQ2cXFR0gG-AUFVX3lxTFBMLVoyeWlyS1FGV0lqc2NlVkdrdl9TVVBjUDBNLXJWSzFaZ3dQVXpPTUJuMkt4aDdsVGdiS05pcTBFbHJiSzc5REhJeko2aXJjOUU5Y3R1SjFhdTAzclhXbVVObzd5NWgtNzdWdHh0WG9RMDEtU1c2TWJITUtmVy1ZN1FaTXR0eGRyWDhlTW9yRGVORi1kRTlXZDR5WExjbjZkeFRJSEw0NmMxdkhJMzlKbzI5VFAxdTdxSERBdFE?oc=5",
+    "data": "24/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Sao Carlos",
+    "termo_busca": "escorpionismo"
+  },
+  {
     "id": "criancade10anosepicadaporescorpiaoemjacarezinhoerecebesoroantiescorpionico",
     "titulo": "Criança de 10 anos é picada por escorpião em Jacarezinho e recebe soro antiescorpiônico - Tabajara Notícias",
     "descricao": "Criança de 10 anos é picada por escorpião em Jacarezinho e recebe soro antiescorpiônico  Tabajara Notícias",
@@ -245,6 +258,19 @@
     "estado": "SP",
     "cidade": "Sorocaba",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "comoidentificarfocosdeescorpiaoamareloereduziroriscodentrodecasa",
+    "titulo": "Como identificar focos de escorpião-amarelo e reduzir o risco dentro de casa - Diário do Centro do Mundo",
+    "descricao": "Como identificar focos de escorpião-amarelo e reduzir o risco dentro de casa  Diário do Centro do Mundo",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPalBOSi1IUWVGcTN2UWRIdWJvdmR3U09xUDJ0R29TbkxSYkVzaWJHM0I5SXViemFsSElxbzROM2l4UkktUUl0cFQxRkZpU0RQX2lfLUZ0OWN5WnhUVXR4S0t6OFI4M0VkREhrV045X0JTd0hWOVBzVVRWVUxQOGlzcVdvUURScC1rSHVkN0MxUTB3VzktS0tlWFJZdElMQQ?oc=5",
+    "data": "20/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "escorpiaoeencontradoemcanelinhaeprefeituraorientamoradoressobrecuidados",
