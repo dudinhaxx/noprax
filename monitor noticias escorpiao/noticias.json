@@ -39,6 +39,58 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "meninade11anosepicadaporescorpiaodentrodesaladeaulanodf",
+    "titulo": "Menina de 11 anos é picada por escorpião dentro de sala de aula no DF - Metrópoles",
+    "descricao": "Menina de 11 anos é picada por escorpião dentro de sala de aula no DF  Metrópoles",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGQwRkY1MkZqYTN4OHNNaWEzTmQyaC01WmcxakhTZGx1YXJSd3NpS0hjdWl6ZFcxczlPVnhVUDl2TWpURzhiVnoyRS1rTXk3SFBmUW0zUUQ4eVNCTXJ4djkyRVpqSnVUckVXd3o2MEI1aVRkTHZNTTNRQTBqal9maktDZU9KV2Q1MTJXbVVhSW82anNqSzNOM0FURW9FT04wb2p1NDU2b3VwT1BmQ1p2OWdmRQ?oc=5",
+    "data": "27/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "fortalezajaregistra25milatendimentosporpicadasdeescorpiaoem2026",
+    "titulo": "Fortaleza já registra 2,5 mil atendimentos por picadas de escorpião em 2026 - Ceará Agora",
+    "descricao": "Fortaleza já registra 2,5 mil atendimentos por picadas de escorpião em 2026  Ceará Agora",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSHRaRmhITEU0TmRPZ0NiS3pST0kta3AzTUYzTEJteHhOVld0Z2pHWDJGUFI3RThWUFA1T0xFYW5FREc2bW9pN3l3dEZMVE8zam1WT2RSR2NCY3h0cUZLXzZac0hiNGRoay0wckpScDU4dFRHVk5laFBveUF1ZHFDcHhRUHdRZzQ4ZVVSZV9iVExRSGpHV0x1RjdsaVJXSHBNZ2JF?oc=5",
+    "data": "27/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "CE",
+    "cidade": "Fortaleza",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "ijfalertaparaprevencaocontraescorpioesdurantereproducao",
+    "titulo": "IJF alerta para prevenção contra escorpiões durante reprodução - A Notícia do Ceará",
+    "descricao": "IJF alerta para prevenção contra escorpiões durante reprodução  A Notícia do Ceará",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeXZJcUZJaDZacjRSM2t1d2pRZjVTX3RuMkhvMjdwd3kxcFhkRk1BRVpVV3YzYjhyZlhhR0xEbnFDV2FzdE1SRnFUeTFzLVc2RW5WYTZ3cUlwSVp4ZVZqZ0pzdHo2NHhERGVZS252aGU2ZVgza3JKR1BzRFJwOXBScHIzN2tzYjVONEo5Y1pXVmRIcW9URFpqSGFn?oc=5",
+    "data": "27/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "CE",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "bemvivervenenopodeatrairmaisescorpioeseaumentaroperigoalertabutantan",
+    "titulo": "Bem Viver: Veneno Pode Atrair Mais Escorpiões E Aumentar O Perigo, Alerta Butantan - Acre in Foco",
+    "descricao": "Bem Viver: Veneno Pode Atrair Mais Escorpiões E Aumentar O Perigo, Alerta Butantan  Acre in Foco",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2YwY3ViUkdhMEdkczJENE90MWN1ZGNPSVI1ZkM3SVRYLUJjd2ZwOVRlNnVKRUtYMVpQZlZ6WkJzcnVobXZuX0hJaUlBbk15OUViYmI1UVE4UEh5Q1J2SDJiSllPdUJXVDZQYkFSSWJoZjJLenlKZVZ3SU1pTl9IdDRKOWk2SmJqQXFFSWFJY180cl84YW56S2U2ZUxXdWkybVF2TzZ2OV92U2JHV29ST3F3?oc=5",
+    "data": "27/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "AC",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "medicadenunciadapormortedecriancapicadaporescorpiaoerarecemformadampapontanegligenciaedespreparo",
     "titulo": "Médica denunciada por morte de criança picada por escorpião era recém-formada; MP aponta negligência e despreparo - G1",
     "descricao": "Médica denunciada por morte de criança picada por escorpião era recém-formada; MP aponta negligência e despreparo  G1",
@@ -141,6 +193,19 @@
     "estado": "SP",
     "cidade": "Barueri",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "portoferreirareforcaprevencaocontraacidentescomescorpioesnasescolas",
+    "titulo": "Porto Ferreira reforça prevenção contra acidentes com escorpiões nas escolas - Porto Ferreira Hoje",
+    "descricao": "Porto Ferreira reforça prevenção contra acidentes com escorpiões nas escolas  Porto Ferreira Hoje",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdS1lQUswY0lxNWcyem92eEhYdkZfZUcteG9xM3c0bjNqVjN6RHVSX2Y0d3BuZElERkQ3eG5wWVA2dldMT3FqaTRwYjMwUGt3aWxlTTRhRVFBeXpfTlR6THVpNVRuTmI0d2t1ZWlnNjFSY1FidXZDVVkzcjBicmZEaXh6dTk3bHE5Q0lIWjltcVhWa3NEQVFXWmZfNGk2V01oLTdSOU9ydXU3Q01wRGV5VzZ1LThKam5YZ3BIdElLMDRRaVl1NUNiRVVGSHVHdw?oc=5",
+    "data": "26/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Porto Ferreira",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "mpdenunciamedicadeupapornegligenciaefalsidadeideologicaaposcriancamorrerporpicadadeescorpiao",
