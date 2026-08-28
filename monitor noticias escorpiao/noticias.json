@@ -39,6 +39,45 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "criancade10anosepicadaporescorpiaoemmogimirimetransferidaparaaunicamp",
+    "titulo": "Criança de 10 anos é picada por escorpião em Mogi Mirim e transferida para a Unicamp ‹ - O Regional Net",
+    "descricao": "Criança de 10 anos é picada por escorpião em Mogi Mirim e transferida para a Unicamp ‹  O Regional Net",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSDE2SEFUejhTVHNrdFZ4WFIzb2JOVURCM3F1Yk8zYVU2MmE5LUl3cEJuVGdMYWZfWjN2SGFTdlNPYlB2bG02NTJHd2J3QTZrMXdtXzdaVVNiXzBvY0pEVElPTktiUkwxWndOVlRJTXJIdnRwcDI4NlBpREE0bEN4RFZMUHlvYkRXV2YtOUFDUnJ6cWVEREJSQnBvb0YyTUUtcG9KN0hlZ0FvcEFxOUdtTktVWQ?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Mogi Mirim",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "prefeituracapacitaservidoresparaprevencaocontradengueeescorpioesemprediospublicos",
+    "titulo": "Prefeitura capacita servidores para prevenção contra dengue e escorpiões em prédios públicos - Prefeitura de Birigui",
+    "descricao": "Prefeitura capacita servidores para prevenção contra dengue e escorpiões em prédios públicos  Prefeitura de Birigui",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZVF2ODNjY0diRHpBdWY5UTVzYV9LM2R6OF9UMXltUTZvYks3N0lkRVRXV3MyUXdxNm83R0tyTmp6QVcxcTgtN1BwcmFCQTJyeHJhYmJMcjVaZ1lvYXR4TXFNVEdWeld1RTZyS2dnZndXcDZuaXFubk1RMnAwazRYS21mQkRVclVqZDJ2TQ?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Birigui",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "escorpioesamarelosemvariosbairrostrazempreocupacaoemnavegantes",
+    "titulo": "Escorpiões-amarelos em vários bairros trazem preocupação em Navegantes - Guararema News",
+    "descricao": "Escorpiões-amarelos em vários bairros trazem preocupação em Navegantes  Guararema News",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUHpOSDRSUm9oN2FLQmp5dG8xcHhmc0QtQjVCdmloYVVVaS10WE9WWTMxam9MYV9qMTQ5WXlpS1lBVzNWXzNLWjhORWtsNVg0Zk8yMWhSRHB5YW9xenJQSnRQdXY5X2dadFlxZ1B3OGtZSDBZY2ZkV2JjZXZVUDF3bEpzMGFNa0VBck1OZ05yYVc3UEU2RVJaMjB0YjFNUmlrM2tLM1VLWFFHQQ?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Navegantes",
+    "termo_busca": "escorpião vigilância ambiental"
+  },
+  {
     "id": "casosdepicadasdeescorpiaoaumentam40emfortalezaem2026apontalevantamento",
     "titulo": "Casos de picadas de escorpião aumentam 40% em Fortaleza em 2026, aponta levantamento - URB News",
     "descricao": "Casos de picadas de escorpião aumentam 40% em Fortaleza em 2026, aponta levantamento  URB News",
@@ -180,6 +219,19 @@
     "estado": "SP",
     "cidade": "Barueri",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "vigilanciarealizasemanadeprevencaodeacidentescomescorpioes",
+    "titulo": "Vigilância realiza Semana de Prevenção de Acidentes com Escorpiões - Portal Oficial de Franca",
+    "descricao": "Vigilância realiza Semana de Prevenção de Acidentes com Escorpiões  Portal Oficial de Franca",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWkRpWWZvY1lyazEwUVJxN0VFeWR1bldSdnJnNXAtY2tjcF9qMU9GSDNUV0hkdjNXT0lncnJsbjhERHBEMFhhWThKVTJReTZ1eFdiRWNrXzVVWDFlYnlucVFwclJJdmptVVJmejZRNUNBby1NM2tFaFowSXNMcVM4bzJXX05PazNSZndqSWtUcm9iZGhuUFVlNlJVUzRHWGN0aFZKZmpvcnlSUUtQN0c0cw?oc=5",
+    "data": "27/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Franca",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "medicadenunciadapormortedecriancapicadaporescorpiaoerarecemformadampapontanegligenciaedespreparo",
