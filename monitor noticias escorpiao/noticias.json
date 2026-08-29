@@ -13,6 +13,32 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "apos16casosem2026valinhosteraqueinformarondehasorocontrapicadadeescorpiao",
+    "titulo": "Após 16 casos em 2026, Valinhos terá que informar onde há soro contra picada de escorpião - Jornal Terceira Visão",
+    "descricao": "Após 16 casos em 2026, Valinhos terá que informar onde há soro contra picada de escorpião  Jornal Terceira Visão",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeWg0UHBvdnkzdUpveGY5TWNPR3ZBeXE4Z2pnTGVsRnpXU3h6ZVVlN3UwUUp3TVkzTlpoZG9rUS1WQmREOGFvdUhUcWROVWNaSi1EVEpXemNDX2dQNm95eURWclNtaUJUeG1Gc3RaOFZQMGNRUW1fWW9ZVTZIWkszSTJGUnJCc01RNXZHdWxwb0s?oc=5",
+    "data": "29/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Valinhos",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "secretarioalertaparaperigodeacidentescomescorpioesembarbosaferraz",
+    "titulo": "Secretário alerta para perigo de acidentes com escorpiões em Barbosa Ferraz - Tribuna do Interior",
+    "descricao": "Secretário alerta para perigo de acidentes com escorpiões em Barbosa Ferraz  Tribuna do Interior",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUnhFenVxODVHREZ6aHBNb3lZNWlPUUZGT2FBTXZvdTdHdnU4LU9odEJEcWdvWmVTUkFYS2NUUDRMemVxVHdSb19xVU9BU00tNlJKZWl4S3ZDdFBkMWt6LXhYVXg3WGswT25kdW1GMVNkUmxqbDF2anRFc0l6LTRiUWJNMjhuQ2Nua1NwUGFZUGV4VXRPdWlVYk15M1Z4WGFTZjUxSkN2bVFHZUNGT2hJekZKSzdjRVhaWi1ZaA?oc=5",
+    "data": "29/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PR",
+    "cidade": "Barbosa Ferraz",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "escorpioespicammaismasabelhasearanhascausarammaismortesemcampinasvejadados",
     "titulo": "Escorpiões picam mais, mas abelhas e aranhas causaram mais mortes em Campinas; veja dados - ACidade ON",
     "descricao": "Escorpiões picam mais, mas abelhas e aranhas causaram mais mortes em Campinas; veja dados  ACidade ON",
@@ -89,6 +115,19 @@
     "estado": "SC",
     "cidade": "Navegantes",
     "termo_busca": "escorpião vigilância ambiental"
+  },
+  {
+    "id": "escorpioesavancamepreocupammoradoreseautoridadessanitarias",
+    "titulo": "Escorpiões avançam e preocupam moradores e autoridades sanitárias - Gazeta de Pinheiros",
+    "descricao": "Escorpiões avançam e preocupam moradores e autoridades sanitárias  Gazeta de Pinheiros",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNd2RvNDdLcGtGLUM4M0NaTzBPZXAzQXpTekp4eTNfLWdET1JzUGhadkptVUktVWgtUmZTVTMtNXV5cllESC05djFSSFplczAxTml3bTlfa0pzZll0UExlSWlUWFZXcEpBVURzQVRUeVJUelFOT09NM2hyWW5ua19CeDNnWEJGcWd5WVo4eU5wZlV4bUVoVDJpRE1kaTdubElSVW9oYTBFMm1YZmFPUTBV?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Pinheiros",
+    "termo_busca": "alerta escorpiões"
   },
   {
     "id": "casosdepicadasdeescorpiaoaumentam40emfortalezaem2026apontalevantamento",
@@ -706,6 +745,19 @@
     "titulo": "Todas as postagens marcadas \"sintomas de picada de escorpião\" - Portal UAI",
     "descricao": "Todas as postagens marcadas \"sintomas de picada de escorpião\"  Portal UAI",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBReDhKMlVWRkNHdTU2V2EzU0llWHczVjg1WTY0X3pUaDNjbzBvTmQ2WV9Mb0liQXJVOW83NHBSQUVoM1kyM0xTNEloakc2b29oWV9EdHpuLXE5SkFyYTFEYncxOHpCX1UxM1NSQQ?oc=5",
+    "data": "24/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "todasaspostagensmarcadasprimeirossocorrosparapicadadeescorpiao",
+    "titulo": "Todas as postagens marcadas \"primeiros socorros para picada de escorpião\" - Portal UAI",
+    "descricao": "Todas as postagens marcadas \"primeiros socorros para picada de escorpião\"  Portal UAI",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kRVZsN3hrb1NIX0NRNm5tUmN0b194cFVpY2tJNTdoTTVnWGhuR3FRRHVPcHhmWEc3ZkpmdEdZV29YSHY4eHRrWlY5a2pCVU0tam5sRVcxZ3ZEb0xDOFp5Z01JVlRxZ2RCUUNCZ1EteWRIT2RrTm1oUjE5UkE?oc=5",
     "data": "24/08/2026",
     "tipo": "alerta",
     "gravidade": "moderada",
@@ -4600,6 +4652,19 @@
     "estado": "DF",
     "cidade": "Não identificada",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "bentogoncalvesregistraquatrofocosdeescorpiaoereforcaorientacoesdeprevencao",
+    "titulo": "Bento Gonçalves registra quatro focos de escorpião e reforça orientações de prevenção - Leouve",
+    "descricao": "Bento Gonçalves registra quatro focos de escorpião e reforça orientações de prevenção  Leouve",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOWdFU0p4M0duZEpaX1B5OHlWWGZ0aXZHTkluWElFYXZwUnNUSmgyRXN6RXVsZFBqcjBNRUdWb0NsV2hHMW40VFNMZG5BbzNxWG9RSDY3R08zRDhsa2M0QjhreDE5c2gyQ09nTDJPbnBMeXgzVTBkb29EUkJ6UHowaks4NHNmdnFzQUlkQU9RXzVwdnRSdmN5MjhaRUdqZ3NPNExvd2ZTV0V2UXNwbjV1cWlUZm15M1J6TElUZmN2VQ?oc=5",
+    "data": "05/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RS",
+    "cidade": "Bento Goncalves",
+    "termo_busca": "vigilância escorpião"
   },
   {
     "id": "prefeituradetarumarealizaacaodeprevencaocontraescorpioesemescolamunicipal",
