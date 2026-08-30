@@ -13,6 +13,19 @@
     "termo_busca": "escorpiões vigilância ambiental"
   },
   {
+    "id": "prefeituradaregiaoemitealertacontraescorpioes",
+    "titulo": "Prefeitura da região emite alerta contra escorpiões - Jornal Liberdade",
+    "descricao": "Prefeitura da região emite alerta contra escorpiões  Jornal Liberdade",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQldJNm40SUdMZ0hod0l4VWN1NXQ3U0tNSkN6UTYtSzg0cTZQMl9vWFJGbk51cUtYZi1tYkM1OVNhdWZSakRSa2dWZkJNeXVjUjdEbGVycW1XZFN0akxaU29EV1E0ZlpzMzB3WkRoYmcxQXduUXZlV2ZxQjF6aDV0Wi1EMjdROHY2MS1FOGZvT21UTGZONmc?oc=5",
+    "data": "30/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Liberdade",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "saudereforcaalertaparaperiododereproducaodosescorpioes",
     "titulo": "Saúde reforça alerta para período de reprodução dos escorpiões - O Regional",
     "descricao": "Saúde reforça alerta para período de reprodução dos escorpiões  O Regional",
