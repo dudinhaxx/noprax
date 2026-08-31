@@ -156,6 +156,19 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "criancade10anosepicadaporescorpiaonazonaleste",
+    "titulo": "Criança de 10 anos é picada por escorpião na Zona Leste - mogimirim.portaldacidade.com",
+    "descricao": "Criança de 10 anos é picada por escorpião na Zona Leste  mogimirim.portaldacidade.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVRWRDZpLVBFU2tLT2pLTXc0TGhzZVlXdWVHUGFqZ3YxWmE5aFJ6d3RLeUlUaXFQb2FUOVBIWlBBTVp3U2lsUlZ4TDIxR3RWaWFyNWZrejNab3VVdzRvc2psMlQ1Rm9aUF9NSnJEV2cwQmFMSFJNVmloYVd2UGlDTnlPSkxZbDlsSUxmY2xySk9RTF9HbEo5Q3ExRHZYQTd0cmJLZHNTSHBFYzNZYUlRN2NB?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
+  },
+  {
     "id": "casosdepicadasdeescorpiaoaumentam40emfortalezaem2026apontalevantamento",
     "titulo": "Casos de picadas de escorpião aumentam 40% em Fortaleza em 2026, aponta levantamento - URB News",
     "descricao": "Casos de picadas de escorpião aumentam 40% em Fortaleza em 2026, aponta levantamento  URB News",
@@ -804,6 +817,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "todasaspostagensmarcadasacidentecomescorpiao",
+    "titulo": "Todas as postagens marcadas \"acidente com escorpião\" - Portal UAI",
+    "descricao": "Todas as postagens marcadas \"acidente com escorpião\"  Portal UAI",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rSjE0LWVlbkR3N2t2VzN4aFowQ3d4VlBrNkMzNVNMb3NBeE9RZUt4dlNxakxmRi1tamN3VGs1WkNMNllKdmxHeVlDVU9zT3JFVHFMalRieHNlQXBJNjZJZg?oc=5",
+    "data": "24/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "criancade10anosepicadaporescorpiaoemjacarezinhoerecebesoroantiescorpionico",
