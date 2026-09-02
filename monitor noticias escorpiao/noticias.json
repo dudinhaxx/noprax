@@ -52,6 +52,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "aragarcasregistra30picadasdeescorpiaoem2026coordenadororientapopulacao",
+    "titulo": "Aragarças registra 30 picadas de escorpião em 2026; coordenador orienta população - SEMANA 7",
+    "descricao": "Aragarças registra 30 picadas de escorpião em 2026; coordenador orienta população  SEMANA 7",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHg2MEpncnBEZnhfOVQyT0c3Rjk1VzZ1Z2l5aXBqZW0zczFodzZtT2xaQTFHUnVDWXZzclk1dDV1RWh0eEo5N0V5UUVadVhjdk1kNFdxQjdjZG1XTUR6bDZ0X0pYOElibU1jUG1iZVJaVmpWVURoeGZyQ0VnQWlKRURyNU12aHAwUEotaVpUelU5RlVPWlpRckVLamtNWjBRS2o4RjBqcmJ6T2NHNEZZcDRsbHVPaHFiU1RsWA?oc=5",
+    "data": "01/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
+  },
+  {
     "id": "alertaparaprevencaocontraescorpioesereforcadocomachegadadaprimavera",
     "titulo": "Alerta para prevenção contra escorpiões é reforçado com a chegada da primavera - Click Riomafra",
     "descricao": "Alerta para prevenção contra escorpiões é reforçado com a chegada da primavera  Click Riomafra",
@@ -271,6 +284,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "acidente escorpiônico"
+  },
+  {
+    "id": "medicaedenunciadaaposcriancamorrerpicadaporescorpiaoprontuarioteriainformacaofalsa",
+    "titulo": "Médica é denunciada após criança morrer picada por escorpião; prontuário teria informação falsa - Maringa FM",
+    "descricao": "Médica é denunciada após criança morrer picada por escorpião; prontuário teria informação falsa  Maringa FM",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMzhueHRneFZtcEJpaENhTm12Y2V0WHJtUUxlZU5qd2lUMXlqYUhJbzVROW1ScHFxZDhlcUxlUktOS2pKQmJ4U0JFSUhBajdOelp2LVVIVzBEM1l0dThsQ1VBUFducmNrUkpjV1VHSElwcWlnS2R3ZXRyc0I2UGU0NkFrT1p5VTlMeVFmMUxRM1NIWlJISmtnbU40RC1yc0xDRkVLYWJ3VkdDM2NrQzA2ZHRZZTZfY0pqWjRhWDRJNllDUXY3REE?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "PR",
+    "cidade": "Maringá",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "casosdepicadasdeescorpiaoaumentam40emfortalezaem2026apontalevantamento",
