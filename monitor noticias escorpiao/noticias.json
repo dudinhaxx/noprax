@@ -1,5 +1,18 @@
 [
   {
+    "id": "agentesorientamsobreprevencaoadengueeacidentescomescorpioesemavencas",
+    "titulo": "Agentes orientam sobre prevenção à dengue e acidentes com escorpiões em Avencas - Marília Notícia",
+    "descricao": "Agentes orientam sobre prevenção à dengue e acidentes com escorpiões em Avencas  Marília Notícia",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUnY4c2k2R2xXSUtBZEV1Sk9ZM1lSeWtxVDZZeGhuY21aTzlxMkVnOC1YSmJNdjBNSldtRHV5bE93R3J2ejNpamxvbG9wS1FHb0RCdVJTckp0T0tpTHZyS2x3SnVFdGItN3l6dWZjbU9NMXJFSUJ6VG9SczFxVFVnTkY0a1NVM0kyMDgxRG9rSldpY3pBTXFfZ19qc0k5MzRaSy1wVTRwWkhMSlNQTm1kek1FTERUalE4RHNlRDh4VU1IOFU?oc=5",
+    "data": "03/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Marilia",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "aragarcasregistra30picadasdeescorpiaoem2026ereforcacuidadosparaevitaracidentes",
     "titulo": "Aragarças registra 30 picadas de escorpião em 2026 e reforça cuidados para evitar acidentes - Araguaia Notícia",
     "descricao": "Aragarças registra 30 picadas de escorpião em 2026 e reforça cuidados para evitar acidentes  Araguaia Notícia",
@@ -11,6 +24,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "sphospitalnazonalesteteminfestacaodeescorpioes",
+    "titulo": "SP: Hospital na Zona Leste tem infestação de escorpiões - band.com.br",
+    "descricao": "SP: Hospital na Zona Leste tem infestação de escorpiões  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbFR2ZzR0NmdUQWoxV0NzaVZmUkdRMzFMOThmZnlrRGtTOGE4SW4wRjhZV2JFbWZ1NzF2SDVHMWxrSGVmZnI0VjFxeDV0dmp2SEFKMHdiOWczTHFLME0zZm9CMlZsNjZqT2kxY05oblpMMHBSRUZvWkpDa2t6UWhSTGxXbUgtTUhjZ0VtXzkxUUhqcTFLcVg3SQ?oc=5",
+    "data": "02/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação escorpiões"
   },
   {
     "id": "guararemaorientamoradoressobreprevencaoaacidentescomescorpioesemsetembro",
@@ -635,6 +661,19 @@
     "estado": "CE",
     "cidade": "Fortaleza",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "medicadenunciadapormortedecriancaporescorpiaoempiracicaba",
+    "titulo": "Médica denunciada por morte de criança por escorpião em Piracicaba - G1",
+    "descricao": "Médica denunciada por morte de criança por escorpião em Piracicaba  G1",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdnVVR0hBQXJfb0JyOHpYZU83MXdreGp1OGVCTGVYYjBsRngtT184NjBDYmRiTTlfd3dCOU8tNW92TlhUVHF3RnhuT3V2TXIxUjd4TkM2VzR4Tmk3SzVxQXlKSGNtazhBa2paUy1MZ1JlUHprcWRTWGJxTzRwc3dRd2pqVmdPYzdObE9ob2RlUnEzZzg0Wm1QOWJsYXRTMGdkaS1jbTdOMmNfMEpUdXlnSDJ0dURCZVdpSHIxLTEyVWpUSU9VQ19IZHhsaDAxRDJ1Y3VYUmFEaXpxT255YmxKS3pYM3djYjEtb3NJMk1sTFRVTEY3NHJsTm5aTUx0UEtUM3RYbTNaTks1TzQ?oc=5",
+    "data": "26/08/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Piracicaba",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "mpdenunciamedicadeupapornegligenciaefalsidadeideologicaaposcriancamorrerporpicadadeescorpiao",
@@ -8255,6 +8294,19 @@
     "termo_busca": "escorpião Brasil"
   },
   {
+    "id": "cascavelratoseescorpioespreocupammoradoresporfaltademanutencaoembairroderiodaspedras",
+    "titulo": "Cascavel, ratos e escorpiões preocupam moradores por falta de manutenção em bairro de Rio das Pedras - G1",
+    "descricao": "Cascavel, ratos e escorpiões preocupam moradores por falta de manutenção em bairro de Rio das Pedras  G1",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNa0J4VmJsMDZCUHZGTzUzbk00c0RWZVlEQXI3cC1wRWFVaDVzUFBPZUFCYVp0OU5MWXN0VUxFNnd4dURVX01NY2xrTFdBUDNFREFwMFkzeFBZYzlLc1JubkRlRHp3elJKX0tSaTZxeFhHLXhlWWluVERfeE1kVkdDaFJXSGNZTE1BRVVsaXBNdlBxMTAwbk9WQkJMTHNudjFSTGh4NHZUdFNMSEZYcWdETFZQOGV6aXAzbndOLUdsMjVVVHA5MHFpdFNlM2g0SHFHMjE1VlVvR2xiUFpCSk5UcVM4Wk42UUI0Mjl4dXBTVXJqNy1Nb0RsQnNR0gGIAkFVX3lxTE0zM3pQc2Fod2Z1SmsyZDJaV2ZGS0M4ZEQtWTQxbXpXamlub2VtRW1tSzRULUN5RkZWLUcyZjg2ZndXWkFfZWJScEd6YVliWFNCVk5RR2VLZnRoZDc5aTN4MFFfbno3bmprTlI3bTlIZkRPNGpMS2FwSVpra2pqRHpzdzdxenNRaHB1NzU1a3AzR0hMQ000THNHS0d2OExRZzhxQ0dPQmNWV3Z1VEFYSlY4eW1KTkgyVlVzWXRBMGtKMHBjUUVTV1BKbzhaa2xXS1BZakdKTGFKcGVsdENhU242NmMxWTNwN2YtaTlIVG1CaWxTdVQtcjdLN09ySTFESEpldnpUUTFDXw?oc=5",
+    "data": "21/05/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Rio Das Pedras",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "especialistasalertamparavedarbemralosefrestasjaqueescorpioesamarelosestaoaparecendocommaisfrequenciadentrodecasasequintaisporummotivo",
     "titulo": "Especialistas alertam para vedar bem ralos e frestas, já que escorpiões amarelos estão aparecendo com mais frequência dentro de casas e quintais por um motivo - O Antagonista",
     "descricao": "Especialistas alertam para vedar bem ralos e frestas, já que escorpiões amarelos estão aparecendo com mais frequência dentro de casas e quintais por um motivo  O Antagonista",
@@ -11243,6 +11295,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "meninomortoporpicadadeescorpiaorecebeusoroantivenenomaisde4horasaposacidente",
+    "titulo": "Menino morto por picada de escorpião recebeu soro antiveneno mais de 4 horas após acidente - Caderno de Notícias",
+    "descricao": "Menino morto por picada de escorpião recebeu soro antiveneno mais de 4 horas após acidente  Caderno de Notícias",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWXQ3UDhBb0QxQ1VIeTRqeE1yRHo0LVh2WTNxQUZ5ajMzT3R2WmJ6UmpMU0UyOE5VQjlBT1VrVVphQ2t3UjNkYmpyREJVajE2ZC0tQzV4X0JsMkVYVmMyVnNDem5Nbk5KX05xdHZMek10XzRPVW0tM0U2b3ItcEhFdUNGcFpJVmlzZlU0NFM0ckVmWlgzMTROdnN5SEZwM21iaWt6OEU0SWlnOTV6ZDZFMUxoLXhXQndSLUt1ejE2djB6LVNfNWJBb2RHN0xaZw?oc=5",
+    "data": "03/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "acidente escorpiônico"
   },
   {
     "id": "paivefalhaematendimentoaofilhomortoapospicadadeescorpiaogritavadedor",
