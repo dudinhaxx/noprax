@@ -1,5 +1,18 @@
 [
   {
+    "id": "araraquaracompartilhaexpertiseemcontroledeescorpioescommatao",
+    "titulo": "Araraquara compartilha expertise em controle de escorpiões com Matão - Araraquara News",
+    "descricao": "Araraquara compartilha expertise em controle de escorpiões com Matão  Araraquara News",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdGt2Y2dPUXpFNkNsSFYtSzZHMkR0T2NST19pUVVrQW5JQmNBdFJNOGdqR2FYSWZPaVNVSWdHZmlsU0kwOFc5X1VXWkFiZEJiOTlSQzFtTS1QdWtMdFZ2ZEhKYUV5TGFkUWhyb25ZUmZ4ci1mWE52LUxjbDNOX3hwUXRSWFZuOXd5TkxXU1lJckJyTWJrRHMtcUUtRjRtU3k0WWxubElOTTFoTGdhU0s4?oc=5",
+    "data": "04/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Araraquara",
+    "termo_busca": "controle de escorpiões"
+  },
+  {
     "id": "agentesorientamsobreprevencaoadengueeacidentescomescorpioesemavencas",
     "titulo": "Agentes orientam sobre prevenção à dengue e acidentes com escorpiões em Avencas - Marília Notícia",
     "descricao": "Agentes orientam sobre prevenção à dengue e acidentes com escorpiões em Avencas  Marília Notícia",
@@ -2598,6 +2611,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "goianiaregistraquedade137nosacidentescomescorpioesereforcaorientacoesparaprevencao",
+    "titulo": "Goiânia registra queda de 13,7% nos acidentes com escorpiões e reforça orientações para prevenção - POSITIVA FM",
+    "descricao": "Goiânia registra queda de 13,7% nos acidentes com escorpiões e reforça orientações para prevenção  POSITIVA FM",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQk5idG9LQVQ2NnhqSk1TQjR6RmJZUzQ0YkMwZ2xvSlU2U3J4bFY1RmFmZ0RLR2FVRVROYmg5d0xLdENKQzV6djAwM1gwalVWVlZHV3hVNFRtTUNRMFBXYTNlWmFnZF9yR3BQMnBpeDNyV0Y2N3FaS2otNGVZRlBxb0VHMWZuZlJiQmxGMmswMFRpSkEtdmpIakczeDN3RHhDc0RHZzh6TkotSHpJLUlIVlcwSHdHb0VjRmJpeGJSZzJtS3h2eWVOSnowaEY5MFF5a2c?oc=5",
+    "data": "30/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "fiqueatentocomoidentificarseopetfoivitimadeumapicadadeescorpiao",
