@@ -1235,6 +1235,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "ascidadesdegoiascommaiscasosdepicadadeescorpiao",
+    "titulo": "As cidades de Goiás com mais casos de picada de escorpião - jornalopcao.com.br",
+    "descricao": "As cidades de Goiás com mais casos de picada de escorpião  jornalopcao.com.br",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQmhSRVo0ZmUxTWtTRGpDakx1QmtsWmt6TWlHZnJrTHBEdmEzdEkwQ0Z5NmNiZHRQLTB5NGJJaVFEUmFPU1YxNVgxbGlXODU0S0tWMG8xWXZWX2hZYnVWTVVWdGktbVRkRndXVWxpYldWSUR3cnB6YlhRV19hUGZOdUI5X1puRmZlYWFTRjlJYnFyQmxMWWRFaE43bldTSllRWDlPMlVvVHpod0JONDFJVDlzYW5sSUdBOG9EVW9hQWFVbmI5NTVVNzJUWGtyZS1Bd1ktUzg5MFY2UWtnSW56aDgzYWtEVDZk?oc=5",
+    "data": "21/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "GO",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
+  },
+  {
     "id": "acada15diasumapessoaepicadaporescorpiaonaregiao",
     "titulo": "A cada 15 dias, uma pessoa é picada por escorpião na região | Diário do Grande ABC - Notícias e informações - Diário do Grande ABC",
     "descricao": "A cada 15 dias, uma pessoa é picada por escorpião na região | Diário do Grande ABC - Notícias e informações  Diário do Grande ABC",
@@ -4704,6 +4717,19 @@
     "estado": "SP",
     "cidade": "Socorro",
     "termo_busca": "acidente escorpiônico"
+  },
+  {
+    "id": "ataquesdeescorpiaogeramalertanodistritofederal",
+    "titulo": "Ataques de escorpião geram alerta no Distrito Federal - band.com.br",
+    "descricao": "Ataques de escorpião geram alerta no Distrito Federal  band.com.br",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObGgxSnJsY2R3ZUdrUGh6djlIWmFaYlU3Nk9fWjI2NUNCUzBFcVc1Mm1zbk02dHU5elN5U3BBMFV4TE1aSG02Ty1ibXdtQUVQeGJ6bWNUeG9qdW9WS0Y3Y0RCWFdMX0VpSk9DSFFTeVFVNHl2a05MTzBFREpxa0NoV0JsOXZmRXFub0tGZkkxTElIN2ZOdDQ2a1BZbUY3MUVBeEUyMko0U0JDNkFoNnc?oc=5",
+    "data": "07/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "morremeninade11anospicadaporescorpiaonodf",
@@ -10541,6 +10567,19 @@
     "estado": "SC",
     "cidade": "Orleans",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "acidentescomescorpioesnobrasilem2025perfildasvitimaseprevencao",
+    "titulo": "Acidentes com Escorpiões no Brasil em 2025: Perfil das Vítimas e Prevenção - Guarulhos Online",
+    "descricao": "Acidentes com Escorpiões no Brasil em 2025: Perfil das Vítimas e Prevenção  Guarulhos Online",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92NFZZdko4UGFWTW1vcmVTbi1SYTFNM2hPMHV2M2Q3Qk9pTTlfamdjY2ZCNnZQY0pCTElYZmNfSUZBSTcyMnluQ0laZ0pid25TNGNERFNRbGxsM1RBNzg5bTczZ3lxTUswaklGMEwyeGphLUt1QnRr0gF8QVVfeXFMTXFUWDc1eTIwVUtYcjFoNDZfRDFCMEZqT2NyNGllMGVvNHFRTVI3SWpyQWhKLURpZEpMTUhrWnpFQjFhWEJHMkFZc1h1ZHhHTzFzanZxM3JGYk1hZmVXdjBBT2xNa2E0Y1ZwaUpTS2xKOWh5dzFqX3JVWjJuLQ?oc=5",
+    "data": "11/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Guarulhos",
+    "termo_busca": "escorpiões Brasil"
   },
   {
     "id": "primeiramortedoanoporpicadadeescorpiaoacendealerta",
