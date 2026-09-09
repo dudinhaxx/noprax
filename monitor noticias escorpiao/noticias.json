@@ -78,6 +78,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "escorpioesamarelos4cidadesemscemalerta",
+    "titulo": "Escorpiões amarelos: 4 cidades em SC em alerta - sctododia",
+    "descricao": "Escorpiões amarelos: 4 cidades em SC em alerta  sctododia",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SMWVUZDh6MDZvY0VFLWVwRUFCc3ZUeFVhdl8xN0FMdzhXNjI0a0FwWGExWkdVVS1TdmpDQ0lPeUNWY0NIaTkyUHp6RlAzeGtLdWlTVlVLc3laQllkdVdwU2Z1c3VrS3hxVm16RGVvREFMNGNYcV80UzFpVjk?oc=5",
+    "data": "04/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "agentesorientamsobreprevencaoadengueeacidentescomescorpioesemavencas",
     "titulo": "Agentes orientam sobre prevenção à dengue e acidentes com escorpiões em Avencas - Marília Notícia",
     "descricao": "Agentes orientam sobre prevenção à dengue e acidentes com escorpiões em Avencas  Marília Notícia",
@@ -2468,6 +2481,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "cachoeiroregistra56acidentescomescorpioesatejulhoedeixamoradoresemalerta",
+    "titulo": "Cachoeiro registra 56 acidentes com escorpiões até julho e deixa moradores em alerta - G1",
+    "descricao": "Cachoeiro registra 56 acidentes com escorpiões até julho e deixa moradores em alerta  G1",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPT2RSUkhXSXpUU0NfV2hCbWpfYjZmUHBLb3JoTjFVaTBlZjZFSVpIUHd3bl9fZUFiOHNBenZQUERjNGRQY3FZUm5BVXlsNHM5MWh3d2RrYldKZ0dNUnZkT1B0WUlzNDJkYVVmWXR3R3NZWHNnNm8yWTRxZGU1UXZvY21hbXhqOHc5YTRFT3JvWnRpTHRFeWVHd1pYOElNbGNEUWFVVUpja09QSFd4U2RoMVFnWUgtQ3lkbEZCYXRaTGlKckVkUkItcnphTm15eXpzc0k5TllzNktUMlJ0NVIxdWZBajNKUHo0dDRpZlpBS2R0R1pydWFV0gGGAkFVX3lxTE5zelZhNUtTSDMzRWVFNDlaMnFpR2x4ekwtVzhWN1FDU1hpTHJaTVMxVWstVnlVTHJlTTJuU1poLW9MWVJuWk15Q1NWMWhlM1FTMDZmcnRjRW4xQ2ZCOFROaXhVOEJZNzB6MnI1ZUZjV0RIcE5IS3lVNWRNUWdqbVM2TnhWcTVfWC1XdDFTeXpza19CQlozaWlYd0g1NURseFRZRE91NWlTUGZqVlFzTzJHTk5wT212ODZjcG1vNEtxdkt3RHVzd1NUaWpCX1YwWVRoeWptQU4tMVhNSFlFQ0d3eE15bExmdVhZYUpBczE0ZmNJY0NGUmlhUXRjX3J0aGFTNDI2Mnc?oc=5",
+    "data": "07/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
   },
   {
     "id": "escorpiaoamarelosaibacomoevitaracidenteseoquefazeremcasodepicada",
@@ -14974,6 +15000,19 @@
     "estado": "BA",
     "cidade": "Itabuna",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "escorpioeslideramacidentescomanimaispeconhentosemminas",
+    "titulo": "Escorpiões lideram acidentes com animais peçonhentos em Minas - Correio da Cidade",
+    "descricao": "Escorpiões lideram acidentes com animais peçonhentos em Minas  Correio da Cidade",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOalpoUE4wNDIyVndmTWZHdWZmYnJsY2I0ckxQZ19mRGwwMVgxX2tYei14VExQc2hJdWJZdGFkZHkteVQwa3JMaXRqQjZGMzVaOVZkTC1tcVpnb2NBUnpyQUdTWnppWDVIN3gzamlrZmxyREllbVotMHdSbXZ1dzBQbUtUTzh1YUJ1SmJHcGVDbHlkQ3pLc19ObU5QcElONVk2RUh5aWtTRlpqRjhLMkdId2ZEdUdDWGt3?oc=5",
+    "data": "09/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "animais peçonhentos escorpião"
   },
   {
     "id": "abandonodeterrenoobrigamoradoraacolecionarescorpioesqueinvademcasanojardimparadiso",
