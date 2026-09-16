@@ -1,5 +1,18 @@
 [
   {
+    "id": "prefeiturapromovecapacitacaotecnicasobreocontroleemanejodeescorpioes",
+    "titulo": "Prefeitura promove capacitação técnica sobre o controle e manejo de escorpiões - Conexão Marília",
+    "descricao": "Prefeitura promove capacitação técnica sobre o controle e manejo de escorpiões  Conexão Marília",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYUlfaks2Q3NlV1BDS0pkQzJLUm9wQnh5Qm1PaTRCMGVpXzRmamVyWDhUSVA2ejNvQXREelBhUmI2d0JEaXNoazNXQ0RJQ2NNcE1nMjJoYW9rS3lGWFVtcXFxSTNXM1lMYkFFUHFMOGtmM0pHVFNneUh1NkZCRVNxZzRWMDV0TmgwZFB5TWtfYU5ZNVpzSTZPSjMtS0VjdEVMY1BJNmFxODlOX21Eb0h0Vm9CZW1Cb0NCTGhheg?oc=5",
+    "data": "16/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Marilia",
+    "termo_busca": "controle de escorpiões"
+  },
+  {
     "id": "aracatubaregistra778acidentescomescorpioesnosprimeirosoitomesesde2026",
     "titulo": "Araçatuba registra 778 acidentes com escorpiões nos primeiros oito meses de 2026 - Hojemais.com.br",
     "descricao": "Araçatuba registra 778 acidentes com escorpiões nos primeiros oito meses de 2026  Hojemais.com.br",
@@ -10,6 +23,19 @@
     "fonte": "Google News",
     "estado": "SP",
     "cidade": "Aracatuba",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "vigilanciaorientaescolasdequeirozsobreprevencaocontraescorpioes",
+    "titulo": "Vigilância orienta escolas de Queiroz sobre prevenção contra escorpiões - TupãCity",
+    "descricao": "Vigilância orienta escolas de Queiroz sobre prevenção contra escorpiões  TupãCity",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPelVPeWFmXzQwOTZHTU9sWFFxdnFGd1RGWDVZVGNodGxuR3Ywcl8wMmxQYUl3WjlYZDg0c3ZDbV9hTkp3RXA1cmliYkJwN3FUc2h5WVNkWkFfR1dhQTFiU2xZS2tva3F2dGJlandYT2JacjktNnJKS19jRFlNb2RfOTdrNGMzWWhfck5qaUUxNVEyT3VwakJRZGNocl9JbkNjcTdXazY2bHFOQQ?oc=5",
+    "data": "15/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Queiroz",
     "termo_busca": "prevenção escorpiões"
   },
   {
@@ -609,6 +635,19 @@
     "estado": "PR",
     "cidade": "Maringá",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "moradoresdecondominioemaracajuestaoemalertacomoaparecimentodeescorpioes",
+    "titulo": "Moradores de condomínio em Aracaju estão em alerta com o aparecimento de escorpiões - g1.globo.com",
+    "descricao": "Moradores de condomínio em Aracaju estão em alerta com o aparecimento de escorpiões  g1.globo.com",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNSXZ3ZTdiQjBKenI3MXd3MHc2SjNpd21kSmNuTFN3M1VEUmQxcndNQkszdnFyNG9sbzBMWGtZc2Z4c1JNRnM5WHpLenJUUVdLZnF3aDV2b0xpNDV2dU92Qm5wSmV2WmVtZGJHNnIxVFIwUktlNFZQS1ZIYUdOQnhfZ21GSlN6eEZHQ2Q2T2dmNWFqZWN4QmZfel9fckt1WFMtMzhmTFZ1Q0QzTG9xLUx4cnVkeFBaeWdUQUpndk5WQ2dGbW41ajd3UFRVSnFTbTlreGRVTkFvOXhTZEhrbmFrOV82bVh1T2dFTlRfakd30gH8AUFVX3lxTE1SUGg4dk9hU016Qmk2SEFMZjBMd3RqMjFrNnloekVCdnlmLUQ4NDJkdFBUMjd0b3lqZ3E1d3BrVWJNV3pXaG1vUENMWjhDMnBIaTUyZDZVY0xEXzl0dWZzd3BPbTltOTRYWWRqS3lyVC1FV04tdGdOejlpMUhBWU15RlV2ekpqTEdCMFBEYXlOS1ZRRGcyOFN2R055ZjlJZ2tEdWZVNkV3RFBDLUU3N2M2cGxXUGdoeHc3SmZad1p0SGtrTm5qSDZMekxyNjRvSFFoN0xFTWJCNTA4OWZ2OHE1dmRReHdOSnFxZEVEVXQ5b0JBY1IzaGpMdi00OA?oc=5",
+    "data": "28/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SE",
+    "cidade": "Aracaju",
+    "termo_busca": "alerta escorpiões"
   },
   {
     "id": "casosdepicadasdeescorpiaoaumentam40emfortalezaem2026apontalevantamento",
