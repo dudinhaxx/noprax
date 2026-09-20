@@ -429,6 +429,19 @@
     "termo_busca": "infestação escorpiões"
   },
   {
+    "id": "secretariadasaudealertasobreaprevencaodeacidentescomescorpiao",
+    "titulo": "Secretaria da Saúde alerta sobre a prevenção de acidentes com escorpião - Prefeitura de Aracaju",
+    "descricao": "Secretaria da Saúde alerta sobre a prevenção de acidentes com escorpião  Prefeitura de Aracaju",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOEdvM0p0dGlJanBzellFT1JaajhoTXJkejlvMThqZXFwUGZDY2VydVJ6Zlp1YXBYVlNERnFKMWdTY0MzUTVUZkpzRXBvUnRGRnlnaFdCU01URDdtZXZpcmRBbE5iYzl1RjVBYU0xYkYtb2xnaXM4Q094T25OM1FSTHcwdHFJTVVnYXRKUldobGh0ZTZ4ZENrVGt2UXBMeGpsdUgtUDUxdWRuZy1zb2VoZXVXSWhjSk0?oc=5",
+    "data": "02/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SE",
+    "cidade": "Aracaju",
+    "termo_busca": "prefeitura escorpião"
+  },
+  {
     "id": "guararemaorientamoradoressobreprevencaoaacidentescomescorpioesemsetembro",
     "titulo": "Guararema orienta moradores sobre prevenção a acidentes com escorpiões em setembro - diarioesp.com.br",
     "descricao": "Guararema orienta moradores sobre prevenção a acidentes com escorpiões em setembro  diarioesp.com.br",
