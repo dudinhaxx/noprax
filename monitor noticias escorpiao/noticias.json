@@ -1,5 +1,31 @@
 [
   {
+    "id": "sauderealizacapturadiurnadeescorpioesemriopreto",
+    "titulo": "Saúde realiza captura diurna de escorpiões em Rio Preto - riopreto.sp.gov.br",
+    "descricao": "Saúde realiza captura diurna de escorpiões em Rio Preto  riopreto.sp.gov.br",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW9BN3N6Tkg4MnQzWEJLUllNNjRYdmFjZzJlMTE2VkRiSkl1ZU1iaGV0b2JyeVowNm1KSXFkVTdrMENpYThSVld0VWhMUUNRMTNxX0JZaVRLOHVnY2ozVGRjWVdhc1JKQjRweXhwTU04cElBWl9POTduWVdPV0FTTS1nVGdSM3l5SmhFUjdWY3FZTjFpaVQtVVFXdw?oc=5",
+    "data": "22/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "captura de escorpiões"
+  },
+  {
+    "id": "riopretotestacapturaporescorpioesduranteodiaemregiaocom171ocorrencias",
+    "titulo": "Rio Preto testa captura por escorpiões durante o dia em região com 171 ocorrências - Gazeta de Rio Preto",
+    "descricao": "Rio Preto testa captura por escorpiões durante o dia em região com 171 ocorrências  Gazeta de Rio Preto",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbEh0czNXeTJhUllDMWlBOGt4akV2bld1R29waEFzWXgwT2lxUGpBeThnVExod2FhdllGZS13enV4WmJqZkNhYlc2TEVRV2JmYlFVSXF2YVhheDBvdW4wUjVKbWV5SHlYNXg5bU90MW1xRzlTUF80dDNBcEs0NGFtVmFQTm9OWEg0VUMyblZPcE5uVThkZ04ycHdkMU9wNVhQa3pKdDlNZTZkSFFwTjBqMWRNQmJNS3dQNmJV?oc=5",
+    "data": "22/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "captura de escorpiões"
+  },
+  {
     "id": "institutobutantanexplicaporqueescorpiaoaparecedentrodecasanofimdatardedepoisdediaquentequalcomodoconcentraamaioriadaspicadaseohabitodecalcadoqueevitaq",
     "titulo": "Instituto Butantan explica por que escorpião aparece dentro de casa no fim da tarde depois de dia quente, qual cômodo concentra a maioria das picadas e o hábito de calçado que evita quase todos os acidentes domésticos - Olhar Digital",
     "descricao": "Instituto Butantan explica por que escorpião aparece dentro de casa no fim da tarde depois de dia quente, qual cômodo concentra a maioria das picadas e o hábito de calçado que evita quase todos os acidentes domésticos  Olhar Digital",
@@ -14324,6 +14350,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
+    "id": "uvzentregainformativossobreprevencaoecontroledeescorpioesnobairroacademia",
+    "titulo": "UVZ entrega informativos sobre prevenção e controle de escorpiões no bairro Academia - sjp.pr.gov.br",
+    "descricao": "UVZ entrega informativos sobre prevenção e controle de escorpiões no bairro Academia  sjp.pr.gov.br",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEVDZXZxSHJnaVVUUEdaSVIzNGZPdWFOSGZkMkRDb3JXOXJ1Vy1pbXluY1U5MVl0WWJReFhPUUlLQWl2bTVpMXF1VnE1YldhQmJINUltaEd5VnRCZG9TclVETkd5NUpUdFdZVU1kemhJNlphU1BFRjdUM3ZpSXJWMVF0RjBlamFMZWozWlNhTHVPaXh6Mm1tOFFCdHg4VFRqY1paVEF1U2pxZ0QwY09uSA?oc=5",
+    "data": "01/02/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "controle de escorpiões"
   },
   {
     "id": "prefeiturareforcaorientacoesparaprevencaocontrapicadasdeescorpioeseoutrosanimais",
