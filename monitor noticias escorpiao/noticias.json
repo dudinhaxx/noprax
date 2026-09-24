@@ -13,6 +13,45 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "crechedecapivaritemdoiscasosdecriancaspicadasporescorpiaoemumasemana",
+    "titulo": "Creche de Capivari tem dois casos de crianças picadas por escorpião em uma semana - ACidade ON",
+    "descricao": "Creche de Capivari tem dois casos de crianças picadas por escorpião em uma semana  ACidade ON",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS20zSUYtTHV6dW0ybjg5RXpnN3YwOUVYMlE1cUxISHRtUHFReEdVeEhldFMwelZkTmxZMDB0bmpnU2k5Z0pxbHc3VFhIc3ZQOUtkYnVRQl96eEFGaFI1bG5yM0d5VE0zVFpHeFlkbzNiTGhOa0dNbVF4bU1CN3lLRllTMTEzbjh1NDNSX0tIS2pjZ1lBTGVIUVJnemQzQ085aGUyaldEcDl3RldVMEtJYkhMUmxUSjZOU3U4cWZkMjRxU3JMMHB5Zlp2VdIBywFBVV95cUxNS20zSUYtTHV6dW0ybjg5RXpnN3YwOUVYMlE1cUxISHRtUHFReEdVeEhldFMwelZkTmxZMDB0bmpnU2k5Z0pxbHc3VFhIc3ZQOUtkYnVRQl96eEFGaFI1bG5yM0d5VE0zVFpHeFlkbzNiTGhOa0dNbVF4bU1CN3lLRllTMTEzbjh1NDNSX0tIS2pjZ1lBTGVIUVJnemQzQ085aGUyaldEcDl3RldVMEtJYkhMUmxUSjZOU3U4cWZkMjRxU3JMMHB5Zlp2VQ?oc=5",
+    "data": "23/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Capivari",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "distritofederaljaregistrou2817acidentescomescorpioes",
+    "titulo": "Distrito Federal já registrou 2.817 acidentes com escorpiões - correiodamanha.com.br",
+    "descricao": "Distrito Federal já registrou 2.817 acidentes com escorpiões  correiodamanha.com.br",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWXNPaGVTRUhRaVBSOGlDc0J2U09ldnE0eHl1clpEeUlLY3hVbjAwSWc5cm9uYXNwSTUtcmhwZnNaQUpwSzd0X2lrSWZ1elIwMFdQdjNuNGY5ajd5MG5zbEtEbzl4cEM3NXExRXd0dWdwM0Z6eFIzeEZuNFVKbnozZ3V4LWFQQzQ5aWQxRkVsd1ZtMDc5SHhNMnlWRVhSN1RwMmlBSmx4M19yNGdDWHZBUndvbndyNGQ5QmVONXN6NzFhdUppZkxLcmFIZk1UVWNwRjQ0QzluTQ?oc=5",
+    "data": "23/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "cczorientamoradoressobreprevencaodeacidentescomescorpioes",
+    "titulo": "CCZ orienta moradores sobre prevenção de acidentes com escorpiões - Portal do Município de Piracicaba",
+    "descricao": "CCZ orienta moradores sobre prevenção de acidentes com escorpiões  Portal do Município de Piracicaba",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSldhMWVFa1ZNek9WVlotODUwdmlSWHlaNGFkMURuS01sZGFvRXBhRmNYdmU5RlRWbUloaEYtWDQ2cE41dXVUNF9GRWxrTWZBU05uVUZwZmRXTkZvVTR3SG1SdUtGcjZqZlVNSGVhWF9xSTJNN0ZQeTFRaUpRSGRhMDA2S2F1Q0NyVTdlRm0tckpwa3hHbEtOUzRVQW1rNlYwUDVXZTJaYw?oc=5",
+    "data": "23/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Piracicaba",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "sauderealizacapturadiurnadeescorpioesemriopreto",
     "titulo": "Saúde realiza captura diurna de escorpiões em Rio Preto - riopreto.sp.gov.br",
     "descricao": "Saúde realiza captura diurna de escorpiões em Rio Preto  riopreto.sp.gov.br",
