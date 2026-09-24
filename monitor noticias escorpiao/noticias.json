@@ -1,5 +1,44 @@
 [
   {
+    "id": "riopretotestacapturadiurnadeescorpioesnobairrosantoantonio",
+    "titulo": "Rio Preto testa captura diurna de escorpiões no bairro Santo Antônio - Dhoje Interior",
+    "descricao": "Rio Preto testa captura diurna de escorpiões no bairro Santo Antônio  Dhoje Interior",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0t4VmRqMkZJQVRpbVF4ODhoMWV5WUN6ZlNMQ1BxMWFIOUp4X2Z3ZXlNSEhHXzktNmpEUmtOSmt1RnQ0LWNrdFFoV0d5V0tVU0hXNlJZR2haNUtqZDBvNFJKc3ZEOWtIb2YydVJOSHhHai00by1fa1N3UE9IMVIwYTR3Y21RY1ZUZzUtN2cwSGJNbTZuMF9BOGJ4MFZwc25pbEQwOVdwYkhabUVBSG1WOURidw?oc=5",
+    "data": "24/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RN",
+    "cidade": "Santo Antonio",
+    "termo_busca": "escorpionismo"
+  },
+  {
+    "id": "secretariadesaudedevilapavaoalertaparacuidadoscomescorpioes",
+    "titulo": "Secretaria de Saúde de Vila Pavão alerta para cuidados com escorpiões - rede noticia es",
+    "descricao": "Secretaria de Saúde de Vila Pavão alerta para cuidados com escorpiões  rede noticia es",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaXgwbzZycGhQcmxDelpFV3pXY1JnZXlYckNnZG5rVlE4NVo5MmdYbGxMUUtFVDFlcWR0aHRkS0F0OGJXWHBSUEFwUFVjQndXMzdmNjlwRi1wVnZ2VVZiX3RzZWxlWUc0X3Z5SktHZlJFZlZjSi1CcDdrYWFKaC1pNVlqZUZwNTNGdjdSMEZ3NXFOdUVodFF3aA?oc=5",
+    "data": "24/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Vila Pavao",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "vilapavaoreforcacuidadosparapreveniracidentescomescorpioes",
+    "titulo": "Vila Pavão reforça cuidados para prevenir acidentes com escorpiões - Vila Notícias",
+    "descricao": "Vila Pavão reforça cuidados para prevenir acidentes com escorpiões  Vila Notícias",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWUVaWURnUzN0bmlycGpYVUpYWXNyX1hIdkdvQWpFdGpYYlJSRFRVRWJCUmNHUGM4M0VsSlhsaFRhR05BbG40Tmc1UDg5TW5QT3pfNlFqbjhSbFVkeHlOc2tpU0lPQ3ZjUUlxTGY3LVhZd3J6cE5QckIyNXFQUzNDTnRZa1Jrem1xT1poMDV4TGlzUUhIQktR?oc=5",
+    "data": "24/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Vila Pavao",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "duascriancassaopicadasporescorpiaoemmenosdeumasemanaemcrechedecapivari",
     "titulo": "Duas crianças são picadas por escorpião em menos de uma semana em creche de Capivari - G1",
     "descricao": "Duas crianças são picadas por escorpião em menos de uma semana em creche de Capivari  G1",
