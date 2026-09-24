@@ -39,6 +39,32 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "caturegistra110acidentescomescorpioesemtresanoseviraalvoderecomendacaodomp",
+    "titulo": "Catu registra 110 acidentes com escorpiões em três anos e vira alvo de recomendação do MP - Taktá No AR",
+    "descricao": "Catu registra 110 acidentes com escorpiões em três anos e vira alvo de recomendação do MP  Taktá No AR",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdXVlZjdYYVdLaGRRUW5wNXdkb3c3S3JOdmdBVTlRWHZ3b0tORXQ1RmVLeE0xc3RTbUlFQTJCWjk4dTZuSGdWcEIxU3pNSlhTVDZaanpTcDVwQ3JDYjNqbllaUEV0dGVDc0p5TGpZbVllY1BQR0x5R2xVc29peVNSQ05NaU92M3k3RTdQcldPWVhWVWI4X2E0ejB0SEQ1RGNPZURpM29ZVnhiN24tQXU5TkM1Rm1uMlRlZVdweTluVQ?oc=5",
+    "data": "24/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Catu",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "seisescorpioesamarelossaoencontradosemlajeadopicadapodelevaramorte",
+    "titulo": "Seis escorpiões-amarelos são encontrados em Lajeado; picada pode levar à morte - Agora No Vale",
+    "descricao": "Seis escorpiões-amarelos são encontrados em Lajeado; picada pode levar à morte  Agora No Vale",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTRXUG95dTVhVDJaQ1F1enJaOXBoOWxiY0JjNXYyQUtaeG5qZlpndVRjMnhjdlZtc1N0MWVIWkMxeVZmMWhiOG1FM0VYcDFsLWpZS1lPYmpfVWY0RE14Rjl6WWNTakpGX0gwdEZYOFhQUzZkbjViU0lCUC1QX2dXb1IxWmpDbng5NE9OZkhLUF9Nc3dGdHFxYklnTzlsSjBiTVdCdmw5U2ZUcTZYMWVINFN5SzNwVVdKcUpHTWNiRVNJVDB6RVNN?oc=5",
+    "data": "24/09/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "RS",
+    "cidade": "Lajeado",
+    "termo_busca": "escorpião vigilância ambiental"
+  },
+  {
     "id": "duascriancassaopicadasporescorpiaoemmenosdeumasemanaemcrechedecapivari",
     "titulo": "Duas crianças são picadas por escorpião em menos de uma semana em creche de Capivari - G1",
     "descricao": "Duas crianças são picadas por escorpião em menos de uma semana em creche de Capivari  G1",
@@ -193,6 +219,19 @@
     "estado": "SP",
     "cidade": "Salto",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "capacitacaosobreescorpioesbiologiaacidentesecontr",
+    "titulo": "Capacitação sobre Escorpiões: Biologia, acidentes e contr... - Prefeitura Municipal de ITAPETININGA",
+    "descricao": "Capacitação sobre Escorpiões: Biologia, acidentes e contr...  Prefeitura Municipal de ITAPETININGA",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYVFUNFhUUVE3eS1WMXlyOU9FQjBGNm8xeUFhTkJyUFVCS3ZKTHBITnVlcEJRMnFwLWJUdlhJS2lqSnFHaE8tYTJTbkRBeXRfUXBHNDdZRVM0QU8yUFVaZ1EwcC1KOGJQNlhEX2FPRXNKaU84UG1pTEwxTDFfaldXcEVSbmFqY2ZMb25pVWZheXJ4QjFFVFljNk1vTS12NkJ1d01rY241anI4LW93TEFwQWpQZWNTbEVIUDllc0ZB?oc=5",
+    "data": "21/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Itapetininga",
+    "termo_busca": "escorpiões prefeitura municipal"
   },
   {
     "id": "treserroscomunsqueatraemescorpioesparadentrodecasa",
