@@ -13,6 +13,32 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "prefeituraalertapopulacaoparacuidadosaposregistrosdeescorpiao",
+    "titulo": "Prefeitura alerta população para cuidados após registros de escorpião - Grupo A Hora",
+    "descricao": "Prefeitura alerta população para cuidados após registros de escorpião  Grupo A Hora",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPS180M2NhQi1wbnAzd0c0RTlaYWwyZmhLRFVCZzNVSWpWS2ZwMVZvZlF4b21NN29xWGpwXzdIaERYSDJobW03Ti00TjAzeFNGdUJiVVhQU0Eta3RZZ0U1YlplQWhQb0RSemJqZ0JjaU9VdzNBMXBIUXpJQTNDMDFaVGFWOHdpT2tTY3h2X0YyZ1JCMWc0dUdaU2V3RDBsYmhSeEJlWFB4Vm9aeWVUUDAyTW9tMlc2TWVG?oc=5",
+    "data": "25/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "prefeituradelajeadoalertapopulacaosobreprevencaoecuidadosaposregistrosdeescorpioes",
+    "titulo": "Prefeitura de Lajeado alerta população sobre prevenção e cuidados após registros de escorpiões - Rádio Independente",
+    "descricao": "Prefeitura de Lajeado alerta população sobre prevenção e cuidados após registros de escorpiões  Rádio Independente",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWk5JTENsZlRnWGNEb2tLRnh2a3h0WnBMZGFvSmpJNno3VDlrdjFkdnpLcmp0MF9HVnlGNEdEeThVR1RwSDZxcWlrUVRZal91MlItNjhHdmhPREh5azdfdXRIYTJHUUlhcWoxeUw0dWJEN3BxR3ZMTDVWTWFvdTR3OGlVSmNTcDlabE95dDF1MnJUejdBUnplUG9aTlZEb2o5d1BBSFNFblExT0dfS3kxM3I2b2VZcXl6LVl6VGxLRW9zeUhQLUtaV3RESllMQQ?oc=5",
+    "data": "25/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RS",
+    "cidade": "Lajeado",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "riopretotestacapturadiurnadeescorpioesnobairrosantoantonio",
     "titulo": "Rio Preto testa captura diurna de escorpiões no bairro Santo Antônio - Dhoje Interior",
     "descricao": "Rio Preto testa captura diurna de escorpiões no bairro Santo Antônio  Dhoje Interior",
