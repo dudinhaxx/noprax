@@ -1,5 +1,18 @@
 [
   {
+    "id": "alertaparaoriscodeacidentescomescorpioes",
+    "titulo": "Alerta para o risco de acidentes com escorpiões - G1",
+    "descricao": "Alerta para o risco de acidentes com escorpiões  G1",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOGpqRksxNGZOdlN5RGpKRFJOQTlzVEw0ekNNNXdqZndJOTBoUk5QazBic0JrMFVUN2FGNFEwVmRTeS1lMXc5SVZNVG5IRnVQX3ktMmxrLTJRVFZnSmVMSk9oUHlqRVZtSTI0c0h4dVhUeXVxaUZHS1duUFkzbnRabkZXZ2ZENDE4ZEMwUmF1dHVIU0NmZzdNRGdFMndMU3hYSnc1OGw0ZFhzQjJkZzZmOHBBcFBfR0QzYXEzdURjOUxtTXFk0gHTAUFVX3lxTE9BSzBYMXZESVdORkxvcEhUM0R3eFliVGdiNWlvUVkwenJkVDVUZlRnd0Z5QWFUbGY1N0ZVRGF2SEVLN3o3V2VBdlltN3Q1MWtyejVuRXFkRHd5WE1YVkpUYjFQNm00LWtrTUJKM3hCRDE2b3BBVUV3M3lPbzdla1NJWDhpWmRUNEFrVHd3VmIwM3k0Y19rWDd2X01uNTZ2REJHYWpFSHR5cmZ5VVRwbnd5Vlk5V1E4M1ZTVTBPb3YtSW95LXUwRnFqdFlEcS1yYUp0bjQ?oc=5",
+    "data": "28/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "acidentescomescorpioesmobilizamacoesdevigilancianaregiao",
     "titulo": "Acidentes com escorpiões mobilizam ações de vigilância na região - jornalcruzeiro.com.br",
     "descricao": "Acidentes com escorpiões mobilizam ações de vigilância na região  jornalcruzeiro.com.br",
