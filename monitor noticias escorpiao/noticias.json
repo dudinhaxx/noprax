@@ -1,5 +1,18 @@
 [
   {
+    "id": "escorpiaoembercariodesaocaetanolevantaalertasobreriscosdoaracnideo",
+    "titulo": "Escorpião em berçário de São Caetano levanta alerta sobre riscos do aracnídeo - Repórter Diário",
+    "descricao": "Escorpião em berçário de São Caetano levanta alerta sobre riscos do aracnídeo  Repórter Diário",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV2dvWUZJU25jbjBIYzlVLTNFS0syOFlpcDJtMW1rQ3p4V0duYll2ZVNINnRDYzNOOWR4ZEUwQ1ZvVW5SMEFscWlXREw1MHRlQm43QWdhRVNaV0dIQmY5eF9TYWpQRzFyMXZSaUZYS3NDUFpLcllxT0pDTmgydnJrVFFJSjNiQUhJT08zLUdwRm5vd1BGUXRTS2xyMWNfWnh1MnhkeEZfMV9zaUw5S1h1OGJ0S1lzeUNJUUxkaEVuQ2RhWF9SdnhF?oc=5",
+    "data": "03/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "vigilância sanitária escorpião"
+  },
+  {
     "id": "lagoadouradareforcaalertaeorientapopulacaosobrecuidadosparaevitaracidentescomescorpioes",
     "titulo": "Lagoa Dourada reforça alerta e orienta população sobre cuidados para evitar acidentes com escorpiões - Entre Rios News",
     "descricao": "Lagoa Dourada reforça alerta e orienta população sobre cuidados para evitar acidentes com escorpiões  Entre Rios News",
@@ -4197,6 +4210,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "animais peçonhentos escorpião"
+  },
+  {
+    "id": "casosdeescorpiaoamareloaumentamemscvejacomoprotegersuacasadoanimalpeconhento",
+    "titulo": "Casos de escorpião-amarelo aumentam em SC; veja como proteger sua casa do animal peçonhento - JDV - Jornal do Vale",
+    "descricao": "Casos de escorpião-amarelo aumentam em SC; veja como proteger sua casa do animal peçonhento  JDV - Jornal do Vale",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lTlFabG5QamtiaTRLbkwwb3VyNDlWRDcxd3pIUUdmQTlUd0pfd0tYVkhYd2dQaFI2QWtlMmVqVjhUNVFPdzBSem5RcFN4NXY3VjVJMWJPd3pnYWFiZ3NBaDV1bjFmRTRpZGZMbA?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "qualquerescorpiaoepotencialmenteperigosoevenenopodematar",
@@ -13921,6 +13947,19 @@
     "estado": "SC",
     "cidade": "Tijucas",
     "termo_busca": "prefeitura escorpião"
+  },
+  {
+    "id": "vejaondeencontrarsoroantivenenoemguarulhosparapicadasdeescorpiaooucobra",
+    "titulo": "Veja onde encontrar soro antiveneno em Guarulhos para picadas de escorpião ou cobra - GuarulhosWeb",
+    "descricao": "Veja onde encontrar soro antiveneno em Guarulhos para picadas de escorpião ou cobra  GuarulhosWeb",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYk1KYWliX290aEZ0WWN0MFNmZTNMV2N6dFQ1bVhEeGJJc2o3TG91X2tYUlFvc1JEWTNrRzh3TUtNbTZXRmZzTEQyZjZNWm5SZXBqVm5BcE12My1HWjg3ZU0zcE1CQ2RZNEF0SDhCbUZrTTVQVVVlYTVCRDlLbk01ZkZRYnA4UFpvZWQyUExWYmVndWhQVjFLVTVSc0tLeWNZTVNHeWl0aEZYR2VzMFp1VXp3?oc=5",
+    "data": "24/02/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Guarulhos",
+    "termo_busca": "animais peçonhentos escorpião"
   },
   {
     "id": "moradoradenunciainfestacaodeescorpioesnocdhuepedeprovidencias",
