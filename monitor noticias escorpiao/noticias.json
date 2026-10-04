@@ -1,5 +1,18 @@
 [
   {
+    "id": "moradoresdebrumadocobramlimpezapublicaaposinvasaodeescorpioesecobras",
+    "titulo": "Moradores de Brumado cobram limpeza pública após invasão de escorpiões e cobras - Achei Sudoeste",
+    "descricao": "Moradores de Brumado cobram limpeza pública após invasão de escorpiões e cobras  Achei Sudoeste",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU2lHWWNNQ1hwNHdSQzU1c0std2Z5Qm9ldnZWaGhhRlJCOVgzbTJ0RTg1amxocjNFU3J4VDl1QUtpa3JWV2dWS0cyY1EzZzd4enNkcWcwZHJaSHpNRExpZnRueWhhaXpRNjVMdXRiek50RDY0RmdRNTlMNTVCWEUwTk1MMHRWOGRqeTNwakZIV3hTc2hVY01JM1VhTEloc3U5T3NwZ2RuZDVvMk10U0lRMmw0RTlKTXNYNm1Xc19KZDd5bkQ0X093ag?oc=5",
+    "data": "04/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Brumado",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "escorpiaoembercariodesaocaetanolevantaalertasobreriscosdoaracnideo",
     "titulo": "Escorpião em berçário de São Caetano levanta alerta sobre riscos do aracnídeo - Repórter Diário",
     "descricao": "Escorpião em berçário de São Caetano levanta alerta sobre riscos do aracnídeo  Repórter Diário",
@@ -11,6 +24,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "vigilância sanitária escorpião"
+  },
+  {
+    "id": "plobrigadivulgacaodeunidadescomsoroantiescorpioniconacapital",
+    "titulo": "PL obriga divulgação de unidades com soro antiescorpiônico na Capital - enfoquems.com.br",
+    "descricao": "PL obriga divulgação de unidades com soro antiescorpiônico na Capital  enfoquems.com.br",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbXRmMTRSdDZKWTBnU3Z5QUdTQVVlSDcyOVFjalVpVERPZGZMUmp6OGJZb3lKSlRPdW5EaW1JZ3dfbFlOWmdzTUMwUjc4NTlSU2RoSFFUODA2bGNUMnJUOWcwZnB0TXhMNVJwR0M4OEpFdVliOUFBWDBZdVc3MFhXVlQxLWdVT2pmLVNLSkxGTTZaaVpqb1hSalllU3FlTERE0gGmAUFVX3lxTE1ibjZ2eXpaeDhuc3NEc01xQjA5SHNFc1RaWm1YbU1TaGwzTGk1S1FvWWRNdW92MF9yOFhoaklNWHFhMVI5ZXpwM2h1bTVRLWtDb1dqOWNudjJHSWFKYWhtajJmMFQyYktSaHpxdTM2YlloQ3JmeVdibFd6NWk3S29haXFLVUttVDlmcHBicDhrcjYzNDVNWUlPdUFVVFMtQ1gyVGUza1E?oc=5",
+    "data": "03/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "soro antiescorpiônico"
   },
   {
     "id": "lagoadouradareforcaalertaeorientapopulacaosobrecuidadosparaevitaracidentescomescorpioes",
@@ -8045,6 +8071,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpionismo"
+  },
+  {
+    "id": "picadadeescorpiaooucobravejaondeencontraratendimentosoroterapiconolitoralnortepaulista",
+    "titulo": "Picada de escorpião ou cobra: veja onde encontrar atendimento soroterápico no Litoral Norte Paulista - Notícias das Praias",
+    "descricao": "Picada de escorpião ou cobra: veja onde encontrar atendimento soroterápico no Litoral Norte Paulista  Notícias das Praias",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZkp5alZzRWg1NmdTc3h5bml5cTZYT01MOHlad3R6a0tPMTlBWGpUSlhXdDN4aUZ4aENqaXZfTmF5dVJjVDJlSzRMTGltRmtraVdIWnd5N2dtdzR6MXViNVhhV2gtQTh0dEdieEo1VzJWcWNoemNRaDhUSE5FYU1sS2hXOVdfamo2eWFfRG5GMzBicng1M0xLb0N3MDBxMUhUdGd3dnhxRHBwT1BweEJOaExvZHBaZ3EzNF9sd2NBWW5pdE1zb3gtRjdSNW10Y0pjSmVHNERXSG8?oc=5",
+    "data": "08/06/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PE",
+    "cidade": "Paulista",
+    "termo_busca": "escorpião Brasil"
   },
   {
     "id": "picadadeescorpiaobutantandivulgalocaiscommaiorriscodeacidentevejacuidados",
