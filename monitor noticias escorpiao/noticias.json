@@ -247,6 +247,19 @@
     "termo_busca": "acidente escorpiônico"
   },
   {
+    "id": "vereadorrebateadalgisaeapresentaversaodeprofissionaissobreatendimentoacriancapicadaporescorpiaoemavare",
+    "titulo": "VEREADOR REBATE ADALGISA E APRESENTA VERSÃO DE PROFISSIONAIS SOBRE ATENDIMENTO A CRIANÇA PICADA POR ESCORPIÃO EM AVARÉ - A Voz do Vale",
+    "descricao": "VEREADOR REBATE ADALGISA E APRESENTA VERSÃO DE PROFISSIONAIS SOBRE ATENDIMENTO A CRIANÇA PICADA POR ESCORPIÃO EM AVARÉ  A Voz do Vale",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPNm1pQzI4aWZVa20xRTVzUkJ4c09URjdzWVpHTzkxRm5UM28wcTd4bTEwLS1HSU9pQ3lWM2s2bDVlaHQyc0R0dEJFVlp2am5PdlVQanFzdTFtZEVMaVhtZFhtd041eTJYY1lQZ0ZjVzh0SjNDUUlpZllPOWRiWEpjQUwzRURxVmNKTzBOSkhob3JPem5PN20wci1qM1czUmR0MGFRYUZSYlZYTmF1THhNV214SDI5U25QZHVpVmZyN3VqcXNJREk2dmtBYlJQcmtpNFBQSEN1RTBYNHQzb3c?oc=5",
+    "data": "29/09/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Avare",
+    "termo_busca": "criança escorpião"
+  },
+  {
     "id": "alertaparaoriscodeacidentescomescorpioes",
     "titulo": "Alerta para o risco de acidentes com escorpiões - G1",
     "descricao": "Alerta para o risco de acidentes com escorpiões  G1",
@@ -2000,6 +2013,19 @@
     "estado": "SP",
     "cidade": "Barueri",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "prefeituraintensificafiscalizacoesecapturasdeescorpioesemnavegantes",
+    "titulo": "Prefeitura intensifica fiscalizações e capturas de escorpiões em Navegantes - Prefeitura de Navegantes -",
+    "descricao": "Prefeitura intensifica fiscalizações e capturas de escorpiões em Navegantes  Prefeitura de Navegantes -",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tRXhXUlJZTkN0U05OMEtIZXQ3a09BZGZIX05jckFCbDA2LU1pN1l2LTJKQVlHcVVDN25YZ2pCVDlhNzBSZHdKb3NrQ3h5enJWd1hkZ1ZVWGktQ2pzSGZGSWtB?oc=5",
+    "data": "25/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Navegantes",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "estadomarcapericiaspresenciaisparacriancamortaha3anosapospicadadeescorpiaonointeriordesp",
