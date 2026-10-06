@@ -65,6 +65,32 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "picadadeescorpiaooquefazervejarecomendacoes",
+    "titulo": "Picada de escorpião: o que fazer? Veja recomendações - O GLOBO",
+    "descricao": "Picada de escorpião: o que fazer? Veja recomendações  O GLOBO",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGtTazdPOWFsdUlkeUZKTEZHSmpmd1pIc2xudm00WXBGVDR0LVl1VnduUEw4RlhOUUQ2OUN5WXhTcEd0d0NPUjN3dFFMTVlYUDFpd3VKOS1tdzkzOV9MbDFEdnFZbFhod2Q0NEJoWWQyZkIzamRmTEdocWtDZDhDNmRtbTNnZTFLOHhCLXJWSXdXakJYaFhiRnRTSTJFVlZua2treFJrMzgzaXh4NmtTdWRnMEtaUEM40gG4AUFVX3lxTE00a1NrN085YWx1SWR5RkpMRkdKamZ3WkhzbG52bTRZcEZUNHQtWXVWd25QTDhGWE5RRDY5Q3lZeFNwR3R3Q09SM3d0UUxNWVhQMWl3dUo5LW13OTM5X0xsMUR2cVlsWGh3ZDQ0QmhZZDJmQjNqZGZMR2hxa0NkOEM2ZG1tM2dlMUs4eEItclZJd1dqQlhoWGJGdFNJMkVWVm5ra2t4UmszODNpeHg2a1N1ZGcwS1pQQzg?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "camaravotadivulgacaodelocaiscomsoroantiescorpionicoemcampogrande",
+    "titulo": "Câmara vota divulgação de locais com soro antiescorpiônico em Campo Grande - JD1 Notícias",
+    "descricao": "Câmara vota divulgação de locais com soro antiescorpiônico em Campo Grande  JD1 Notícias",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYnBFSTNwTnVCSFhUcF9FeVlOZS10V2R6c2hlcVp6UE1mcXRLdXdSQkFDcVhUWnFsLTUta3A2bWVpS2xFYTg1VndEbDFoRE5HYjFCY19kSkF1N1JRV0h5a0JtSjQzek9YRl9TMkVTLWhGdzFfS1c0RDVEYjZObWVkZkJHcXFVeW5ydl9Xb24xRmdjQ2dhODRVYV9CLTRGc0c4a0paUS1zekNXWXF5azlRdl9LZ19LSEUwczhXT1dOeERmcUd2ckE?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Campo Grande",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
     "id": "vereadoresvotamprojetoparaampliarinformacaosobrelocaiscomsoroantiescorpionico",
     "titulo": "Vereadores votam projeto para ampliar informação sobre locais com soro antiescorpiônico - Câmara Municipal de Campo Grande",
     "descricao": "Vereadores votam projeto para ampliar informação sobre locais com soro antiescorpiônico  Câmara Municipal de Campo Grande",
@@ -4431,6 +4457,19 @@
     "estado": "SC",
     "cidade": "Não identificada",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "escorpioescausam69dosacidentescomanimaispeconhentosemcuiaba",
+    "titulo": "Escorpiões causam 69% dos acidentes com animais peçonhentos em Cuiabá - Primeira Página",
+    "descricao": "Escorpiões causam 69% dos acidentes com animais peçonhentos em Cuiabá  Primeira Página",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2lJU1J5Y29rY0hWVXRRb0xJckctNnp5NTVqZnFURy1PbmZnVThaUmtqN2haWGdxYVZuVTN6MGJiQUExYzdESHdnekY5dnlNanBPQlIySzZrTHh3WnNiLU5ObDRZQXIxM2tSN2dKZElCMWdGR0hsQVA0aWpZVlBwdThkNFk2QUlheDNhVWExRVdZelhfODNHZVRyU3RNQlpVVzNzMUpBWTVVaGFsei11VXJKb1FKa2Uw?oc=5",
+    "data": "17/07/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "animais peçonhentos escorpião"
   },
   {
     "id": "qualquerescorpiaoepotencialmenteperigosoevenenopodematar",
