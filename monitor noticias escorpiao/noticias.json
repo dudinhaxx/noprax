@@ -1,5 +1,70 @@
 [
   {
+    "id": "criancaepicadaporescorpiaoemescoladeriopreto",
+    "titulo": "Criança é picada por escorpião em escola de Rio Preto - Diário da Região",
+    "descricao": "Criança é picada por escorpião em escola de Rio Preto  Diário da Região",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb0h0Sl85N2pfNGdMbGlDVHh5LWNMRldFYkFnTlJLdVVEUnZ1Rldac3BybWV0bGo2NDhMWGpOb0J1U3lyVjNIVjZNRDhKb2xTWlN3MVVoLUllWVV1VDg2RVV3emZjTmhodEdaSnYxbWtfVUMxYXpOR1daYmZGWU95d2JfX3V1eGU0V3hZTExObnhmVFp0TnpDZjVZZ1A1dUhH?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "criancaepicadaporescorpiaodentrodeescolamunicipalemriopreto",
+    "titulo": "Criança é picada por escorpião dentro de escola municipal em Rio Preto - Gazeta de Rio Preto",
+    "descricao": "Criança é picada por escorpião dentro de escola municipal em Rio Preto  Gazeta de Rio Preto",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZjRzRmxGTi0tWDdNVm0teFNTM1Z4V0ZRdHhETERkTzZJWFpNVGRIOXM3NnVydS1NaUVsUnNyNllkMnEtNEFtaXR2LWdQNUdYTkt0aUxDMTBVZkRFd1pFMzRvSk5BckZFS2k1NjVKRWd0ZkwzQjZybWhvQjVXdEFGb0VVeDc3UmJENHRsZXhaM3MxVmduVTJteTh5UFJnWG9BamEyaHRYM2dlLTQ?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "camaravotadivulgacaodelocaiscomsorocontraescorpiaoemcampogrande",
+    "titulo": "Câmara vota divulgação de locais com soro contra escorpião em Campo Grande - A Crítica de Campo Grande",
+    "descricao": "Câmara vota divulgação de locais com soro contra escorpião em Campo Grande  A Crítica de Campo Grande",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWxMOTBCQWVSYkRybmNyTEVNUXhuUEkzMTVGTVA1NEFiLVd6YldORFhYR05yTHBMZjcwSWNNS1BvTzRxSzA0ak1CNnU4TXNpV3hmY21Wa1ZQRm9qZC10Y1M3eEt6UjhPVXlld3FxWEhuY2tMSWxkcDR3TW9VSElKMlhaaHQwdjNkM1hqa2JVSXgzaHpuY19HNnR0VQ?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Campo Grande",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
+    "id": "vereadoresvotamemprojetosobresoroantiescorpionicoeconselhostutelares",
+    "titulo": "Vereadores votam em projeto sobre soro antiescorpiônico e Conselhos Tutelares - Capital News",
+    "descricao": "Vereadores votam em projeto sobre soro antiescorpiônico e Conselhos Tutelares  Capital News",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTmdQTWN0YVA3Um9iZGtnSzlTLVNDMndjeFFpa0pnbHMxOHMtOXhidWNxUEpOaDdBYmNVeXhXMUY4cWtBUlFvSzY1c3ZVeWFJazFYUDBJbnlMalNTeG5nbnQ5elNaakcycHRDVUg2aDlUSU1QZl90bUMzR04zRGJQR1RVbWw2amlCcEtTZ3NZVkhqUFNVaTRpLVNfWDNmOVBkVm02UmdVNkwyUVh6N2lLR2FJTEtvMm5XY09pQTItTWhJZU9ZMmZOcTNTMV9mWVZOdzZ4Y1BsRFdkRW82?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
+    "id": "temporadadeescorpioessaibacomoprotegeracasaeevitaracidentesnosmesesquentes",
+    "titulo": "Temporada de escorpiões: saiba como proteger a casa e evitar acidentes nos meses quentes - Perfil Brasil",
+    "descricao": "Temporada de escorpiões: saiba como proteger a casa e evitar acidentes nos meses quentes  Perfil Brasil",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcmlYbEtrZlgtVThSQ2w3WlpULUdZbGwybHNISTdqS0VoYkFOR3pNZGNIbzdiMXBMOFNCVk4yc2V6RkRUeWNXS25yOFIxOERJdjdZZWl0WjNqSWZnNWJzQjBkYTh3M1ZMbEZUMzNUWVFlYWhobGNRNjZXVWlLSE9NOFFTeEdVX0lvUlpra3NBQ1JLQQ?oc=5",
+    "data": "06/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "vereadoresvotamprojetoparaampliarinformacaosobrelocaiscomsoroantiescorpionico",
     "titulo": "Vereadores votam projeto para ampliar informação sobre locais com soro antiescorpiônico - Câmara Municipal de Campo Grande",
     "descricao": "Vereadores votam projeto para ampliar informação sobre locais com soro antiescorpiônico  Câmara Municipal de Campo Grande",
@@ -4223,6 +4288,19 @@
     "estado": "DF",
     "cidade": "Samambaia",
     "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "biologaalertaparaaumentodeescorpioesnovaledoaco",
+    "titulo": "Bióloga alerta para aumento de escorpiões no Vale do Aço - Portal Diário do Aço",
+    "descricao": "Bióloga alerta para aumento de escorpiões no Vale do Aço  Portal Diário do Aço",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdDRYd3dUSXR5VXJGSTU5Vjc4QnNrcTRxeWVFT0U5cHhCY0VveVFXUmttbEtMU1M1QTExM0F0Tmo4NzdqNGU2eGdnSVhnTmFZWVhGRDFKX00zcGkxZzQ0STFIVDU4NG9zSFllbDQ2a3hGRDE3b0wwMkstci1KOHdBQWRjUjNxSGdQQjRaZUNOckZadUhQMVFVUFVFOWVNZnVtV1hObmRn?oc=5",
+    "data": "18/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
   },
   {
     "id": "moradoresdenunciaminfestacaodeescorpioesembueirodesamambaiadfecobramlimpeza",
