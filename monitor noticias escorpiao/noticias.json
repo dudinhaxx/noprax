@@ -1,5 +1,31 @@
 [
   {
+    "id": "criancaepicadaporescorpiaodentrodesaladeaulaemriopreto",
+    "titulo": "Criança é picada por escorpião dentro de sala de aula em Rio Preto - Dhoje Interior",
+    "descricao": "Criança é picada por escorpião dentro de sala de aula em Rio Preto  Dhoje Interior",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZlVnN3hsMml2NV9BQ1NLSnVxYTE2UFhyVUxqeEhObUFHWHloWUljd0ZlYnN4M3A5TW5CR2c5ZzJGV1QtZ1lNc2dDaWI2TU9vbWNhR0o5WTVDc052eFViek5KdXpDTld6QnRkYmh0a180ZzUzMV9BT0RTZFBpOUlQNXJuUWRwTmgwWk56RnpWS0ZOMTdLYmR2VG9YbVItYWg3aUNtaEFiNG5DZ3BnR2gtY2UwNzVVTVE?oc=5",
+    "data": "07/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "tudosobresoroantiescorpionico",
+    "titulo": "Tudo sobre soro antiescorpiônico - A Crítica de Campo Grande",
+    "descricao": "Tudo sobre soro antiescorpiônico  A Crítica de Campo Grande",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lYTEwNFlyRnFSX3RPY2xORzl1NDBYNC16a3Fld1JQQm56Xzg3dnZwNnIxd3U2eEQ5TlNOTEZKNTRveE0yTXRjczdDc2xoa0tjSW0yX0JjYWp4NEk?oc=5",
+    "data": "07/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Campo Grande",
+    "termo_busca": "soro antiescorpiônico"
+  },
+  {
     "id": "criancaepicadaporescorpiaoemescoladeriopreto",
     "titulo": "Criança é picada por escorpião em escola de Rio Preto - Diário da Região",
     "descricao": "Criança é picada por escorpião em escola de Rio Preto  Diário da Região",
