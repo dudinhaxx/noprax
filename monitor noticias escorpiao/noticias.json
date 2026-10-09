@@ -117,6 +117,45 @@
     "termo_busca": "picada de escorpião"
   },
   {
+    "id": "criancadesmaiaapospicadadeescorpiao",
+    "titulo": "Criança desmaia após picada de escorpião. - R7",
+    "descricao": "Criança desmaia após picada de escorpião.  R7",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbXlWV1NPVEdkQVB5SkpKWm9jbDl1a1RZaDRlY3ZNSUpmQTBvcEJmTlpjLUtvNHAwNUEyNXJGN1VKSXRmVmhuZHAwcTAxR3h6Tmtvem1QSEFYdkI5d1JsVzBhdVBFajZTVjE0ZnZBaFJIbG5RMnM0TUlCY0FDSW5NaXA5OTk2SEk?oc=5",
+    "data": "08/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "trescriancassaopicadasporescorpiaonomesmodiaemriopreto",
+    "titulo": "Três crianças são picadas por escorpião no mesmo dia em Rio Preto - Dhoje Interior",
+    "descricao": "Três crianças são picadas por escorpião no mesmo dia em Rio Preto  Dhoje Interior",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejN1QXRWeGhYYmZYUm1IR2JVWUg0d0YweUFZandYR3JmRHppVjA1X0tuSkRjSHppY2s4OTNKY3hIX0FZbzN0SWMyMnRKdG0xc3lDZURPQmtOSG5aa3MzVW9OZm5nbjdxVTlqd2FDR0JXSE1mbGxOd1dMbS1HaEdnRm1UV0k1MjR3R3AtTEhDVWFKenZ3ZHllSkdwa2thbGd3aUFiZmRIcndxOGVrT0FYUEJEUUY1bGVRbnhKUg?oc=5",
+    "data": "08/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "gravidaefilhasaopicadasporescorpiaoemgoianiavideo",
+    "titulo": "Grávida e filha são picadas por escorpião em Goiânia; vídeo - O Popular",
+    "descricao": "Grávida e filha são picadas por escorpião em Goiânia; vídeo  O Popular",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUzBXZE9ZZjJaVmFXQlc2SWdLekwwaUVTWkFvUHVUVlRwLUtpaXc1czJXdnJQV3phZzJDb29ieG4zNDJWeGRIZlN0b0E1SjV6ZjNfMUEyRGFmZFZUS2ppdWx0QXpNNzkyRGQ5TzBKVy1WZjhIb3g0V2hIS2tDNTBvVVhGSGpHM2RHTDQ3LTRtQmF3U0JNREVPRmNGLUpxdGVnaFE?oc=5",
+    "data": "08/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
+  },
+  {
     "id": "criancaepicadaporescorpiaodentrodesaladeaulaemriopreto",
     "titulo": "Criança é picada por escorpião dentro de sala de aula em Rio Preto - Dhoje Interior",
     "descricao": "Criança é picada por escorpião dentro de sala de aula em Rio Preto  Dhoje Interior",
