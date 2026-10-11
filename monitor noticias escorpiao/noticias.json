@@ -1,5 +1,18 @@
 [
   {
+    "id": "minasnovasrealizamutiraodelimpezaereforcaprevencaocontradengueeescorpioes",
+    "titulo": "Minas Novas realiza mutirão de limpeza e reforça prevenção contra dengue e escorpiões - Jornal Panorama Minas",
+    "descricao": "Minas Novas realiza mutirão de limpeza e reforça prevenção contra dengue e escorpiões  Jornal Panorama Minas",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUVd5R3JBazNRZTQwVUhYWURmZTd5S2NMdXFDVVVoTV9kR2ZnRS1BLUJUWHc3OTZSdi1Kc2pjOU1hWlFHdTg3ODU5OGNaS1VRU0dWSHV3MnFkWEdTQ19tYnhzUkFoWU9hYmxFOVU0N2F2elRpQ0RDQ25vR1ZYS1NIcmVveXh4cUFtbzdPdFJlUVlJU3NUblBrLTU3Z1RqNW0tcGdvS0dUU0FuUjNELXRBcmZCSUdfRGVZZURMaXNB?oc=5",
+    "data": "11/10/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Minas Novas",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "picadadeescorpiaosaibaoquefazerparaevitarcomplicacoes",
     "titulo": "Picada de escorpião: saiba o que fazer para evitar complicações - G1",
     "descricao": "Picada de escorpião: saiba o que fazer para evitar complicações  G1",
@@ -1038,6 +1051,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpiões Brasil"
+  },
+  {
+    "id": "escorpioesaparecemmaisnocalorepodementraremapartamentosvejacomoevitaroriscoemcasa",
+    "titulo": "Escorpiões aparecem mais no calor e podem entrar em apartamentos; veja como evitar o risco em casa - Olhar Digital",
+    "descricao": "Escorpiões aparecem mais no calor e podem entrar em apartamentos; veja como evitar o risco em casa  Olhar Digital",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNU1BkTERYd2w0bjkyc2R1R2JOSzVKRG03YnluMWhvUDNvYVRXSjlsUkZ1aUhMZnNLd2RXUTJYQmozeXFjOTJEY1d6dE1CTXNsXzJDTnJJSnhhZEJSaUVvQXczUGN3bEh6WHhjREk1MHlXVVZad19qTFRKQ2x2dVpEQWs3ZEtqTEpMWjFkMzBMOEo2NWI5Ukx6MFF3TEJEV1RyajQ4U0lCTGtkSzRSc0FXc2p6d0daUUFMMFFXTE9yckxSVjZ3a2J0aXRVeWFTQ3ZfTUk5WDNCb3pXNkhHQkxQSE5vYTNmLWFYa1E?oc=5",
+    "data": "18/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "palestraorientaservidoresdosaaesobreprevencaodeacidentescomescorpioes",
