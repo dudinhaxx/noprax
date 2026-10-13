@@ -13,6 +13,19 @@
     "termo_busca": "criança escorpião"
   },
   {
+    "id": "sauderegistramaisde67milacidentescomescorpioesesteanodizomescagenciabrasilcentral",
+    "titulo": "Saúde registra mais de 6,7 mil acidentes com escorpiões este ano, diz Omesc – Agência Brasil Central - Goias.gov.br",
+    "descricao": "Saúde registra mais de 6,7 mil acidentes com escorpiões este ano, diz Omesc – Agência Brasil Central  Goias.gov.br",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZl9kZWozckRaeHhhcndnTmxvekZVLXNmSXp3VUk4NlJLWG81TFhWS2RCU0dReWMxcmVseDROTnh1aTk2UXBkRFdyRVBKMjMzc01aeDNUM0hRcnZ6QXFnTlhCbkcyUE9WYnl1VWRsU0R0UmJaUzc1SVFPeEVzQm5KVDF2OHNlYnR5dWVJZFFOcDNoUjIxaXFsbHltYk1fSTFw?oc=5",
+    "data": "13/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "BA",
+    "cidade": "Central",
+    "termo_busca": "escorpiões Brasil"
+  },
+  {
     "id": "minasnovasrealizamutiraodelimpezaereforcaprevencaocontradengueeescorpioes",
     "titulo": "Minas Novas realiza mutirão de limpeza e reforça prevenção contra dengue e escorpiões - Jornal Panorama Minas",
     "descricao": "Minas Novas realiza mutirão de limpeza e reforça prevenção contra dengue e escorpiões  Jornal Panorama Minas",
@@ -1090,6 +1103,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "cotiaregistraespeciedeescorpiaopoucocomumnoestadodesaopaulo",
+    "titulo": "Cotia registra espécie de escorpião pouco comum no estado de São Paulo - Cotia e Cia",
+    "descricao": "Cotia registra espécie de escorpião pouco comum no estado de São Paulo  Cotia e Cia",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWm5fd0NhUGdkUDkxSTQ4T2wwaFc0OFNPVVplLVo3RC1nakdqM0VDNjVCaVQ5dHVtN0xQS0NiWjRkWUZxckNoQXp5REQ1TkhrVDRTLTVnTzFMem9mdE84cWE2eTlrZEhzT0RtRDExX1VjT2lFdk14ZVIybTVYb2dDamsyQQ?oc=5",
+    "data": "18/09/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "termo_busca": "escorpiões vigilância ambiental"
   },
   {
     "id": "palestraorientaservidoresdosaaesobreprevencaodeacidentescomescorpioes",
