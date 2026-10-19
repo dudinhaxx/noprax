@@ -1,5 +1,57 @@
 [
   {
+    "id": "criancade4anospicadaporescorpiaoestabem",
+    "titulo": "Criança de 4 anos picada por escorpião está bem - Gazeta de Vargem Grande",
+    "descricao": "Criança de 4 anos picada por escorpião está bem  Gazeta de Vargem Grande",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdEstRmI1TDRJcXllUkMxSG95aGNmU1UxUDIzdjU3djVOaGdTWHZXRVhJVVJsYWMtN2VMMk9Ud1ZCRzA1Qy05QWtOakJLUVlvTW9zQ3Y1ZVpyN0g2akx5UzBqS0VRV1lTMkdaSUs4bDhZRE9RMy1SZEY2aElXc2VVaTlkMnRWMFF5aG1IWkJmUVU?oc=5",
+    "data": "19/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MA",
+    "cidade": "Vargem Grande",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "mulhervaiaupanorteporpicadadeescorpiaoeeflagradacomcocaina",
+    "titulo": "Mulher vai à Upa Norte por picada de escorpião e é flagrada com cocaína - Gazeta de Rio Preto",
+    "descricao": "Mulher vai à Upa Norte por picada de escorpião e é flagrada com cocaína  Gazeta de Rio Preto",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOFhXeURfUVBpN25pYWc1eWQxSXlxZlFodkktcU5oMXBoNlpLUmxWV3hIUGVzVWR5bHQxVlljWUFRRDVvQXVJakNqNEZnZXZkM2VNSGZiUnpUNmtCYWk1ZUFvUDFDZkszLS1aWlJsZ25fM2Q2amhuWEgzV0VFbzNwajdWNkZkRWt0ZnhoMk1VWVUxMVNqcnU1M21oZk1ZdTM5ODdwWG9WWnhDYVpR?oc=5",
+    "data": "19/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Rio Preto",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "prefeiturafazoperacaoparacapturarescorpioesnapracadaalfandegaemportoalegre",
+    "titulo": "Prefeitura faz operação para capturar escorpiões na Praça da Alfândega, em Porto Alegre - Rádio Guaíba",
+    "descricao": "Prefeitura faz operação para capturar escorpiões na Praça da Alfândega, em Porto Alegre  Rádio Guaíba",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYm5obWlKRFNGWV9Fek9jb3JERnZPTnoyUWRDTmhOTi03aFRJbGt2bi1lYkwyblhmZ3NJN1Z1elBVTEFuOGpwY3NEaFFTWWlnLXNYNGpXNXY4NHUyTUVLTzUyM1JhM1RNLVNJMWZCNTZfUTVhSHNnM21CT1d6WGVkS2ZNMWVaVlhYWWg5c3lwc1NPUGVJbVZScnpLMEo3VmZlYl9jekFndkx6SHQyZXc?oc=5",
+    "data": "19/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RS",
+    "cidade": "Porto Alegre",
+    "termo_busca": "prefeitura escorpião"
+  },
+  {
+    "id": "vigilanciaambientalrealizaacaonoturnaparacapturarescorpioesamarelosnapracadaalfandega",
+    "titulo": "VIGILÂNCIA AMBIENTAL REALIZA AÇÃO NOTURNA PARA CAPTURAR ESCORPIÕES-AMARELOS NA PRAÇA DA ALFÂNDEGA - radiocaicara.com.br",
+    "descricao": "VIGILÂNCIA AMBIENTAL REALIZA AÇÃO NOTURNA PARA CAPTURAR ESCORPIÕES-AMARELOS NA PRAÇA DA ALFÂNDEGA  radiocaicara.com.br",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOampQcDhxMWsxdG9JZi1oSFpXcDlCZVhIZzNqNTlhYUNiaTZUMFFRN1lEMURINjdVWWRnZENqTVFPMVZzV29ReDM4blBYeVc3R3VtQkFxS1JZX1Q5M2RfMFRwbmNVNGtidXd1N000Nlp2NVE1R1JZRDJiazNzOFJFNnFHR2ozdkhRRnBLczdfU25NV3RZbWdBS2tITFZrdXh4QXFZNkpFMGxOTThfWlJxWnVZTnlkUkJvbnVDVUNSLUdObHhRTGVzaklaZjBqWjZ6T0dvM1ZDUTNKZWpab0Zj?oc=5",
+    "data": "19/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
     "id": "treslagoasregistra876acidentesporescorpiaoem2026ereforcaacoesdeprevencao",
     "titulo": "Três Lagoas registra 876 acidentes por escorpião em 2026 e reforça ações de prevenção - Hojemais.com.br",
     "descricao": "Três Lagoas registra 876 acidentes por escorpião em 2026 e reforça ações de prevenção  Hojemais.com.br",
