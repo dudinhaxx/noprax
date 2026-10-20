@@ -78,6 +78,19 @@
     "termo_busca": "picada escorpião"
   },
   {
+    "id": "vigilanciaambientalrealizaacaonoturnaparacapturarescorpiaoamarelonapracadaalfandega",
+    "titulo": "Vigilância Ambiental realiza ação noturna para capturar escorpião-amarelo na Praça da Alfândega - Prefeitura de Porto Alegre",
+    "descricao": "Vigilância Ambiental realiza ação noturna para capturar escorpião-amarelo na Praça da Alfândega  Prefeitura de Porto Alegre",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTHVMd0hzM0RlV3dsWTZ4NVktOVpXX2dLb19pZVYwVF9jZFZXQzFTVE9USVVvZXl6M1kyWTRtYlBYZmJPRVpYMEhabkRYdG03bm44cnRCa3RvUW5GMWliODlyLWo5UnNmZ1gtU1dXazhjTWdwdGk5Q2RReTkxUlZ3aVR6MjFuYjF6Ym5GVHJQX2tfZi1PUmZhbGRaS2ttUFVRR3RkaEhmSXNsX0FadmNLRzNoWHUwb0FoTHR0RkRydUp3Zw?oc=5",
+    "data": "19/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "RS",
+    "cidade": "Porto Alegre",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
     "id": "treslagoasregistra876acidentesporescorpiaoem2026ereforcaacoesdeprevencao",
     "titulo": "Três Lagoas registra 876 acidentes por escorpião em 2026 e reforça ações de prevenção - Hojemais.com.br",
     "descricao": "Três Lagoas registra 876 acidentes por escorpião em 2026 e reforça ações de prevenção  Hojemais.com.br",
@@ -4456,6 +4469,19 @@
     "fonte": "Google News",
     "estado": "PR",
     "cidade": "Ibiporã",
+    "termo_busca": "picada de escorpião"
+  },
+  {
+    "id": "picadadeescorpiaosaibaoquefazerecomopreveniracidentes",
+    "titulo": "Picada de escorpião? Saiba o que fazer e como prevenir acidentes - Associação Paulista Para o Desenvolvimento da Medicina",
+    "descricao": "Picada de escorpião? Saiba o que fazer e como prevenir acidentes  Associação Paulista Para o Desenvolvimento da Medicina",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVUl3WXZQbUlnRTF2d0hNXzBnNGpsdDEtM3ZzUEhpLUFXVlB0b01NdmhMWXRVVGtuenZiR1A4ZWk0R2V0Q2RNVlR1QVNxVXltQjRybFhETzl6Qm5BMmhiQ0xlWXpINW1hZVBJdEU4QlVZem01Qml5V00yZUFUSlFrZjgzbjZUTl83ZkJ4aDhocUxvTDg?oc=5",
+    "data": "04/08/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "PE",
+    "cidade": "Paulista",
     "termo_busca": "picada de escorpião"
   },
   {
