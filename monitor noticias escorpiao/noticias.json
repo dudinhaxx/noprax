@@ -1,5 +1,18 @@
 [
   {
+    "id": "acaonoturnacapturaquatroescorpioesamarelosnacapital",
+    "titulo": "Ação noturna captura quatro escorpiões-amarelos na Capital - Correio do Povo",
+    "descricao": "Ação noturna captura quatro escorpiões-amarelos na Capital  Correio do Povo",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQd3dIZEY1QXB6TlYyemVhYl9LdkpTRzNmSlFsZF9BX1RaT1VqYXk0dE9KQUVXOGU3d01TWWlSbDZ2SndDZUlfVWh5ekdkV0taUnVTQmdVZUNmSWVFdDd6YWQtRlUtN1NfWWt1eGotY01jblZJLTZ1cmtBc0dpSTFCdk9SMVUtMWFyTUtnWUUtVE5aeFRpNGpYck9lakkxWk51aGItWFVWVl8wdG9pbTl1aHdTQk1RTkFnQXA1WVNQY3YyQUNl?oc=5",
+    "data": "21/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "captura de escorpiões"
+  },
+  {
     "id": "mulhervaiaupaapospicadadeescorpiaoeacabaflagradacom10involucrosdecocainaemriopreto",
     "titulo": "Mulher vai à UPA após picada de escorpião e acaba flagrada com 10 invólucros de cocaína em Rio Preto - Tanabi Noticias",
     "descricao": "Mulher vai à UPA após picada de escorpião e acaba flagrada com 10 invólucros de cocaína em Rio Preto  Tanabi Noticias",
@@ -50,6 +63,58 @@
     "estado": "MG",
     "cidade": "Patos De Minas",
     "termo_busca": "infestação escorpiões"
+  },
+  {
+    "id": "mogimiriminvestigamortedebebede1anoporsuspeitadepicadadeescorpiao",
+    "titulo": "Mogi Mirim investiga morte de bebê de 1 ano por suspeita de picada de escorpião - G1",
+    "descricao": "Mogi Mirim investiga morte de bebê de 1 ano por suspeita de picada de escorpião  G1",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVE03WlVYeXRGbTBGbzJpaVN2V0c4TUZTYVFvSEdoZldRcVF1Y3dNNVNLa1h0bUhZV3VCMHlacDFaLXBxeVdLdWdqMjNfZWxYZTdEcFVGVzBteklvSzRDSDczdG9QeFZmMVREZXNqN1M2Mkd0QjM4SHZub2VucHoxcUI2dzNsQUR0RzVneFRWNnlfYV9WdHFyNzlWVzVPYzhaRldDSFRXNzU1bjllMURqZEtfT1A2d0otdzV6UDNBZ3plMFJvTElMUnNfc3laclJVTEZKakpVWjFCMEZW0gHrAUFVX3lxTE8zeUxUU1NvT01feFM2Smktc1VHQkwzN3QyTnk5dnBVdkNRZm9PVldEQllGOW9WeHE2SWtYV2ZvT3I1ZHM3WGg3LXRsSDRLSDFTYnptOGoyWEc0QUR6UDdKMm9YVk5uWGJ2X1NiUkdWaHJ1aWVuejJHQy1MdGJxRWloUzV3ZWdQWlN6X19xUDVXWFZoRE5fNkNNNXcza3puQU5abVNrRzRfQXFVNGNSd0k0QkRrbWE4T0VKWktlelUxdWQtMHNvRlF5LVZJNEN0b3pBUXBGWmJFSXlnN2ROMmpGQ29pTlZDTDZPYWc?oc=5",
+    "data": "20/10/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Mogi Mirim",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "bebemorreemmogimirimcomsuspeitadepicadadeescorpiao",
+    "titulo": "Bebê morre em Mogi Mirim com suspeita de picada de escorpião - Portal VV8",
+    "descricao": "Bebê morre em Mogi Mirim com suspeita de picada de escorpião  Portal VV8",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVWVIQXFlYjcwdzhHX19XZUhZbzMwc1VCeGZ3WFNjazZDY2lhbVNpbjMyTG5jWG9BQVhMMmdleGFtSGtVYWJSSzRiMkFXVmNnc3hSRnhpbGYxWWR4R3RwaEo5d1plb2xsRWdENzFIelQtbkFoZ0NwWlp0SmFPcUN0cnRhOF83VWxpQlBaRmRsRmV4YjNOaldyeDk3ZUNqNGdK?oc=5",
+    "data": "20/10/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Mogi Mirim",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "bebede1anomorreapossuspeitadepicadadeescorpiao",
+    "titulo": "Bebê de 1 ano morre após suspeita de picada de escorpião - ACidade ON",
+    "descricao": "Bebê de 1 ano morre após suspeita de picada de escorpião  ACidade ON",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWjFZXzFrODhwSmFsRGZKOWhsLUx5UFZYR1YtRmNYdzNiaDhObDNJVzhkV2tURlZuWUpIQ0FnM2l3OWkxelB5Y3lfOGxUbzBhY0N5VDlQemZDZkpYSG10Wl8waXF4T2EycFo3WTl0TUJPcWRERS0zNkVuVUlyX2pnaVllUXlWcWxJeFZ1ZFdPWng4UjFBdzlCT3liVE1yeWNCMU1iclZMN2JwUdIBqgFBVV95cUxQWjFZXzFrODhwSmFsRGZKOWhsLUx5UFZYR1YtRmNYdzNiaDhObDNJVzhkV2tURlZuWUpIQ0FnM2l3OWkxelB5Y3lfOGxUbzBhY0N5VDlQemZDZkpYSG10Wl8waXF4T2EycFo3WTl0TUJPcWRERS0zNkVuVUlyX2pnaVllUXlWcWxJeFZ1ZFdPWng4UjFBdzlCT3liVE1yeWNCMU1iclZMN2JwUQ?oc=5",
+    "data": "20/10/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "criancade1anomorreporsuspeitadepicadadeescorpiaoemmogimirim",
+    "titulo": "Criança de 1 ano morre por suspeita de picada de escorpião em Mogi Mirim - G1",
+    "descricao": "Criança de 1 ano morre por suspeita de picada de escorpião em Mogi Mirim  G1",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWTk1ajhvYkt4YVo4MWJ2UFhucy1jYzBrc2tMaFFqYWZBTXZiaGdTV2tXQkozZ1kzclZPR3FnNGhUeWd0Zkh4OVRqdElEY1dqMlc4ZlQ4cnBFWGw4d2hPeW5GQkRNQWx0eXFhSnRjRDFXTDQtZlNqUlEzdFJBQkpOZGNHYWo0UDFoVXpPdWp1YkRJc1NIWDBCdy1DeW0tMHo5eC1MaTZ0bjNnQWtzSFk3M2dmSnl6X3ZEUU5zakIxcUI5Z3FBaW5fRS1kSEJod2ZSaF9GVFpSUnZxcmNDMUltMzRDLU5hYW1KLVlaZlVjX21TT2VLYzR4WFYtLUtTVDdxWWN3a0djTnlxRWxkZHdyUEpfTlbSAaMCQVVfeXFMUHl2Nk1uRUVRTW45aXhhV0x5UVd0TVBhVU5xc1ptZDJQZUhwb3lIVEpXLURaSUQ0TFJUZmkzU0p5SDRYNUJIY3BKcTg4aUJWelNEdUdCc2NDOWRsTUM2ZmZEZ3NPdTE2MFFmMFlPUHpYVFI2RzZGQ3BreTYxSmFkbjV3NjdHcy1wc1ZzX1p4dzBQNlpfTHJKYmxocU9zYi1CTE51VzQ0UXc3a0FSOHdwNE1jSGNMQ1F1VHAzTk9seGNYUUhNNkltWjBPNjVKWmpGYWFxYjdCamxEOEdLUDN2V2dHNVl5akNabDRhUkNyTE1ZcGZ1eXNLQ2xUWVlBdHl4a2c5eG53VXlJMVdlSFRqT3ZFUFpLVk9SWmpscm8zdFNjcm93?oc=5",
+    "data": "20/10/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Mogi Mirim",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "criancade4anospicadaporescorpiaoestabem",
