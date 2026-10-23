@@ -1,5 +1,18 @@
 [
   {
+    "id": "criancaepicadaporescorpiaodurantevisitaaozoologicodebrasilia",
+    "titulo": "Criança é picada por escorpião durante visita ao Zoológico de Brasília - Águas Claras Mídia",
+    "descricao": "Criança é picada por escorpião durante visita ao Zoológico de Brasília  Águas Claras Mídia",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUVhWWS13OWp4Q051clNCdXo5TGpUZnpSaVdOZHFBMnAzX016QlQwVGhGVFRfSW1vbURCaXA3Z1RsZjlPeHVKTVZycWJ3YXJlMWpwMjhkM2NBN3cwdGdVcE9aeXlNWEdsOFpaVE9MN09jTF9DSFh6ZUVXRUgxOHJxckY5OE9Edw?oc=5",
+    "data": "23/10/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "DF",
+    "cidade": "Aguas Claras",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "bebede1anomorreaposserpicadoporescorpiaoemmogimirim",
     "titulo": "Bebê de 1 ano morre após ser picado por escorpião em Mogi Mirim - Band",
     "descricao": "Bebê de 1 ano morre após ser picado por escorpião em Mogi Mirim  Band",
@@ -2130,6 +2143,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "moradoresrelatamaparecimentofrequentedeescorpioesnaposse",
+    "titulo": "Moradores relatam aparecimento frequente de escorpiões na Posse - portalgiro.com",
+    "descricao": "Moradores relatam aparecimento frequente de escorpiões na Posse  portalgiro.com",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWUJGaWcxT2cyQUtpWGZlSm5LWk9HcjFTVUFPSHhMMVBKZHZreWxwTnBqQ19oMHRXQ3pla2diZlRPbWFRVU05VnFoTFpFQTJjUDRFUTJPVVpUdXBGT1FqRkhtYWNXLUZWUWhwMGNuYmhCTjFUMy1CMUYydGVMU2hnbHZBVDQyV1Vud3lOcG1oVWlPdnkyM0hqQVVCbzhjaWhlS2VvbnpaclFTR2J2WHZRcU1qOF9VNkhxSXRfOHVORXAtS0pQRklrcFpaUQ?oc=5",
+    "data": "31/08/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões vigilância ambiental"
   },
   {
     "id": "capturasdeescorpioessaointensificadasemnavegantes",
