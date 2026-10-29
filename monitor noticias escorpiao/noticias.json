@@ -1,5 +1,18 @@
 [
   {
+    "id": "abcregistra53escorpioesencontradosem2026",
+    "titulo": "ABC registra 53 escorpiões encontrados em 2026 - Repórter Diário",
+    "descricao": "ABC registra 53 escorpiões encontrados em 2026  Repórter Diário",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaHhDRkZtRndJS1ZWODVieTZaSkZtbl9fME9PV0p3SzJTUXFCNlpQOEVmanRuMzhiMFk0QWJaYV9XSjVSaHJBQXBiRTlnbE9oNkM4cFpLN1V6blhodzhDcXdZbjktZUZNcHJVSjZiVGpEbDhMMDFYOXNTTzFGVkRQVWVhdkY5VTRSMm44RFFTSk9RdDZUZndoUE4zOGFpZw?oc=5",
+    "data": "29/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
+  },
+  {
     "id": "passageirosreclamamdeescorpioesepombosnarodoviariasocicamprometededetizacao",
     "titulo": "Passageiros reclamam de escorpiões e pombos na Rodoviária. Socicam promete dedetização - JORNAL DA REGIÃO",
     "descricao": "Passageiros reclamam de escorpiões e pombos na Rodoviária. Socicam promete dedetização  JORNAL DA REGIÃO",
@@ -37,6 +50,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "prevenção escorpiões"
+  },
+  {
+    "id": "prefeiturarealizaacaocontraescorpioesebaratasnocemiterioderioclaro",
+    "titulo": "Prefeitura realiza ação contra escorpiões e baratas no cemitério de Rio Claro - Grupo Rio Claro, São Paulo",
+    "descricao": "Prefeitura realiza ação contra escorpiões e baratas no cemitério de Rio Claro  Grupo Rio Claro, São Paulo",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmtPQlhKV1RNakdwSEpYSXVXZnRub0E2c2RjVXRRTmExMG1tdXdNaWNKZDFBREdkQ1FyMHEwdXdZbmw5VmF0djFXcmVuWEdFbEJTTlpwNUhPUC02bkJZZHYxR2pxRUVMQlQ2Q0RpT00wREFNOXJUWVpyaDMzS1FOTlJoQ29LNUJzNjR3SUtFRzh1cUlzd3BDRXJrc1E2RTRySkVNNVRlS3c4Y2JwT3JEazRXME44LWhFVWkw?oc=5",
+    "data": "28/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões prefeitura municipal"
   },
   {
     "id": "criancaepicadaporescorpiaodurantevisitaaozoologicodebrasilia",
@@ -232,6 +258,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "criancade1anomorreapospassarmalescorpiaoeencontradoemcasa",
+    "titulo": "Criança de 1 ano morre após passar mal; escorpião é encontrado em casa - Gazeta Itapirense",
+    "descricao": "Criança de 1 ano morre após passar mal; escorpião é encontrado em casa  Gazeta Itapirense",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUlVEbXROb0lnaC1lSkRPMW5PY2VaaFJoRHBnWVdSeHFTTmFyZXJjSkhOSHdWMjlrQ19UanpWZHExVmZZNjZ4OUhUYlRPRFFMN1Nwczl2YmNWMzRmNHc2M01mWUJ2aWcyVDBGZlhneXpQOTM0alBNUTg3OEpTVXVJS1o1ald0bXh2d0xWTXhhUG1MdzNlemRDN1J4XzFPZFpaVEVLZTRnX0szQQ?oc=5",
+    "data": "21/10/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "criança escorpião"
   },
   {
     "id": "mulhervaiaupaapospicadadeescorpiaoeacabaflagradacom10involucrosdecocainaemriopreto",
@@ -17131,6 +17170,19 @@
     "fonte": "Google News",
     "estado": "SP",
     "cidade": "São Paulo",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "governodespalertaparaaumentodeacidentescomescorpioesduranteoverao",
+    "titulo": "Governo de SP alerta para aumento de acidentes com escorpiões durante o verão - Grupo Rio Claro, São Paulo",
+    "descricao": "Governo de SP alerta para aumento de acidentes com escorpiões durante o verão  Grupo Rio Claro, São Paulo",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNd20zdmgxY2M4WjVUeGdkVTF2QTlGME5lT19aWHhXdmdNNlk1b1F2TVdoY3lMWEhWWGFnZHNXSUs4QmVVQXNaVGlpQjR6Ync4MVJITlpLOXhpSDlwdm1pdWVueXdrR25pTzdvRXlCZUF1V1h4SjFqa096QXZ6WUtleEQzV0RWaWYtS0gxZllsUHBvUU9SNndpeTdSd0wwd1VYNlZxLVVKcGp3SnNYb3ZZYnljNDhodFJTS2U4?oc=5",
+    "data": "14/01/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Não identificada",
     "termo_busca": "alerta escorpiões"
   },
   {
