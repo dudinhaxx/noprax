@@ -1,5 +1,44 @@
 [
   {
+    "id": "meninade4anosmorreaposserpicadaporescorpiaoemms",
+    "titulo": "Menina de 4 anos morre após ser picada por escorpião em MS - CNN Brasil",
+    "descricao": "Menina de 4 anos morre após ser picada por escorpião em MS  CNN Brasil",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUnFiOWwtdXpxNWVWVUpWbDl2UTNTaG5jQXhBNnd1TW1CTzBoR3JpVkQtYjlYeGpVZlN4ZEJxdlUzbXdyeE9DU0ZNcWRZMWI4OWZ4NXM2NTltVVphWFJCZ0tleC15a3JZd3JSaDBDZkdjQlIxeVBTSEVldVNxTmJlWF9lWEJ5RTQ3X2RfVGIzWXA1YzQwQW1SNWxKQ3NFM3k5ME0tRm1EY3o3WlJmUlBrSld6dmVlRXRJNmRRcllDQ1ZTZw?oc=5",
+    "data": "04/11/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "MS",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "meninade11anosepicadaporescorpiaoaocalcartenisemfrancodarocha",
+    "titulo": "Menina de 11 anos é picada por escorpião ao calçar tênis em Franco da Rocha - Conexão Juquery",
+    "descricao": "Menina de 11 anos é picada por escorpião ao calçar tênis em Franco da Rocha  Conexão Juquery",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcEJOWHZpaHJxa3diOXJHZDJVbnptcjJ1NVVMZFNqcjBzaE1fVzVHcVVEQ3FGdFQtRjU3YklQbjRjclhQV2xQWjFKenJHaW5WOVhDYzV1UmI1NGlTNEZYa0JVdkdsMG56ejVaRUdDVVFObEVfZXc1STR1eDdSR1g1UXl3cWtUWl90M1k3RU5jU2tkaUhPMU5DUWNrWmhlOHBSVjdKUTVNNTZpeDN1U1pMQTN6OA?oc=5",
+    "data": "04/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "ataquedeescorpioesnocemiteriosantoantoniosetoradministrativoalertavisitantes",
+    "titulo": "Ataque de escorpiões no Cemitério Santo Antônio: setor administrativo alerta visitantes - Rádio Santa Cruz FM",
+    "descricao": "Ataque de escorpiões no Cemitério Santo Antônio: setor administrativo alerta visitantes  Rádio Santa Cruz FM",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSGs1MWFUbDZaSEJoaGlqT2hDWlhjM2Fhblh6Q2Y4TjFpOGNqZ0FfaDVfZ0VrOVJSQ0U2aUNRcm13d1hjWDdfSHBkN3RZbFppblU1NU42WlYwWVBkT1M5dlQ4cTRBLU84SU9QM2dDTWlDaUllbWduN0JuNlhzdXVpOWxoVGRJVVQzUG14dmV3UmNYWk9FYkF0ZFlDRnpDaGp5MjA0SEFiYkRSNGpNVHIxN2hrOW16SVdVa1BHMDVNSmRqVkhmSDBYX29yMXA3ZXdoczlYVGNfU2ZsZ2F0U1hiQ1hTM2JlQQ?oc=5",
+    "data": "04/11/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "meninade4anosmorrevitimadepicadadeescorpiaoemmeioaaltadecasosemcidadedems",
     "titulo": "Menina de 4 anos morre vítima de picada de escorpião em meio à alta de casos em cidade de MS - G1",
     "descricao": "Menina de 4 anos morre vítima de picada de escorpião em meio à alta de casos em cidade de MS  G1",
@@ -63,6 +102,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "criancadequatroanosetransferidaemestadograveparafortalezaaposserpicadaporescorpiaoemboaviagem",
+    "titulo": "Criança de quatro anos é transferida em estado grave para Fortaleza após ser picada por escorpião em Boa Viagem - Monólitos Post",
+    "descricao": "Criança de quatro anos é transferida em estado grave para Fortaleza após ser picada por escorpião em Boa Viagem  Monólitos Post",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTGZtVXl6cDQ4OXBENmIzV0E0U3BYekVaT3hMOElFNndaYTJuNXFiSUItTmdBbjhvNjJDQm41TjBmR2pvZWNhR0FMcXQ1Z0tIYjZzQVRyZFZKTnB2bWk0anlYTmhMRjhBYWpJYzhIRlAySXM5V3JQd25PSmhvN2RDaW5BWTVQZl9GRE1yTTFtY1R4M0tsU3lYZ3VSY2tQYlBRLUx4bDcwWGo1VkpvWmVrU1lNTW4tRjFEekhBbHBoTzNIMGxlSW1LNTRKQnlMbVA1OV8xTmtxOGQ1SEU0SF8tcmFxWGlXdmVO?oc=5",
+    "data": "03/11/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "criancaficaemestadograveapospicadadeescorpiaoeetransferidadehelicopteroparahospitaldefortaleza",
@@ -245,6 +297,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "criança escorpião"
+  },
+  {
+    "id": "g1criancade4anoseresgatadaporhelicopterodaciopaeraposserpicadaporescorpiao",
+    "titulo": "G1: criança de 4 anos é resgatada por helicóptero da Ciopaer após ser picada por escorpião - G1",
+    "descricao": "G1: criança de 4 anos é resgatada por helicóptero da Ciopaer após ser picada por escorpião  G1",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPLVVFVVRlZU5sbERoRktMeElLZ1pXQ3NjTl9hbDlqRHE5QVViYWVwS0dXRTNSdGloYzA0UHlFdTVqZzRIMHo3QUMwM1VZX2UwRDB3WmFucjA4LVZCcGRwcjNlY3JVY2ZFZzJLRkVXa2EwTTM1M2hVQkFlNUF2RDhLU1FPeUVwV1ZkRTdGWVBrV1hNQWZLUW9CSGFwWlprWXhNNU9zMW96dVdPX3Fidy1IalhIaWlualA5d2FrTFFHN2FrbFVSWGhHaEY3dEc5VzVpVlJwZWNYTDkta2RaeGhFMEZRWnJsclVsQjZMVzl0a1g0bG80bi1rSnVZMS11dXNZTkHSAZACQVVfeXFMTVJsS2JDcmEwYVl4OVR4NVhpZmlVN1N2bXdXcTBkdEdDenFTdXFQNG9ZUkVCVEF5ZEU5eVZsOUxGNG9iT29wSUw2aW0tMXA0OE9meDdXMXNWNlNQS3dFdnY0Y1UycDQ2bWJ0N0lIWXBUMzVJQzV5Y3VlVjByRC1fSm9TMkhxNWstcGFENnN0ZUFqdHFrdjg5TVpIaUp0cVZFSTZqYWNoTGxsdS1hZTBsVm9KUmRFU1ZaUG01NUhjRWpzREFNMk1uMmlLdXhUTEhMOWlhajVnd1dGRHJrX19vMWJxUnZtZzF4MEJHaXpGd2R1WTV6NkZLSVQ4cWtiU1dMN2JULUNFa2MwemNFQjRYY3I?oc=5",
+    "data": "02/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "ciopaersspdsrealizatransporteaeromedicodecriancaemestadograveapospicadadeescorpiao",
@@ -15936,6 +16001,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "criança escorpião"
+  },
+  {
+    "id": "tecnicados4ascomoprotegersuacasadoescorpiaoamarelo",
+    "titulo": "Técnica dos 4 As: como proteger sua casa do escorpião-amarelo - Olhar Digital",
+    "descricao": "Técnica dos 4 As: como proteger sua casa do escorpião-amarelo  Olhar Digital",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMGpZSXZCNkxsTG1JLUVDanBKQ2U0aUpiU2RCc3pxNUFIQV8zc29HbjVSZmRyNlJJNGpxSVBsYlpzQ3BJcTJqR0w3OVFCNTBYYzExaTZtTUJLR21tODB5SFZOaVJydnppQlNTMDdQRVU1bXF4N3hqcV9LcnFQdWZVZUpfVnNpMGVpbjQyTExXN1h2MFRiUV9fdDUwVmUxeTFrZ2lzWXZUXzJmTGlhdmRnVVFGRFlGamVY?oc=5",
+    "data": "22/02/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião amarelo"
   },
   {
     "id": "confirmacaodeescorpiaoamarelodeixasaoleopoldoemalerta",
