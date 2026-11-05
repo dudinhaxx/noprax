@@ -39,6 +39,19 @@
     "termo_busca": "alerta escorpiões"
   },
   {
+    "id": "escoladecontagemsuspendeaulasaposinfestacaodeescorpioes",
+    "titulo": "Escola de Contagem suspende aulas após infestação de escorpiões - BHAZ",
+    "descricao": "Escola de Contagem suspende aulas após infestação de escorpiões  BHAZ",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORnQ0ZVp5QlYzNWp4NGNtQlNqMDQ5ZWVqMzVwU0VfQVA5ZnIwM3c3a2VtdjhrVV9mM0hqLWZCUXA3emFWelB4bHJ5YnJCOU5HakJhMy1EVjFOeWx1VUFKT0ZvaFhPQ0hqSm1mRk1qdk5WNFItRXBCVExNQjJjQWF1XzRTN2RSd1dDaU1mVFVpcmozRXp5b1BnTA?oc=5",
+    "data": "04/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "infestação escorpiões"
+  },
+  {
     "id": "meninade4anosmorrevitimadepicadadeescorpiaoemmeioaaltadecasosemcidadedems",
     "titulo": "Menina de 4 anos morre vítima de picada de escorpião em meio à alta de casos em cidade de MS - G1",
     "descricao": "Menina de 4 anos morre vítima de picada de escorpião em meio à alta de casos em cidade de MS  G1",
@@ -7436,6 +7449,19 @@
     "termo_busca": "criança escorpião"
   },
   {
+    "id": "secretariadesaudeorientapopulacaosobreprevencaoecuidadoscomescorpioes",
+    "titulo": "Secretaria de Saúde orienta população sobre prevenção e cuidados com escorpiões - Prefeitura Municipal de Indaiatuba",
+    "descricao": "Secretaria de Saúde orienta população sobre prevenção e cuidados com escorpiões  Prefeitura Municipal de Indaiatuba",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBIcVFHclZad1hPeGU0T0RnYU5rZksyNVdLckFWZlRENEtlX0hrQkdWT19HR2g1SDJqMnlZZU1JeHVIWFhmSzNuZ0MydC1oVXFzZkZWMVk0WlV4YTdfR2RUVE9DWjQzU01aZS1DdG1IaFR5Y0lnUlUwcw?oc=5",
+    "data": "08/07/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "prefeitura escorpião"
+  },
+  {
     "id": "criancaelevadaaohospitalaposserpicadaporescorpiaoemescola",
     "titulo": "Criança é levada ao hospital após ser picada por escorpião em escola - Grupo Portal de Notícias",
     "descricao": "Criança é levada ao hospital após ser picada por escorpião em escola  Grupo Portal de Notícias",
@@ -11594,6 +11620,19 @@
     "estado": "SC",
     "cidade": "Barra Bonita",
     "termo_busca": "prefeitura escorpião"
+  },
+  {
+    "id": "prefeituraintensificatrabalhocontraescorpioes",
+    "titulo": "PREFEITURA INTENSIFICA TRABALHO CONTRA ESCORPIÕES - Prefeitura de Barra Bonita – SP",
+    "descricao": "PREFEITURA INTENSIFICA TRABALHO CONTRA ESCORPIÕES  Prefeitura de Barra Bonita – SP",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcGZLZWM3TmdvU2xZNnIwZ2liVDlhejU5U0s5eno1bXkwd2Q5WEtTa2NZQnR4RXZEOVdnelUwMlhFWERrMWhpcFdSQVJkQTJKVFRSaWFxU3BVSmFlTmhRajQwQzUtaE5ycTZwQnlldUJOaEtpbjBWaENUbzV2cHhGOTBreUQ1NmJTc2lSYnA4eFBQbWppdnFxOE9BNHJ6cFE?oc=5",
+    "data": "16/05/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões prefeitura municipal"
   },
   {
     "id": "5sinaisdealertaquepodemterescorpioesescondidosdentrodasuacasa",
