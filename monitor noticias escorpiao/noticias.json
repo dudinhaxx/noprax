@@ -1,5 +1,44 @@
 [
   {
+    "id": "escorpiaoemcasacomoevitareoquefazernapicada",
+    "titulo": "Escorpião em casa: como evitar e o que fazer na picada - ES Brasil",
+    "descricao": "Escorpião em casa: como evitar e o que fazer na picada  ES Brasil",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5obWZCMUZYMU5UckpITDA2VmRidzVQNEQ4TWQ4dzNfSjhFdjdFMV9nX3NFR0JCSHNIeVk3dzUyUTdySlZRR0Y0aVp0X1B6cEkwSXB4Nm5FVl9iWHhnTUlYVktmbzk?oc=5",
+    "data": "09/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "ES",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "ufrnalertaparaaumentodoriscodeacidentescomescorpioeseserpentesduranteperiododecalornorn",
+    "titulo": "UFRN alerta para aumento do risco de acidentes com escorpiões e serpentes durante período de calor no RN - Portal da Tropical",
+    "descricao": "UFRN alerta para aumento do risco de acidentes com escorpiões e serpentes durante período de calor no RN  Portal da Tropical",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcmpHRHJqUnV0d1dIa2RKUzFDVlZCX2pkYURHTWVhM1VlNEFncFFNQUNGbXdIbmRUdlJwNXJNcWhCRzBnV2l2TnlkMlUtOUpjTHNsYXNPc1EtZk43TVhhMjBjMEVrN0NZSnJIdFRJN3l4MmFYVzdMaERtc3NJajVSN3FqREdNaG5YZ241eWxCZ0FfWGFTTWRLQUpsQzRsWUF1Y193X1VnUkJvVzNmMm5peS1SUkttbTZfNVBEWnV5WTR0aHhfMUtvZGNVejVDLUxQeVZMa25mWGY?oc=5",
+    "data": "09/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "RN",
+    "cidade": "Não identificada",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "londrinaregistra368acidentescomescorpioesemnovemesesvigilanciaintensificaacoesdecombate",
+    "titulo": "Londrina registra 368 acidentes com escorpiões em nove meses; Vigilância intensifica ações de combate - CBN Londrina",
+    "descricao": "Londrina registra 368 acidentes com escorpiões em nove meses; Vigilância intensifica ações de combate  CBN Londrina",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSmEwd0hmaEpwczYwQjFOM3Faa0ZOcUhyR1VGSFdBMTMtX1lHU1g2N3o2ZDhCNVZVRjlqUTZRMUlLaUwwRmxfOFliSE50SG5LOXpKYklUUG9pWDNlOXQzcTdTUVZfLUZ1NXFJcjRRNEJOWFdzMmVNd0xndmRDSC16alpzaF9ncFlxYm5nWkp6aXdZSEpZcEYtcTdyaFQtWWFVcEZEeHNmdUdZb3RJODlzUnpSYTZpMTBFMmQzeU9WVnNRUk52dWlIbFBkLWxrYWMwVWc?oc=5",
+    "data": "09/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "escorpiões vigilância ambiental"
+  },
+  {
     "id": "escorpioessaonovamenteencontradosnoportaldoparaisoeacendemalertaapopulacao",
     "titulo": "Escorpiões são novamente encontrados no Portal do Paraíso e acendem alerta à população - Jovem Sul News",
     "descricao": "Escorpiões são novamente encontrados no Portal do Paraíso e acendem alerta à população  Jovem Sul News",
@@ -37,6 +76,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "aumentodoriscodeacidentescomescorpioesnocalorexigecuidadosnorn",
+    "titulo": "Aumento do risco de acidentes com escorpiões no calor exige cuidados no RN - Agora RN",
+    "descricao": "Aumento do risco de acidentes com escorpiões no calor exige cuidados no RN  Agora RN",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BUnhFVktRWk05TFVDRThqZWM0anBJdmJzT1FESHJ3emxWSjAwSVNVWkdYY2lrN2ZmN2ZCZDZTZ3Zkbkp6UzJhX0ZpWmEzMlRPWTFQRGVPY01BSFV5dTA2VkFzOS1LVHo0ZHpyU2dYaU40TENqRklF?oc=5",
+    "data": "07/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "RN",
+    "cidade": "Não identificada",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "meninade9anosepicadaporescorpiaodentrodeescolanodf",
@@ -3989,6 +4041,19 @@
     "estado": "SC",
     "cidade": "Navegantes",
     "termo_busca": "escorpião amarelo"
+  },
+  {
+    "id": "mpdenunciamedicapormortedecriancapicadaporescorpiaoemsp",
+    "titulo": "MP denuncia médica por morte de criança picada por escorpião em SP - G1",
+    "descricao": "MP denuncia médica por morte de criança picada por escorpião em SP  G1",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQa2liMHlXbkQ5My1ndU9DZXZhdVVVenhaRjNxaHVWNktMVnJERmVyNWxaSGZJWWNzTU5rN2RLdFE1SGFEVGhpa2l2ai1IUnNwZzFWNHZfenRQUzBONmlzOW1fNGtTMWpCalpLNTE3X0V6MkpydkNhQ1psMjdmeXJZODlTaUpVc1U3TVl1X1VneENVaEI4SUI2UTFxd1RfbDNWUlFZdXFtZFdzRW54dlRSbGZja1ZURFYxWmgzODJBTXBJMTA1N3JZZ1d4NlB0emRYeUNvNmxzTXZieEZEekZFX01uTlFXSEQwQkJzT21DWElQbGI5akV5cGFBT3NzZFZFek5pX0R3?oc=5",
+    "data": "25/08/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Não identificada",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "estadomarcapericiaspresenciaisparacriancamortaha3anosapospicadadeescorpiaonointeriordesp",
