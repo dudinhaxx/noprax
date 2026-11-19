@@ -1,5 +1,18 @@
 [
   {
+    "id": "veraoaumentaalertaparaacidentescomescorpioesnaregiaoderibeiraopreto",
+    "titulo": "Verão aumenta alerta para acidentes com escorpiões na região de Ribeirão Preto - G1",
+    "descricao": "Verão aumenta alerta para acidentes com escorpiões na região de Ribeirão Preto  G1",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ2NPYTNlc3lmTk90SE1OdHdkM0dNQXQ2bFpvdlhRMDVSX0NMVTlrdWM2ZW1vY182MmFWM1NUTkJNX1RNcDBCdlpfNHE1dHgyaEZ3Z3FQSk1vLXdVeEZjRUpZZF9VMS12NktoSVBCMzlNd0VHaXhJSklWc1VtVW5MTTcwcFJFQ0hzelN0RVJPQUE2cHFHaEo2VjB5X3k2azJvWjlwNzVabnJwYUxQdDNCYkV1VFhaUHl0bVQxRUhSZ1VXaEtSNFJSNGsxaFdHUdIB3AFBVV95cUxPblpGYzJkcUtXM0Q1czQ2UVBJT29RWVp1Z1hpRDNNZlhWeHJEMHZIOUp5S0haMUNPOXJBWE5MUTBES2dWT1Ywa29IbF9hV2MtSk1kMG1uUGhzSjZYcEE3ZDktOEt4cnRaeTdUdGNIVzlnOFh0LUtKZWdTUFN2bExjS1J6MURtdjdsTGh6ckZkTGRJZVo1Q3RoRlVCUHQ3bTJnZFptNkRCM3dhMkJtc2Fsd3lBSzA1NjZSLTdtV3luaXpfTjRZSGxydWcxTFJBMXJGbm1EQ1JhQ0F4dE05?oc=5",
+    "data": "19/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Ribeirão Preto",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "aracatubaenviamaisde1100escorpioesaoinstitutobutantanparaproducaodesoroantiescorpionico",
     "titulo": "Araçatuba envia mais de 1.100 escorpiões ao Instituto Butantan para produção de soro antiescorpiônico - O LIBERAL REGIONAL",
     "descricao": "Araçatuba envia mais de 1.100 escorpiões ao Instituto Butantan para produção de soro antiescorpiônico  O LIBERAL REGIONAL",
@@ -1532,6 +1545,19 @@
     "estado": "Não identificado",
     "cidade": "Não identificada",
     "termo_busca": "escorpião Brasil"
+  },
+  {
+    "id": "vilanadirtemescorpioesvigilancialancacampanhadeprevencao",
+    "titulo": "Vila Nadir tem escorpiões; Vigilância lança campanha de prevenção - NetCampos",
+    "descricao": "Vila Nadir tem escorpiões; Vigilância lança campanha de prevenção  NetCampos",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOX3hTOHliTFM5YVJQZDRiV2hSU29PZmtXUjRpcmxCWHNXY3E1aEtGcWM5a0NpTFdNaFEtb1Z1aGk4NmhXSElLXzlnQmozUGJuakFDRjdSeWJsN0JmUlpic2s3SzFXMDdIQ2RxRnJIRlNmUkF2ZEoxajA5TDFyN3hCQjJ4ZHZCdkhSUlVZTm5WT2hEb0ZZeC1GNUJPR2lVekIzRTNEN3RvUEdzWW1EcE1sQ001b2poREw1TG83b2FVRmpFZEVZelRXMFdRU2VvXzJsU2VpUFBfNjlnVTNhVjNtM2FBU19McHVLdjN1QmhR?oc=5",
+    "data": "23/10/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Campanha",
+    "termo_busca": "prevenção escorpiões"
   },
   {
     "id": "bebede1anomorreaposserpicadoporescorpiaoemmogimirim",
@@ -18978,6 +19004,19 @@
     "estado": "PR",
     "cidade": "Ivaipora",
     "termo_busca": "vigilância escorpião"
+  },
+  {
+    "id": "morrecriancaqueestavainternadaapossofrerumapicadadeescorpiao",
+    "titulo": "Morre criança que estava internada após sofrer uma picada de escorpião - cbnribeirao.com.br",
+    "descricao": "Morre criança que estava internada após sofrer uma picada de escorpião  cbnribeirao.com.br",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOLU9oWmp5RkZBMGtpUy1EVGlUTjRNNmpIX195NXRvTUgtOXFDc1lMcGlUaFF5cDh1QlNyQ3k4T3NqRzlpMVpCdzRFMTc5Rzg1cFR3ZUpkVkV0RVp6V09UeXVpclpzTGJLU0ExZU5icGczZE9xVExMMi1kV2U4UndZTUx3dWFwZkxRU1drZGpJMDVnNi1OaHpnUGxQbHlwSkE?oc=5",
+    "data": "06/01/2026",
+    "tipo": "alerta",
+    "gravidade": "grave",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "criança escorpião"
   },
   {
     "id": "jp1mortesporescorpiaodisparamnobrasilvejacomoevitar",
