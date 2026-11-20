@@ -117,6 +117,19 @@
     "termo_busca": "prevenção escorpiões"
   },
   {
+    "id": "brumadinhoorientapopulacaosobrecuidadosparaevitaracidentescomescorpioes",
+    "titulo": "Brumadinho orienta população sobre cuidados para evitar acidentes com escorpiões - Portal da Cidade - Brumadinho / MG",
+    "descricao": "Brumadinho orienta população sobre cuidados para evitar acidentes com escorpiões  Portal da Cidade - Brumadinho / MG",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbXFFUDlmUHNXa0h0cUZwQU9ISEMyRE5qVGdGQjMtamJmaFZoVDNKUEFqYmt6dUlnMG00bnJ5TEV4bnRDWHdnVDlsOVpuNDFTcjgxR1Q2QWRCaGZTOTBBX04wVjNzWmZYcFNIeDR2eUVTVTNnUExxV2pNUVpPWlo4N2ZPeUV0Sk1kTUUxMXBJLTM1Smsyb2JBdDFMZ2E4X3g0aGJaNDNaV3JOU2RCaUJZcnprMnVRdHcwcXNNNHFBdWNYOFBpdmZiYVdfdkJEVy1jeHJDTA?oc=5",
+    "data": "18/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "MG",
+    "cidade": "Brumadinho",
+    "termo_busca": "prevenção escorpiões"
+  },
+  {
     "id": "saobernardocaptura16escorpioesnapauliceiavejacuidados",
     "titulo": "São Bernardo captura 16 escorpiões na Pauliceia; veja cuidados | Diário do Grande ABC - Notícias e informações - Diário do Grande ABC",
     "descricao": "São Bernardo captura 16 escorpiões na Pauliceia; veja cuidados | Diário do Grande ABC - Notícias e informações  Diário do Grande ABC",
@@ -427,6 +440,19 @@
     "estado": "RS",
     "cidade": "Sapucaia do Sul",
     "termo_busca": "escorpiões prefeitura municipal"
+  },
+  {
+    "id": "mulherepicadaporescorpiaoeencaminhadaaohospitalemcapinzal",
+    "titulo": "Mulher é picada por escorpião e encaminhada ao hospital em Capinzal - Oeste Mais",
+    "descricao": "Mulher é picada por escorpião e encaminhada ao hospital em Capinzal  Oeste Mais",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeU82TVdKX1Y0SkR6Q0k4SXVISzZyaWlGdTFkcTBxUnppTVhiSnlQZmdLV0s1anIxNEhMS00wTEJTb2V4d0NjQWJSQUN6V2dNMGN1US1TbnA4RW0xN1pRTlpmbDFpaXBmOWdVc2kza2t0TFNTdWpOX09SVFMxS3QwcjdmZ3Rvb0hfRlJvMVJRUll6NkVGQzhYeUVsMDloNDJNUVFnN282N0wwOUpFRUUtYzNUUlZ4dw?oc=5",
+    "data": "11/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SC",
+    "cidade": "Capinzal",
+    "termo_busca": "picada escorpião"
   },
   {
     "id": "chuvapodelevarmaisaranhaseescorpioesparadentrodecasa",
