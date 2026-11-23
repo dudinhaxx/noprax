@@ -1,5 +1,18 @@
 [
   {
+    "id": "quintadosolsecretariadesaudeintensificaacoesdebuscaecapturadeescorpioesnomunicipio",
+    "titulo": "QUINTA DO SOL: Secretaria de Saúde intensifica ações de busca e captura de escorpiões no município - Coluna News",
+    "descricao": "QUINTA DO SOL: Secretaria de Saúde intensifica ações de busca e captura de escorpiões no município  Coluna News",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbkdISEpSejBzc3g3aUp5NmU0OG1GU1gyMW8wTlNJaUNlS1M0ckdVQ21yR3dIN1U4YTZVN3pxa1QtSUFnZE55WVNHRTJ4OEM1dS03anlUdGNPOHFPdmxlNFlHQURCRGFyOGJwRXpMUzVyeXJ3bExnS2VXOVhIaTJyeDB1Y1ZZM1ZLbVVUU3o2N1IwWUtva0Z4bU1SNUV0QlYtOWtjU2hhQ3huN2F4Si0yWEhkbUdWcHlGNjhlNkIwUjR4bXdpYldPWGtLZGtfR1dl?oc=5",
+    "data": "23/11/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "PR",
+    "cidade": "Quinta Do Sol",
+    "termo_busca": "captura de escorpiões"
+  },
+  {
     "id": "oquefazernapicadadeescorpiaoamareloporquecriancascorremmaisriscoecomoevitarobichodentrodecasa",
     "titulo": "O que fazer na picada de escorpião-amarelo, por que crianças correm mais risco e como evitar o bicho dentro de casa - Revista Amazônia",
     "descricao": "O que fazer na picada de escorpião-amarelo, por que crianças correm mais risco e como evitar o bicho dentro de casa  Revista Amazônia",
@@ -14948,6 +14961,19 @@
     "estado": "SP",
     "cidade": "São Paulo",
     "termo_busca": "soro antiescorpiônico"
+  },
+  {
+    "id": "09042026",
+    "titulo": "09/04/2026 - Veja quando procurar atendimento após picada de escorpião - Secretaria de Estado da Saúde de São Paulo",
+    "descricao": "09/04/2026 - Veja quando procurar atendimento após picada de escorpião  Secretaria de Estado da Saúde de São Paulo",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdDNKQnEtUVNGSXQwUThpbkpyTGxiUnhxUDFuTng1d3pRZl80bnZkTHE0aWJBWEdLVDFTdkkzb0hydkx0dXlWWGF0T25YdmZ6QXRPMHdzZXI1aVp2eTVEY1ktZVdEalBkMVZ0LWtCWU0yUGtiZm1kZFdUdUlDTWotRU55TWdaSnNQTkJKSzVOZlhJcHNrYk9Ka1hfd05hS2MwMmJuNWZLNjQ4WFEwT1FmdUJQbFEzTlgwc1YtNEpsUlIxbE1tbE5UUWt5cFFWbXlWdFBBZWx3?oc=5",
+    "data": "09/04/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "São Paulo",
+    "termo_busca": "picada de escorpião"
   },
   {
     "id": "escorpioescausaram65dosacidentescomanimaispeconhentosnobrasilem2025",
