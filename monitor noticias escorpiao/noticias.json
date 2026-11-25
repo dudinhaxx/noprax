@@ -130,6 +130,19 @@
     "termo_busca": "criança escorpião"
   },
   {
+    "id": "criancadecincoanosesocorridaaposserpicadaporescorpiaoenquantodormia",
+    "titulo": "Criança de cinco anos é socorrida após ser picada por escorpião enquanto dormia - Midiamax",
+    "descricao": "Criança de cinco anos é socorrida após ser picada por escorpião enquanto dormia  Midiamax",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa0d4MFFhTENvbkhlTUkzdm1DclJzNkxFMnN3cE10akN2QUppMjZTanFKRE1GUERrekNvUzZnc3RNUGhlMlVUcE82N2JpMEpXUjh0cUVJUXpOdHNZdHlkYTBPOXZ1SUJkYVp1aDVKX3M1YjhERUxnLTNINW9QOWlDNTVodWFaeDhFNThWT0NPYld6MVFka2pHMVVjYWJPbEhNcmdwOHV1VjR6SzZqM1pr?oc=5",
+    "data": "24/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "Não identificado",
+    "cidade": "Não identificada",
+    "termo_busca": "picada escorpião"
+  },
+  {
     "id": "quintadosolsecretariadesaudeintensificaacoesdebuscaecapturadeescorpioesnomunicipio",
     "titulo": "QUINTA DO SOL: Secretaria de Saúde intensifica ações de busca e captura de escorpiões no município - Coluna News",
     "descricao": "QUINTA DO SOL: Secretaria de Saúde intensifica ações de busca e captura de escorpiões no município  Coluna News",
@@ -661,6 +674,19 @@
     "estado": "SC",
     "cidade": "Capinzal",
     "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "calorechuvaaumentamriscodeescorpioes",
+    "titulo": "Calor e chuva aumentam risco de escorpiões - Jornal do Guará",
+    "descricao": "Calor e chuva aumentam risco de escorpiões  Jornal do Guará",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMUc1cktRN0NMd2dmMW14dVFHa1pCZmc5aE52V3hGNW5MUzhlSG4tbXZPVDl0VGM2enZ1ZFUxZWVQblZBdlFEclNvaEQzQTFOMll2OGE2RmprWkotLXl5aWVqMUZKb2JjYnVzX051NzJUd0U0c2pjTzgtbEI3WUdWZGgtRTNQNUxRaXRV0gGLAUFVX3lxTE4xRzVyS1E3Q0x3Z2YxbXh1UUdrWkJmZzloTnZXeEY1bkxTOGVIbi1tdk9UOXRUYzZ6dnVkVTFlZVBuVkF2UURyU29oRDNBMU4yWXY4YTZGamtaSi0teXlpZWoxRkpvYmNidXNfTnU3MlR3RTRzamNPOC1sQjdZR1ZkaC1FM1A1TFFpdFU?oc=5",
+    "data": "11/11/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Guara",
+    "termo_busca": "escorpiões vigilância ambiental"
   },
   {
     "id": "chuvapodelevarmaisaranhaseescorpioesparadentrodecasa",
