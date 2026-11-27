@@ -1,5 +1,44 @@
 [
   {
+    "id": "casosdepicadadeescorpiaosobemmaisde24emmariliaeacendemalerta",
+    "titulo": "Casos de picada de escorpião sobem mais de 24% em Marília e acendem alerta - G1",
+    "descricao": "Casos de picada de escorpião sobem mais de 24% em Marília e acendem alerta  G1",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbUV6ZzdsaG9EMWRtRDlrbkc1R2JEM0pmWXBNSG9RQTlXOEZnTWJENGU1SUdHbzZuMkRteGRuTDRZZ3l3WFpFaHpuVHNvWnVmVFBKRkJYQnhWRlREQTB2RlljcXctd0dBVWF4NlhXX2ZhRlJialZLOGpva2FUdHNMdmxseUdBdUpEN1lIZmF4eVp6ZUlpT0lhVU9qWGY3VHB0QnhjeVN5Q09waF9sakxOY21PVHZ6VzdDNVIwQ1dBc0pMUUNXbFZ6SmJGUTRobThEa3pVZWEyRmxQbWFKcVp2OHNoZllWQjAwaWfSAfgBQVVfeXFMUEdLT2lId2FjZmYtanZGMjJwOUI5cFgtOXl5VGlNaE5yZDVfeHpyZTZCTUJ4aEwya1JCN20zTGpKbmh5ZkV0Q2JwakZ5eDhfaHNQY1RPTmY4QkRrNGM5Y0FOeFctbmxpQTJXZFc0aTVWbVVMaWZDWHprSnIzaUhKMHdDVG5EeDg1QWJ5ci01MVBUMGlxZHZpRmlHMWVZeUFmSkNMcXRmNXNQdUowVHllY2ZHTENoVVJURlBrMW9FOGhzdk90N0tKR25UM1d5M3NnOExsYUtKZ0tybUdTLVJJSnlwWFlGb0N2RVJldXNrbmlaeEltTWhwWk8?oc=5",
+    "data": "27/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Marilia",
+    "termo_busca": "picada escorpião"
+  },
+  {
+    "id": "gambasajudamacombaterescorpioesecobraseusebioalertaparapreservacaodaespecie",
+    "titulo": "Gambás ajudam a combater escorpiões e cobras; Eusébio alerta para preservação da espécie - OpiniãoCE",
+    "descricao": "Gambás ajudam a combater escorpiões e cobras; Eusébio alerta para preservação da espécie  OpiniãoCE",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWHVtaC1VWjNHbnBoaDVfcnNhWndVSHlPRVNUdU1tR0tXdnVXSEJsMzhaa2puM2hibGpEQWR1TTVYSDRtbVhDenJpZHJMZG5Dd2pWamFrMDJyX0RhbTRXRXRybjRZU3hsaG5pak9DYXZVNWw0anUycWtZUTJhUWRxaE1CM0ZyZUFqVVVYeGJKTUJkcm9jOEZzX3UtTEpDaGM1MXJFTEJ0d3NIRlZJMldEaUhOaWtRa2lPS2hSWXpNal9PaEg2Z3o0bXh4VzJDN2s?oc=5",
+    "data": "27/11/2026",
+    "tipo": "alerta",
+    "gravidade": "leve",
+    "fonte": "Google News",
+    "estado": "CE",
+    "cidade": "Eusebio",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
+    "id": "prefeituradedescalvadoreforcaalertasobreprevencaodeacidentescomescorpioes",
+    "titulo": "Prefeitura de Descalvado reforça alerta sobre prevenção de acidentes com escorpiões - portaldacidade.com",
+    "descricao": "Prefeitura de Descalvado reforça alerta sobre prevenção de acidentes com escorpiões  portaldacidade.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX2Q2ZEgyVzNUenVvTk13UGJpRmowRVQyUUFWOC1ybVRZZnVwdnU4MzRaaFFtbXc3b0wwVUY5SDZhM0pNV0RXdGhXQWFvdjZ6TEJfYzdIdlFvLWtuN1pGbnJ2WHd4eU1MMjlUQmZtQm1JaC0zd0xOWHZYOW51T1puSXpFcm9NdEh1clRiMHJIdjY0cmtJaFU4dEpCQzJDbHUwU1czQ29iTWhRMW9tSWZuWm05YjBqTkkwRDFFX2lfdEZrX3BpbzkyOWtJVk9sZDhvSERIV3RfcEozTGdVZzIyMU1FaERfT0U?oc=5",
+    "data": "27/11/2026",
+    "tipo": "alerta",
+    "gravidade": "moderada",
+    "fonte": "Google News",
+    "estado": "SP",
+    "cidade": "Descalvado",
+    "termo_busca": "alerta escorpiões"
+  },
+  {
     "id": "acidentescomescorpioesemlemeaumentammaisde36vezesemdezanos",
     "titulo": "Acidentes com escorpiões em Leme aumentam mais de 36 vezes em dez anos - O Popular de Leme",
     "descricao": "Acidentes com escorpiões em Leme aumentam mais de 36 vezes em dez anos  O Popular de Leme",
